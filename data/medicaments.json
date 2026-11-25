@@ -1,5 +1,5 @@
 {
-  "genere": "2026-11-25T21:05:11.665Z",
+  "genere": "2026-11-25T21:27:48.355Z",
   "source": "Notion, base Médicaments",
   "lignes": [
     {
@@ -33,7 +33,9 @@
       "statutAMM": "AMM",
       "remboursement": "Remboursé",
       "conditions": [],
-      "mention": null
+      "mention": null,
+      "ageAMM": null,
+      "indicationsAMM": []
     },
     {
       "id": "42319207651b819a999dcd28f2e4030d",
@@ -66,7 +68,9 @@
       "statutAMM": "AMM",
       "remboursement": "Remboursé",
       "conditions": [],
-      "mention": null
+      "mention": null,
+      "ageAMM": null,
+      "indicationsAMM": []
     },
     {
       "id": "42319207651b8105a1b2f7a84d24aa76",
@@ -95,7 +99,9 @@
       "statutAMM": "AMM",
       "remboursement": "Remboursé",
       "conditions": [],
-      "mention": null
+      "mention": null,
+      "ageAMM": null,
+      "indicationsAMM": []
     },
     {
       "id": "42319207651b81c0a8c3ebf48932dda4",
@@ -130,7 +136,9 @@
       "statutAMM": "AMM",
       "remboursement": "Remboursé",
       "conditions": [],
-      "mention": null
+      "mention": null,
+      "ageAMM": null,
+      "indicationsAMM": []
     },
     {
       "id": "42319207651b81b0b2aff0d15c729684",
@@ -164,7 +172,9 @@
       "statutAMM": "AMM",
       "remboursement": "Remboursé",
       "conditions": [],
-      "mention": null
+      "mention": null,
+      "ageAMM": null,
+      "indicationsAMM": []
     },
     {
       "id": "42319207651b8118bf8cd0d2a9e64b09",
@@ -193,7 +203,9 @@
       "statutAMM": "AMM",
       "remboursement": "Non remboursé",
       "conditions": [],
-      "mention": null
+      "mention": null,
+      "ageAMM": null,
+      "indicationsAMM": []
     },
     {
       "id": "42319207651b810badb7f308ded3c408",
@@ -222,7 +234,9 @@
       "statutAMM": "Hors AMM",
       "remboursement": "Non remboursé",
       "conditions": [],
-      "mention": "Prescription hors autorisation de mise sur le marché"
+      "mention": "Prescription hors autorisation de mise sur le marché",
+      "ageAMM": null,
+      "indicationsAMM": []
     },
     {
       "id": "42319207651b81209ddfd98d67b817fb",
@@ -258,7 +272,9 @@
       "statutAMM": "AMM",
       "remboursement": "À vérifier",
       "conditions": [],
-      "mention": null
+      "mention": null,
+      "ageAMM": null,
+      "indicationsAMM": []
     },
     {
       "id": "42319207651b810e9466d9c54adf0e8e",
@@ -289,7 +305,9 @@
       "statutAMM": "À vérifier",
       "remboursement": "À vérifier",
       "conditions": [],
-      "mention": null
+      "mention": null,
+      "ageAMM": null,
+      "indicationsAMM": []
     },
     {
       "id": "42319207651b8140bc84e92d019917f5",
@@ -319,7 +337,9 @@
       "statutAMM": "AMM",
       "remboursement": "À vérifier",
       "conditions": [],
-      "mention": null
+      "mention": null,
+      "ageAMM": null,
+      "indicationsAMM": []
     },
     {
       "id": "42319207651b8129a19bfac7a3321656",
@@ -351,7 +371,9 @@
       "statutAMM": "AMM",
       "remboursement": "À vérifier",
       "conditions": [],
-      "mention": null
+      "mention": null,
+      "ageAMM": null,
+      "indicationsAMM": []
     },
     {
       "id": "42319207651b8112b7a9c1010c44cc61",
@@ -381,7 +403,9 @@
       "statutAMM": "AMM",
       "remboursement": "À vérifier",
       "conditions": [],
-      "mention": null
+      "mention": null,
+      "ageAMM": null,
+      "indicationsAMM": []
     },
     {
       "id": "42319207651b81668218cfb6a73b17e2",
@@ -410,7 +434,9 @@
       "statutAMM": "AMM",
       "remboursement": "À vérifier",
       "conditions": [],
-      "mention": null
+      "mention": null,
+      "ageAMM": null,
+      "indicationsAMM": []
     },
     {
       "id": "42319207651b8194b3b9d068d2017342",
@@ -440,7 +466,9 @@
       "statutAMM": "À vérifier",
       "remboursement": "À vérifier",
       "conditions": [],
-      "mention": null
+      "mention": null,
+      "ageAMM": null,
+      "indicationsAMM": []
     },
     {
       "id": "42319207651b8118b625ed7cbdb2d2d7",
@@ -470,7 +498,9 @@
       "statutAMM": "AMM",
       "remboursement": "Remboursé",
       "conditions": [],
-      "mention": null
+      "mention": null,
+      "ageAMM": null,
+      "indicationsAMM": []
     },
     {
       "id": "42319207651b8112b52df152f9e2827d",
@@ -501,7 +531,9 @@
       "statutAMM": "AMM",
       "remboursement": "Remboursé",
       "conditions": [],
-      "mention": null
+      "mention": null,
+      "ageAMM": null,
+      "indicationsAMM": []
     },
     {
       "id": "42319207651b8143bf19f8b9a276838c",
@@ -538,7 +570,9 @@
       "statutAMM": "AMM",
       "remboursement": "Remboursé",
       "conditions": [],
-      "mention": null
+      "mention": null,
+      "ageAMM": null,
+      "indicationsAMM": []
     },
     {
       "id": "42319207651b81e79a4fd65190f673d6",
@@ -567,7 +601,9 @@
       "statutAMM": "Hors AMM",
       "remboursement": "Non remboursé",
       "conditions": [],
-      "mention": "Prescription hors autorisation de mise sur le marché"
+      "mention": "Prescription hors autorisation de mise sur le marché",
+      "ageAMM": null,
+      "indicationsAMM": []
     },
     {
       "id": "42319207651b8176bbe3e683380768cc",
@@ -598,7 +634,9 @@
       "statutAMM": "À vérifier",
       "remboursement": "Remboursé",
       "conditions": [],
-      "mention": null
+      "mention": null,
+      "ageAMM": null,
+      "indicationsAMM": []
     },
     {
       "id": "42319207651b8167b218ebdf075cef31",
@@ -629,7 +667,9 @@
       "statutAMM": "À vérifier",
       "remboursement": "Remboursé",
       "conditions": [],
-      "mention": null
+      "mention": null,
+      "ageAMM": null,
+      "indicationsAMM": []
     },
     {
       "id": "42319207651b81348649dbe95a363766",
@@ -661,7 +701,9 @@
       "statutAMM": "À vérifier",
       "remboursement": "À vérifier",
       "conditions": [],
-      "mention": null
+      "mention": null,
+      "ageAMM": null,
+      "indicationsAMM": []
     },
     {
       "id": "42319207651b810d9f13eaff0a3b27c7",
@@ -704,7 +746,9 @@
       "statutAMM": "AMM",
       "remboursement": "Remboursé",
       "conditions": [],
-      "mention": null
+      "mention": null,
+      "ageAMM": null,
+      "indicationsAMM": []
     },
     {
       "id": "42319207651b817c8ae4ca2a3ace4a19",
@@ -735,7 +779,9 @@
       "statutAMM": "À vérifier",
       "remboursement": "À vérifier",
       "conditions": [],
-      "mention": null
+      "mention": null,
+      "ageAMM": null,
+      "indicationsAMM": []
     },
     {
       "id": "42319207651b8190b406d013a3076fd0",
@@ -766,7 +812,9 @@
       "statutAMM": "À vérifier",
       "remboursement": "À vérifier",
       "conditions": [],
-      "mention": null
+      "mention": null,
+      "ageAMM": null,
+      "indicationsAMM": []
     },
     {
       "id": "42319207651b81bf9d59ec33e1994f7d",
@@ -798,7 +846,9 @@
       "statutAMM": "À vérifier",
       "remboursement": "Remboursé",
       "conditions": [],
-      "mention": null
+      "mention": null,
+      "ageAMM": null,
+      "indicationsAMM": []
     },
     {
       "id": "42319207651b81208cb2d889c33a9494",
@@ -830,7 +880,9 @@
       "statutAMM": "AMM",
       "remboursement": "À vérifier",
       "conditions": [],
-      "mention": null
+      "mention": null,
+      "ageAMM": null,
+      "indicationsAMM": []
     },
     {
       "id": "42319207651b8103b5f7ea040eae6052",
@@ -861,7 +913,9 @@
       "statutAMM": "AMM",
       "remboursement": "À vérifier",
       "conditions": [],
-      "mention": null
+      "mention": null,
+      "ageAMM": null,
+      "indicationsAMM": []
     },
     {
       "id": "42319207651b818fabe3fdf612b04aa6",
@@ -892,7 +946,9 @@
       "statutAMM": "À vérifier",
       "remboursement": "Remboursé",
       "conditions": [],
-      "mention": null
+      "mention": null,
+      "ageAMM": null,
+      "indicationsAMM": []
     },
     {
       "id": "42319207651b8153bdc3eb0708ab1e3a",
@@ -921,7 +977,9 @@
       "statutAMM": "Hors AMM",
       "remboursement": "Non remboursé",
       "conditions": [],
-      "mention": "Prescription hors autorisation de mise sur le marché"
+      "mention": "Prescription hors autorisation de mise sur le marché",
+      "ageAMM": null,
+      "indicationsAMM": []
     },
     {
       "id": "42319207651b815ca404ea6ed7679369",
@@ -952,7 +1010,9 @@
       "statutAMM": "AMM",
       "remboursement": "À vérifier",
       "conditions": [],
-      "mention": null
+      "mention": null,
+      "ageAMM": null,
+      "indicationsAMM": []
     },
     {
       "id": "42319207651b817ca3c3d920290197e4",
@@ -982,7 +1042,9 @@
       "statutAMM": "AMM",
       "remboursement": "À vérifier",
       "conditions": [],
-      "mention": null
+      "mention": null,
+      "ageAMM": null,
+      "indicationsAMM": []
     },
     {
       "id": "42319207651b81b49730e6ffc9d9ab2d",
@@ -1012,7 +1074,9 @@
       "statutAMM": "AMM",
       "remboursement": "À vérifier",
       "conditions": [],
-      "mention": null
+      "mention": null,
+      "ageAMM": null,
+      "indicationsAMM": []
     },
     {
       "id": "42319207651b81efb01edbdb79bdc233",
@@ -1045,7 +1109,9 @@
         "Prescription initiale hospitalière",
         "Conditions à vérifier"
       ],
-      "mention": null
+      "mention": null,
+      "ageAMM": null,
+      "indicationsAMM": []
     },
     {
       "id": "42319207651b8183825dc9ff61e4db6c",
@@ -1075,7 +1141,9 @@
       "statutAMM": "Hors AMM",
       "remboursement": "Non remboursé",
       "conditions": [],
-      "mention": "Prescription hors autorisation de mise sur le marché"
+      "mention": "Prescription hors autorisation de mise sur le marché",
+      "ageAMM": null,
+      "indicationsAMM": []
     },
     {
       "id": "42319207651b8128bf18d919a7c05e07",
@@ -1106,7 +1174,9 @@
       "statutAMM": "AMM",
       "remboursement": "Remboursé",
       "conditions": [],
-      "mention": null
+      "mention": null,
+      "ageAMM": null,
+      "indicationsAMM": []
     },
     {
       "id": "42319207651b814b9083d86a1064dcbf",
@@ -1137,7 +1207,9 @@
       "statutAMM": "AMM",
       "remboursement": "Remboursé",
       "conditions": [],
-      "mention": null
+      "mention": null,
+      "ageAMM": null,
+      "indicationsAMM": []
     },
     {
       "id": "42319207651b8143aa55c23fbd0b601b",
@@ -1168,7 +1240,9 @@
       "statutAMM": "AMM",
       "remboursement": "Remboursé",
       "conditions": [],
-      "mention": null
+      "mention": null,
+      "ageAMM": null,
+      "indicationsAMM": []
     },
     {
       "id": "42319207651b815bbb96fe2773948b46",
@@ -1199,7 +1273,9 @@
       "statutAMM": "AMM",
       "remboursement": "Remboursé",
       "conditions": [],
-      "mention": null
+      "mention": null,
+      "ageAMM": null,
+      "indicationsAMM": []
     },
     {
       "id": "42319207651b81498c95cf25e502bf5d",
@@ -1229,7 +1305,9 @@
       "statutAMM": "AMM selon l indication",
       "remboursement": "Remboursé",
       "conditions": [],
-      "mention": null
+      "mention": null,
+      "ageAMM": null,
+      "indicationsAMM": []
     },
     {
       "id": "42319207651b81328e23fc7a2b709c84",
@@ -1258,7 +1336,9 @@
       "statutAMM": "AMM",
       "remboursement": "Remboursé",
       "conditions": [],
-      "mention": null
+      "mention": null,
+      "ageAMM": null,
+      "indicationsAMM": []
     },
     {
       "id": "42319207651b81f8a41ee9d0c8ff512b",
@@ -1288,7 +1368,9 @@
       "statutAMM": "À vérifier",
       "remboursement": "Remboursé",
       "conditions": [],
-      "mention": null
+      "mention": null,
+      "ageAMM": null,
+      "indicationsAMM": []
     },
     {
       "id": "42319207651b8146ac6ac7d204b6d9f9",
@@ -1317,7 +1399,9 @@
       "statutAMM": "AMM",
       "remboursement": "Remboursé",
       "conditions": [],
-      "mention": null
+      "mention": null,
+      "ageAMM": null,
+      "indicationsAMM": []
     },
     {
       "id": "42319207651b81fc823cd446741dd80e",
@@ -1347,7 +1431,9 @@
       "statutAMM": "AMM selon l indication",
       "remboursement": "Remboursé",
       "conditions": [],
-      "mention": null
+      "mention": null,
+      "ageAMM": null,
+      "indicationsAMM": []
     },
     {
       "id": "42319207651b8116b6a4e4e4afe3366d",
@@ -1378,7 +1464,213 @@
       "statutAMM": "AMM selon l indication",
       "remboursement": "Remboursé",
       "conditions": [],
-      "mention": null
+      "mention": null,
+      "ageAMM": null,
+      "indicationsAMM": []
+    },
+    {
+      "id": "42319207651b814b90aac25bc32e5d34",
+      "nom": "Conseil alimentation, dermatite atopique",
+      "ligne": "Pas de régime d'éviction alimentaire sans avis médical",
+      "molecule": null,
+      "pathologies": [
+        "Dermatite atopique"
+      ],
+      "famille": "8. Conseils",
+      "zone": "Sans objet",
+      "puissance": null,
+      "situation": "Traitement de base",
+      "magistrale": false,
+      "ages": [],
+      "statut": "À valider",
+      "aVerifier": null,
+      "doseMgKg": null,
+      "prises": null,
+      "concentration": null,
+      "dosageUnitaire": null,
+      "doseMax": null,
+      "arrondi": null,
+      "statutAMM": null,
+      "remboursement": null,
+      "conditions": [],
+      "mention": null,
+      "ageAMM": null,
+      "indicationsAMM": []
+    },
+    {
+      "id": "42319207651b81c09771c746ffc657ba",
+      "nom": "Conseil exposition solaire progressive, vitiligo",
+      "ligne": "Exposition solaire modérée et progressive possible pour favoriser la repigmentation, en dehors des heures les plus chaudes et sans coup de soleil",
+      "molecule": null,
+      "pathologies": [
+        "Vitiligo"
+      ],
+      "famille": "8. Conseils",
+      "zone": "Sans objet",
+      "puissance": null,
+      "situation": "Alternative",
+      "magistrale": false,
+      "ages": [],
+      "statut": "À valider",
+      "aVerifier": "Conseil discuté : à adapter au phototype et à éviter avec un traitement topique qui recommande de limiter l'exposition solaire (tacrolimus, ruxolitinib).",
+      "doseMgKg": null,
+      "prises": null,
+      "concentration": null,
+      "dosageUnitaire": null,
+      "doseMax": null,
+      "arrondi": null,
+      "statutAMM": null,
+      "remboursement": null,
+      "conditions": [],
+      "mention": null,
+      "ageAMM": null,
+      "indicationsAMM": []
+    },
+    {
+      "id": "42319207651b810985dae3d2e245871c",
+      "nom": "Conseil frottements, vitiligo",
+      "ligne": "Éviter les frottements et traumatismes cutanés répétés (vêtements serrés, grattage)",
+      "molecule": null,
+      "pathologies": [
+        "Vitiligo"
+      ],
+      "famille": "8. Conseils",
+      "zone": "Sans objet",
+      "puissance": null,
+      "situation": "Traitement de base",
+      "magistrale": false,
+      "ages": [],
+      "statut": "À valider",
+      "aVerifier": null,
+      "doseMgKg": null,
+      "prises": null,
+      "concentration": null,
+      "dosageUnitaire": null,
+      "doseMax": null,
+      "arrondi": null,
+      "statutAMM": null,
+      "remboursement": null,
+      "conditions": [],
+      "mention": null,
+      "ageAMM": null,
+      "indicationsAMM": []
+    },
+    {
+      "id": "42319207651b81f7803beb2f5863a602",
+      "nom": "Conseil photoprotection, traitement photosensibilisant",
+      "ligne": "Traitement photosensibilisant : éviter l'exposition solaire directe, protection vestimentaire et crème solaire indice 50+",
+      "molecule": null,
+      "pathologies": [
+        "Acné",
+        "Rosacée"
+      ],
+      "famille": "8. Conseils",
+      "zone": "Sans objet",
+      "puissance": null,
+      "situation": "Alternative",
+      "magistrale": false,
+      "ages": [],
+      "statut": "À valider",
+      "aVerifier": null,
+      "doseMgKg": null,
+      "prises": null,
+      "concentration": null,
+      "dosageUnitaire": null,
+      "doseMax": null,
+      "arrondi": null,
+      "statutAMM": null,
+      "remboursement": null,
+      "conditions": [],
+      "mention": null,
+      "ageAMM": null,
+      "indicationsAMM": []
+    },
+    {
+      "id": "42319207651b81838121eaff840e4665",
+      "nom": "Conseil photoprotection, vitiligo",
+      "ligne": "Protection solaire des zones dépigmentées : vêtements couvrants, chapeau, crème solaire indice 50+ renouvelée toutes les 2 heures, éviter tout coup de soleil",
+      "molecule": null,
+      "pathologies": [
+        "Vitiligo"
+      ],
+      "famille": "8. Conseils",
+      "zone": "Sans objet",
+      "puissance": null,
+      "situation": "Traitement de base",
+      "magistrale": false,
+      "ages": [],
+      "statut": "À valider",
+      "aVerifier": null,
+      "doseMgKg": null,
+      "prises": null,
+      "concentration": null,
+      "dosageUnitaire": null,
+      "doseMax": null,
+      "arrondi": null,
+      "statutAMM": null,
+      "remboursement": null,
+      "conditions": [],
+      "mention": null,
+      "ageAMM": null,
+      "indicationsAMM": []
+    },
+    {
+      "id": "42319207651b81f5a79de8b07405e6ce",
+      "nom": "Conseil toilette, dermatite atopique",
+      "ligne": "Toilette quotidienne courte (5 à 10 minutes) à l'eau tiède avec un pain ou un gel sans savon, puis séchage en tamponnant",
+      "molecule": null,
+      "pathologies": [
+        "Dermatite atopique"
+      ],
+      "famille": "8. Conseils",
+      "zone": "Sans objet",
+      "puissance": null,
+      "situation": "Traitement de base",
+      "magistrale": false,
+      "ages": [],
+      "statut": "À valider",
+      "aVerifier": null,
+      "doseMgKg": null,
+      "prises": null,
+      "concentration": null,
+      "dosageUnitaire": null,
+      "doseMax": null,
+      "arrondi": null,
+      "statutAMM": null,
+      "remboursement": null,
+      "conditions": [],
+      "mention": null,
+      "ageAMM": null,
+      "indicationsAMM": []
+    },
+    {
+      "id": "42319207651b819e87fcf8457dc72c3e",
+      "nom": "Conseil vêtements et ongles, dermatite atopique",
+      "ligne": "Vêtements en coton, éviter la laine au contact de la peau, ongles coupés courts",
+      "molecule": null,
+      "pathologies": [
+        "Dermatite atopique"
+      ],
+      "famille": "8. Conseils",
+      "zone": "Sans objet",
+      "puissance": null,
+      "situation": "Traitement de base",
+      "magistrale": false,
+      "ages": [],
+      "statut": "À valider",
+      "aVerifier": null,
+      "doseMgKg": null,
+      "prises": null,
+      "concentration": null,
+      "dosageUnitaire": null,
+      "doseMax": null,
+      "arrondi": null,
+      "statutAMM": null,
+      "remboursement": null,
+      "conditions": [],
+      "mention": null,
+      "ageAMM": null,
+      "indicationsAMM": []
     },
     {
       "id": "42319207651b8109abb8e430386c1152",
@@ -1412,7 +1704,9 @@
         "Prescription initiale hospitalière",
         "Réservé à certains spécialistes"
       ],
-      "mention": null
+      "mention": null,
+      "ageAMM": null,
+      "indicationsAMM": []
     },
     {
       "id": "42319207651b81049e1fdf4fafa8a2bc",
@@ -1446,7 +1740,9 @@
         "Prescription initiale hospitalière",
         "Réservé à certains spécialistes"
       ],
-      "mention": null
+      "mention": null,
+      "ageAMM": null,
+      "indicationsAMM": []
     },
     {
       "id": "42319207651b81b5b6c9d29b99f2c8b6",
@@ -1476,7 +1772,9 @@
       "statutAMM": "AMM",
       "remboursement": "À vérifier",
       "conditions": [],
-      "mention": null
+      "mention": null,
+      "ageAMM": null,
+      "indicationsAMM": []
     },
     {
       "id": "42319207651b817b89afc62589284f01",
@@ -1508,7 +1806,9 @@
         "Réservé à certains spécialistes",
         "Surveillance particulière"
       ],
-      "mention": null
+      "mention": null,
+      "ageAMM": null,
+      "indicationsAMM": []
     },
     {
       "id": "42319207651b815aae01f72186511119",
@@ -1540,7 +1840,9 @@
         "Réservé à certains spécialistes",
         "Surveillance particulière"
       ],
-      "mention": null
+      "mention": null,
+      "ageAMM": null,
+      "indicationsAMM": []
     },
     {
       "id": "42319207651b813bb611df628abf022e",
@@ -1572,7 +1874,9 @@
         "Réservé à certains spécialistes",
         "Surveillance particulière"
       ],
-      "mention": null
+      "mention": null,
+      "ageAMM": null,
+      "indicationsAMM": []
     },
     {
       "id": "42319207651b814d852dcfd0188fd7d9",
@@ -1601,7 +1905,9 @@
       "statutAMM": "AMM",
       "remboursement": "Non remboursé",
       "conditions": [],
-      "mention": null
+      "mention": null,
+      "ageAMM": null,
+      "indicationsAMM": []
     },
     {
       "id": "42319207651b8102beddda623aaf7c8c",
@@ -1633,7 +1939,9 @@
       "statutAMM": "AMM selon l indication",
       "remboursement": "À vérifier",
       "conditions": [],
-      "mention": null
+      "mention": null,
+      "ageAMM": null,
+      "indicationsAMM": []
     },
     {
       "id": "42319207651b81d18d3af7258cc518d5",
@@ -1663,7 +1971,9 @@
       "statutAMM": "AMM",
       "remboursement": "À vérifier",
       "conditions": [],
-      "mention": null
+      "mention": null,
+      "ageAMM": null,
+      "indicationsAMM": []
     },
     {
       "id": "42319207651b8131b4a6ecc9c17c5801",
@@ -1693,7 +2003,9 @@
       "statutAMM": "AMM",
       "remboursement": "À vérifier",
       "conditions": [],
-      "mention": null
+      "mention": null,
+      "ageAMM": null,
+      "indicationsAMM": []
     },
     {
       "id": "42319207651b81319361f08511a5f994",
@@ -1722,7 +2034,9 @@
       "statutAMM": "Hors AMM",
       "remboursement": "Non remboursé",
       "conditions": [],
-      "mention": "Prescription hors autorisation de mise sur le marché"
+      "mention": "Prescription hors autorisation de mise sur le marché",
+      "ageAMM": null,
+      "indicationsAMM": []
     },
     {
       "id": "42319207651b810ca9f3f9665eabeb2a",
@@ -1753,7 +2067,9 @@
       "statutAMM": "AMM",
       "remboursement": "Remboursé",
       "conditions": [],
-      "mention": null
+      "mention": null,
+      "ageAMM": null,
+      "indicationsAMM": []
     },
     {
       "id": "42319207651b81e29abafc7513711813",
@@ -1783,7 +2099,9 @@
       "statutAMM": "AMM",
       "remboursement": "Remboursé",
       "conditions": [],
-      "mention": null
+      "mention": null,
+      "ageAMM": null,
+      "indicationsAMM": []
     },
     {
       "id": "42319207651b81cd8274ff3020160e4e",
@@ -1814,7 +2132,9 @@
       "statutAMM": "AMM",
       "remboursement": "À vérifier",
       "conditions": [],
-      "mention": null
+      "mention": null,
+      "ageAMM": null,
+      "indicationsAMM": []
     },
     {
       "id": "42319207651b81d4bbd8de30af4c465b",
@@ -1844,7 +2164,9 @@
       "statutAMM": "AMM",
       "remboursement": "À vérifier",
       "conditions": [],
-      "mention": null
+      "mention": null,
+      "ageAMM": null,
+      "indicationsAMM": []
     },
     {
       "id": "42319207651b81fdb3cbdb419d73beb6",
@@ -1879,7 +2201,9 @@
       "statutAMM": "AMM",
       "remboursement": "Remboursé",
       "conditions": [],
-      "mention": null
+      "mention": null,
+      "ageAMM": null,
+      "indicationsAMM": []
     },
     {
       "id": "42319207651b81db8996e5be303042f9",
@@ -1908,7 +2232,9 @@
       "statutAMM": "AMM",
       "remboursement": "Remboursé",
       "conditions": [],
-      "mention": null
+      "mention": null,
+      "ageAMM": null,
+      "indicationsAMM": []
     },
     {
       "id": "42319207651b81e0803cd8af97d1f23b",
@@ -1937,7 +2263,9 @@
       "statutAMM": "AMM",
       "remboursement": "Remboursé",
       "conditions": [],
-      "mention": null
+      "mention": null,
+      "ageAMM": null,
+      "indicationsAMM": []
     },
     {
       "id": "42319207651b8196b015d6fa3963c0b3",
@@ -1966,7 +2294,9 @@
       "statutAMM": "À vérifier",
       "remboursement": "Remboursé",
       "conditions": [],
-      "mention": null
+      "mention": null,
+      "ageAMM": null,
+      "indicationsAMM": []
     },
     {
       "id": "42319207651b81549d9bd5f669ccd309",
@@ -1997,7 +2327,9 @@
       "statutAMM": "AMM",
       "remboursement": "À vérifier",
       "conditions": [],
-      "mention": null
+      "mention": null,
+      "ageAMM": null,
+      "indicationsAMM": []
     },
     {
       "id": "42319207651b8175a9d9d40a8293fc64",
@@ -2028,7 +2360,9 @@
       "statutAMM": "AMM selon l indication",
       "remboursement": "Remboursé",
       "conditions": [],
-      "mention": null
+      "mention": null,
+      "ageAMM": null,
+      "indicationsAMM": []
     },
     {
       "id": "42319207651b8109a8dcc7ad42698147",
@@ -2057,7 +2391,9 @@
       "statutAMM": "AMM",
       "remboursement": "Remboursé",
       "conditions": [],
-      "mention": null
+      "mention": null,
+      "ageAMM": null,
+      "indicationsAMM": []
     },
     {
       "id": "42319207651b81f590dcee2d93477a02",
@@ -2086,7 +2422,9 @@
       "statutAMM": "AMM",
       "remboursement": "Remboursé",
       "conditions": [],
-      "mention": null
+      "mention": null,
+      "ageAMM": null,
+      "indicationsAMM": []
     },
     {
       "id": "42319207651b811f8bc8f4b0b06433c7",
@@ -2115,7 +2453,9 @@
       "statutAMM": "AMM",
       "remboursement": "Remboursé",
       "conditions": [],
-      "mention": null
+      "mention": null,
+      "ageAMM": null,
+      "indicationsAMM": []
     },
     {
       "id": "42319207651b81639e96e4c3cb7fe6b8",
@@ -2157,7 +2497,9 @@
       "statutAMM": "AMM",
       "remboursement": "Remboursé",
       "conditions": [],
-      "mention": null
+      "mention": null,
+      "ageAMM": null,
+      "indicationsAMM": []
     },
     {
       "id": "42319207651b81a1992be4cd1a46f728",
@@ -2187,7 +2529,9 @@
       "statutAMM": "AMM",
       "remboursement": "Remboursé",
       "conditions": [],
-      "mention": null
+      "mention": null,
+      "ageAMM": null,
+      "indicationsAMM": []
     },
     {
       "id": "42319207651b81caa60fe032d2605768",
@@ -2222,7 +2566,9 @@
       "statutAMM": "AMM",
       "remboursement": "Remboursé",
       "conditions": [],
-      "mention": null
+      "mention": null,
+      "ageAMM": null,
+      "indicationsAMM": []
     },
     {
       "id": "42319207651b818b810ee29911f6979e",
@@ -2253,7 +2599,9 @@
       "statutAMM": "AMM",
       "remboursement": "Remboursé",
       "conditions": [],
-      "mention": null
+      "mention": null,
+      "ageAMM": null,
+      "indicationsAMM": []
     },
     {
       "id": "42319207651b813b8db5cb00576bf813",
@@ -2284,7 +2632,9 @@
       "statutAMM": "AMM",
       "remboursement": "Remboursé",
       "conditions": [],
-      "mention": null
+      "mention": null,
+      "ageAMM": null,
+      "indicationsAMM": []
     },
     {
       "id": "42319207651b818b8375e7edc78cfd38",
@@ -2314,7 +2664,9 @@
       "statutAMM": "Hors AMM",
       "remboursement": "Non remboursé",
       "conditions": [],
-      "mention": "Prescription hors autorisation de mise sur le marché"
+      "mention": "Prescription hors autorisation de mise sur le marché",
+      "ageAMM": null,
+      "indicationsAMM": []
     },
     {
       "id": "42319207651b8179a8e1e1cf6704295c",
@@ -2343,7 +2695,9 @@
       "statutAMM": "Hors AMM",
       "remboursement": "Non remboursé",
       "conditions": [],
-      "mention": "Prescription hors autorisation de mise sur le marché"
+      "mention": "Prescription hors autorisation de mise sur le marché",
+      "ageAMM": null,
+      "indicationsAMM": []
     },
     {
       "id": "42319207651b81719090d83d315fda32",
@@ -2373,7 +2727,9 @@
       "statutAMM": "AMM",
       "remboursement": "Remboursé",
       "conditions": [],
-      "mention": null
+      "mention": null,
+      "ageAMM": null,
+      "indicationsAMM": []
     },
     {
       "id": "42319207651b8189aad6c04d4a4dd1a8",
@@ -2403,7 +2759,9 @@
       "statutAMM": "AMM",
       "remboursement": "Remboursé",
       "conditions": [],
-      "mention": null
+      "mention": null,
+      "ageAMM": null,
+      "indicationsAMM": []
     },
     {
       "id": "42319207651b811aacadf6ec8b405ecd",
@@ -2433,7 +2791,9 @@
       "statutAMM": "AMM",
       "remboursement": "Remboursé",
       "conditions": [],
-      "mention": null
+      "mention": null,
+      "ageAMM": null,
+      "indicationsAMM": []
     },
     {
       "id": "42319207651b819e82bdfff83ca9d9f6",
@@ -2463,7 +2823,9 @@
       "statutAMM": "AMM",
       "remboursement": "Remboursé",
       "conditions": [],
-      "mention": null
+      "mention": null,
+      "ageAMM": null,
+      "indicationsAMM": []
     },
     {
       "id": "42319207651b81b2be16e1968535a833",
@@ -2497,7 +2859,9 @@
         "Prescription initiale hospitalière",
         "Réservé à certains spécialistes"
       ],
-      "mention": null
+      "mention": null,
+      "ageAMM": null,
+      "indicationsAMM": []
     },
     {
       "id": "42319207651b81a2935efa9d71462053",
@@ -2531,7 +2895,9 @@
         "Prescription initiale hospitalière",
         "Réservé à certains spécialistes"
       ],
-      "mention": null
+      "mention": null,
+      "ageAMM": null,
+      "indicationsAMM": []
     },
     {
       "id": "42319207651b811fa065e98b96446af5",
@@ -2564,7 +2930,9 @@
         "Prescription initiale hospitalière",
         "Réservé à certains spécialistes"
       ],
-      "mention": null
+      "mention": null,
+      "ageAMM": null,
+      "indicationsAMM": []
     },
     {
       "id": "42319207651b816cae3cdb73be622cf5",
@@ -2597,7 +2965,9 @@
         "Prescription initiale hospitalière",
         "Réservé à certains spécialistes"
       ],
-      "mention": null
+      "mention": null,
+      "ageAMM": null,
+      "indicationsAMM": []
     },
     {
       "id": "42319207651b81089a5cf24dd635fc6f",
@@ -2627,7 +2997,9 @@
       "statutAMM": "AMM selon l indication",
       "remboursement": "Remboursé",
       "conditions": [],
-      "mention": null
+      "mention": null,
+      "ageAMM": null,
+      "indicationsAMM": []
     },
     {
       "id": "42319207651b8161a628e4b1f9161b3e",
@@ -2656,7 +3028,9 @@
       "statutAMM": "AMM",
       "remboursement": "À vérifier",
       "conditions": [],
-      "mention": null
+      "mention": null,
+      "ageAMM": null,
+      "indicationsAMM": []
     },
     {
       "id": "42319207651b81729b09e23d22a8068a",
@@ -2690,7 +3064,9 @@
       "statutAMM": "AMM",
       "remboursement": "Remboursé",
       "conditions": [],
-      "mention": null
+      "mention": null,
+      "ageAMM": null,
+      "indicationsAMM": []
     },
     {
       "id": "42319207651b81bd8200cfdc360815ba",
@@ -2721,7 +3097,9 @@
       "statutAMM": "AMM",
       "remboursement": "À vérifier",
       "conditions": [],
-      "mention": null
+      "mention": null,
+      "ageAMM": null,
+      "indicationsAMM": []
     },
     {
       "id": "42319207651b81199a20d40dde01cc8b",
@@ -2759,7 +3137,9 @@
       "statutAMM": "AMM",
       "remboursement": "Remboursé",
       "conditions": [],
-      "mention": null
+      "mention": null,
+      "ageAMM": null,
+      "indicationsAMM": []
     },
     {
       "id": "42319207651b810ea44fd3c7ae6f486a",
@@ -2791,7 +3171,9 @@
       "statutAMM": "Préparation magistrale",
       "remboursement": "Remboursement sous conditions",
       "conditions": [],
-      "mention": null
+      "mention": null,
+      "ageAMM": null,
+      "indicationsAMM": []
     },
     {
       "id": "42319207651b814a9a81e765a3ba48f2",
@@ -2825,7 +3207,9 @@
         "Prescription initiale hospitalière",
         "Réservé à certains spécialistes"
       ],
-      "mention": null
+      "mention": null,
+      "ageAMM": null,
+      "indicationsAMM": []
     },
     {
       "id": "42319207651b8156b986ebd772bcff32",
@@ -2854,7 +3238,9 @@
       "statutAMM": "AMM",
       "remboursement": "Non remboursé",
       "conditions": [],
-      "mention": null
+      "mention": null,
+      "ageAMM": null,
+      "indicationsAMM": []
     },
     {
       "id": "42319207651b8164b68bcd5725df3f68",
@@ -2883,7 +3269,9 @@
       "statutAMM": "Hors AMM",
       "remboursement": "Non remboursé",
       "conditions": [],
-      "mention": "Prescription hors autorisation de mise sur le marché"
+      "mention": "Prescription hors autorisation de mise sur le marché",
+      "ageAMM": null,
+      "indicationsAMM": []
     },
     {
       "id": "42319207651b815c825ed26dd820900d",
@@ -2912,7 +3300,9 @@
       "statutAMM": "AMM",
       "remboursement": "Non remboursé",
       "conditions": [],
-      "mention": null
+      "mention": null,
+      "ageAMM": null,
+      "indicationsAMM": []
     },
     {
       "id": "42319207651b81c19537efea86e190df",
@@ -2944,7 +3334,9 @@
       "statutAMM": "AMM",
       "remboursement": "Remboursé",
       "conditions": [],
-      "mention": null
+      "mention": null,
+      "ageAMM": null,
+      "indicationsAMM": []
     },
     {
       "id": "42319207651b8181bb87e97a1746ad99",
@@ -2976,7 +3368,9 @@
       "statutAMM": "AMM",
       "remboursement": "Remboursé",
       "conditions": [],
-      "mention": null
+      "mention": null,
+      "ageAMM": null,
+      "indicationsAMM": []
     },
     {
       "id": "42319207651b810fa390d957974db00d",
@@ -3006,7 +3400,9 @@
       "statutAMM": "Hors AMM",
       "remboursement": "Non remboursé",
       "conditions": [],
-      "mention": "Prescription hors autorisation de mise sur le marché"
+      "mention": "Prescription hors autorisation de mise sur le marché",
+      "ageAMM": null,
+      "indicationsAMM": []
     },
     {
       "id": "42319207651b81799be9f6983578fc4e",
@@ -3036,7 +3432,9 @@
       "statutAMM": "Hors AMM",
       "remboursement": "Non remboursé",
       "conditions": [],
-      "mention": "Prescription hors autorisation de mise sur le marché"
+      "mention": "Prescription hors autorisation de mise sur le marché",
+      "ageAMM": null,
+      "indicationsAMM": []
     },
     {
       "id": "42319207651b81a59ea9d616c2392adc",
@@ -3067,7 +3465,9 @@
       "statutAMM": "Hors AMM",
       "remboursement": "Non remboursé",
       "conditions": [],
-      "mention": "Prescription hors autorisation de mise sur le marché"
+      "mention": "Prescription hors autorisation de mise sur le marché",
+      "ageAMM": null,
+      "indicationsAMM": []
     },
     {
       "id": "42319207651b811da9d8db60d9a53c51",
@@ -3097,7 +3497,9 @@
       "statutAMM": "Hors AMM",
       "remboursement": "Non remboursé",
       "conditions": [],
-      "mention": "Prescription hors autorisation de mise sur le marché"
+      "mention": "Prescription hors autorisation de mise sur le marché",
+      "ageAMM": null,
+      "indicationsAMM": []
     },
     {
       "id": "42319207651b81e6b8f9f7489baa5aef",
@@ -3128,7 +3530,9 @@
       "statutAMM": "AMM selon l indication",
       "remboursement": "Non remboursé",
       "conditions": [],
-      "mention": null
+      "mention": null,
+      "ageAMM": null,
+      "indicationsAMM": []
     },
     {
       "id": "42319207651b81a1a23dfa4c87fb1117",
@@ -3159,7 +3563,9 @@
       "conditions": [
         "Conditions à vérifier"
       ],
-      "mention": null
+      "mention": null,
+      "ageAMM": null,
+      "indicationsAMM": []
     },
     {
       "id": "42319207651b81409670d6a71c0da923",
@@ -3190,7 +3596,9 @@
       "statutAMM": "AMM",
       "remboursement": "À vérifier",
       "conditions": [],
-      "mention": null
+      "mention": null,
+      "ageAMM": null,
+      "indicationsAMM": []
     },
     {
       "id": "42319207651b81d996d1ffe1b75019ab",
@@ -3221,7 +3629,9 @@
       "statutAMM": "AMM",
       "remboursement": "Remboursé",
       "conditions": [],
-      "mention": null
+      "mention": null,
+      "ageAMM": null,
+      "indicationsAMM": []
     },
     {
       "id": "42319207651b81ceb58cf62cff898039",
@@ -3251,7 +3661,9 @@
       "statutAMM": "AMM",
       "remboursement": "Remboursé",
       "conditions": [],
-      "mention": null
+      "mention": null,
+      "ageAMM": null,
+      "indicationsAMM": []
     },
     {
       "id": "42319207651b81e993dbc80bd48071e4",
@@ -3282,7 +3694,9 @@
       "statutAMM": "AMM",
       "remboursement": "Remboursé",
       "conditions": [],
-      "mention": null
+      "mention": null,
+      "ageAMM": null,
+      "indicationsAMM": []
     },
     {
       "id": "42319207651b8153a17bcbba32b3255c",
@@ -3312,7 +3726,9 @@
       "statutAMM": "À vérifier",
       "remboursement": "À vérifier",
       "conditions": [],
-      "mention": null
+      "mention": null,
+      "ageAMM": null,
+      "indicationsAMM": []
     },
     {
       "id": "42319207651b814a8605e0677f21e569",
@@ -3344,7 +3760,9 @@
         "Prescription initiale hospitalière",
         "Conditions à vérifier"
       ],
-      "mention": null
+      "mention": null,
+      "ageAMM": null,
+      "indicationsAMM": []
     },
     {
       "id": "42319207651b81928449e97bc4477758",
@@ -3376,7 +3794,9 @@
         "Prescription initiale hospitalière",
         "Conditions à vérifier"
       ],
-      "mention": null
+      "mention": null,
+      "ageAMM": null,
+      "indicationsAMM": []
     },
     {
       "id": "42319207651b81e7a769e16c21de52dc",
@@ -3408,7 +3828,9 @@
         "Prescription initiale hospitalière",
         "Conditions à vérifier"
       ],
-      "mention": null
+      "mention": null,
+      "ageAMM": null,
+      "indicationsAMM": []
     },
     {
       "id": "42319207651b8190896ce1c7caba6055",
@@ -3442,7 +3864,9 @@
         "Prescription initiale hospitalière",
         "Réservé à certains spécialistes"
       ],
-      "mention": null
+      "mention": null,
+      "ageAMM": null,
+      "indicationsAMM": []
     },
     {
       "id": "42319207651b8131b36bd2b91b16ec14",
@@ -3476,7 +3900,9 @@
         "Prescription initiale hospitalière",
         "Réservé à certains spécialistes"
       ],
-      "mention": null
+      "mention": null,
+      "ageAMM": null,
+      "indicationsAMM": []
     },
     {
       "id": "42319207651b81adbf49f46a780bf254",
@@ -3510,7 +3936,9 @@
         "Prescription initiale hospitalière",
         "Réservé à certains spécialistes"
       ],
-      "mention": null
+      "mention": null,
+      "ageAMM": null,
+      "indicationsAMM": []
     },
     {
       "id": "42319207651b81be81a7e898c32daced",
@@ -3545,7 +3973,9 @@
         "Prescription initiale hospitalière",
         "Réservé à certains spécialistes"
       ],
-      "mention": null
+      "mention": null,
+      "ageAMM": null,
+      "indicationsAMM": []
     },
     {
       "id": "42319207651b81a88b42fbf6e0f85dd7",
@@ -3578,7 +4008,9 @@
       "statutAMM": "AMM selon l indication",
       "remboursement": "Remboursé",
       "conditions": [],
-      "mention": null
+      "mention": null,
+      "ageAMM": null,
+      "indicationsAMM": []
     },
     {
       "id": "42319207651b816fb7a6d32b7031a081",
@@ -3613,7 +4045,9 @@
       "statutAMM": "AMM",
       "remboursement": "À vérifier",
       "conditions": [],
-      "mention": null
+      "mention": null,
+      "ageAMM": null,
+      "indicationsAMM": []
     },
     {
       "id": "42319207651b81279fe4e69b35cef9f1",
@@ -3643,7 +4077,9 @@
       "statutAMM": "AMM",
       "remboursement": "À vérifier",
       "conditions": [],
-      "mention": null
+      "mention": null,
+      "ageAMM": null,
+      "indicationsAMM": []
     },
     {
       "id": "42319207651b8185af58d251f29e82ba",
@@ -3673,7 +4109,9 @@
       "statutAMM": "AMM",
       "remboursement": "À vérifier",
       "conditions": [],
-      "mention": null
+      "mention": null,
+      "ageAMM": null,
+      "indicationsAMM": []
     },
     {
       "id": "42319207651b81ef8bdaec50dd350c07",
@@ -3703,7 +4141,9 @@
       "statutAMM": "À vérifier",
       "remboursement": "À vérifier",
       "conditions": [],
-      "mention": null
+      "mention": null,
+      "ageAMM": null,
+      "indicationsAMM": []
     },
     {
       "id": "42319207651b8146bbe1db71feab21e3",
@@ -3734,7 +4174,9 @@
       "statutAMM": "À vérifier",
       "remboursement": "À vérifier",
       "conditions": [],
-      "mention": null
+      "mention": null,
+      "ageAMM": null,
+      "indicationsAMM": []
     },
     {
       "id": "42319207651b81a9b064eb26d4fc1483",
@@ -3766,7 +4208,9 @@
         "Ordonnance de médicament d exception",
         "Prescription initiale hospitalière"
       ],
-      "mention": null
+      "mention": null,
+      "ageAMM": null,
+      "indicationsAMM": []
     },
     {
       "id": "42319207651b81f7875fc59273786eb2",
@@ -3800,7 +4244,9 @@
         "Ordonnance de médicament d exception",
         "Prescription initiale hospitalière"
       ],
-      "mention": null
+      "mention": null,
+      "ageAMM": null,
+      "indicationsAMM": []
     },
     {
       "id": "42319207651b8192925fc269ab8f8416",
@@ -3829,7 +4275,9 @@
       "statutAMM": "À vérifier",
       "remboursement": "Remboursé",
       "conditions": [],
-      "mention": null
+      "mention": null,
+      "ageAMM": null,
+      "indicationsAMM": []
     },
     {
       "id": "42319207651b81438cb3f0f093124ff9",
@@ -3858,7 +4306,9 @@
       "statutAMM": "Hors AMM",
       "remboursement": "Non remboursé",
       "conditions": [],
-      "mention": "Prescription hors autorisation de mise sur le marché"
+      "mention": "Prescription hors autorisation de mise sur le marché",
+      "ageAMM": null,
+      "indicationsAMM": []
     },
     {
       "id": "42319207651b81ce8b5bd52f16ff502a",
@@ -3887,7 +4337,9 @@
       "statutAMM": "Hors AMM",
       "remboursement": "Non remboursé",
       "conditions": [],
-      "mention": "Prescription hors autorisation de mise sur le marché"
+      "mention": "Prescription hors autorisation de mise sur le marché",
+      "ageAMM": null,
+      "indicationsAMM": []
     },
     {
       "id": "42319207651b815fa55af3029ea5e481",
@@ -3917,7 +4369,9 @@
       "statutAMM": "Hors AMM",
       "remboursement": "Non remboursé",
       "conditions": [],
-      "mention": "Prescription hors autorisation de mise sur le marché"
+      "mention": "Prescription hors autorisation de mise sur le marché",
+      "ageAMM": null,
+      "indicationsAMM": []
     },
     {
       "id": "42319207651b81e7998add12b8196de4",
@@ -3947,7 +4401,9 @@
       "statutAMM": "Hors AMM",
       "remboursement": "Non remboursé",
       "conditions": [],
-      "mention": "Prescription hors autorisation de mise sur le marché"
+      "mention": "Prescription hors autorisation de mise sur le marché",
+      "ageAMM": null,
+      "indicationsAMM": []
     },
     {
       "id": "42319207651b81aaab5cf261bac84fb0",
@@ -3977,7 +4433,9 @@
       "statutAMM": "Hors AMM",
       "remboursement": "Non remboursé",
       "conditions": [],
-      "mention": "Prescription hors autorisation de mise sur le marché"
+      "mention": "Prescription hors autorisation de mise sur le marché",
+      "ageAMM": null,
+      "indicationsAMM": []
     },
     {
       "id": "42319207651b81ac9f2dc1de6af1ad34",
@@ -4008,7 +4466,9 @@
       "statutAMM": "AMM",
       "remboursement": "À vérifier",
       "conditions": [],
-      "mention": null
+      "mention": null,
+      "ageAMM": null,
+      "indicationsAMM": []
     },
     {
       "id": "42319207651b81a1b5e2f997baebf939",
@@ -4038,7 +4498,9 @@
       "statutAMM": "À vérifier",
       "remboursement": "À vérifier",
       "conditions": [],
-      "mention": null
+      "mention": null,
+      "ageAMM": null,
+      "indicationsAMM": []
     },
     {
       "id": "42319207651b810484b4c3f5b8ffdfaf",
@@ -4068,7 +4530,9 @@
       "statutAMM": "Hors AMM",
       "remboursement": "Non remboursé",
       "conditions": [],
-      "mention": "Prescription hors autorisation de mise sur le marché"
+      "mention": "Prescription hors autorisation de mise sur le marché",
+      "ageAMM": null,
+      "indicationsAMM": []
     },
     {
       "id": "42319207651b81238a5ceaefe8d68164",
@@ -4097,7 +4561,9 @@
       "statutAMM": "AMM",
       "remboursement": "Remboursé",
       "conditions": [],
-      "mention": null
+      "mention": null,
+      "ageAMM": null,
+      "indicationsAMM": []
     },
     {
       "id": "42319207651b8106b181e303993b43cb",
@@ -4130,7 +4596,9 @@
         "Prescription initiale hospitalière",
         "Conditions à vérifier"
       ],
-      "mention": null
+      "mention": null,
+      "ageAMM": null,
+      "indicationsAMM": []
     },
     {
       "id": "42319207651b81dc8ad5d667e938ed9d",
@@ -4159,7 +4627,9 @@
       "statutAMM": "À vérifier",
       "remboursement": "À vérifier",
       "conditions": [],
-      "mention": null
+      "mention": null,
+      "ageAMM": null,
+      "indicationsAMM": []
     },
     {
       "id": "42319207651b814cb78aeb6dc6363d11",
@@ -4188,7 +4658,9 @@
       "statutAMM": "À vérifier",
       "remboursement": "À vérifier",
       "conditions": [],
-      "mention": null
+      "mention": null,
+      "ageAMM": null,
+      "indicationsAMM": []
     },
     {
       "id": "42319207651b815cb48ecc83acd19537",
@@ -4217,7 +4689,9 @@
       "statutAMM": "Hors AMM",
       "remboursement": "Non remboursé",
       "conditions": [],
-      "mention": "Prescription hors autorisation de mise sur le marché"
+      "mention": "Prescription hors autorisation de mise sur le marché",
+      "ageAMM": null,
+      "indicationsAMM": []
     },
     {
       "id": "42319207651b81bb9be3ec2c0bfb6e06",
@@ -4246,7 +4720,9 @@
       "statutAMM": "Hors AMM",
       "remboursement": "Non remboursé",
       "conditions": [],
-      "mention": "Prescription hors autorisation de mise sur le marché"
+      "mention": "Prescription hors autorisation de mise sur le marché",
+      "ageAMM": null,
+      "indicationsAMM": []
     },
     {
       "id": "42319207651b817d84bfd1a9242bc769",
@@ -4275,7 +4751,9 @@
       "statutAMM": "Hors AMM",
       "remboursement": "Non remboursé",
       "conditions": [],
-      "mention": "Prescription hors autorisation de mise sur le marché"
+      "mention": "Prescription hors autorisation de mise sur le marché",
+      "ageAMM": null,
+      "indicationsAMM": []
     },
     {
       "id": "42319207651b81a09cd4c7c047ece43d",
@@ -4307,7 +4785,9 @@
       "conditions": [
         "Ordonnance sécurisée"
       ],
-      "mention": null
+      "mention": null,
+      "ageAMM": null,
+      "indicationsAMM": []
     },
     {
       "id": "42319207651b8129b2cbcbe47f8bae5d",
@@ -4337,7 +4817,9 @@
       "statutAMM": "Hors AMM",
       "remboursement": "Non remboursé",
       "conditions": [],
-      "mention": "Prescription hors autorisation de mise sur le marché"
+      "mention": "Prescription hors autorisation de mise sur le marché",
+      "ageAMM": null,
+      "indicationsAMM": []
     },
     {
       "id": "42319207651b8184a654ea8d5c408332",
@@ -4368,7 +4850,9 @@
       "statutAMM": "AMM",
       "remboursement": "Remboursé",
       "conditions": [],
-      "mention": null
+      "mention": null,
+      "ageAMM": null,
+      "indicationsAMM": []
     },
     {
       "id": "42319207651b81ad8409c4ffbe140c2d",
@@ -4403,7 +4887,9 @@
       "statutAMM": "AMM",
       "remboursement": "Remboursé",
       "conditions": [],
-      "mention": null
+      "mention": null,
+      "ageAMM": null,
+      "indicationsAMM": []
     },
     {
       "id": "42319207651b81888578e9cda2827c51",
@@ -4433,7 +4919,9 @@
       "statutAMM": "AMM",
       "remboursement": "Remboursé",
       "conditions": [],
-      "mention": null
+      "mention": null,
+      "ageAMM": null,
+      "indicationsAMM": []
     },
     {
       "id": "42319207651b8101ad3ee14fbdc4d1f4",
@@ -4464,7 +4952,9 @@
       "statutAMM": "AMM",
       "remboursement": "Remboursé",
       "conditions": [],
-      "mention": null
+      "mention": null,
+      "ageAMM": null,
+      "indicationsAMM": []
     },
     {
       "id": "42319207651b81e9ad67c52ef666c77a",
@@ -4498,7 +4988,9 @@
       "statutAMM": "AMM",
       "remboursement": "À vérifier",
       "conditions": [],
-      "mention": null
+      "mention": null,
+      "ageAMM": null,
+      "indicationsAMM": []
     },
     {
       "id": "42319207651b81768d01dca0d4bed53e",
@@ -4528,7 +5020,9 @@
       "statutAMM": "À vérifier",
       "remboursement": "À vérifier",
       "conditions": [],
-      "mention": null
+      "mention": null,
+      "ageAMM": null,
+      "indicationsAMM": []
     },
     {
       "id": "42319207651b814c9625c41369176aab",
@@ -4558,7 +5052,9 @@
       "statutAMM": "À vérifier",
       "remboursement": "À vérifier",
       "conditions": [],
-      "mention": null
+      "mention": null,
+      "ageAMM": null,
+      "indicationsAMM": []
     },
     {
       "id": "42319207651b814790f0d9543a3a2c90",
@@ -4588,7 +5084,9 @@
       "statutAMM": "À vérifier",
       "remboursement": "À vérifier",
       "conditions": [],
-      "mention": null
+      "mention": null,
+      "ageAMM": null,
+      "indicationsAMM": []
     },
     {
       "id": "42319207651b81c1bbe6c6df098abd2c",
@@ -4618,7 +5116,9 @@
       "statutAMM": "AMM",
       "remboursement": "À vérifier",
       "conditions": [],
-      "mention": null
+      "mention": null,
+      "ageAMM": null,
+      "indicationsAMM": []
     },
     {
       "id": "42319207651b81b3a33af53010615cfc",
@@ -4648,7 +5148,9 @@
       "statutAMM": "À vérifier",
       "remboursement": "Remboursé",
       "conditions": [],
-      "mention": null
+      "mention": null,
+      "ageAMM": null,
+      "indicationsAMM": []
     },
     {
       "id": "42319207651b81308819ebb73bad2bc7",
@@ -4681,7 +5183,9 @@
       "conditions": [
         "Conditions à vérifier"
       ],
-      "mention": "Prescription hors autorisation de mise sur le marché"
+      "mention": "Prescription hors autorisation de mise sur le marché",
+      "ageAMM": null,
+      "indicationsAMM": []
     },
     {
       "id": "42319207651b8180ba71db8126ca7d07",
@@ -4714,7 +5218,9 @@
       "conditions": [
         "Conditions à vérifier"
       ],
-      "mention": "Prescription hors autorisation de mise sur le marché"
+      "mention": "Prescription hors autorisation de mise sur le marché",
+      "ageAMM": null,
+      "indicationsAMM": []
     },
     {
       "id": "42319207651b811895dac49121fe5155",
@@ -4744,7 +5250,9 @@
       "statutAMM": "À vérifier",
       "remboursement": "Remboursé",
       "conditions": [],
-      "mention": null
+      "mention": null,
+      "ageAMM": null,
+      "indicationsAMM": []
     },
     {
       "id": "42319207651b81bd8ec4f9da362bfdbd",
@@ -4775,7 +5283,9 @@
       "statutAMM": "AMM",
       "remboursement": "Remboursé",
       "conditions": [],
-      "mention": null
+      "mention": null,
+      "ageAMM": null,
+      "indicationsAMM": []
     },
     {
       "id": "42319207651b812aafaec647db8c51d1",
@@ -4805,7 +5315,9 @@
       "statutAMM": "À vérifier",
       "remboursement": "Remboursé",
       "conditions": [],
-      "mention": null
+      "mention": null,
+      "ageAMM": null,
+      "indicationsAMM": []
     },
     {
       "id": "42319207651b8112800ed3b76025969f",
@@ -4846,7 +5358,9 @@
       "statutAMM": "AMM",
       "remboursement": "Remboursé",
       "conditions": [],
-      "mention": null
+      "mention": null,
+      "ageAMM": null,
+      "indicationsAMM": []
     },
     {
       "id": "42319207651b811fb2a4cb647b0da825",
@@ -4877,7 +5391,9 @@
       "statutAMM": "AMM",
       "remboursement": "Remboursé",
       "conditions": [],
-      "mention": null
+      "mention": null,
+      "ageAMM": null,
+      "indicationsAMM": []
     },
     {
       "id": "42319207651b81f3ab11e9ff351c9949",
@@ -4907,7 +5423,9 @@
       "statutAMM": "AMM",
       "remboursement": "Remboursé",
       "conditions": [],
-      "mention": null
+      "mention": null,
+      "ageAMM": null,
+      "indicationsAMM": []
     },
     {
       "id": "42319207651b81489796f748d9cf7935",
@@ -4937,7 +5455,9 @@
       "statutAMM": "Hors AMM",
       "remboursement": "Non remboursé",
       "conditions": [],
-      "mention": "Prescription hors autorisation de mise sur le marché"
+      "mention": "Prescription hors autorisation de mise sur le marché",
+      "ageAMM": null,
+      "indicationsAMM": []
     },
     {
       "id": "42319207651b81e99625c5619561e91e",
@@ -4966,7 +5486,9 @@
       "statutAMM": "AMM",
       "remboursement": "Remboursé",
       "conditions": [],
-      "mention": null
+      "mention": null,
+      "ageAMM": null,
+      "indicationsAMM": []
     },
     {
       "id": "42319207651b819a9a6afe9c5d491d29",
@@ -4999,7 +5521,9 @@
         "Ordonnance de médicament d exception",
         "Prescription initiale hospitalière"
       ],
-      "mention": null
+      "mention": null,
+      "ageAMM": null,
+      "indicationsAMM": []
     },
     {
       "id": "42319207651b81ea976bd11c971d425c",
@@ -5028,7 +5552,9 @@
       "statutAMM": "AMM",
       "remboursement": "Remboursé",
       "conditions": [],
-      "mention": null
+      "mention": null,
+      "ageAMM": null,
+      "indicationsAMM": []
     },
     {
       "id": "42319207651b812bb8c0f6266d9b31d6",
@@ -5059,7 +5585,9 @@
       "conditions": [
         "Réservé à certains spécialistes"
       ],
-      "mention": null
+      "mention": null,
+      "ageAMM": null,
+      "indicationsAMM": []
     },
     {
       "id": "42319207651b81f0a6e9ce55f4a004f0",
@@ -5089,7 +5617,9 @@
       "statutAMM": "AMM",
       "remboursement": "Remboursé",
       "conditions": [],
-      "mention": null
+      "mention": null,
+      "ageAMM": null,
+      "indicationsAMM": []
     },
     {
       "id": "42319207651b81a787c4e8d4b5828b65",
@@ -5121,7 +5651,9 @@
       "conditions": [
         "Conditions à vérifier"
       ],
-      "mention": null
+      "mention": null,
+      "ageAMM": null,
+      "indicationsAMM": []
     },
     {
       "id": "42319207651b8197a854ecddbfbde266",
@@ -5152,7 +5684,9 @@
       "conditions": [
         "Conditions à vérifier"
       ],
-      "mention": null
+      "mention": null,
+      "ageAMM": null,
+      "indicationsAMM": []
     },
     {
       "id": "42319207651b8171aad3e0fc4386f74c",
@@ -5184,7 +5718,9 @@
       "conditions": [
         "Conditions à vérifier"
       ],
-      "mention": null
+      "mention": null,
+      "ageAMM": null,
+      "indicationsAMM": []
     },
     {
       "id": "42319207651b81a3989eea0ac3c6f6b5",
@@ -5217,7 +5753,9 @@
       "statutAMM": "AMM",
       "remboursement": "À vérifier",
       "conditions": [],
-      "mention": null
+      "mention": null,
+      "ageAMM": null,
+      "indicationsAMM": []
     },
     {
       "id": "42319207651b81c98453d0a952179548",
@@ -5247,7 +5785,9 @@
       "statutAMM": "AMM",
       "remboursement": "À vérifier",
       "conditions": [],
-      "mention": null
+      "mention": null,
+      "ageAMM": null,
+      "indicationsAMM": []
     },
     {
       "id": "42319207651b8184b61cf738bb5afb41",
@@ -5278,7 +5818,9 @@
       "statutAMM": "Préparation magistrale",
       "remboursement": "Remboursement sous conditions",
       "conditions": [],
-      "mention": null
+      "mention": null,
+      "ageAMM": null,
+      "indicationsAMM": []
     },
     {
       "id": "42319207651b81b983b2e7dbac935a69",
@@ -5309,7 +5851,9 @@
       "statutAMM": "Préparation magistrale",
       "remboursement": "Remboursement sous conditions",
       "conditions": [],
-      "mention": null
+      "mention": null,
+      "ageAMM": null,
+      "indicationsAMM": []
     },
     {
       "id": "42319207651b8138baa5d59d783a492c",
@@ -5339,7 +5883,9 @@
       "statutAMM": "Préparation magistrale",
       "remboursement": "Remboursement sous conditions",
       "conditions": [],
-      "mention": null
+      "mention": null,
+      "ageAMM": null,
+      "indicationsAMM": []
     },
     {
       "id": "42319207651b8145bd94f73173b93cef",
@@ -5370,7 +5916,9 @@
       "statutAMM": "Préparation magistrale",
       "remboursement": "Remboursement sous conditions",
       "conditions": [],
-      "mention": null
+      "mention": null,
+      "ageAMM": null,
+      "indicationsAMM": []
     },
     {
       "id": "42319207651b81f8a83bd61a7bff29b0",
@@ -5401,7 +5949,9 @@
       "statutAMM": "Préparation magistrale",
       "remboursement": "Remboursement sous conditions",
       "conditions": [],
-      "mention": null
+      "mention": null,
+      "ageAMM": null,
+      "indicationsAMM": []
     },
     {
       "id": "42319207651b81058344d2e8afd20268",
@@ -5431,7 +5981,9 @@
       "statutAMM": "Préparation magistrale",
       "remboursement": "Remboursement sous conditions",
       "conditions": [],
-      "mention": null
+      "mention": null,
+      "ageAMM": null,
+      "indicationsAMM": []
     },
     {
       "id": "42319207651b81169589f77c10dae7d2",
@@ -5461,7 +6013,9 @@
       "statutAMM": "Préparation magistrale",
       "remboursement": "Remboursement sous conditions",
       "conditions": [],
-      "mention": null
+      "mention": null,
+      "ageAMM": null,
+      "indicationsAMM": []
     },
     {
       "id": "42319207651b817294f3f18216e535b7",
@@ -5491,7 +6045,9 @@
       "statutAMM": "Préparation magistrale",
       "remboursement": "Remboursement sous conditions",
       "conditions": [],
-      "mention": null
+      "mention": null,
+      "ageAMM": null,
+      "indicationsAMM": []
     },
     {
       "id": "42319207651b81c6a542ed140a13614d",
@@ -5521,7 +6077,9 @@
       "statutAMM": "Préparation magistrale",
       "remboursement": "Remboursement sous conditions",
       "conditions": [],
-      "mention": null
+      "mention": null,
+      "ageAMM": null,
+      "indicationsAMM": []
     },
     {
       "id": "42319207651b81bea038d4b769bd6cc5",
@@ -5551,7 +6109,9 @@
       "statutAMM": "Préparation magistrale",
       "remboursement": "Remboursement sous conditions",
       "conditions": [],
-      "mention": null
+      "mention": null,
+      "ageAMM": null,
+      "indicationsAMM": []
     },
     {
       "id": "42319207651b81b3bb11f946137577ca",
@@ -5581,7 +6141,9 @@
       "statutAMM": "Préparation magistrale",
       "remboursement": "Remboursement sous conditions",
       "conditions": [],
-      "mention": null
+      "mention": null,
+      "ageAMM": null,
+      "indicationsAMM": []
     },
     {
       "id": "42319207651b81cebc3ad694bb5ff8b6",
@@ -5611,7 +6173,9 @@
       "statutAMM": "Préparation magistrale",
       "remboursement": "Remboursement sous conditions",
       "conditions": [],
-      "mention": null
+      "mention": null,
+      "ageAMM": null,
+      "indicationsAMM": []
     },
     {
       "id": "42319207651b81a6aca9ea7ca73db3be",
@@ -5641,7 +6205,9 @@
       "statutAMM": "Préparation magistrale",
       "remboursement": "Remboursement sous conditions",
       "conditions": [],
-      "mention": null
+      "mention": null,
+      "ageAMM": null,
+      "indicationsAMM": []
     },
     {
       "id": "42319207651b816291f2fa2e469fc265",
@@ -5671,7 +6237,9 @@
       "statutAMM": "Préparation magistrale",
       "remboursement": "Remboursement sous conditions",
       "conditions": [],
-      "mention": null
+      "mention": null,
+      "ageAMM": null,
+      "indicationsAMM": []
     },
     {
       "id": "42319207651b815eb216f00941c036de",
@@ -5701,7 +6269,9 @@
       "statutAMM": "Préparation magistrale",
       "remboursement": "Remboursement sous conditions",
       "conditions": [],
-      "mention": null
+      "mention": null,
+      "ageAMM": null,
+      "indicationsAMM": []
     },
     {
       "id": "42319207651b81a18831e59392378209",
@@ -5730,7 +6300,9 @@
       "statutAMM": "Préparation magistrale",
       "remboursement": "Remboursement sous conditions",
       "conditions": [],
-      "mention": null
+      "mention": null,
+      "ageAMM": null,
+      "indicationsAMM": []
     },
     {
       "id": "42319207651b8176b15ae719ed227859",
@@ -5759,7 +6331,9 @@
       "statutAMM": "Préparation magistrale",
       "remboursement": "Remboursement sous conditions",
       "conditions": [],
-      "mention": null
+      "mention": null,
+      "ageAMM": null,
+      "indicationsAMM": []
     },
     {
       "id": "42319207651b812f84e5e3d7a36438f2",
@@ -5789,7 +6363,9 @@
       "statutAMM": "Préparation magistrale",
       "remboursement": "Remboursement sous conditions",
       "conditions": [],
-      "mention": null
+      "mention": null,
+      "ageAMM": null,
+      "indicationsAMM": []
     },
     {
       "id": "42319207651b815d93eff4e261011f35",
@@ -5820,7 +6396,9 @@
       "statutAMM": "Préparation magistrale",
       "remboursement": "Remboursement sous conditions",
       "conditions": [],
-      "mention": null
+      "mention": null,
+      "ageAMM": null,
+      "indicationsAMM": []
     },
     {
       "id": "42319207651b816b96adcf16483316e8",
@@ -5851,7 +6429,9 @@
       "statutAMM": "Préparation magistrale",
       "remboursement": "Remboursement sous conditions",
       "conditions": [],
-      "mention": null
+      "mention": null,
+      "ageAMM": null,
+      "indicationsAMM": []
     },
     {
       "id": "42319207651b8151a53ac1f17abea893",
@@ -5881,7 +6461,9 @@
       "statutAMM": "Sans AMM (dispositif ou produit)",
       "remboursement": "Non remboursé",
       "conditions": [],
-      "mention": null
+      "mention": null,
+      "ageAMM": null,
+      "indicationsAMM": []
     },
     {
       "id": "42319207651b81e1854bf45adf42300e",
@@ -5912,7 +6494,9 @@
       "statutAMM": "AMM",
       "remboursement": "Remboursé",
       "conditions": [],
-      "mention": null
+      "mention": null,
+      "ageAMM": null,
+      "indicationsAMM": []
     },
     {
       "id": "42319207651b81e2890ac3cfaa468cb5",
@@ -5944,7 +6528,9 @@
       "conditions": [
         "Ordonnance de médicament d exception"
       ],
-      "mention": "Prescription hors autorisation de mise sur le marché"
+      "mention": "Prescription hors autorisation de mise sur le marché",
+      "ageAMM": null,
+      "indicationsAMM": []
     },
     {
       "id": "42319207651b81e6b72edce8c8fe4a4a",
@@ -5976,7 +6562,9 @@
       "conditions": [
         "Délivrance en pharmacie hospitalière"
       ],
-      "mention": "Prescription au titre d un accès compassionnel en dehors du cadre d une autorisation de mise sur le marché"
+      "mention": "Prescription au titre d un accès compassionnel en dehors du cadre d une autorisation de mise sur le marché",
+      "ageAMM": null,
+      "indicationsAMM": []
     },
     {
       "id": "42319207651b8136aaedd3eacc8b77e3",
@@ -6008,7 +6596,9 @@
       "conditions": [
         "Ordonnance de médicament d exception"
       ],
-      "mention": "Prescription hors autorisation de mise sur le marché"
+      "mention": "Prescription hors autorisation de mise sur le marché",
+      "ageAMM": null,
+      "indicationsAMM": []
     },
     {
       "id": "42319207651b81899e8dff5d5e0ce07c",
@@ -6040,7 +6630,9 @@
       "conditions": [
         "Ordonnance de médicament d exception"
       ],
-      "mention": "NR"
+      "mention": "NR",
+      "ageAMM": null,
+      "indicationsAMM": []
     },
     {
       "id": "42319207651b811e963cd81db85c74c7",
@@ -6072,7 +6664,9 @@
       "conditions": [
         "Délivrance en pharmacie hospitalière"
       ],
-      "mention": "Prescription au titre d un accès compassionnel en dehors du cadre d une autorisation de mise sur le marché"
+      "mention": "Prescription au titre d un accès compassionnel en dehors du cadre d une autorisation de mise sur le marché",
+      "ageAMM": null,
+      "indicationsAMM": []
     },
     {
       "id": "42319207651b8171a275c78b7afe496c",
@@ -6105,7 +6699,9 @@
       "conditions": [
         "Ordonnance de médicament d exception"
       ],
-      "mention": "Prescription hors autorisation de mise sur le marché"
+      "mention": "Prescription hors autorisation de mise sur le marché",
+      "ageAMM": null,
+      "indicationsAMM": []
     },
     {
       "id": "42319207651b81a6ac1dc36b9f47f25f",
@@ -6136,7 +6732,9 @@
       "conditions": [
         "Ordonnance de médicament d exception"
       ],
-      "mention": "Prescription hors autorisation de mise sur le marché"
+      "mention": "Prescription hors autorisation de mise sur le marché",
+      "ageAMM": null,
+      "indicationsAMM": []
     },
     {
       "id": "42319207651b81cfb77ae0772a6236b0",
@@ -6167,7 +6765,9 @@
       "conditions": [
         "Délivrance en pharmacie hospitalière"
       ],
-      "mention": "Prescription au titre d un accès compassionnel en dehors du cadre d une autorisation de mise sur le marché"
+      "mention": "Prescription au titre d un accès compassionnel en dehors du cadre d une autorisation de mise sur le marché",
+      "ageAMM": null,
+      "indicationsAMM": []
     },
     {
       "id": "42319207651b81259f1af91eb564467a",
@@ -6198,7 +6798,9 @@
       "conditions": [
         "Délivrance en pharmacie hospitalière"
       ],
-      "mention": "Prescription au titre d un accès compassionnel en dehors du cadre d une autorisation de mise sur le marché"
+      "mention": "Prescription au titre d un accès compassionnel en dehors du cadre d une autorisation de mise sur le marché",
+      "ageAMM": null,
+      "indicationsAMM": []
     },
     {
       "id": "42319207651b816ea36fed744d5d9789",
@@ -6228,7 +6830,9 @@
       "statutAMM": "AMM",
       "remboursement": "Remboursé",
       "conditions": [],
-      "mention": null
+      "mention": null,
+      "ageAMM": null,
+      "indicationsAMM": []
     },
     {
       "id": "42319207651b811e8229c6d15e383a6f",
@@ -6260,7 +6864,9 @@
         "Ordonnance de médicament d exception",
         "Prescription initiale hospitalière"
       ],
-      "mention": null
+      "mention": null,
+      "ageAMM": null,
+      "indicationsAMM": []
     },
     {
       "id": "42319207651b817cbfc6e2d29ea3f1ad",
@@ -6290,7 +6896,9 @@
       "statutAMM": "AMM selon l indication",
       "remboursement": "Remboursé",
       "conditions": [],
-      "mention": null
+      "mention": null,
+      "ageAMM": null,
+      "indicationsAMM": []
     },
     {
       "id": "42319207651b81f39582e9df01379a55",
@@ -6320,7 +6928,9 @@
       "statutAMM": "Hors AMM",
       "remboursement": "Non remboursé",
       "conditions": [],
-      "mention": "Prescription hors autorisation de mise sur le marché"
+      "mention": "Prescription hors autorisation de mise sur le marché",
+      "ageAMM": null,
+      "indicationsAMM": []
     },
     {
       "id": "42319207651b81e2a811cc2353284b23",
@@ -6350,7 +6960,9 @@
       "statutAMM": "AMM",
       "remboursement": "Remboursé",
       "conditions": [],
-      "mention": null
+      "mention": null,
+      "ageAMM": null,
+      "indicationsAMM": []
     },
     {
       "id": "42319207651b813a8601c4f4b7783b3c",
@@ -6380,7 +6992,9 @@
       "statutAMM": "AMM",
       "remboursement": "Remboursé",
       "conditions": [],
-      "mention": null
+      "mention": null,
+      "ageAMM": null,
+      "indicationsAMM": []
     },
     {
       "id": "42319207651b81429834e6660c876d41",
@@ -6410,7 +7024,9 @@
       "statutAMM": "AMM selon l indication",
       "remboursement": "Non remboursé",
       "conditions": [],
-      "mention": null
+      "mention": null,
+      "ageAMM": null,
+      "indicationsAMM": []
     },
     {
       "id": "42319207651b814e9aeff240d66c236a",
@@ -6440,7 +7056,9 @@
       "statutAMM": "AMM",
       "remboursement": "À vérifier",
       "conditions": [],
-      "mention": null
+      "mention": null,
+      "ageAMM": null,
+      "indicationsAMM": []
     },
     {
       "id": "42319207651b81c889f5efc6a20c15c3",
@@ -6470,7 +7088,9 @@
       "statutAMM": "Hors AMM",
       "remboursement": "Non remboursé",
       "conditions": [],
-      "mention": "Prescription hors autorisation de mise sur le marché"
+      "mention": "Prescription hors autorisation de mise sur le marché",
+      "ageAMM": null,
+      "indicationsAMM": []
     },
     {
       "id": "42319207651b81fab9abf379edc972d2",
@@ -6499,7 +7119,9 @@
       "statutAMM": "Hors AMM",
       "remboursement": "Non remboursé",
       "conditions": [],
-      "mention": "Prescription hors autorisation de mise sur le marché"
+      "mention": "Prescription hors autorisation de mise sur le marché",
+      "ageAMM": null,
+      "indicationsAMM": []
     },
     {
       "id": "42319207651b81a4b7e2deaa867ecad2",
@@ -6528,7 +7150,9 @@
       "statutAMM": "AMM",
       "remboursement": "Remboursé",
       "conditions": [],
-      "mention": null
+      "mention": null,
+      "ageAMM": null,
+      "indicationsAMM": []
     },
     {
       "id": "42319207651b81329d44cda98f43211f",
@@ -6559,7 +7183,9 @@
       "statutAMM": "À vérifier",
       "remboursement": "Remboursé",
       "conditions": [],
-      "mention": null
+      "mention": null,
+      "ageAMM": null,
+      "indicationsAMM": []
     },
     {
       "id": "42319207651b8132ba37d55e6c4d7b85",
@@ -6589,7 +7215,9 @@
       "statutAMM": "AMM",
       "remboursement": "Remboursé",
       "conditions": [],
-      "mention": null
+      "mention": null,
+      "ageAMM": null,
+      "indicationsAMM": []
     },
     {
       "id": "42319207651b81159f00ee7547d61c10",
@@ -6619,7 +7247,9 @@
       "statutAMM": "AMM",
       "remboursement": "Remboursé",
       "conditions": [],
-      "mention": null
+      "mention": null,
+      "ageAMM": null,
+      "indicationsAMM": []
     },
     {
       "id": "42319207651b8174bbc0c4476966ab00",
@@ -6648,7 +7278,9 @@
       "statutAMM": "AMM",
       "remboursement": "Remboursé",
       "conditions": [],
-      "mention": null
+      "mention": null,
+      "ageAMM": null,
+      "indicationsAMM": []
     },
     {
       "id": "42319207651b81f4bc59de02a383fb1d",
@@ -6678,7 +7310,9 @@
       "statutAMM": "AMM",
       "remboursement": "Remboursé",
       "conditions": [],
-      "mention": null
+      "mention": null,
+      "ageAMM": null,
+      "indicationsAMM": []
     },
     {
       "id": "42319207651b81318721c0b75eec5ee2",
@@ -6708,7 +7342,9 @@
       "statutAMM": "AMM",
       "remboursement": "Remboursé",
       "conditions": [],
-      "mention": null
+      "mention": null,
+      "ageAMM": null,
+      "indicationsAMM": []
     },
     {
       "id": "42319207651b81e38617d31a1b437dbf",
@@ -6738,7 +7374,9 @@
       "statutAMM": "AMM",
       "remboursement": "Remboursé",
       "conditions": [],
-      "mention": null
+      "mention": null,
+      "ageAMM": null,
+      "indicationsAMM": []
     },
     {
       "id": "42319207651b8172ab59e8a6daaf838f",
@@ -6769,7 +7407,9 @@
       "statutAMM": "AMM",
       "remboursement": "Remboursé",
       "conditions": [],
-      "mention": null
+      "mention": null,
+      "ageAMM": null,
+      "indicationsAMM": []
     },
     {
       "id": "42319207651b815e8bc2e442488ca12e",
@@ -6799,7 +7439,9 @@
       "statutAMM": "Sans AMM (dispositif ou produit)",
       "remboursement": "Remboursement sous conditions",
       "conditions": [],
-      "mention": null
+      "mention": null,
+      "ageAMM": null,
+      "indicationsAMM": []
     },
     {
       "id": "42319207651b81a4b73bfe8e9d3eff76",
@@ -6830,7 +7472,9 @@
       "statutAMM": "Hors AMM",
       "remboursement": "Non remboursé",
       "conditions": [],
-      "mention": "Prescription hors autorisation de mise sur le marché"
+      "mention": "Prescription hors autorisation de mise sur le marché",
+      "ageAMM": null,
+      "indicationsAMM": []
     },
     {
       "id": "42319207651b816bbf91d927c82b0a74",
@@ -6860,7 +7504,9 @@
       "statutAMM": "Hors AMM",
       "remboursement": "Non remboursé",
       "conditions": [],
-      "mention": "Prescription hors autorisation de mise sur le marché"
+      "mention": "Prescription hors autorisation de mise sur le marché",
+      "ageAMM": null,
+      "indicationsAMM": []
     },
     {
       "id": "42319207651b81208a58edf2de453644",
@@ -6890,7 +7536,9 @@
       "statutAMM": "Hors AMM",
       "remboursement": "Non remboursé",
       "conditions": [],
-      "mention": "Prescription hors autorisation de mise sur le marché"
+      "mention": "Prescription hors autorisation de mise sur le marché",
+      "ageAMM": null,
+      "indicationsAMM": []
     },
     {
       "id": "42319207651b811cad3be5959d98475a",
@@ -6919,7 +7567,9 @@
       "statutAMM": "Hors AMM",
       "remboursement": "Non remboursé",
       "conditions": [],
-      "mention": "Prescription hors autorisation de mise sur le marché"
+      "mention": "Prescription hors autorisation de mise sur le marché",
+      "ageAMM": null,
+      "indicationsAMM": []
     },
     {
       "id": "42319207651b8100a23af965eda87366",
@@ -6953,7 +7603,9 @@
         "Prescription initiale hospitalière",
         "Réservé à certains spécialistes"
       ],
-      "mention": null
+      "mention": null,
+      "ageAMM": null,
+      "indicationsAMM": []
     },
     {
       "id": "42319207651b8156a78ad3b97c77ddb6",
@@ -6987,7 +7639,9 @@
         "Prescription initiale hospitalière",
         "Réservé à certains spécialistes"
       ],
-      "mention": null
+      "mention": null,
+      "ageAMM": null,
+      "indicationsAMM": []
     },
     {
       "id": "42319207651b816aa412ecf6632442bc",
@@ -7022,7 +7676,9 @@
       "statutAMM": "AMM selon l indication",
       "remboursement": "Remboursé",
       "conditions": [],
-      "mention": null
+      "mention": null,
+      "ageAMM": null,
+      "indicationsAMM": []
     },
     {
       "id": "42319207651b81498c85dbfb9523f5f2",
@@ -7053,7 +7709,9 @@
       "statutAMM": "AMM",
       "remboursement": "Remboursé",
       "conditions": [],
-      "mention": null
+      "mention": null,
+      "ageAMM": null,
+      "indicationsAMM": []
     },
     {
       "id": "42319207651b81b9860dd4c0518c371d",
@@ -7083,7 +7741,9 @@
       "statutAMM": "Hors AMM",
       "remboursement": "Non remboursé",
       "conditions": [],
-      "mention": "Prescription hors autorisation de mise sur le marché"
+      "mention": "Prescription hors autorisation de mise sur le marché",
+      "ageAMM": null,
+      "indicationsAMM": []
     },
     {
       "id": "42319207651b81e094b9ceb7c286440e",
@@ -7113,7 +7773,9 @@
       "statutAMM": "À vérifier",
       "remboursement": "À vérifier",
       "conditions": [],
-      "mention": null
+      "mention": null,
+      "ageAMM": null,
+      "indicationsAMM": []
     },
     {
       "id": "42319207651b81ad9c86d5ba96392b94",
@@ -7143,7 +7805,9 @@
       "statutAMM": "À vérifier",
       "remboursement": "À vérifier",
       "conditions": [],
-      "mention": null
+      "mention": null,
+      "ageAMM": null,
+      "indicationsAMM": []
     },
     {
       "id": "42319207651b8105bfe7ca9e2c97cac0",
@@ -7177,7 +7841,9 @@
         "Prescription initiale hospitalière",
         "Réservé à certains spécialistes"
       ],
-      "mention": null
+      "mention": null,
+      "ageAMM": null,
+      "indicationsAMM": []
     },
     {
       "id": "42319207651b8127ba99d309e80f4af4",
@@ -7211,7 +7877,9 @@
         "Prescription initiale hospitalière",
         "Réservé à certains spécialistes"
       ],
-      "mention": null
+      "mention": null,
+      "ageAMM": null,
+      "indicationsAMM": []
     },
     {
       "id": "42319207651b812e8e26d8e50ef43379",
@@ -7240,7 +7908,9 @@
       "statutAMM": "AMM",
       "remboursement": "À vérifier",
       "conditions": [],
-      "mention": null
+      "mention": null,
+      "ageAMM": null,
+      "indicationsAMM": []
     },
     {
       "id": "42319207651b818ea48bc933b4f46658",
@@ -7269,7 +7939,9 @@
       "statutAMM": "Préparation magistrale",
       "remboursement": "Remboursement sous conditions",
       "conditions": [],
-      "mention": null
+      "mention": null,
+      "ageAMM": null,
+      "indicationsAMM": []
     },
     {
       "id": "42319207651b81b59d76ca29b2bfcf3b",
@@ -7299,7 +7971,9 @@
       "statutAMM": "AMM",
       "remboursement": "Remboursé",
       "conditions": [],
-      "mention": null
+      "mention": null,
+      "ageAMM": null,
+      "indicationsAMM": []
     },
     {
       "id": "42319207651b81ef85b7e0fc0479c32e",
@@ -7329,7 +8003,9 @@
       "statutAMM": "Hors AMM",
       "remboursement": "Non remboursé",
       "conditions": [],
-      "mention": "Prescription hors autorisation de mise sur le marché"
+      "mention": "Prescription hors autorisation de mise sur le marché",
+      "ageAMM": null,
+      "indicationsAMM": []
     },
     {
       "id": "42319207651b818a8827cc2f67a3242a",
@@ -7358,7 +8034,9 @@
       "statutAMM": "Hors AMM",
       "remboursement": "Non remboursé",
       "conditions": [],
-      "mention": "Prescription hors autorisation de mise sur le marché"
+      "mention": "Prescription hors autorisation de mise sur le marché",
+      "ageAMM": null,
+      "indicationsAMM": []
     },
     {
       "id": "42319207651b81aaafcadc55580cca77",
@@ -7388,7 +8066,9 @@
       "statutAMM": "AMM",
       "remboursement": "Remboursé",
       "conditions": [],
-      "mention": null
+      "mention": null,
+      "ageAMM": null,
+      "indicationsAMM": []
     },
     {
       "id": "42319207651b8174bef5e387aa2572de",
@@ -7418,7 +8098,9 @@
       "statutAMM": "AMM",
       "remboursement": "Remboursé",
       "conditions": [],
-      "mention": null
+      "mention": null,
+      "ageAMM": null,
+      "indicationsAMM": []
     },
     {
       "id": "42319207651b8119bb55cb8a76db1631",
@@ -7449,7 +8131,9 @@
       "statutAMM": "AMM",
       "remboursement": "À vérifier",
       "conditions": [],
-      "mention": null
+      "mention": null,
+      "ageAMM": null,
+      "indicationsAMM": []
     },
     {
       "id": "42319207651b818cbe0ec332bb78d332",
@@ -7479,7 +8163,9 @@
       "statutAMM": "AMM",
       "remboursement": "Remboursé",
       "conditions": [],
-      "mention": null
+      "mention": null,
+      "ageAMM": null,
+      "indicationsAMM": []
     },
     {
       "id": "42319207651b81b3b5e9e2aeef9fd894",
@@ -7510,7 +8196,9 @@
       "statutAMM": "AMM",
       "remboursement": "Remboursé",
       "conditions": [],
-      "mention": null
+      "mention": null,
+      "ageAMM": null,
+      "indicationsAMM": []
     },
     {
       "id": "42319207651b81df9d01e71d11141da1",
@@ -7545,7 +8233,9 @@
       "statutAMM": "AMM",
       "remboursement": "Remboursé",
       "conditions": [],
-      "mention": null
+      "mention": null,
+      "ageAMM": null,
+      "indicationsAMM": []
     },
     {
       "id": "42319207651b819d843cf314e2d2bd03",
@@ -7575,7 +8265,9 @@
       "statutAMM": "AMM",
       "remboursement": "Remboursé",
       "conditions": [],
-      "mention": null
+      "mention": null,
+      "ageAMM": null,
+      "indicationsAMM": []
     },
     {
       "id": "42319207651b81beaabbebb1e2452ca8",
@@ -7606,7 +8298,9 @@
       "statutAMM": "AMM",
       "remboursement": "Remboursé",
       "conditions": [],
-      "mention": null
+      "mention": null,
+      "ageAMM": null,
+      "indicationsAMM": []
     },
     {
       "id": "42319207651b81b0a092d6c1a2befcf5",
@@ -7637,7 +8331,9 @@
       "statutAMM": "Hors AMM",
       "remboursement": "Non remboursé",
       "conditions": [],
-      "mention": "Prescription hors autorisation de mise sur le marché"
+      "mention": "Prescription hors autorisation de mise sur le marché",
+      "ageAMM": null,
+      "indicationsAMM": []
     },
     {
       "id": "42319207651b8143aad0ed7e8a1e1068",
@@ -7666,7 +8362,9 @@
       "statutAMM": "À vérifier",
       "remboursement": "Remboursé",
       "conditions": [],
-      "mention": null
+      "mention": null,
+      "ageAMM": null,
+      "indicationsAMM": []
     },
     {
       "id": "42319207651b81ce9215f450e242b662",
@@ -7695,7 +8393,9 @@
       "statutAMM": "À vérifier",
       "remboursement": "Remboursé",
       "conditions": [],
-      "mention": null
+      "mention": null,
+      "ageAMM": null,
+      "indicationsAMM": []
     },
     {
       "id": "42319207651b8181ba0fe2be879fb711",
@@ -7726,7 +8426,9 @@
       "statutAMM": "Sans AMM (dispositif ou produit)",
       "remboursement": "À vérifier",
       "conditions": [],
-      "mention": null
+      "mention": null,
+      "ageAMM": null,
+      "indicationsAMM": []
     },
     {
       "id": "42319207651b816da96adc939bb77ddb",
@@ -7757,7 +8459,9 @@
       "statutAMM": "AMM",
       "remboursement": "Remboursé",
       "conditions": [],
-      "mention": null
+      "mention": null,
+      "ageAMM": null,
+      "indicationsAMM": []
     },
     {
       "id": "42319207651b813d84eefdf647eaf876",
@@ -7786,7 +8490,9 @@
       "statutAMM": "AMM",
       "remboursement": "Remboursé",
       "conditions": [],
-      "mention": null
+      "mention": null,
+      "ageAMM": null,
+      "indicationsAMM": []
     },
     {
       "id": "42319207651b814da05eeb04b5738a04",
@@ -7815,7 +8521,9 @@
       "statutAMM": "AMM",
       "remboursement": "À vérifier",
       "conditions": [],
-      "mention": null
+      "mention": null,
+      "ageAMM": null,
+      "indicationsAMM": []
     },
     {
       "id": "42319207651b8192ba2ee4d85a5990ea",
@@ -7847,7 +8555,9 @@
         "Ordonnance de médicament d exception",
         "Réservé à certains spécialistes"
       ],
-      "mention": null
+      "mention": null,
+      "ageAMM": null,
+      "indicationsAMM": []
     },
     {
       "id": "42319207651b81f2a64cf61f2a81784b",
@@ -7878,7 +8588,9 @@
       "statutAMM": "AMM",
       "remboursement": "Remboursé",
       "conditions": [],
-      "mention": null
+      "mention": null,
+      "ageAMM": null,
+      "indicationsAMM": []
     },
     {
       "id": "42319207651b81bb8931f022d4b463e3",
@@ -7907,7 +8619,9 @@
       "statutAMM": "AMM",
       "remboursement": "Remboursé",
       "conditions": [],
-      "mention": null
+      "mention": null,
+      "ageAMM": null,
+      "indicationsAMM": []
     },
     {
       "id": "42319207651b81b3856cf87bce87596a",
@@ -7938,7 +8652,9 @@
       "statutAMM": "AMM",
       "remboursement": "Remboursé",
       "conditions": [],
-      "mention": null
+      "mention": null,
+      "ageAMM": null,
+      "indicationsAMM": []
     },
     {
       "id": "42319207651b81e99740c12c706e00ac",
@@ -7969,7 +8685,9 @@
       "statutAMM": "AMM",
       "remboursement": "Remboursé",
       "conditions": [],
-      "mention": null
+      "mention": null,
+      "ageAMM": null,
+      "indicationsAMM": []
     },
     {
       "id": "42319207651b818ba444da7fb78c94b6",
@@ -7999,7 +8717,9 @@
       "statutAMM": "AMM selon l indication",
       "remboursement": "Remboursé",
       "conditions": [],
-      "mention": null
+      "mention": null,
+      "ageAMM": null,
+      "indicationsAMM": []
     },
     {
       "id": "42319207651b817bbcdbd4ee1606e1a3",
@@ -8028,7 +8748,9 @@
       "statutAMM": "AMM",
       "remboursement": "Remboursé",
       "conditions": [],
-      "mention": null
+      "mention": null,
+      "ageAMM": null,
+      "indicationsAMM": []
     },
     {
       "id": "42319207651b8130896ec2629ae005c7",
@@ -8057,7 +8779,9 @@
       "statutAMM": "AMM",
       "remboursement": "Remboursé",
       "conditions": [],
-      "mention": null
+      "mention": null,
+      "ageAMM": null,
+      "indicationsAMM": []
     },
     {
       "id": "42319207651b81c184acf2484342e1c8",
@@ -8088,7 +8812,9 @@
       "statutAMM": "À vérifier",
       "remboursement": "Remboursé",
       "conditions": [],
-      "mention": null
+      "mention": null,
+      "ageAMM": null,
+      "indicationsAMM": []
     },
     {
       "id": "42319207651b81bda577e70a9a87bb44",
@@ -8118,7 +8844,9 @@
       "statutAMM": "Hors AMM",
       "remboursement": "Non remboursé",
       "conditions": [],
-      "mention": "Prescription hors autorisation de mise sur le marché"
+      "mention": "Prescription hors autorisation de mise sur le marché",
+      "ageAMM": null,
+      "indicationsAMM": []
     },
     {
       "id": "42319207651b819aa5bdcdd4fe409e7e",
@@ -8149,7 +8877,9 @@
       "statutAMM": "AMM",
       "remboursement": "Remboursé",
       "conditions": [],
-      "mention": null
+      "mention": null,
+      "ageAMM": null,
+      "indicationsAMM": []
     },
     {
       "id": "42319207651b818089c4ff3b053e2586",
@@ -8180,7 +8910,9 @@
       "statutAMM": "AMM",
       "remboursement": "Remboursé",
       "conditions": [],
-      "mention": null
+      "mention": null,
+      "ageAMM": null,
+      "indicationsAMM": []
     },
     {
       "id": "42319207651b8195a867e4b20e7f95fc",
@@ -8211,7 +8943,9 @@
       "statutAMM": "AMM selon l indication",
       "remboursement": "Remboursé",
       "conditions": [],
-      "mention": null
+      "mention": null,
+      "ageAMM": null,
+      "indicationsAMM": []
     },
     {
       "id": "42319207651b815dbce1dd768a929de0",
@@ -8240,7 +8974,9 @@
       "statutAMM": "AMM",
       "remboursement": "Remboursé",
       "conditions": [],
-      "mention": null
+      "mention": null,
+      "ageAMM": null,
+      "indicationsAMM": []
     },
     {
       "id": "42319207651b81b49f17d94773115ffe",
@@ -8270,7 +9006,9 @@
       "statutAMM": "AMM",
       "remboursement": "Remboursé",
       "conditions": [],
-      "mention": null
+      "mention": null,
+      "ageAMM": null,
+      "indicationsAMM": []
     },
     {
       "id": "42319207651b81f2892df2d50284da61",
@@ -8299,7 +9037,9 @@
       "statutAMM": "À vérifier",
       "remboursement": "Remboursé",
       "conditions": [],
-      "mention": null
+      "mention": null,
+      "ageAMM": null,
+      "indicationsAMM": []
     },
     {
       "id": "42319207651b81b093e2f3dcc91022fd",
@@ -8329,7 +9069,9 @@
       "statutAMM": "AMM selon l indication",
       "remboursement": "Remboursé",
       "conditions": [],
-      "mention": null
+      "mention": null,
+      "ageAMM": null,
+      "indicationsAMM": []
     },
     {
       "id": "42319207651b8120bbfbfd2adc7fd38c",
@@ -8358,7 +9100,9 @@
       "statutAMM": "AMM",
       "remboursement": "Remboursé",
       "conditions": [],
-      "mention": null
+      "mention": null,
+      "ageAMM": null,
+      "indicationsAMM": []
     },
     {
       "id": "42319207651b811398bbe1539e2223ad",
@@ -8388,7 +9132,9 @@
       "statutAMM": "AMM",
       "remboursement": "Remboursé",
       "conditions": [],
-      "mention": null
+      "mention": null,
+      "ageAMM": null,
+      "indicationsAMM": []
     },
     {
       "id": "42319207651b81cc866acd3eef620024",
@@ -8418,7 +9164,9 @@
       "statutAMM": "AMM",
       "remboursement": "Remboursé",
       "conditions": [],
-      "mention": null
+      "mention": null,
+      "ageAMM": null,
+      "indicationsAMM": []
     },
     {
       "id": "42319207651b81d9b76ac4c67307f337",
@@ -8448,7 +9196,9 @@
       "statutAMM": "AMM",
       "remboursement": "Remboursé",
       "conditions": [],
-      "mention": null
+      "mention": null,
+      "ageAMM": null,
+      "indicationsAMM": []
     }
   ]
 }
