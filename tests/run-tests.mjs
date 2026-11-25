@@ -104,14 +104,14 @@ test("Saisie du poids avec virgule", () => {
 test("Ordre : dermocorticoïdes corps avant visage, puis familles 2 à 7", () => {
   const sel = ["doliprane", "protopic", "pmr", "nerisone-visage", "nerisone-corps", "clamoxyl", "mupirocine"].map(L);
   const r = M.construireOrdonnance(sel, 15, { mentions: false, separerExceptions: false });
-  const ordre = r.texte.split("\n").map((t) => t.split(" ")[0]);
-  assert.deepEqual(ordre, ["Nérisone", "Nérisone", "Protopic", "Mupiderm", "Préparation", "Prescription", "Clamoxyl", "Doliprane"]);
+  const ordre = r.texte.split("\n").map((t) => t.split(" ").slice(0, 2).join(" "));
+  assert.deepEqual(ordre, ["- Nérisone", "- Nérisone", "- Protopic", "- Mupiderm", "- Préparation", "Prescription à", "- Clamoxyl", "- Doliprane"]);
   assert.match(r.texte.split("\n")[0], /corps/);
 });
 test("Puissance décroissante à zone égale", () => {
   const sel = ["locapred-corps", "nerisone-corps"].map(L);
   const r = M.construireOrdonnance(sel, null);
-  assert.match(r.texte.split("\n")[0], /^Nérisone/);
+  assert.match(r.texte.split("\n")[0], /^- Nérisone/);
 });
 
 // ---------- Mentions ----------
@@ -133,13 +133,22 @@ test("Mentions désactivées : absentes du texte et alerte bloquante", () => {
 test("Médicament d'exception séparé dans un second bloc", () => {
   const r = M.construireOrdonnance([L("dupixent"), L("nerisone-corps")], null);
   assert.ok(!/Dupixent/.test(r.texte));
-  assert.match(r.texteException, /^Dupixent/);
+  assert.match(r.texteException, /^- Dupixent/);
   assert.ok(r.alertes.some((a) => /médicament d'exception/.test(a.texte)));
 });
 test("Médicament d'exception seul : un seul bloc", () => {
   const r = M.construireOrdonnance([L("dupixent")], null);
-  assert.match(r.texte, /^Dupixent/);
+  assert.match(r.texte, /^- Dupixent/);
   assert.equal(r.texteException, "");
+});
+
+test("Chaque médicament commence par un tiret, les mentions non", () => {
+  const r = M.construireOrdonnance([L("protopic"), L("pmr")], null);
+  const lignes = r.texte.split("\n");
+  for (const t of lignes) {
+    const estMention = t === M.MENTION_PMR || /^Prescription au titre/.test(t);
+    assert.equal(t.startsWith("- "), !estMention, t);
+  }
 });
 
 // ---------- Alertes ----------

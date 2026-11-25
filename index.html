@@ -287,10 +287,13 @@ function texteMention(l) {
   return MENTIONS_OFFICIELLES[l.mention] || l.mention;
 }
 
+const PUCE = "- ";
+
+// Chaque médicament est précédé d'un tiret simple ; les mentions restent sans tiret.
 function rendreBloc(liste, poids, options) {
   const sortie = [];
   liste.forEach((l, i) => {
-    sortie.push(genererTexteLigne(l, calculerDose(l, poids)));
+    sortie.push(PUCE + genererTexteLigne(l, calculerDose(l, poids)));
     const mention = texteMention(l);
     if (options.mentions && mention) sortie.push(mention);
     const suivante = liste[i + 1];
