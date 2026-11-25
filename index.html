@@ -1,0 +1,669 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>Module d'ordonnance</title>
+<link rel="icon" href="data:,">
+<style>
+  :root {
+    --fond: #ffffff;
+    --fond-doux: #f6f7f9;
+    --bord: #dde1e6;
+    --texte: #1f2328;
+    --texte-doux: #5b6470;
+    --accent: #2457c5;
+    --accent-doux: #e8eefb;
+    --vert: #1a7f37;  --vert-doux: #e6f4ea;
+    --rouge: #c62828; --rouge-doux: #fdecec;
+    --orange: #b35c00; --orange-doux: #fff1e0;
+    --bleu: #1f5fa8;  --bleu-doux: #e7f0fb;
+    --violet: #6a3fb5; --violet-doux: #f1ebfb;
+    --gris: #59636e;  --gris-doux: #eef0f2;
+    --rayon: 8px;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; background: var(--fond); color: var(--texte);
+    font: 15px/1.45 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  }
+  main { max-width: 1200px; margin: 0 auto; padding: 12px; }
+  h1 { font-size: 1.25rem; margin: 0 0 2px; }
+  h2 { font-size: 1.05rem; margin: 0 0 10px; }
+  h3 { font-size: .95rem; margin: 14px 0 6px; color: var(--texte-doux); text-transform: uppercase; letter-spacing: .03em; }
+  .sous-titre { color: var(--texte-doux); font-size: .85rem; margin: 0 0 12px; }
+  .grille { display: grid; grid-template-columns: 1fr; gap: 14px; }
+  @media (min-width: 900px) { .grille { grid-template-columns: minmax(0, 1.1fr) minmax(0, 1fr); align-items: start; }
+    .colonne-ordonnance { position: sticky; top: 8px; } }
+  .panneau { border: 1px solid var(--bord); border-radius: var(--rayon); padding: 12px; background: var(--fond); }
+  .bandeau { border-radius: var(--rayon); padding: 8px 12px; margin-bottom: 12px; font-size: .9rem; }
+  .bandeau.attention { background: var(--orange-doux); color: var(--orange); }
+  .bandeau.erreur { background: var(--rouge-doux); color: var(--rouge); }
+  .rangee { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; }
+  label.champ { display: flex; flex-direction: column; gap: 4px; font-size: .85rem; color: var(--texte-doux); }
+  input[type="text"], input[type="number"], input[type="search"], select {
+    font: inherit; padding: 9px 10px; border: 1px solid var(--bord); border-radius: var(--rayon); background: #fff; color: var(--texte);
+    min-height: 42px;
+  }
+  input[type="number"] { width: 120px; }
+  .recherche { position: relative; flex: 1 1 260px; }
+  .recherche input { width: 100%; }
+  .suggestions {
+    position: absolute; z-index: 10; left: 0; right: 0; top: 100%; margin-top: 4px; background: #fff;
+    border: 1px solid var(--bord); border-radius: var(--rayon); box-shadow: 0 6px 18px rgba(0,0,0,.08);
+    max-height: 340px; overflow: auto; display: none;
+  }
+  .suggestions.ouvert { display: block; }
+  .suggestions .groupe { padding: 6px 10px 2px; font-size: .75rem; color: var(--texte-doux); text-transform: uppercase; }
+  .suggestions button { display: block; width: 100%; text-align: left; border: 0; background: none; padding: 8px 10px; font: inherit; cursor: pointer; color: var(--texte); }
+  .suggestions button:hover, .suggestions button.actif { background: var(--accent-doux); }
+  .suggestions .compte { color: var(--texte-doux); font-size: .8rem; }
+  .puces { display: flex; flex-wrap: wrap; gap: 6px; margin: 10px 0 0; }
+  .puce { display: inline-flex; align-items: center; gap: 6px; background: var(--accent-doux); color: var(--accent); border-radius: 999px; padding: 5px 6px 5px 12px; font-size: .9rem; }
+  .puce button { border: 0; background: rgba(36,87,197,.12); color: var(--accent); border-radius: 999px; width: 26px; height: 26px; cursor: pointer; font-size: 1rem; line-height: 1; }
+  .bloc-pathologie { margin-top: 14px; border-top: 1px solid var(--bord); padding-top: 10px; }
+  .bloc-pathologie > .entete { display: flex; justify-content: space-between; align-items: center; gap: 8px; flex-wrap: wrap; }
+  .bloc-pathologie h2 { margin: 0; }
+  .ligne-choix { display: flex; gap: 10px; padding: 8px; border-radius: var(--rayon); border: 1px solid transparent; }
+  .ligne-choix:hover { background: var(--fond-doux); }
+  .ligne-choix.coche { border-color: var(--accent); background: var(--accent-doux); }
+  .ligne-choix input[type="checkbox"] { width: 22px; height: 22px; margin-top: 2px; flex: none; cursor: pointer; }
+  .ligne-choix > div { min-width: 0; flex: 1; }
+  .ligne-choix .nom { font-weight: 600; }
+  .ligne-choix .texte { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; font-size: .82rem; color: var(--texte-doux); margin-top: 2px; word-break: break-word; }
+  .badges { display: flex; flex-wrap: wrap; gap: 4px; margin-top: 5px; }
+  .badge { font-size: .74rem; padding: 2px 7px; border-radius: 999px; white-space: nowrap; }
+  .badge.long { white-space: normal; border-radius: 6px; }
+  .b-vert { background: var(--vert-doux); color: var(--vert); }
+  .b-rouge { background: var(--rouge-doux); color: var(--rouge); }
+  .b-orange { background: var(--orange-doux); color: var(--orange); }
+  .b-bleu { background: var(--bleu-doux); color: var(--bleu); }
+  .b-violet { background: var(--violet-doux); color: var(--violet); }
+  .b-gris { background: var(--gris-doux); color: var(--gris); }
+  button.bouton {
+    font: inherit; border: 1px solid var(--bord); background: #fff; color: var(--texte); border-radius: var(--rayon);
+    padding: 9px 14px; min-height: 42px; cursor: pointer;
+  }
+  button.bouton:hover { background: var(--fond-doux); }
+  button.principal { background: var(--accent); border-color: var(--accent); color: #fff; font-weight: 600; }
+  button.principal:hover { background: #1d48a6; }
+  button.petit { min-height: 34px; padding: 5px 10px; font-size: .85rem; }
+  pre.ordonnance {
+    white-space: pre-wrap; word-break: break-word; background: var(--fond-doux); border: 1px solid var(--bord); border-radius: var(--rayon);
+    padding: 12px; margin: 8px 0; font: .85rem/1.5 ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; min-height: 60px;
+  }
+  .vide { color: var(--texte-doux); font-style: italic; }
+  .options { display: flex; flex-direction: column; gap: 6px; margin: 6px 0 4px; font-size: .9rem; }
+  .options label { display: flex; gap: 8px; align-items: center; cursor: pointer; }
+  .options input { width: 18px; height: 18px; }
+  ul.alertes { list-style: none; padding: 0; margin: 8px 0 0; display: flex; flex-direction: column; gap: 6px; }
+  ul.alertes li { padding: 7px 10px; border-radius: var(--rayon); font-size: .88rem; }
+  li.a-erreur { background: var(--rouge-doux); color: var(--rouge); }
+  li.a-attention { background: var(--orange-doux); color: var(--orange); }
+  li.a-info { background: var(--gris-doux); color: var(--gris); }
+  details.calculs { margin-top: 10px; font-size: .85rem; }
+  details.calculs summary { cursor: pointer; color: var(--accent); }
+  details.calculs li { margin: 4px 0; }
+  .message-copie { font-size: .85rem; color: var(--vert); margin-left: 8px; }
+  .discret { color: var(--texte-doux); font-size: .8rem; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Module d'ordonnance</h1>
+  <p class="sous-titre" id="infos-donnees">Chargement des données…</p>
+  <div id="bandeaux"></div>
+
+  <div class="grille">
+    <section class="colonne-choix">
+      <div class="panneau">
+        <div class="rangee">
+          <label class="champ">Poids (kg)
+            <input type="text" id="poids" inputmode="decimal" autocomplete="off" placeholder="ex. 12,5" style="width:120px">
+          </label>
+          <label class="champ">Tranche d'âge
+            <select id="age">
+              <option value="">Toutes</option>
+              <option>Nouveau-né</option>
+              <option>Nourrisson</option>
+              <option>Enfant</option>
+              <option>Adolescent</option>
+            </select>
+          </label>
+          <label class="champ recherche">Pathologie ou médicament
+            <input type="search" id="recherche" autocomplete="off" placeholder="ex. vitiligo, dermatite atopique, Protopic">
+            <div class="suggestions" id="suggestions" role="listbox"></div>
+          </label>
+        </div>
+        <div class="puces" id="puces"></div>
+        <div id="liste-pathologies"></div>
+        <div id="liste-individuelles"></div>
+      </div>
+    </section>
+
+    <section class="colonne-ordonnance">
+      <div class="panneau">
+        <h2>Ordonnance</h2>
+        <div class="options">
+          <label><input type="checkbox" id="opt-mentions" checked> Insérer les mentions réglementaires sous les lignes concernées</label>
+          <label><input type="checkbox" id="opt-exception" checked> Séparer les médicaments d'exception dans un second bloc</label>
+        </div>
+        <div id="sortie"></div>
+        <div class="rangee" style="margin-top:6px">
+          <button class="bouton" id="effacer">Tout effacer</button>
+        </div>
+        <ul class="alertes" id="alertes"></ul>
+        <details class="calculs" id="bloc-calculs" hidden>
+          <summary>Détail des calculs au poids</summary>
+          <ul id="calculs"></ul>
+        </details>
+      </div>
+    </section>
+  </div>
+</main>
+
+<script>
+// === LOGIQUE DEBUT ===
+// Fonctions pures (sans DOM), testées par tests/run-tests.mjs.
+
+const MENTION_PMR = "Prescription à but thérapeutique en l'absence de spécialités équivalentes disponibles, renouvelable";
+
+// Les options Notion ne contiennent pas d'apostrophe : correspondance avec le texte officiel.
+const MENTIONS_OFFICIELLES = {
+  "Prescription hors autorisation de mise sur le marché": "Prescription hors autorisation de mise sur le marché",
+  "Prescription au titre d un accès compassionnel en dehors du cadre d une autorisation de mise sur le marché":
+    "Prescription au titre d'un accès compassionnel en dehors du cadre d'une autorisation de mise sur le marché",
+  "NR": "NR",
+};
+
+const ORDRE_ZONE = { "Corps et membres": 1, "Cuir chevelu": 2, "Visage et plis": 3, "Sans objet": 4 };
+const ORDRE_PUISSANCE = { "Classe I (très forte)": 1, "Classe II (forte)": 2, "Classe III (modérée)": 3, "Classe IV (faible)": 4 };
+const ORDRE_SITUATION = ["Traitement de base", "Complication ou forme active", "Entretien", "Alternative"];
+const POIDS_MIN = 0.5;
+const POIDS_MAX = 150;
+const SEUIL_ECART = 0.10; // écart signalé entre dose cible et dose arrondie
+const SEUIL_ECART_FORT = 0.25; // écart signalé comme erreur
+
+const EXCEPTION = "Ordonnance de médicament d exception";
+
+function normaliser(s) {
+  return String(s || "").normalize("NFD").replace(/[̀-ͯ]/g, "").toLowerCase().trim();
+}
+
+function numeroFamille(f) {
+  const n = parseInt(f, 10);
+  return isNaN(n) ? 99 : n;
+}
+
+// Ordre de la section 3 des règles : famille, puis zone, puis puissance décroissante, puis nom.
+function comparerLignes(a, b) {
+  return numeroFamille(a.famille) - numeroFamille(b.famille)
+    || (ORDRE_ZONE[a.zone || "Sans objet"] || 4) - (ORDRE_ZONE[b.zone || "Sans objet"] || 4)
+    || (ORDRE_PUISSANCE[a.puissance] || 9) - (ORDRE_PUISSANCE[b.puissance] || 9)
+    || String(a.nom).localeCompare(String(b.nom), "fr");
+}
+
+// Arrondi au pas de mesure le plus proche. En cas d'égalité exacte (milieu entre deux pas),
+// arrondi vers le bas, par prudence.
+function arrondirAuPas(x, pas) {
+  if (!(pas > 0)) pas = 1;
+  const q = x / pas;
+  const bas = Math.floor(q + 1e-9);
+  const n = q - bas > 0.5 + 1e-9 ? bas + 1 : bas;
+  return Number((n * pas).toFixed(6));
+}
+
+function formatNombre(x, decimales) {
+  if (decimales === undefined) decimales = 2;
+  return String(Number(Number(x).toFixed(decimales))).replace(".", ",");
+}
+
+function formatMg(mg) {
+  return formatNombre(mg, mg >= 100 ? 0 : mg >= 10 ? 1 : 2);
+}
+
+function aBesoinDuPoids(l) {
+  return /\{(mL|mg|unités)\}/.test(l.ligne || "");
+}
+
+function lirePoids(valeur) {
+  if (valeur === null || valeur === undefined || valeur === "") return null;
+  const n = Number(String(valeur).replace(",", "."));
+  return isNaN(n) ? NaN : n;
+}
+
+// Calcul d'une dose par prise. Renvoie null si la ligne n'est pas calculée au poids.
+function calculerDose(l, poids) {
+  if (!aBesoinDuPoids(l)) return null;
+  if (poids === null || poids === undefined) return { ok: false, erreur: "poids requis" };
+  if (!(poids >= POIDS_MIN && poids <= POIDS_MAX)) return { ok: false, erreur: "poids hors bornes (0,5 à 150 kg)" };
+  if (!(l.doseMgKg > 0) || !(l.prises > 0)) return { ok: false, erreur: "paramètres de calcul incomplets dans la base" };
+
+  const mgJour = poids * l.doseMgKg;
+  const mgBrut = mgJour / l.prises;
+  let mgCible = mgBrut;
+  let plafonne = false;
+  const maxParPrise = l.doseMax > 0 ? l.doseMax / l.prises : null;
+  if (maxParPrise !== null && mgCible > maxParPrise) { mgCible = maxParPrise; plafonne = true; }
+
+  let unite, par, pas;
+  if (l.concentration > 0) { unite = "mL"; par = l.concentration; pas = l.arrondi > 0 ? l.arrondi : 0.5; }
+  else if (l.dosageUnitaire > 0) { unite = "unités"; par = l.dosageUnitaire; pas = l.arrondi > 0 ? l.arrondi : 1; }
+  else { unite = "mg"; par = 1; pas = l.arrondi > 0 ? l.arrondi : 1; }
+
+  let quantite = arrondirAuPas(mgCible / par, pas);
+  // L'arrondi ne doit pas faire dépasser la dose maximale.
+  if (maxParPrise !== null && quantite * par > maxParPrise * 1.0001) {
+    quantite = Number((quantite - pas).toFixed(6));
+  }
+  let auMinimum = false;
+  if (quantite <= 0) { quantite = pas; auMinimum = true; }
+  const mgFinal = Number((quantite * par).toFixed(6));
+  const ecart = mgCible > 0 ? Math.abs(mgFinal - mgCible) / mgCible : 0;
+  return { ok: true, mgJour, mgBrut, mgCible, plafonne, quantite, unite, pas, mgFinal, ecart, auMinimum };
+}
+
+const NOMS_UNITES = "comprimé|gélule|capsule|sachet|goutte|ampoule|seringue|cuillère|dose";
+
+// Remplace les marqueurs {mL}, {mg}, {unités} et accorde le nom qui suit {unités}.
+function genererTexteLigne(l, calc) {
+  let t = l.ligne || "";
+  if (!calc) return t;
+  if (!calc.ok) return t.replace(/\{(mL|mg|unités)\}/g, "?");
+  const q = formatNombre(calc.quantite);
+  t = t.replace(new RegExp("\\{unités\\}(\\s+)(" + NOMS_UNITES + ")s?\\b", "g"),
+    (m, espace, nom) => q + espace + nom + (calc.quantite >= 2 ? "s" : ""));
+  t = t.replace(/\{unités\}/g, q).replace(/\{mL\}/g, q).replace(/\{mg\}/g, formatMg(calc.mgFinal));
+  return t;
+}
+
+function estException(l) {
+  return (l.conditions || []).includes(EXCEPTION);
+}
+
+function texteMention(l) {
+  if (!l.mention) return null;
+  return MENTIONS_OFFICIELLES[l.mention] || l.mention;
+}
+
+function rendreBloc(liste, poids, options) {
+  const sortie = [];
+  liste.forEach((l, i) => {
+    sortie.push(genererTexteLigne(l, calculerDose(l, poids)));
+    const mention = texteMention(l);
+    if (options.mentions && mention) sortie.push(mention);
+    const suivante = liste[i + 1];
+    if (l.magistrale && !(suivante && suivante.magistrale)) sortie.push(MENTION_PMR);
+  });
+  return sortie.join("\n");
+}
+
+function composants(molecule) {
+  return normaliser(molecule).split(/\s*(?:,|\bet\b|\+)\s*/).filter(Boolean);
+}
+
+function listeNoms(lignes) {
+  return lignes.map((l) => l.nom).join(" ; ");
+}
+
+// Construit l'ordonnance complète, les alertes et le détail des calculs.
+function construireOrdonnance(selection, poids, options) {
+  options = Object.assign({ mentions: true, separerExceptions: true }, options || {});
+  const triees = selection.slice().sort(comparerLignes);
+  let principales = triees;
+  let exceptions = [];
+  if (options.separerExceptions && triees.some(estException) && !triees.every(estException)) {
+    exceptions = triees.filter(estException);
+    principales = triees.filter((l) => !estException(l));
+  }
+
+  const alertes = [];
+  const ajouter = (niveau, texte) => alertes.push({ niveau, texte });
+  const details = [];
+
+  // Poids et calculs
+  const aCalculer = triees.filter(aBesoinDuPoids);
+  if (aCalculer.length) {
+    if (poids === null || poids === undefined) {
+      ajouter("erreur", `Poids requis pour ${aCalculer.length} ligne(s) calculée(s) au poids : ${listeNoms(aCalculer)}. Les doses sont remplacées par "?".`);
+    } else if (!(poids >= POIDS_MIN && poids <= POIDS_MAX)) {
+      ajouter("erreur", "Poids hors des bornes acceptées (0,5 à 150 kg) : aucun calcul effectué.");
+    } else if (poids > 100) {
+      ajouter("attention", "Poids supérieur à 100 kg : vérifier la saisie.");
+    }
+    for (const l of aCalculer) {
+      const c = calculerDose(l, poids);
+      if (!c || !c.ok) {
+        if (c && c.erreur === "paramètres de calcul incomplets dans la base") ajouter("erreur", `${l.nom} : ${c.erreur}.`);
+        continue;
+      }
+      details.push({ ligne: l, calcul: c });
+      if (c.plafonne) ajouter("attention", `${l.nom} : dose plafonnée à la dose maximale (${formatMg(l.doseMax)} mg par jour).`);
+      if (c.auMinimum) ajouter("attention", `${l.nom} : la dose calculée est inférieure au plus petit pas de mesure, valeur minimale retenue.`);
+      if (c.ecart > SEUIL_ECART_FORT) ajouter("erreur", `${l.nom} : l'arrondi s'écarte de ${Math.round(c.ecart * 100)} % de la dose cible (${formatMg(c.mgCible)} mg). Forme ou dosage inadapté à ce poids.`);
+      else if (c.ecart > SEUIL_ECART) ajouter("attention", `${l.nom} : l'arrondi s'écarte de ${Math.round(c.ecart * 100)} % de la dose cible (${formatMg(c.mgCible)} mg).`);
+    }
+  }
+
+  // Doublons de molécule
+  const vues = new Map();
+  for (const l of triees) {
+    for (const m of composants(l.molecule)) {
+      if (!vues.has(m)) vues.set(m, []);
+      vues.get(m).push(l);
+    }
+  }
+  for (const [m, ls] of vues) {
+    if (ls.length > 1) ajouter("attention", `Même molécule (${m}) dans plusieurs lignes : ${listeNoms(ls)}.`);
+  }
+
+  // Cadre de prescription
+  const avec = (cond) => triees.filter((l) => (l.conditions || []).includes(cond));
+  const exc = triees.filter(estException);
+  if (exc.length) {
+    ajouter("attention", `Ordonnance de médicament d'exception (formulaire spécifique) requise pour : ${listeNoms(exc)}.`
+      + (exceptions.length ? " Ces lignes sont placées dans le second bloc." : ""));
+  }
+  const secu = avec("Ordonnance sécurisée");
+  if (secu.length) ajouter("attention", `Ordonnance sécurisée requise pour : ${listeNoms(secu)}.`);
+  const pih = avec("Prescription initiale hospitalière");
+  if (pih.length) ajouter("info", `Prescription initiale hospitalière : ${listeNoms(pih)}.`);
+  const spe = avec("Réservé à certains spécialistes");
+  if (spe.length) ajouter("info", `Prescription réservée à certains spécialistes : ${listeNoms(spe)}.`);
+  const hosp = avec("Délivrance en pharmacie hospitalière");
+  if (hosp.length) ajouter("info", `Délivrance en pharmacie hospitalière : ${listeNoms(hosp)}.`);
+  const surv = avec("Surveillance particulière");
+  if (surv.length) ajouter("info", `Surveillance particulière : ${listeNoms(surv)}.`);
+  const condV = avec("Conditions à vérifier");
+  if (condV.length) ajouter("info", `Conditions de prescription à vérifier : ${listeNoms(condV)}.`);
+
+  const horsAMM = triees.filter((l) => l.statutAMM === "Hors AMM");
+  if (horsAMM.length) ajouter("info", `Hors AMM : ${listeNoms(horsAMM)}.`);
+  const compa = triees.filter((l) => l.statutAMM === "Accès compassionnel");
+  if (compa.length) ajouter("info", `Accès compassionnel : ${listeNoms(compa)}.`);
+  const nr = triees.filter((l) => l.remboursement === "Non remboursé");
+  if (nr.length) ajouter("info", `Non remboursé : ${listeNoms(nr)}.`);
+  const avecMention = triees.filter((l) => l.mention);
+  if (avecMention.length && !options.mentions) {
+    ajouter("erreur", `Mentions réglementaires désactivées alors qu'elles sont obligatoires pour : ${listeNoms(avecMention)}.`);
+  }
+  const aValider = triees.filter((l) => l.statut !== "Validée");
+  if (aValider.length) ajouter("info", `${aValider.length} ligne(s) non encore validée(s) dans la base.`);
+
+  return {
+    texte: rendreBloc(principales, poids, options),
+    texteException: exceptions.length ? rendreBloc(exceptions, poids, options) : "",
+    alertes,
+    details,
+  };
+}
+
+function descriptionCalcul(l, c, poids) {
+  const base = `${formatNombre(poids, 1)} kg × ${formatNombre(l.doseMgKg, 3)} mg/kg ÷ ${formatNombre(l.prises, 0)} prise(s) = ${formatMg(c.mgBrut)} mg par prise`;
+  const plafond = c.plafonne ? `, plafonné à ${formatMg(c.mgCible)} mg (dose max ${formatMg(l.doseMax)} mg/jour)` : "";
+  let conversion;
+  if (c.unite === "mL") conversion = `${formatMg(c.mgCible)} mg ÷ ${formatNombre(l.concentration, 3)} mg/mL, arrondi au pas de ${formatNombre(c.pas)} mL = ${formatNombre(c.quantite)} mL (${formatMg(c.mgFinal)} mg)`;
+  else if (c.unite === "unités") conversion = `${formatMg(c.mgCible)} mg ÷ ${formatNombre(l.dosageUnitaire, 4)} mg par unité, arrondi au pas de ${formatNombre(c.pas)} = ${formatNombre(c.quantite)} unité(s) (${formatMg(c.mgFinal)} mg)`;
+  else conversion = `arrondi au pas de ${formatNombre(c.pas)} mg = ${formatMg(c.mgFinal)} mg`;
+  return `${l.nom} : ${base}${plafond} ; ${conversion}.`;
+}
+
+function filtrerAge(l, age) {
+  if (!age) return true;
+  const ages = l.ages || [];
+  return ages.length === 0 || ages.includes(age) || ages.includes("Tous âges");
+}
+
+function indexPathologies(lignes) {
+  const compte = new Map();
+  for (const l of lignes) for (const p of l.pathologies || []) compte.set(p, (compte.get(p) || 0) + 1);
+  return [...compte.entries()].sort((a, b) => a[0].localeCompare(b[0], "fr"));
+}
+// === LOGIQUE FIN ===
+
+// ---------- Interface ----------
+(function () {
+  if (typeof document === "undefined") return;
+
+  const etat = {
+    lignes: [],
+    parId: new Map(),
+    pathologies: [],
+    pathologiesChoisies: [],
+    individuelles: [],
+    selection: new Set(),
+  };
+
+  const $ = (id) => document.getElementById(id);
+  const el = (tag, attrs, enfants) => {
+    const n = document.createElement(tag);
+    if (attrs) for (const [k, v] of Object.entries(attrs)) {
+      if (k === "class") n.className = v;
+      else if (k === "text") n.textContent = v;
+      else if (k.startsWith("on")) n.addEventListener(k.slice(2), v);
+      else n.setAttribute(k, v);
+    }
+    for (const e of [].concat(enfants || [])) if (e) n.append(e);
+    return n;
+  };
+
+  function poidsCourant() {
+    const p = lirePoids($("poids").value);
+    return Number.isNaN(p) ? -1 : p;
+  }
+
+  function badgesLigne(l) {
+    const b = [];
+    const couleurAMM = { "AMM": "b-vert", "AMM selon l indication": "b-orange", "Hors AMM": "b-rouge", "Accès compassionnel": "b-orange",
+      "Préparation magistrale": "b-bleu", "Sans AMM (dispositif ou produit)": "b-gris", "À vérifier": "b-gris" };
+    if (l.statutAMM) b.push(el("span", { class: "badge " + (couleurAMM[l.statutAMM] || "b-gris"),
+      text: l.statutAMM === "AMM selon l indication" ? "AMM selon l'indication" : (l.statutAMM === "À vérifier" ? "AMM à vérifier" : l.statutAMM) }));
+    const couleurRemb = { "Remboursé": "b-vert", "Remboursement sous conditions": "b-orange", "Non remboursé": "b-rouge", "À vérifier": "b-gris" };
+    if (l.remboursement) b.push(el("span", { class: "badge " + (couleurRemb[l.remboursement] || "b-gris"),
+      text: l.remboursement === "À vérifier" ? "Remboursement à vérifier" : l.remboursement }));
+    for (const c of l.conditions || []) b.push(el("span", { class: "badge b-violet", text: c.replace(" d exception", " d'exception") }));
+    if (l.magistrale) b.push(el("span", { class: "badge b-bleu", text: "PMR" }));
+    if (aBesoinDuPoids(l)) b.push(el("span", { class: "badge b-gris", text: "Calcul au poids" }));
+    if (l.statut !== "Validée") b.push(el("span", { class: "badge b-gris", text: "À valider" }));
+    if (l.aVerifier) b.push(el("span", { class: "badge long b-orange", text: "À vérifier : " + l.aVerifier }));
+    return el("div", { class: "badges" }, b);
+  }
+
+  function ligneChoix(l) {
+    const coche = etat.selection.has(l.id);
+    const poids = poidsCourant();
+    const texte = genererTexteLigne(l, calculerDose(l, poids === -1 ? NaN : poids));
+    const id = "c-" + l.id + "-" + Math.random().toString(36).slice(2, 7);
+    const case_ = el("input", { type: "checkbox", id });
+    case_.checked = coche;
+    case_.addEventListener("change", () => {
+      if (case_.checked) etat.selection.add(l.id); else etat.selection.delete(l.id);
+      rendre();
+    });
+    return el("label", { class: "ligne-choix" + (coche ? " coche" : ""), for: id }, [
+      case_,
+      el("div", null, [
+        el("div", { class: "nom", text: l.nom }),
+        el("div", { class: "texte", text: texte }),
+        badgesLigne(l),
+      ]),
+    ]);
+  }
+
+  function rendreListes() {
+    const age = $("age").value;
+    const conteneur = $("liste-pathologies");
+    conteneur.replaceChildren();
+    for (const p of etat.pathologiesChoisies) {
+      const lignes = etat.lignes.filter((l) => (l.pathologies || []).includes(p) && filtrerAge(l, age));
+      const bloc = el("div", { class: "bloc-pathologie" });
+      const base = lignes.filter((l) => l.situation === "Traitement de base");
+      bloc.append(el("div", { class: "entete" }, [
+        el("h2", { text: p }),
+        base.length ? el("button", { class: "bouton petit", text: "Cocher le traitement de base", onclick: () => {
+          base.forEach((l) => etat.selection.add(l.id)); rendre();
+        } }) : null,
+      ]));
+      if (!lignes.length) bloc.append(el("p", { class: "vide", text: "Aucune ligne pour cette tranche d'âge." }));
+      const situations = ORDRE_SITUATION.concat([null]);
+      for (const s of situations) {
+        const groupe = lignes.filter((l) => s === null ? !ORDRE_SITUATION.includes(l.situation) : l.situation === s).sort(comparerLignes);
+        if (!groupe.length) continue;
+        bloc.append(el("h3", { text: s || "Autres" }));
+        groupe.forEach((l) => bloc.append(ligneChoix(l)));
+      }
+      conteneur.append(bloc);
+    }
+    const indiv = $("liste-individuelles");
+    indiv.replaceChildren();
+    const lignesIndiv = etat.individuelles.map((id) => etat.parId.get(id)).filter(Boolean);
+    if (lignesIndiv.length) {
+      const bloc = el("div", { class: "bloc-pathologie" }, [el("h2", { text: "Ajouts individuels" })]);
+      lignesIndiv.sort(comparerLignes).forEach((l) => bloc.append(ligneChoix(l)));
+      indiv.append(bloc);
+    }
+  }
+
+  function rendrePuces() {
+    const puces = $("puces");
+    puces.replaceChildren();
+    for (const p of etat.pathologiesChoisies) {
+      puces.append(el("span", { class: "puce" }, [p, el("button", { title: "Retirer " + p, "aria-label": "Retirer " + p, text: "×", onclick: () => {
+        etat.pathologiesChoisies = etat.pathologiesChoisies.filter((x) => x !== p);
+        rendre();
+      } })]));
+    }
+  }
+
+  function blocTexte(titre, texte) {
+    const pre = el("pre", { class: "ordonnance" });
+    if (texte) pre.textContent = texte; else pre.append(el("span", { class: "vide", text: "Aucune ligne sélectionnée." }));
+    const message = el("span", { class: "message-copie" });
+    const bouton = el("button", { class: "bouton principal", text: "Copier", onclick: () => copier(texte, pre, message) });
+    if (!texte) bouton.disabled = true;
+    return el("div", null, [titre ? el("h3", { text: titre }) : null, pre, el("div", { class: "rangee" }, [bouton, message])]);
+  }
+
+  async function copier(texte, pre, message) {
+    let ok = false;
+    try { await navigator.clipboard.writeText(texte); ok = true; } catch (e) {
+      const zone = document.createElement("textarea");
+      zone.value = texte; zone.style.position = "fixed"; zone.style.opacity = "0";
+      document.body.appendChild(zone); zone.select();
+      try { ok = document.execCommand("copy"); } catch (e2) { ok = false; }
+      zone.remove();
+    }
+    if (ok) { message.textContent = "Copié."; setTimeout(() => { message.textContent = ""; }, 2500); }
+    else {
+      const r = document.createRange(); r.selectNodeContents(pre);
+      const s = window.getSelection(); s.removeAllRanges(); s.addRange(r);
+      message.textContent = "Copie automatique bloquée : texte sélectionné, utiliser Ctrl+C (ou Cmd+C).";
+    }
+  }
+
+  function rendreOrdonnance() {
+    const selection = [...etat.selection].map((id) => etat.parId.get(id)).filter(Boolean);
+    const brut = poidsCourant();
+    const poids = brut === -1 ? NaN : brut;
+    const res = construireOrdonnance(selection, poids, {
+      mentions: $("opt-mentions").checked,
+      separerExceptions: $("opt-exception").checked,
+    });
+    const sortie = $("sortie");
+    sortie.replaceChildren(blocTexte(res.texteException ? "Ordonnance" : null, res.texte));
+    if (res.texteException) sortie.append(blocTexte("Ordonnance de médicament d'exception", res.texteException));
+    const alertes = $("alertes");
+    alertes.replaceChildren(...res.alertes.map((a) => el("li", { class: "a-" + a.niveau, text: a.texte })));
+    const calculs = $("calculs");
+    calculs.replaceChildren(...res.details.map((d) => el("li", { text: descriptionCalcul(d.ligne, d.calcul, poids) })));
+    $("bloc-calculs").hidden = res.details.length === 0;
+  }
+
+  function rendre() {
+    rendrePuces();
+    rendreListes();
+    rendreOrdonnance();
+  }
+
+  // Recherche et suggestions
+  let suggestionActive = -1;
+  function boutonsSuggestion() { return [...$("suggestions").querySelectorAll("button")]; }
+  function fermerSuggestions() { $("suggestions").classList.remove("ouvert"); suggestionActive = -1; }
+
+  function majSuggestions() {
+    const q = normaliser($("recherche").value);
+    const boite = $("suggestions");
+    boite.replaceChildren();
+    if (!q) { fermerSuggestions(); return; }
+    const paths = etat.pathologies.filter(([p]) => normaliser(p).includes(q) && !etat.pathologiesChoisies.includes(p)).slice(0, 12);
+    const lignes = etat.lignes.filter((l) => normaliser(l.nom).includes(q) || normaliser(l.molecule).includes(q)).sort(comparerLignes).slice(0, 15);
+    if (paths.length) {
+      boite.append(el("div", { class: "groupe", text: "Pathologies" }));
+      for (const [p, n] of paths) boite.append(el("button", { type: "button", onclick: () => choisirPathologie(p) },
+        [p + " ", el("span", { class: "compte", text: "(" + n + " lignes)" })]));
+    }
+    if (lignes.length) {
+      boite.append(el("div", { class: "groupe", text: "Médicaments" }));
+      for (const l of lignes) boite.append(el("button", { type: "button", onclick: () => choisirLigne(l) }, [l.nom]));
+    }
+    if (!paths.length && !lignes.length) boite.append(el("div", { class: "groupe", text: "Aucun résultat" }));
+    boite.classList.add("ouvert");
+    suggestionActive = -1;
+  }
+
+  function choisirPathologie(p) {
+    if (!etat.pathologiesChoisies.includes(p)) etat.pathologiesChoisies.push(p);
+    $("recherche").value = ""; fermerSuggestions(); rendre(); $("recherche").focus();
+  }
+  function choisirLigne(l) {
+    if (!etat.individuelles.includes(l.id)) etat.individuelles.push(l.id);
+    etat.selection.add(l.id);
+    $("recherche").value = ""; fermerSuggestions(); rendre(); $("recherche").focus();
+  }
+
+  $("recherche").addEventListener("input", majSuggestions);
+  $("recherche").addEventListener("keydown", (e) => {
+    const boutons = boutonsSuggestion();
+    if (!boutons.length) return;
+    if (e.key === "ArrowDown" || e.key === "ArrowUp") {
+      e.preventDefault();
+      suggestionActive = (suggestionActive + (e.key === "ArrowDown" ? 1 : -1) + boutons.length) % boutons.length;
+      boutons.forEach((b, i) => b.classList.toggle("actif", i === suggestionActive));
+      boutons[suggestionActive].scrollIntoView({ block: "nearest" });
+    } else if (e.key === "Enter") {
+      e.preventDefault();
+      (boutons[suggestionActive] || boutons[0]).click();
+    } else if (e.key === "Escape") fermerSuggestions();
+  });
+  document.addEventListener("click", (e) => { if (!e.target.closest(".recherche")) fermerSuggestions(); });
+  $("poids").addEventListener("input", rendre);
+  $("age").addEventListener("change", rendre);
+  $("opt-mentions").addEventListener("change", rendreOrdonnance);
+  $("opt-exception").addEventListener("change", rendreOrdonnance);
+  $("effacer").addEventListener("click", () => {
+    etat.selection.clear(); etat.pathologiesChoisies = []; etat.individuelles = [];
+    rendre();
+  });
+
+  function bandeau(niveau, texte) { $("bandeaux").append(el("div", { class: "bandeau " + niveau, text: texte })); }
+
+  fetch("data/medicaments.json", { cache: "no-cache" })
+    .then((r) => { if (!r.ok) throw new Error("HTTP " + r.status); return r.json(); })
+    .then((json) => {
+      etat.lignes = (json.lignes || []).filter((l) => l && l.id && l.ligne);
+      etat.parId = new Map(etat.lignes.map((l) => [l.id, l]));
+      etat.pathologies = indexPathologies(etat.lignes);
+      const date = json.genere ? new Date(json.genere).toLocaleString("fr-FR", { dateStyle: "long", timeStyle: "short" }) : "date inconnue";
+      $("infos-donnees").textContent = `${etat.lignes.length} lignes, ${etat.pathologies.length} pathologies. Données du ${date}. Aide à la prescription : le prescripteur reste décisionnaire.`;
+      if (json.echantillon) bandeau("attention", "Données d'exemple : la synchronisation avec la base Notion n'a pas encore été faite (voir le README du dépôt).");
+      rendre();
+    })
+    .catch((e) => {
+      $("infos-donnees").textContent = "";
+      bandeau("erreur", "Impossible de charger data/medicaments.json (" + e.message + "). En local, ouvrir le module via un serveur (voir le README), pas en double-cliquant sur le fichier.");
+    });
+})();
+</script>
+</body>
+</html>
