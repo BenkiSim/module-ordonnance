@@ -158,7 +158,7 @@ test("Filtre d'âge", () => {
 });
 test("Le texte copié ne contient ni tiret long ni marqueur résiduel", () => {
   const r = M.construireOrdonnance(fixture, 15);
-  assert.ok(!/—/.test(r.texte + r.texteException), "tiret long trouvé");
+  assert.ok(!/\u2014/.test(r.texte + r.texteException), "tiret long trouvé");
   assert.ok(!/\{(mL|mg|unités)\}/.test(r.texte + r.texteException), "marqueur non remplacé");
 });
 
