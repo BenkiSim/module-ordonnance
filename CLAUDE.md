@@ -24,7 +24,9 @@ Dans `index.html`, toute la logique métier (calculs, ordre, mentions, alertes) 
 ## Données
 
 - Source unique des lignes : la base Notion "Médicaments" (data source `42319207-651b-81d8-bb4a-000b186ddb80`). Pour modifier une ligne (posologie, tag, statut AMM), modifier Notion, puis lancer la synchronisation (onglet Actions, "Synchroniser et publier", "Run workflow").
-- Une entrée par ligne d'ordonnance. Clés du JSON : id, nom, ligne, molecule, pathologies, famille, zone, puissance, situation, magistrale, ages, statut, aVerifier, doseMgKg, prises, concentration, dosageUnitaire, doseMax, arrondi, statutAMM, remboursement, conditions, mention. Toute nouvelle propriété Notion doit être ajoutée dans `PROPRIETES` (script d'export) puis utilisée dans le module.
+- Une entrée par ligne d'ordonnance. Clés du JSON : id, nom, ligne, molecule, pathologies, famille, zone, puissance, situation, magistrale, ages, statut, aVerifier, doseMgKg, prises, concentration, dosageUnitaire, doseMax, arrondi, statutAMM, remboursement, conditions, mention, ageAMM, indicationsAMM. Toute nouvelle propriété Notion doit être ajoutée dans `PROPRIETES` (script d'export) puis utilisée dans le module.
+- "Âge AMM" (texte court, ex. "dès 6 mois") s'affiche en vignette. "Indications AMM" liste les pathologies couvertes par l'AMM : vide, le Statut AMM vaut pour toutes les pathologies taguées ; renseignée, une ligne cochée dans une pathologie absente de la liste est traitée comme hors AMM (vignette, alerte et mention hors AMM ajoutée sous la ligne). "AMM selon l indication" sans indications renseignées : alerte "à vérifier".
+- Conseils : lignes de la famille "8. Conseils", texte court, sans statut AMM. Ils sont regroupés en fin d'ordonnance sous le titre "Conseils :", jamais dans le bloc des médicaments d'exception.
 - Les lignes dont le texte contient des crochets `[...]` (modèle non rempli) sont ignorées à l'export.
 
 ## Règles de calcul au poids
@@ -40,18 +42,24 @@ Dans `index.html`, toute la logique métier (calculs, ordre, mentions, alertes) 
 
 ## Format et ordre de l'ordonnance
 
-- Une ligne par médicament, texte repris tel quel de la base (format des règles du projet : `Nom commercial (molécule) galénique : posologie, X fois par jour pendant Y jours`).
-- Ordre : famille 1 à 7 (dermocorticoïdes, autres topiques anti-inflammatoires ou immunomodulateurs, topiques anti-infectieux, autres topiques spécifiques, émollients, systémiques, symptomatiques), puis zone (corps et membres, cuir chevelu, visage et plis, sans objet), puis puissance décroissante, puis nom.
+- Une ligne par médicament, précédée d'un tiret simple ("- "), texte repris tel quel de la base (format des règles du projet : `Nom commercial (molécule) galénique : posologie, X fois par jour pendant Y jours`).
+- Ordre : famille 1 à 8 (dermocorticoïdes, autres topiques anti-inflammatoires ou immunomodulateurs, topiques anti-infectieux, autres topiques spécifiques, émollients, systémiques, symptomatiques, conseils), puis zone (corps et membres, cuir chevelu, visage et plis, sans objet), puis puissance décroissante, puis nom.
 - Préparation magistrale : la mention "Prescription à but thérapeutique en l'absence de spécialités équivalentes disponibles, renouvelable" est placée sous la dernière préparation d'un groupe consécutif.
 - Mentions réglementaires (insérées par défaut sous la ligne, désactivables avec alerte) : les options Notion n'ont pas d'apostrophe, la table `MENTIONS_OFFICIELLES` donne le texte officiel. Hors AMM : "Prescription hors autorisation de mise sur le marché". Accès compassionnel : "Prescription au titre d'un accès compassionnel en dehors du cadre d'une autorisation de mise sur le marché". Indication non remboursable : "NR".
 - Médicaments d'exception : placés dans un second bloc à copier (formulaire spécifique), sauf si toute la sélection en relève.
-- Statut AMM, remboursement et conditions de prescription sont affichés en badges et en alertes, hors du texte copié.
+- Statut AMM, remboursement et conditions de prescription sont affichés en badges et en alertes, hors du texte copié. Le statut AMM affiché dépend de la pathologie dans laquelle la ligne est cochée.
+- Le texte de l'ordonnance est modifiable à la main avant la copie. Une modification est signalée (doses et mentions non contrôlées) et peut être annulée ("Rétablir le texte généré") ; elle n'est pas écrasée par un changement de sélection.
+- Affichage des lignes : compact par défaut (nom seul, détail dans une fenêtre au survol ou au focus), bouton pour revenir à l'affichage détaillé.
 
 ## Contraintes de publication
 
 - Le dépôt et la page sont publics : aucune donnée patient, aucun jeton, aucune clé API, aucune information personnelle du clinicien dans le dépôt.
 - Le jeton Notion n'existe que dans le secret GitHub `NOTION_TOKEN`. Ne jamais le demander, l'afficher ni l'écrire dans un fichier.
 - Compatible iframe Notion : largeur fluide, fond neutre, boutons d'au moins 42 px de haut, pas de boîte de dialogue `alert()`. La copie utilise l'API presse-papiers avec repli `execCommand`, puis sélection du texte.
+
+## Branche
+
+Commiter et pousser directement sur `main`, sans branche ni pull request (demande explicite du propriétaire du dépôt).
 
 ## Avant chaque commit
 

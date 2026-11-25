@@ -15,7 +15,7 @@ assert.ok(debut > 0 && fin > debut, "Marqueurs LOGIQUE DEBUT / FIN introuvables 
 const code = html.slice(debut, fin);
 const ctx = {};
 vm.createContext(ctx);
-vm.runInContext(code + "\n;globalThis.__ = { MENTION_PMR, calculerDose, genererTexteLigne, construireOrdonnance, comparerLignes, formatMg, lirePoids, descriptionCalcul, filtrerAge };", ctx);
+vm.runInContext(code + "\n;globalThis.__ = { MENTION_PMR, calculerDose, genererTexteLigne, construireOrdonnance, comparerLignes, formatMg, lirePoids, descriptionCalcul, filtrerAge, ammDansContexte, TITRE_CONSEILS, MENTION_HORS_AMM };", ctx);
 const M = ctx.__;
 
 const fixture = JSON.parse(await readFile(new URL("tests/fixture.json", racine), "utf8")).lignes;
@@ -151,6 +151,54 @@ test("Chaque médicament commence par un tiret, les mentions non", () => {
   }
 });
 
+// ---------- Conseils ----------
+const dans = (id, p) => Object.assign({}, L(id), { contexte: p });
+test("Conseils : regroupés en fin d'ordonnance sous un titre, avec tiret", () => {
+  const r = M.construireOrdonnance([L("conseil-toilette"), L("nerisone-corps"), L("conseil-soleil")], null);
+  const blocs = r.texte.split("\n\n");
+  assert.equal(blocs.length, 2);
+  assert.match(blocs[0], /^- Nérisone/);
+  assert.equal(blocs[1].split("\n")[0], M.TITRE_CONSEILS);
+  assert.ok(blocs[1].split("\n").slice(1).every((t) => t.startsWith("- ")));
+});
+test("Conseils seuls : pas de bloc médicament vide", () => {
+  const r = M.construireOrdonnance([L("conseil-toilette")], null);
+  assert.equal(r.texte, M.TITRE_CONSEILS + "\n- Toilette courte à l'eau tiède");
+});
+test("Conseils : jamais dans le bloc des médicaments d'exception", () => {
+  const r = M.construireOrdonnance([L("dupixent"), L("nerisone-corps"), L("conseil-toilette")], null);
+  assert.ok(!/Toilette/.test(r.texteException));
+  assert.match(r.texte, /Toilette/);
+});
+
+// ---------- AMM selon l'indication ----------
+test("AMM dans l'indication choisie : pas de mention", () => {
+  const r = M.construireOrdonnance([dans("gel-indication", "Acné")], null);
+  assert.equal(r.texte.split("\n").length, 1);
+  assert.equal(M.ammDansContexte(dans("gel-indication", "Acné")).libelle, "AMM dans cette indication");
+});
+test("Hors de l'indication d'AMM : mention hors AMM ajoutée et alerte", () => {
+  const r = M.construireOrdonnance([dans("gel-indication", "Rosacée")], null);
+  assert.equal(r.texte.split("\n")[1], M.MENTION_HORS_AMM);
+  assert.ok(r.alertes.some((a) => /Hors AMM dans l'indication choisie : Gel fictif \(test d'indication\) \(Rosacée\)/.test(a.texte)));
+});
+test("Hors de l'indication d'AMM, mentions désactivées : alerte bloquante", () => {
+  const r = M.construireOrdonnance([dans("gel-indication", "Rosacée")], null, { mentions: false });
+  assert.ok(r.alertes.some((a) => a.niveau === "erreur" && /Mentions réglementaires désactivées/.test(a.texte)));
+});
+test("AMM selon l'indication sans indications renseignées : à vérifier", () => {
+  const a = M.ammDansContexte(dans("creme-indication", "Rosacée"));
+  assert.equal(a.aVerifier, true);
+  assert.equal(a.libelle, "AMM à vérifier pour Rosacée");
+  const r = M.construireOrdonnance([dans("creme-indication", "Rosacée")], null);
+  assert.ok(r.alertes.some((a) => /AMM selon l'indication, à vérifier/.test(a.texte)));
+  assert.equal(r.texte.split("\n").length, 1);
+});
+test("Sans pathologie choisie (ajout individuel) : pas de mention ajoutée", () => {
+  const r = M.construireOrdonnance([L("gel-indication")], null);
+  assert.equal(r.texte.split("\n").length, 1);
+});
+
 // ---------- Alertes ----------
 test("Doublon de molécule signalé (amoxicilline)", () => {
   const r = M.construireOrdonnance([L("clamoxyl"), L("augmentin")], 15);
@@ -198,6 +246,16 @@ test("Export : conversion d'une page Notion", () => {
   assert.equal(l.mention, null);
   assert.deepEqual(l.ages, []);
   assert.equal(l.magistrale, false);
+  assert.deepEqual(l.indicationsAMM, []);
+  assert.equal(l.ageAMM, null);
+});
+test("Export : âge et indications d'AMM", () => {
+  const page = structuredClone(pageNotion);
+  page.properties["Âge AMM"] = { type: "rich_text", rich_text: [{ plain_text: "dès 6 mois" }] };
+  page.properties["Indications AMM"] = { type: "multi_select", multi_select: [{ name: "Gale" }] };
+  const l = convertirPage(page);
+  assert.equal(l.ageAMM, "dès 6 mois");
+  assert.deepEqual(l.indicationsAMM, ["Gale"]);
 });
 test("Export : modèle non rempli ignoré", () => {
   const modele = structuredClone(pageNotion);

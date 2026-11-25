@@ -28,7 +28,7 @@ Dans la page Wikipediatrie, taper `/intégrer` (ou `/embed`), coller l'adresse c
 
 | Changement | Où | Mise en ligne |
 |---|---|---|
-| Ligne de prescription (ajout, posologie, tag, statut AMM, PMR) | Base Notion "Médicaments" | Chaque nuit, ou immédiatement avec "Run workflow" |
+| Ligne de prescription ou conseil (ajout, posologie, tag, statut AMM, âge et indications d'AMM, PMR) | Base Notion "Médicaments" | Chaque nuit, ou immédiatement avec "Run workflow" |
 | Fonctionnement ou apparence du module | Demande à Claude Code sur ce dépôt | 1 à 2 minutes après le push |
 
 Le fichier `data/medicaments.json` est régénéré à chaque synchronisation : ne pas le modifier à la main.

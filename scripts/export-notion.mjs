@@ -38,6 +38,8 @@ export const PROPRIETES = {
   remboursement: "Remboursement",
   conditions: "Conditions de prescription",
   mention: "Mention obligatoire",
+  ageAMM: "Âge AMM",
+  indicationsAMM: "Indications AMM",
 };
 
 function valeur(prop) {
@@ -68,7 +70,7 @@ export function convertirPage(page) {
   for (const [cle, nomNotion] of Object.entries(PROPRIETES)) {
     ligne[cle] = valeur(p[nomNotion]);
   }
-  for (const cle of ["pathologies", "ages", "conditions"]) {
+  for (const cle of ["pathologies", "ages", "conditions", "indicationsAMM"]) {
     if (!Array.isArray(ligne[cle])) ligne[cle] = [];
   }
   ligne.magistrale = ligne.magistrale === true;

@@ -107,6 +107,26 @@
   details.calculs li { margin: 4px 0; }
   .message-copie { font-size: .85rem; color: var(--vert); margin-left: 8px; }
   .discret { color: var(--texte-doux); font-size: .8rem; }
+  .entete-choix { display: flex; justify-content: flex-end; margin-top: 10px; }
+  /* Affichage compact (test) : nom seul, détail dans une fenêtre au survol ou au focus */
+  .compact .ligne-choix { position: relative; padding: 6px 8px; align-items: center; }
+  .compact .ligne-choix .ligne-nom { display: flex; flex-wrap: wrap; align-items: center; gap: 6px; }
+  .compact .ligne-choix .ligne-nom .badges { margin-top: 0; }
+  .compact .ligne-choix .bulle {
+    display: none; position: absolute; z-index: 20; left: 38px; right: 0; top: calc(100% - 2px);
+    background: #fff; border: 1px solid var(--bord); border-radius: var(--rayon); box-shadow: 0 8px 22px rgba(0,0,0,.14);
+    padding: 10px 12px; pointer-events: none;
+  }
+  .compact .ligne-choix:hover .bulle, .compact .ligne-choix:focus-within .bulle { display: block; }
+  .bulle .texte { margin-top: 0; }
+  textarea.ordonnance {
+    display: block; width: 100%; resize: vertical; white-space: pre-wrap; background: var(--fond-doux); border: 1px solid var(--bord);
+    border-radius: var(--rayon); padding: 12px; margin: 8px 0; color: var(--texte);
+    font: .85rem/1.5 ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; min-height: 60px;
+  }
+  textarea.ordonnance:focus { outline: 2px solid var(--accent-doux); border-color: var(--accent); background: #fff; }
+  textarea.ordonnance.modifiee { border-color: var(--orange); background: #fffaf3; }
+  .note-modif { font-size: .85rem; color: var(--orange); margin: 0 0 6px; display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
 </style>
 </head>
 <body>
@@ -137,6 +157,7 @@
           </label>
         </div>
         <div class="puces" id="puces"></div>
+        <div class="entete-choix"><button type="button" class="bouton petit" id="bascule-affichage"></button></div>
         <div id="liste-pathologies"></div>
         <div id="liste-individuelles"></div>
       </div>
@@ -149,6 +170,7 @@
           <label><input type="checkbox" id="opt-mentions" checked> Insérer les mentions réglementaires sous les lignes concernées</label>
           <label><input type="checkbox" id="opt-exception" checked> Séparer les médicaments d'exception dans un second bloc</label>
         </div>
+        <p class="discret" style="margin:0">Le texte de l'ordonnance peut être modifié directement avant la copie.</p>
         <div id="sortie"></div>
         <div class="rangee" style="margin-top:6px">
           <button class="bouton" id="effacer">Tout effacer</button>
@@ -186,6 +208,9 @@ const SEUIL_ECART = 0.10; // écart signalé entre dose cible et dose arrondie
 const SEUIL_ECART_FORT = 0.25; // écart signalé comme erreur
 
 const EXCEPTION = "Ordonnance de médicament d exception";
+const MENTION_HORS_AMM = "Prescription hors autorisation de mise sur le marché";
+const FAMILLE_CONSEILS = 8;
+const TITRE_CONSEILS = "Conseils :";
 
 function normaliser(s) {
   return String(s || "").normalize("NFD").replace(/[̀-ͯ]/g, "").toLowerCase().trim();
@@ -282,9 +307,36 @@ function estException(l) {
   return (l.conditions || []).includes(EXCEPTION);
 }
 
+function estConseil(l) {
+  return numeroFamille(l.famille) === FAMILLE_CONSEILS;
+}
+
+// Statut AMM dans la pathologie pour laquelle la ligne a été cochée (l.contexte).
+// "Indications AMM" vide : le statut de la base vaut pour toutes les pathologies taguées.
+// Renvoie { statut, libelle, horsIndication, aVerifier } ou null (conseil, statut absent).
+function ammDansContexte(l) {
+  if (estConseil(l) || !l.statutAMM) return null;
+  const p = l.contexte || null;
+  const indications = l.indicationsAMM || [];
+  const avecAMM = l.statutAMM === "AMM" || l.statutAMM === "AMM selon l indication";
+  if (p && avecAMM && indications.length) {
+    return indications.includes(p)
+      ? { statut: "AMM", libelle: "AMM dans cette indication", horsIndication: false, aVerifier: false }
+      : { statut: "Hors AMM", libelle: "Hors AMM dans cette indication", horsIndication: true, aVerifier: false };
+  }
+  if (l.statutAMM === "AMM selon l indication") {
+    return { statut: l.statutAMM, libelle: p ? "AMM à vérifier pour " + p : "AMM selon l'indication", horsIndication: false, aVerifier: true };
+  }
+  const libelles = { "À vérifier": "AMM à vérifier" };
+  return { statut: l.statutAMM, libelle: libelles[l.statutAMM] || l.statutAMM, horsIndication: false, aVerifier: l.statutAMM === "À vérifier" };
+}
+
+// Mention placée sous la ligne : celle de la base, sinon "hors AMM" si la pathologie choisie
+// n'est pas couverte par l'AMM.
 function texteMention(l) {
-  if (!l.mention) return null;
-  return MENTIONS_OFFICIELLES[l.mention] || l.mention;
+  if (l.mention) return MENTIONS_OFFICIELLES[l.mention] || l.mention;
+  const amm = ammDansContexte(l);
+  return amm && amm.horsIndication ? MENTION_HORS_AMM : null;
 }
 
 const PUCE = "- ";
@@ -302,6 +354,11 @@ function rendreBloc(liste, poids, options) {
   return sortie.join("\n");
 }
 
+function rendreConseils(conseils) {
+  if (!conseils.length) return "";
+  return [TITRE_CONSEILS].concat(conseils.map((l) => PUCE + (l.ligne || ""))).join("\n");
+}
+
 function composants(molecule) {
   return normaliser(molecule).split(/\s*(?:,|\bet\b|\+)\s*/).filter(Boolean);
 }
@@ -314,11 +371,13 @@ function listeNoms(lignes) {
 function construireOrdonnance(selection, poids, options) {
   options = Object.assign({ mentions: true, separerExceptions: true }, options || {});
   const triees = selection.slice().sort(comparerLignes);
-  let principales = triees;
+  const conseils = triees.filter(estConseil);
+  const medicaments = triees.filter((l) => !estConseil(l));
+  let principales = medicaments;
   let exceptions = [];
-  if (options.separerExceptions && triees.some(estException) && !triees.every(estException)) {
-    exceptions = triees.filter(estException);
-    principales = triees.filter((l) => !estException(l));
+  if (options.separerExceptions && medicaments.some(estException) && !medicaments.every(estException)) {
+    exceptions = medicaments.filter(estException);
+    principales = medicaments.filter((l) => !estException(l));
   }
 
   const alertes = [];
@@ -383,19 +442,30 @@ function construireOrdonnance(selection, poids, options) {
 
   const horsAMM = triees.filter((l) => l.statutAMM === "Hors AMM");
   if (horsAMM.length) ajouter("info", `Hors AMM : ${listeNoms(horsAMM)}.`);
+  const horsIndication = triees.filter((l) => { const a = ammDansContexte(l); return a && a.horsIndication; });
+  if (horsIndication.length) {
+    ajouter("attention", "Hors AMM dans l'indication choisie : "
+      + horsIndication.map((l) => `${l.nom} (${l.contexte})`).join(" ; ") + ". Mention hors AMM ajoutée sous la ligne.");
+  }
+  const ammAVerifier = triees.filter((l) => l.statutAMM === "AMM selon l indication" && ammDansContexte(l).aVerifier);
+  if (ammAVerifier.length) {
+    ajouter("attention", `AMM selon l'indication, à vérifier pour la pathologie choisie (renseigner "Indications AMM" dans la base) : ${listeNoms(ammAVerifier)}.`);
+  }
   const compa = triees.filter((l) => l.statutAMM === "Accès compassionnel");
   if (compa.length) ajouter("info", `Accès compassionnel : ${listeNoms(compa)}.`);
   const nr = triees.filter((l) => l.remboursement === "Non remboursé");
   if (nr.length) ajouter("info", `Non remboursé : ${listeNoms(nr)}.`);
-  const avecMention = triees.filter((l) => l.mention);
+  const avecMention = triees.filter((l) => texteMention(l));
   if (avecMention.length && !options.mentions) {
     ajouter("erreur", `Mentions réglementaires désactivées alors qu'elles sont obligatoires pour : ${listeNoms(avecMention)}.`);
   }
   const aValider = triees.filter((l) => l.statut !== "Validée");
   if (aValider.length) ajouter("info", `${aValider.length} ligne(s) non encore validée(s) dans la base.`);
 
+  const blocConseils = rendreConseils(conseils);
+  const texteMedicaments = rendreBloc(principales, poids, options);
   return {
-    texte: rendreBloc(principales, poids, options),
+    texte: [texteMedicaments, blocConseils].filter(Boolean).join("\n\n"),
     texteException: exceptions.length ? rendreBloc(exceptions, poids, options) : "",
     alertes,
     details,
@@ -435,7 +505,9 @@ function indexPathologies(lignes) {
     pathologies: [],
     pathologiesChoisies: [],
     individuelles: [],
-    selection: new Set(),
+    selection: new Map(), // id de ligne -> pathologie dans laquelle elle a été cochée (null si ajout individuel)
+    compact: true, // affichage compact (test), bascule vers l'affichage détaillé
+    editions: {}, // texte modifié à la main, par bloc : { texte, base }
   };
 
   const $ = (id) => document.getElementById(id);
@@ -456,12 +528,29 @@ function indexPathologies(lignes) {
     return Number.isNaN(p) ? -1 : p;
   }
 
-  function badgesLigne(l) {
+  const COULEUR_AMM = { "AMM": "b-vert", "AMM selon l indication": "b-orange", "Hors AMM": "b-rouge", "Accès compassionnel": "b-orange",
+    "Préparation magistrale": "b-bleu", "Sans AMM (dispositif ou produit)": "b-gris", "À vérifier": "b-gris" };
+
+  function avecContexte(l, contexte) {
+    return contexte ? Object.assign({}, l, { contexte }) : l;
+  }
+
+  // Vignettes courtes : statut AMM dans la pathologie affichée et âge de l'AMM.
+  function badgesAMM(l) {
     const b = [];
-    const couleurAMM = { "AMM": "b-vert", "AMM selon l indication": "b-orange", "Hors AMM": "b-rouge", "Accès compassionnel": "b-orange",
-      "Préparation magistrale": "b-bleu", "Sans AMM (dispositif ou produit)": "b-gris", "À vérifier": "b-gris" };
-    if (l.statutAMM) b.push(el("span", { class: "badge " + (couleurAMM[l.statutAMM] || "b-gris"),
-      text: l.statutAMM === "AMM selon l indication" ? "AMM selon l'indication" : (l.statutAMM === "À vérifier" ? "AMM à vérifier" : l.statutAMM) }));
+    const amm = ammDansContexte(l);
+    if (amm) b.push(el("span", { class: "badge " + (amm.aVerifier && amm.statut === "AMM selon l indication" ? "b-orange" : COULEUR_AMM[amm.statut] || "b-gris"), text: amm.libelle }));
+    if (l.ageAMM) b.push(el("span", { class: "badge b-bleu", text: /^(dès|à partir|>|≥)/i.test(l.ageAMM) ? "AMM " + l.ageAMM : "Âge AMM : " + l.ageAMM }));
+    return b;
+  }
+
+  function badgesLigne(l) {
+    if (estConseil(l)) {
+      return el("div", { class: "badges" }, [el("span", { class: "badge b-gris", text: "Conseil" }),
+        l.statut !== "Validée" ? el("span", { class: "badge b-gris", text: "À valider" }) : null,
+        l.aVerifier ? el("span", { class: "badge long b-orange", text: "À vérifier : " + l.aVerifier }) : null]);
+    }
+    const b = badgesAMM(l);
     const couleurRemb = { "Remboursé": "b-vert", "Remboursement sous conditions": "b-orange", "Non remboursé": "b-rouge", "À vérifier": "b-gris" };
     if (l.remboursement) b.push(el("span", { class: "badge " + (couleurRemb[l.remboursement] || "b-gris"),
       text: l.remboursement === "À vérifier" ? "Remboursement à vérifier" : l.remboursement }));
@@ -473,7 +562,9 @@ function indexPathologies(lignes) {
     return el("div", { class: "badges" }, b);
   }
 
-  function ligneChoix(l) {
+  // contexte : pathologie du bloc où la ligne est affichée (null pour un ajout individuel).
+  function ligneChoix(base, contexte) {
+    const l = avecContexte(base, contexte);
     const coche = etat.selection.has(l.id);
     const poids = poidsCourant();
     const texte = genererTexteLigne(l, calculerDose(l, poids === -1 ? NaN : poids));
@@ -481,17 +572,26 @@ function indexPathologies(lignes) {
     const case_ = el("input", { type: "checkbox", id });
     case_.checked = coche;
     case_.addEventListener("change", () => {
-      if (case_.checked) etat.selection.add(l.id); else etat.selection.delete(l.id);
+      if (case_.checked) etat.selection.set(l.id, contexte || null); else etat.selection.delete(l.id);
       rendre();
     });
-    return el("label", { class: "ligne-choix" + (coche ? " coche" : ""), for: id }, [
-      case_,
-      el("div", null, [
+    let contenu;
+    if (etat.compact) {
+      // Nom seul, avec les vignettes AMM utiles ; le détail apparaît au survol ou au focus.
+      const alerteAMM = badgesAMM(l).filter((b) => !b.classList.contains("b-vert"));
+      contenu = el("div", null, [
+        el("div", { class: "ligne-nom" }, [el("span", { class: "nom", text: l.nom }),
+          alerteAMM.length ? el("span", { class: "badges" }, alerteAMM) : null]),
+        el("div", { class: "bulle", role: "tooltip" }, [el("div", { class: "texte", text: texte }), badgesLigne(l)]),
+      ]);
+    } else {
+      contenu = el("div", null, [
         el("div", { class: "nom", text: l.nom }),
         el("div", { class: "texte", text: texte }),
         badgesLigne(l),
-      ]),
-    ]);
+      ]);
+    }
+    return el("label", { class: "ligne-choix" + (coche ? " coche" : ""), for: id }, [case_, contenu]);
   }
 
   function rendreListes() {
@@ -505,16 +605,22 @@ function indexPathologies(lignes) {
       bloc.append(el("div", { class: "entete" }, [
         el("h2", { text: p }),
         base.length ? el("button", { class: "bouton petit", text: "Cocher le traitement de base", onclick: () => {
-          base.forEach((l) => etat.selection.add(l.id)); rendre();
+          base.forEach((l) => etat.selection.set(l.id, p)); rendre();
         } }) : null,
       ]));
       if (!lignes.length) bloc.append(el("p", { class: "vide", text: "Aucune ligne pour cette tranche d'âge." }));
+      const medicaments = lignes.filter((l) => !estConseil(l));
       const situations = ORDRE_SITUATION.concat([null]);
       for (const s of situations) {
-        const groupe = lignes.filter((l) => s === null ? !ORDRE_SITUATION.includes(l.situation) : l.situation === s).sort(comparerLignes);
+        const groupe = medicaments.filter((l) => s === null ? !ORDRE_SITUATION.includes(l.situation) : l.situation === s).sort(comparerLignes);
         if (!groupe.length) continue;
         bloc.append(el("h3", { text: s || "Autres" }));
-        groupe.forEach((l) => bloc.append(ligneChoix(l)));
+        groupe.forEach((l) => bloc.append(ligneChoix(l, p)));
+      }
+      const conseils = lignes.filter(estConseil).sort(comparerLignes);
+      if (conseils.length) {
+        bloc.append(el("h3", { text: "Conseils" }));
+        conseils.forEach((l) => bloc.append(ligneChoix(l, p)));
       }
       conteneur.append(bloc);
     }
@@ -523,7 +629,7 @@ function indexPathologies(lignes) {
     const lignesIndiv = etat.individuelles.map((id) => etat.parId.get(id)).filter(Boolean);
     if (lignesIndiv.length) {
       const bloc = el("div", { class: "bloc-pathologie" }, [el("h2", { text: "Ajouts individuels" })]);
-      lignesIndiv.sort(comparerLignes).forEach((l) => bloc.append(ligneChoix(l)));
+      lignesIndiv.sort(comparerLignes).forEach((l) => bloc.append(ligneChoix(l, null)));
       indiv.append(bloc);
     }
   }
@@ -539,16 +645,47 @@ function indexPathologies(lignes) {
     }
   }
 
-  function blocTexte(titre, texte) {
-    const pre = el("pre", { class: "ordonnance" });
-    if (texte) pre.textContent = texte; else pre.append(el("span", { class: "vide", text: "Aucune ligne sélectionnée." }));
-    const message = el("span", { class: "message-copie" });
-    const bouton = el("button", { class: "bouton principal", text: "Copier", onclick: () => copier(texte, pre, message) });
-    if (!texte) bouton.disabled = true;
-    return el("div", null, [titre ? el("h3", { text: titre }) : null, pre, el("div", { class: "rangee" }, [bouton, message])]);
+  function ajusterHauteur(zone) {
+    zone.style.height = "auto";
+    zone.style.height = (zone.scrollHeight + 2) + "px";
   }
 
-  async function copier(texte, pre, message) {
+  // Bloc de texte modifiable. cle : "principal" ou "exception". texte : texte généré par le module.
+  function blocTexte(cle, titre, texte) {
+    const edition = etat.editions[cle];
+    const zone = el("textarea", { class: "ordonnance", spellcheck: "false", "aria-label": titre || "Ordonnance",
+      placeholder: "Aucune ligne sélectionnée." });
+    zone.value = edition ? edition.texte : texte;
+    const note = el("div", { class: "note-modif" });
+    const message = el("span", { class: "message-copie" });
+    const bouton = el("button", { class: "bouton principal", text: "Copier", onclick: () => copier(zone.value, zone, message) });
+
+    function majNote() {
+      const e = etat.editions[cle];
+      zone.classList.toggle("modifiee", Boolean(e));
+      note.replaceChildren();
+      if (e) {
+        note.append(el("span", { text: e.base !== texte
+          ? "Texte modifié à la main, et la sélection a changé depuis : les changements de sélection ne sont pas repris."
+          : "Texte modifié à la main : doses et mentions non contrôlées par le module." }));
+        note.append(el("button", { type: "button", class: "bouton petit", text: "Rétablir le texte généré", onclick: () => {
+          delete etat.editions[cle]; rendreOrdonnance();
+        } }));
+      }
+      bouton.disabled = !zone.value.trim();
+    }
+    zone.addEventListener("input", () => {
+      if (zone.value === texte) delete etat.editions[cle];
+      else etat.editions[cle] = { texte: zone.value, base: etat.editions[cle] ? etat.editions[cle].base : texte };
+      ajusterHauteur(zone);
+      majNote();
+    });
+    majNote();
+    requestAnimationFrame(() => ajusterHauteur(zone));
+    return el("div", null, [titre ? el("h3", { text: titre }) : null, zone, note, el("div", { class: "rangee" }, [bouton, message])]);
+  }
+
+  async function copier(texte, zoneTexte, message) {
     let ok = false;
     try { await navigator.clipboard.writeText(texte); ok = true; } catch (e) {
       const zone = document.createElement("textarea");
@@ -559,14 +696,13 @@ function indexPathologies(lignes) {
     }
     if (ok) { message.textContent = "Copié."; setTimeout(() => { message.textContent = ""; }, 2500); }
     else {
-      const r = document.createRange(); r.selectNodeContents(pre);
-      const s = window.getSelection(); s.removeAllRanges(); s.addRange(r);
+      zoneTexte.focus(); zoneTexte.select();
       message.textContent = "Copie automatique bloquée : texte sélectionné, utiliser Ctrl+C (ou Cmd+C).";
     }
   }
 
   function rendreOrdonnance() {
-    const selection = [...etat.selection].map((id) => etat.parId.get(id)).filter(Boolean);
+    const selection = [...etat.selection].map(([id, p]) => etat.parId.get(id) ? avecContexte(etat.parId.get(id), p) : null).filter(Boolean);
     const brut = poidsCourant();
     const poids = brut === -1 ? NaN : brut;
     const res = construireOrdonnance(selection, poids, {
@@ -574,8 +710,9 @@ function indexPathologies(lignes) {
       separerExceptions: $("opt-exception").checked,
     });
     const sortie = $("sortie");
-    sortie.replaceChildren(blocTexte(res.texteException ? "Ordonnance" : null, res.texte));
-    if (res.texteException) sortie.append(blocTexte("Ordonnance de médicament d'exception", res.texteException));
+    if (!res.texteException) delete etat.editions.exception;
+    sortie.replaceChildren(blocTexte("principal", res.texteException ? "Ordonnance" : null, res.texte));
+    if (res.texteException) sortie.append(blocTexte("exception", "Ordonnance de médicament d'exception", res.texteException));
     const alertes = $("alertes");
     alertes.replaceChildren(...res.alertes.map((a) => el("li", { class: "a-" + a.niveau, text: a.texte })));
     const calculs = $("calculs");
@@ -583,7 +720,14 @@ function indexPathologies(lignes) {
     $("bloc-calculs").hidden = res.details.length === 0;
   }
 
+  function majBascule() {
+    $("bascule-affichage").textContent = etat.compact ? "Affichage détaillé" : "Affichage compact (test)";
+    $("liste-pathologies").classList.toggle("compact", etat.compact);
+    $("liste-individuelles").classList.toggle("compact", etat.compact);
+  }
+
   function rendre() {
+    majBascule();
     rendrePuces();
     rendreListes();
     rendreOrdonnance();
@@ -621,7 +765,7 @@ function indexPathologies(lignes) {
   }
   function choisirLigne(l) {
     if (!etat.individuelles.includes(l.id)) etat.individuelles.push(l.id);
-    etat.selection.add(l.id);
+    etat.selection.set(l.id, null);
     $("recherche").value = ""; fermerSuggestions(); rendre(); $("recherche").focus();
   }
 
@@ -640,12 +784,13 @@ function indexPathologies(lignes) {
     } else if (e.key === "Escape") fermerSuggestions();
   });
   document.addEventListener("click", (e) => { if (!e.target.closest(".recherche")) fermerSuggestions(); });
+  $("bascule-affichage").addEventListener("click", () => { etat.compact = !etat.compact; rendreListes(); majBascule(); });
   $("poids").addEventListener("input", rendre);
   $("age").addEventListener("change", rendre);
   $("opt-mentions").addEventListener("change", rendreOrdonnance);
   $("opt-exception").addEventListener("change", rendreOrdonnance);
   $("effacer").addEventListener("click", () => {
-    etat.selection.clear(); etat.pathologiesChoisies = []; etat.individuelles = [];
+    etat.selection.clear(); etat.pathologiesChoisies = []; etat.individuelles = []; etat.editions = {};
     rendre();
   });
 
