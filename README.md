@@ -12,7 +12,7 @@ Settings, Pages, Build and deployment, Source : **GitHub Actions**.
 ### 2. Créer le jeton Notion (lecture seule)
 1. Ouvrir https://www.notion.so/profile/integrations, "Nouvelle intégration", type interne, espace de travail concerné.
 2. Capacités : cocher uniquement "Lire le contenu". Copier le jeton secret.
-3. Dans Notion, ouvrir la base "Médicaments" (sous WikiPédiatrie), menu "...", "Connexions", ajouter l'intégration. Ne la connecter à aucune autre page.
+3. Dans Notion, ouvrir la base "Médicaments" puis la base "Pathologies" (sous WikiPédiatrie), menu "...", "Connexions", ajouter l'intégration sur chacune. Ne la connecter à aucune autre page.
 
 ### 3. Enregistrer le jeton dans GitHub
 Settings, Secrets and variables, Actions, "New repository secret" : nom `NOTION_TOKEN`, valeur : le jeton. Le jeton n'est écrit nulle part ailleurs.

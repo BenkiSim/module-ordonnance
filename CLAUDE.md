@@ -23,11 +23,13 @@ Dans `index.html`, toute la logique métier (calculs, ordre, mentions, alertes) 
 
 ## Données
 
-- Source unique des lignes : la base Notion "Médicaments" (data source `42319207-651b-81d8-bb4a-000b186ddb80`). Pour modifier une ligne (posologie, tag, statut AMM), modifier Notion, puis lancer la synchronisation (onglet Actions, "Synchroniser et publier", "Run workflow").
+- Source unique des lignes : la base Notion "Médicaments" (data source `42319207-651b-81d8-bb4a-000b186ddb80`). Référentiel des pathologies : la base Notion "Pathologies" (data source `42419207-651b-8177-a31b-000b098f9895`) : nom, synonymes séparés par des points-virgules, catégories, sous-catégorie. Les lignes y sont rattachées par la relation "Pathologies" de la base Médicaments. Pour modifier une ligne (posologie, tag, statut AMM), modifier Notion, puis lancer la synchronisation (onglet Actions, "Synchroniser et publier", "Run workflow").
 - Une entrée par ligne d'ordonnance. Clés du JSON : id, nom, ligne, molecule, pathologies, famille, zone, puissance, situation, magistrale, ages, statut, aVerifier, doseMgKg, prises, concentration, dosageUnitaire, doseMax, arrondi, statutAMM, remboursement, conditions, mention, ageAMM, indicationsAMM. Toute nouvelle propriété Notion doit être ajoutée dans `PROPRIETES` (script d'export) puis utilisée dans le module.
 - "Âge AMM" (texte court, ex. "dès 6 mois") s'affiche en vignette. "Indications AMM" liste les pathologies couvertes par l'AMM : vide, le Statut AMM vaut pour toutes les pathologies taguées ; renseignée, une ligne cochée dans une pathologie absente de la liste est traitée comme hors AMM (vignette, alerte et mention hors AMM ajoutée sous la ligne). "AMM selon l indication" sans indications renseignées : alerte "à vérifier".
 - Conseils : lignes de la famille "8. Conseils", texte court, sans statut AMM. Ils sont regroupés en fin d'ordonnance sous le titre "Conseils :", jamais dans le bloc des médicaments d'exception.
 - Les lignes dont le texte contient des crochets `[...]` (modèle non rempli) sont ignorées à l'export.
+- JSON : `pathologies` (id, nom, synonymes, categories, sousCategorie) puis `lignes` ; dans chaque ligne, `pathologies` contient les noms. Si la base Pathologies est illisible (intégration non connectée), l'export se replie sur l'ancien champ multi-sélection "Pathologies (ancien)" ; si aucune ligne n'a de pathologie, l'export s'arrête sans écraser le fichier.
+- Recherche : nom et synonymes, sans accents, casse, apostrophes ni tirets (`cleNom`). Les pathologies sans ligne apparaissent dans la recherche avec la mention "aucune ligne". Les noms de pathologie et les options "Indications AMM" sont comparés avec `memeNom` (ex. "l enfant" = "l'enfant").
 
 ## Règles de calcul au poids
 

@@ -5,7 +5,7 @@
 import { readFile } from "node:fs/promises";
 import vm from "node:vm";
 import assert from "node:assert/strict";
-import { convertirPage, controler } from "../scripts/export-notion.mjs";
+import { convertirPage, convertirPathologie, controler } from "../scripts/export-notion.mjs";
 
 const racine = new URL("..", import.meta.url);
 const html = await readFile(new URL("index.html", racine), "utf8");
@@ -15,7 +15,7 @@ assert.ok(debut > 0 && fin > debut, "Marqueurs LOGIQUE DEBUT / FIN introuvables 
 const code = html.slice(debut, fin);
 const ctx = {};
 vm.createContext(ctx);
-vm.runInContext(code + "\n;globalThis.__ = { MENTION_PMR, calculerDose, genererTexteLigne, construireOrdonnance, comparerLignes, formatMg, lirePoids, descriptionCalcul, filtrerAge, ammDansContexte, TITRE_CONSEILS, MENTION_HORS_AMM };", ctx);
+vm.runInContext(code + "\n;globalThis.__ = { MENTION_PMR, calculerDose, genererTexteLigne, construireOrdonnance, comparerLignes, formatMg, lirePoids, descriptionCalcul, filtrerAge, ammDansContexte, TITRE_CONSEILS, MENTION_HORS_AMM, indexPathologies, rechercherPathologies, memeNom };", ctx);
 const M = ctx.__;
 
 const fixture = JSON.parse(await readFile(new URL("tests/fixture.json", racine), "utf8")).lignes;
@@ -219,6 +219,43 @@ test("Le texte copié ne contient ni tiret long ni marqueur résiduel", () => {
   assert.ok(!/\{(mL|mg|unités)\}/.test(r.texte + r.texteException), "marqueur non remplacé");
 });
 
+// ---------- Pathologies et synonymes ----------
+const referentiel = [
+  { nom: "Hidradénite suppurée", synonymes: ["maladie de Verneuil", "acné inversa"] },
+  { nom: "Intertrigo", synonymes: ["macération des plis"] },
+  { nom: "Intertrigo candidosique", synonymes: ["candidose des plis"] },
+  { nom: "Candidose du siège", synonymes: ["intertrigo candidosique", "candidose des plis"] },
+  { nom: "Dermite séborrhéique de l'enfant", synonymes: ["croûtes de lait"] },
+];
+const lignesRef = [
+  { id: "a", pathologies: ["Hidradénite suppurée"] },
+  { id: "b", pathologies: ["Candidose du siège", "Dermite séborrhéique de l enfant"] },
+];
+const indexRef = M.indexPathologies(lignesRef, referentiel);
+test("Index : pathologies sans ligne incluses, noms rapprochés malgré l'apostrophe", () => {
+  assert.equal(indexRef.length, 5);
+  assert.equal(indexRef.find((e) => e.nom === "Intertrigo").n, 0);
+  assert.equal(indexRef.find((e) => e.nom === "Dermite séborrhéique de l'enfant").n, 1);
+});
+test("Recherche par synonyme : verneuil retrouve l'hidradénite suppurée", () => {
+  const r = M.rechercherPathologies(indexRef, "verneuil", []);
+  assert.equal(r[0].nom, "Hidradénite suppurée");
+  assert.equal(r[0].via, "maladie de Verneuil");
+});
+test("Recherche : le nom passe avant le synonyme, pathologie choisie exclue", () => {
+  const r = M.rechercherPathologies(indexRef, "intertrigo", []);
+  assert.deepEqual(Array.from(r, (x) => x.nom).slice(0, 3), ["Intertrigo", "Intertrigo candidosique", "Candidose du siège"]);
+  assert.ok(!M.rechercherPathologies(indexRef, "intertrigo", ["Intertrigo"]).some((x) => x.nom === "Intertrigo"));
+});
+test("Recherche sans accent ni casse", () => {
+  assert.equal(M.rechercherPathologies(indexRef, "CROUTES DE LAIT", [])[0].nom, "Dermite séborrhéique de l'enfant");
+});
+test("Indications AMM : nom avec ou sans apostrophe reconnu", () => {
+  assert.ok(M.memeNom("Dermite séborrhéique de l enfant", "Dermite séborrhéique de l'enfant"));
+  const l = Object.assign({}, L("clamoxyl"), { statutAMM: "AMM", indicationsAMM: ["Dermite séborrhéique de l enfant"], contexte: "Dermite séborrhéique de l'enfant" });
+  assert.equal(M.ammDansContexte(l).horsIndication, false);
+});
+
 // ---------- Script d'export ----------
 const pageNotion = {
   id: "42319207-651b-81aa-bbbb-000000000001",
@@ -256,6 +293,24 @@ test("Export : âge et indications d'AMM", () => {
   const l = convertirPage(page);
   assert.equal(l.ageAMM, "dès 6 mois");
   assert.deepEqual(l.indicationsAMM, ["Gale"]);
+});
+test("Export : pathologies par relation, avec repli sur l'ancien champ", () => {
+  const page = structuredClone(pageNotion);
+  page.properties["Pathologies (ancien)"] = page.properties["Pathologies"];
+  page.properties["Pathologies"] = { id: "abc", type: "relation", relation: [{ id: "4241-0001" }, { id: "4241-0002" }], has_more: false };
+  const noms = new Map([["42410001", "Gale"], ["42410002", "Prurit chronique"]]);
+  assert.deepEqual(convertirPage(page, { nomsParId: noms }).pathologies, ["Gale", "Prurit chronique"]);
+  assert.deepEqual(convertirPage(page, { nomsParId: noms, idsComplets: ["42410002"] }).pathologies, ["Prurit chronique"]);
+  assert.deepEqual(convertirPage(page).pathologies, ["Gale"], "sans référentiel : ancien champ");
+});
+test("Export : conversion d'une pathologie et de ses synonymes", () => {
+  const p = convertirPathologie({ id: "4241-00ab", properties: {
+    "Nom": { type: "title", title: [{ plain_text: "Hidradénite suppurée" }] },
+    "Synonymes": { type: "rich_text", rich_text: [{ plain_text: "maladie de Verneuil; acné inversa ;" }] },
+    "Catégories": { type: "multi_select", multi_select: [{ name: "Dermatologie" }] },
+    "Sous-catégorie": { type: "select", select: { name: "Acné et annexes" } },
+  } });
+  assert.deepEqual(p, { id: "424100ab", nom: "Hidradénite suppurée", synonymes: ["maladie de Verneuil", "acné inversa"], categories: ["Dermatologie"], sousCategorie: "Acné et annexes" });
 });
 test("Export : modèle non rempli ignoré", () => {
   const modele = structuredClone(pageNotion);

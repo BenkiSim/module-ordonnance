@@ -94,6 +94,7 @@
     padding: 12px; margin: 8px 0; font: .85rem/1.5 ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; min-height: 60px;
   }
   .vide { color: var(--texte-doux); font-style: italic; }
+  .synonymes { color: var(--texte-doux); font-size: .82rem; margin: 2px 0 6px; }
   .options { display: flex; flex-direction: column; gap: 6px; margin: 6px 0 4px; font-size: .9rem; }
   .options label { display: flex; gap: 8px; align-items: center; cursor: pointer; }
   .options input { width: 18px; height: 18px; }
@@ -216,6 +217,16 @@ function normaliser(s) {
   return String(s || "").normalize("NFD").replace(/[̀-ͯ]/g, "").toLowerCase().trim();
 }
 
+// Clé de comparaison des noms de pathologie : sans accents, casse, apostrophes ni tirets
+// ("Dermite séborrhéique de l enfant" = "Dermite séborrhéique de l'enfant").
+function cleNom(s) {
+  return normaliser(s).replace(/[\s'\u2019\-]+/g, " ").trim();
+}
+
+function memeNom(a, b) {
+  return cleNom(a) === cleNom(b);
+}
+
 function numeroFamille(f) {
   const n = parseInt(f, 10);
   return isNaN(n) ? 99 : n;
@@ -320,7 +331,7 @@ function ammDansContexte(l) {
   const indications = l.indicationsAMM || [];
   const avecAMM = l.statutAMM === "AMM" || l.statutAMM === "AMM selon l indication";
   if (p && avecAMM && indications.length) {
-    return indications.includes(p)
+    return indications.some((x) => memeNom(x, p))
       ? { statut: "AMM", libelle: "AMM dans cette indication", horsIndication: false, aVerifier: false }
       : { statut: "Hors AMM", libelle: "Hors AMM dans cette indication", horsIndication: true, aVerifier: false };
   }
@@ -488,10 +499,51 @@ function filtrerAge(l, age) {
   return ages.length === 0 || ages.includes(age) || ages.includes("Tous âges");
 }
 
-function indexPathologies(lignes) {
-  const compte = new Map();
-  for (const l of lignes) for (const p of l.pathologies || []) compte.set(p, (compte.get(p) || 0) + 1);
-  return [...compte.entries()].sort((a, b) => a[0].localeCompare(b[0], "fr"));
+// Index des pathologies : référentiel (base Pathologies, avec synonymes) complété par les noms
+// présents dans les lignes. n = nombre de lignes rattachées (0 si aucune pour l'instant).
+function indexPathologies(lignes, referentiel) {
+  const parCle = new Map();
+  for (const r of referentiel || []) {
+    if (!r || !r.nom) continue;
+    parCle.set(cleNom(r.nom), { nom: r.nom, n: 0, synonymes: r.synonymes || [], categories: r.categories || [], sousCategorie: r.sousCategorie || null });
+  }
+  for (const l of lignes) {
+    for (const p of l.pathologies || []) {
+      const cle = cleNom(p);
+      if (!parCle.has(cle)) parCle.set(cle, { nom: p, n: 0, synonymes: [], categories: [], sousCategorie: null });
+      parCle.get(cle).n++;
+    }
+  }
+  return [...parCle.values()].sort((a, b) => a.nom.localeCompare(b.nom, "fr"));
+}
+
+// Recherche dans les noms et les synonymes. Ordre : nom qui commence par la saisie, nom qui la
+// contient, synonyme qui commence par la saisie, synonyme qui la contient ; puis pathologies
+// ayant des lignes avant les autres, puis ordre alphabétique. "via" = synonyme trouvé.
+function rechercherPathologies(index, saisie, exclus) {
+  const q = cleNom(saisie);
+  if (!q) return [];
+  const exclusCles = new Set((exclus || []).map(cleNom));
+  const res = [];
+  for (const e of index) {
+    if (exclusCles.has(cleNom(e.nom))) continue;
+    const nom = cleNom(e.nom);
+    let rang = nom.startsWith(q) ? 0 : nom.includes(q) ? 1 : 9;
+    let via = null;
+    if (rang > 1) {
+      for (const syn of e.synonymes || []) {
+        const c = cleNom(syn);
+        const r = c.startsWith(q) ? 2 : c.includes(q) ? 3 : 9;
+        if (r < rang) { rang = r; via = syn; }
+      }
+    }
+    if (rang < 9) res.push({ nom: e.nom, n: e.n, via, rang });
+  }
+  return res.sort((a, b) => a.rang - b.rang || (b.n > 0) - (a.n > 0) || a.nom.localeCompare(b.nom, "fr"));
+}
+
+function trouverPathologie(index, nom) {
+  return index.find((e) => memeNom(e.nom, nom)) || null;
 }
 // === LOGIQUE FIN ===
 
@@ -599,7 +651,9 @@ function indexPathologies(lignes) {
     const conteneur = $("liste-pathologies");
     conteneur.replaceChildren();
     for (const p of etat.pathologiesChoisies) {
-      const lignes = etat.lignes.filter((l) => (l.pathologies || []).includes(p) && filtrerAge(l, age));
+      const toutes = etat.lignes.filter((l) => (l.pathologies || []).some((x) => memeNom(x, p)));
+      const lignes = toutes.filter((l) => filtrerAge(l, age));
+      const info = trouverPathologie(etat.pathologies, p);
       const bloc = el("div", { class: "bloc-pathologie" });
       const base = lignes.filter((l) => l.situation === "Traitement de base");
       bloc.append(el("div", { class: "entete" }, [
@@ -608,7 +662,9 @@ function indexPathologies(lignes) {
           base.forEach((l) => etat.selection.set(l.id, p)); rendre();
         } }) : null,
       ]));
-      if (!lignes.length) bloc.append(el("p", { class: "vide", text: "Aucune ligne pour cette tranche d'âge." }));
+      if (info && info.synonymes.length) bloc.append(el("p", { class: "synonymes", text: "Synonymes : " + info.synonymes.join(", ") }));
+      if (!toutes.length) bloc.append(el("p", { class: "vide", text: "Aucune ligne de traitement pour cette pathologie pour l'instant (à compléter dans la base Médicaments)." }));
+      else if (!lignes.length) bloc.append(el("p", { class: "vide", text: "Aucune ligne pour cette tranche d'âge." }));
       const medicaments = lignes.filter((l) => !estConseil(l));
       const situations = ORDRE_SITUATION.concat([null]);
       for (const s of situations) {
@@ -743,12 +799,15 @@ function indexPathologies(lignes) {
     const boite = $("suggestions");
     boite.replaceChildren();
     if (!q) { fermerSuggestions(); return; }
-    const paths = etat.pathologies.filter(([p]) => normaliser(p).includes(q) && !etat.pathologiesChoisies.includes(p)).slice(0, 12);
+    const paths = rechercherPathologies(etat.pathologies, q, etat.pathologiesChoisies).slice(0, 15);
     const lignes = etat.lignes.filter((l) => normaliser(l.nom).includes(q) || normaliser(l.molecule).includes(q)).sort(comparerLignes).slice(0, 15);
     if (paths.length) {
       boite.append(el("div", { class: "groupe", text: "Pathologies" }));
-      for (const [p, n] of paths) boite.append(el("button", { type: "button", onclick: () => choisirPathologie(p) },
-        [p + " ", el("span", { class: "compte", text: "(" + n + " lignes)" })]));
+      for (const r of paths) boite.append(el("button", { type: "button", onclick: () => choisirPathologie(r.nom) }, [
+        r.nom + " ",
+        r.via ? el("span", { class: "compte", text: "(" + r.via + ") " }) : null,
+        el("span", { class: "compte", text: r.n ? "(" + r.n + (r.n > 1 ? " lignes)" : " ligne)") : "(aucune ligne)" }),
+      ]));
     }
     if (lignes.length) {
       boite.append(el("div", { class: "groupe", text: "Médicaments" }));
@@ -801,9 +860,9 @@ function indexPathologies(lignes) {
     .then((json) => {
       etat.lignes = (json.lignes || []).filter((l) => l && l.id && l.ligne);
       etat.parId = new Map(etat.lignes.map((l) => [l.id, l]));
-      etat.pathologies = indexPathologies(etat.lignes);
+      etat.pathologies = indexPathologies(etat.lignes, json.pathologies);
       const date = json.genere ? new Date(json.genere).toLocaleString("fr-FR", { dateStyle: "long", timeStyle: "short" }) : "date inconnue";
-      $("infos-donnees").textContent = `${etat.lignes.length} lignes, ${etat.pathologies.length} pathologies. Données du ${date}. Aide à la prescription : le prescripteur reste décisionnaire.`;
+      $("infos-donnees").textContent = `${etat.lignes.length} lignes, ${etat.pathologies.length} pathologies (${etat.pathologies.filter((x) => x.n > 0).length} avec traitement). Données du ${date}. Aide à la prescription : le prescripteur reste décisionnaire.`;
       if (json.echantillon) bandeau("attention", "Données d'exemple : la synchronisation avec la base Notion n'a pas encore été faite (voir le README du dépôt).");
       rendre();
     })
