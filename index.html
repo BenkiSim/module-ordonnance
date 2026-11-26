@@ -169,6 +169,8 @@
         <h2>Ordonnance</h2>
         <div class="options">
           <label><input type="checkbox" id="opt-mentions" checked> Insérer les mentions réglementaires sous les lignes concernées</label>
+          <label><input type="checkbox" id="opt-consignes" checked> Insérer les précautions de prise sous les lignes concernées</label>
+          <label><input type="checkbox" id="opt-conseils" checked> Afficher les conseils détaillés des pathologies choisies</label>
           <label><input type="checkbox" id="opt-exception" checked> Séparer les médicaments d'exception dans un second bloc</label>
         </div>
         <p class="discret" style="margin:0">Le texte de l'ordonnance peut être modifié directement avant la copie.</p>
@@ -212,6 +214,7 @@ const EXCEPTION = "Ordonnance de médicament d exception";
 const MENTION_HORS_AMM = "Prescription hors autorisation de mise sur le marché";
 const FAMILLE_CONSEILS = 8;
 const TITRE_CONSEILS = "Conseils :";
+const PREFIXE_CONSIGNES = "Précautions : ";
 
 function normaliser(s) {
   return String(s || "").normalize("NFD").replace(/[̀-ͯ]/g, "").toLowerCase().trim();
@@ -359,6 +362,7 @@ function rendreBloc(liste, poids, options) {
     sortie.push(PUCE + genererTexteLigne(l, calculerDose(l, poids)));
     const mention = texteMention(l);
     if (options.mentions && mention) sortie.push(mention);
+    if (options.consignes && l.consignes) sortie.push(PREFIXE_CONSIGNES + l.consignes);
     const suivante = liste[i + 1];
     if (l.magistrale && !(suivante && suivante.magistrale)) sortie.push(MENTION_PMR);
   });
@@ -380,7 +384,7 @@ function listeNoms(lignes) {
 
 // Construit l'ordonnance complète, les alertes et le détail des calculs.
 function construireOrdonnance(selection, poids, options) {
-  options = Object.assign({ mentions: true, separerExceptions: true }, options || {});
+  options = Object.assign({ mentions: true, separerExceptions: true, consignes: true }, options || {});
   const triees = selection.slice().sort(comparerLignes);
   const conseils = triees.filter(estConseil);
   const medicaments = triees.filter((l) => !estConseil(l));
@@ -470,6 +474,20 @@ function construireOrdonnance(selection, poids, options) {
   if (avecMention.length && !options.mentions) {
     ajouter("erreur", `Mentions réglementaires désactivées alors qu'elles sont obligatoires pour : ${listeNoms(avecMention)}.`);
   }
+  // Lignes prévues pour être prescrites ensemble (alternance, association).
+  const idsSel = new Set(triees.map((l) => l.id));
+  for (const l of triees) {
+    for (const id of l.liees || []) {
+      if (idsSel.has(id)) continue;
+      const nom = options.nomsParId && options.nomsParId.get(id);
+      ajouter("attention", `${l.nom} : à prescrire avec ${nom || "une ligne liée"}, non sélectionnée.`);
+    }
+  }
+  const sansConsignes = triees.filter((l) => l.consignes);
+  if (sansConsignes.length && !options.consignes) {
+    ajouter("attention", `Précautions de prise désactivées, à transmettre autrement pour : ${listeNoms(sansConsignes)}.`);
+  }
+
   const aValider = triees.filter((l) => l.statut !== "Validée");
   if (aValider.length) ajouter("info", `${aValider.length} ligne(s) non encore validée(s) dans la base.`);
 
@@ -505,12 +523,12 @@ function indexPathologies(lignes, referentiel) {
   const parCle = new Map();
   for (const r of referentiel || []) {
     if (!r || !r.nom) continue;
-    parCle.set(cleNom(r.nom), { nom: r.nom, n: 0, synonymes: r.synonymes || [], categories: r.categories || [], sousCategorie: r.sousCategorie || null });
+    parCle.set(cleNom(r.nom), { nom: r.nom, n: 0, synonymes: r.synonymes || [], categories: r.categories || [], sousCategorie: r.sousCategorie || null, conseilsDetailles: r.conseilsDetailles || null });
   }
   for (const l of lignes) {
     for (const p of l.pathologies || []) {
       const cle = cleNom(p);
-      if (!parCle.has(cle)) parCle.set(cle, { nom: p, n: 0, synonymes: [], categories: [], sousCategorie: null });
+      if (!parCle.has(cle)) parCle.set(cle, { nom: p, n: 0, synonymes: [], categories: [], sousCategorie: null, conseilsDetailles: null });
       parCle.get(cle).n++;
     }
   }
@@ -545,6 +563,35 @@ function rechercherPathologies(index, saisie, exclus) {
 function trouverPathologie(index, nom) {
   return index.find((e) => memeNom(e.nom, nom)) || null;
 }
+
+// Lignes liées, rendues symétriques : id -> ensemble des ids à cocher avec lui.
+function indexLiees(lignes) {
+  const liees = new Map();
+  const lier = (a, b) => {
+    if (a === b) return;
+    if (!liees.has(a)) liees.set(a, new Set());
+    liees.get(a).add(b);
+  };
+  const ids = new Set(lignes.map((l) => l.id));
+  for (const l of lignes) {
+    for (const id of l.liees || []) {
+      if (!ids.has(id)) continue;
+      lier(l.id, id);
+      lier(id, l.id);
+    }
+  }
+  return liees;
+}
+
+// Fiche de conseils détaillés des pathologies choisies (version longue, à remettre aux parents).
+function construireConseilsDetailles(pathologiesChoisies, index) {
+  const blocs = [];
+  for (const p of pathologiesChoisies) {
+    const e = trouverPathologie(index, p);
+    if (e && e.conseilsDetailles) blocs.push("Conseils : " + e.nom + "\n" + e.conseilsDetailles);
+  }
+  return blocs.join("\n\n");
+}
 // === LOGIQUE FIN ===
 
 // ---------- Interface ----------
@@ -560,6 +607,8 @@ function trouverPathologie(index, nom) {
     selection: new Map(), // id de ligne -> pathologie dans laquelle elle a été cochée (null si ajout individuel)
     compact: true, // affichage compact (test), bascule vers l'affichage détaillé
     editions: {}, // texte modifié à la main, par bloc : { texte, base }
+    liees: new Map(), // lignes à cocher ensemble (symétrique)
+    nomsParId: new Map(),
   };
 
   const $ = (id) => document.getElementById(id);
@@ -609,6 +658,9 @@ function trouverPathologie(index, nom) {
     for (const c of l.conditions || []) b.push(el("span", { class: "badge b-violet", text: c.replace(" d exception", " d'exception") }));
     if (l.magistrale) b.push(el("span", { class: "badge b-bleu", text: "PMR" }));
     if (aBesoinDuPoids(l)) b.push(el("span", { class: "badge b-gris", text: "Calcul au poids" }));
+    const liees = (l.liees || []).map((id) => etat.parId.get(id)).filter(Boolean);
+    if (liees.length) b.push(el("span", { class: "badge long b-bleu", text: "Cochée avec : " + liees.map((x) => x.nom).join(" ; ") }));
+    if (l.consignes) b.push(el("span", { class: "badge long b-gris", text: "Précautions : " + l.consignes }));
     if (l.statut !== "Validée") b.push(el("span", { class: "badge b-gris", text: "À valider" }));
     if (l.aVerifier) b.push(el("span", { class: "badge long b-orange", text: "À vérifier : " + l.aVerifier }));
     return el("div", { class: "badges" }, b);
@@ -624,7 +676,12 @@ function trouverPathologie(index, nom) {
     const case_ = el("input", { type: "checkbox", id });
     case_.checked = coche;
     case_.addEventListener("change", () => {
-      if (case_.checked) etat.selection.set(l.id, contexte || null); else etat.selection.delete(l.id);
+      const groupe = [l.id].concat(Array.from(etat.liees.get(l.id) || []));
+      for (const id of groupe) {
+        if (!etat.parId.has(id)) continue;
+        if (case_.checked) { if (id === l.id || !etat.selection.has(id)) etat.selection.set(id, contexte || null); }
+        else etat.selection.delete(id);
+      }
       rendre();
     });
     let contenu;
@@ -764,11 +821,16 @@ function trouverPathologie(index, nom) {
     const res = construireOrdonnance(selection, poids, {
       mentions: $("opt-mentions").checked,
       separerExceptions: $("opt-exception").checked,
+      consignes: $("opt-consignes").checked,
+      nomsParId: etat.nomsParId,
     });
     const sortie = $("sortie");
     if (!res.texteException) delete etat.editions.exception;
     sortie.replaceChildren(blocTexte("principal", res.texteException ? "Ordonnance" : null, res.texte));
     if (res.texteException) sortie.append(blocTexte("exception", "Ordonnance de médicament d'exception", res.texteException));
+    const conseils = $("opt-conseils").checked ? construireConseilsDetailles(etat.pathologiesChoisies, etat.pathologies) : "";
+    if (!conseils) delete etat.editions.conseils;
+    else sortie.append(blocTexte("conseils", "Conseils détaillés à remettre", conseils));
     const alertes = $("alertes");
     alertes.replaceChildren(...res.alertes.map((a) => el("li", { class: "a-" + a.niveau, text: a.texte })));
     const calculs = $("calculs");
@@ -848,6 +910,8 @@ function trouverPathologie(index, nom) {
   $("age").addEventListener("change", rendre);
   $("opt-mentions").addEventListener("change", rendreOrdonnance);
   $("opt-exception").addEventListener("change", rendreOrdonnance);
+  $("opt-consignes").addEventListener("change", rendreOrdonnance);
+  $("opt-conseils").addEventListener("change", rendreOrdonnance);
   $("effacer").addEventListener("click", () => {
     etat.selection.clear(); etat.pathologiesChoisies = []; etat.individuelles = []; etat.editions = {};
     rendre();
@@ -860,6 +924,9 @@ function trouverPathologie(index, nom) {
     .then((json) => {
       etat.lignes = (json.lignes || []).filter((l) => l && l.id && l.ligne);
       etat.parId = new Map(etat.lignes.map((l) => [l.id, l]));
+      etat.liees = indexLiees(etat.lignes);
+      for (const l of etat.lignes) l.liees = Array.from(etat.liees.get(l.id) || []);
+      etat.nomsParId = new Map(etat.lignes.map((l) => [l.id, l.nom]));
       etat.pathologies = indexPathologies(etat.lignes, json.pathologies);
       const date = json.genere ? new Date(json.genere).toLocaleString("fr-FR", { dateStyle: "long", timeStyle: "short" }) : "date inconnue";
       $("infos-donnees").textContent = `${etat.lignes.length} lignes, ${etat.pathologies.length} pathologies (${etat.pathologies.filter((x) => x.n > 0).length} avec traitement). Données du ${date}. Aide à la prescription : le prescripteur reste décisionnaire.`;

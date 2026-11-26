@@ -38,6 +38,8 @@ export const PROPRIETES = {
   remboursement: "Remboursement",
   conditions: "Conditions de prescription",
   mention: "Mention obligatoire",
+  consignes: "Consignes de prise",
+  liees: "Lignes liées",
   ageAMM: "Âge AMM",
   indicationsAMM: "Indications AMM",
 };
@@ -81,6 +83,13 @@ function lirePathologies(p, options) {
   return [];
 }
 
+// Texte sur plusieurs lignes : retours à la ligne normalisés, lignes vides retirées.
+export function texteMultiligne(t) {
+  if (!t) return null;
+  const lignes = String(t).replace(/<br\s*\/?>/gi, "\n").split(/\r?\n/).map((x) => x.trim()).filter(Boolean);
+  return lignes.length ? lignes.join("\n") : null;
+}
+
 // Transforme une page de la base Pathologies. Synonymes séparés par des points-virgules.
 export function convertirPathologie(page) {
   const p = page.properties || {};
@@ -93,6 +102,7 @@ export function convertirPathologie(page) {
     synonymes,
     categories: valeur(p["Catégories"]) || [],
     sousCategorie: valeur(p["Sous-catégorie"]),
+    conseilsDetailles: texteMultiligne(valeur(p["Conseils détaillés"])),
   };
 }
 
@@ -105,7 +115,7 @@ export function convertirPage(page, options = {}) {
     ligne[cle] = valeur(p[nomNotion]);
   }
   ligne.pathologies = lirePathologies(p, options);
-  for (const cle of ["pathologies", "ages", "conditions", "indicationsAMM"]) {
+  for (const cle of ["pathologies", "ages", "conditions", "indicationsAMM", "liees"]) {
     if (!Array.isArray(ligne[cle])) ligne[cle] = [];
   }
   ligne.magistrale = ligne.magistrale === true;

@@ -5,7 +5,7 @@
 import { readFile } from "node:fs/promises";
 import vm from "node:vm";
 import assert from "node:assert/strict";
-import { convertirPage, convertirPathologie, controler } from "../scripts/export-notion.mjs";
+import { convertirPage, convertirPathologie, controler, texteMultiligne } from "../scripts/export-notion.mjs";
 
 const racine = new URL("..", import.meta.url);
 const html = await readFile(new URL("index.html", racine), "utf8");
@@ -15,7 +15,7 @@ assert.ok(debut > 0 && fin > debut, "Marqueurs LOGIQUE DEBUT / FIN introuvables 
 const code = html.slice(debut, fin);
 const ctx = {};
 vm.createContext(ctx);
-vm.runInContext(code + "\n;globalThis.__ = { MENTION_PMR, calculerDose, genererTexteLigne, construireOrdonnance, comparerLignes, formatMg, lirePoids, descriptionCalcul, filtrerAge, ammDansContexte, TITRE_CONSEILS, MENTION_HORS_AMM, indexPathologies, rechercherPathologies, memeNom };", ctx);
+vm.runInContext(code + "\n;globalThis.__ = { MENTION_PMR, calculerDose, genererTexteLigne, construireOrdonnance, comparerLignes, formatMg, lirePoids, descriptionCalcul, filtrerAge, ammDansContexte, TITRE_CONSEILS, MENTION_HORS_AMM, indexPathologies, rechercherPathologies, memeNom, indexLiees, construireConseilsDetailles, PREFIXE_CONSIGNES };", ctx);
 const M = ctx.__;
 
 const fixture = JSON.parse(await readFile(new URL("tests/fixture.json", racine), "utf8")).lignes;
@@ -256,6 +256,39 @@ test("Indications AMM : nom avec ou sans apostrophe reconnu", () => {
   assert.equal(M.ammDansContexte(l).horsIndication, false);
 });
 
+// ---------- Précautions, lignes liées, conseils détaillés ----------
+test("Précautions insérées sous la ligne, après la mention, et désactivables avec alerte", () => {
+  const l = Object.assign({}, L("protopic"), { consignes: "Éviter le soleil." });
+  const lignes = M.construireOrdonnance([l], null).texte.split("\n");
+  assert.match(lignes[1], /^Prescription au titre d'un accès compassionnel/);
+  assert.equal(lignes[2], M.PREFIXE_CONSIGNES + "Éviter le soleil.");
+  const sans = M.construireOrdonnance([l], null, { consignes: false });
+  assert.ok(!sans.texte.includes("Précautions"));
+  assert.ok(sans.alertes.some((a) => /Précautions de prise désactivées/.test(a.texte)));
+});
+test("Précautions : jamais de tiret en tête (ce n'est pas un médicament)", () => {
+  const l = Object.assign({}, L("doliprane"), { consignes: "Ne pas dépasser 4 prises par jour." });
+  const lignes = M.construireOrdonnance([l], null).texte.split("\n");
+  assert.ok(lignes[0].startsWith("- ") && !lignes[1].startsWith("- "));
+});
+test("Lignes liées : index symétrique et alerte si la ligne liée manque", () => {
+  const a = { id: "a", nom: "Différine alternance", ligne: "x", famille: "4.", liees: ["b"] };
+  const b = { id: "b", nom: "Cutacnyl alternance", ligne: "y", famille: "3.", liees: [] };
+  const idx = M.indexLiees([a, b]);
+  assert.ok(idx.get("b").has("a") && idx.get("a").has("b"));
+  const r = M.construireOrdonnance([a], null, { nomsParId: new Map([["b", "Cutacnyl alternance"]]) });
+  assert.ok(r.alertes.some((x) => /à prescrire avec Cutacnyl alternance/.test(x.texte)));
+  assert.ok(!M.construireOrdonnance([a, b], null).alertes.some((x) => /à prescrire avec/.test(x.texte)));
+});
+test("Conseils détaillés : un bloc par pathologie choisie qui en a", () => {
+  const idx = M.indexPathologies([], [
+    { nom: "Acné", synonymes: [], conseilsDetailles: "- Conseil 1\n- Conseil 2" },
+    { nom: "Gale", synonymes: [] },
+  ]);
+  assert.equal(M.construireConseilsDetailles(["Acné", "Gale"], idx), "Conseils : Acné\n- Conseil 1\n- Conseil 2");
+  assert.equal(M.construireConseilsDetailles(["Gale"], idx), "");
+});
+
 // ---------- Script d'export ----------
 const pageNotion = {
   id: "42319207-651b-81aa-bbbb-000000000001",
@@ -310,7 +343,17 @@ test("Export : conversion d'une pathologie et de ses synonymes", () => {
     "Catégories": { type: "multi_select", multi_select: [{ name: "Dermatologie" }] },
     "Sous-catégorie": { type: "select", select: { name: "Acné et annexes" } },
   } });
-  assert.deepEqual(p, { id: "424100ab", nom: "Hidradénite suppurée", synonymes: ["maladie de Verneuil", "acné inversa"], categories: ["Dermatologie"], sousCategorie: "Acné et annexes" });
+  assert.deepEqual(p, { id: "424100ab", nom: "Hidradénite suppurée", synonymes: ["maladie de Verneuil", "acné inversa"], categories: ["Dermatologie"], sousCategorie: "Acné et annexes", conseilsDetailles: null });
+});
+test("Export : consignes, lignes liées et conseils détaillés", () => {
+  const page = structuredClone(pageNotion);
+  page.properties["Consignes de prise"] = { type: "rich_text", rich_text: [{ plain_text: "À prendre au repas." }] };
+  page.properties["Lignes liées"] = { type: "relation", relation: [{ id: "4231-00aa" }] };
+  const l = convertirPage(page);
+  assert.equal(l.consignes, "À prendre au repas.");
+  assert.deepEqual(l.liees, ["423100aa"]);
+  assert.deepEqual(convertirPage(pageNotion).liees, []);
+  assert.equal(texteMultiligne("- a<br />- b\n\n- c "), "- a\n- b\n- c");
 });
 test("Export : modèle non rempli ignoré", () => {
   const modele = structuredClone(pageNotion);
