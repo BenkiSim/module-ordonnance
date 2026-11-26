@@ -1,5 +1,5 @@
 {
-  "genere": "2026-11-26T15:46:09.069Z",
+  "genere": "2026-11-26T20:01:42.179Z",
   "source": "Notion, bases Médicaments et Pathologies",
   "pathologies": [
     {
@@ -3058,7 +3058,8 @@
       "pathologies": [
         "Déficit en mévalonate kinase",
         "Fièvre méditerranéenne familiale",
-        "PFAPA"
+        "PFAPA",
+        "Érythème noueux"
       ]
     },
     {
@@ -3095,7 +3096,14 @@
         "Mastocytose",
         "Prurigo strophulus",
         "Urticaire",
-        "Varicelle"
+        "Varicelle",
+        "Piqûres d'insectes",
+        "Pityriasis rosé de Gibert",
+        "Photodermatose",
+        "Dermatite des nageurs",
+        "Toxidermie",
+        "Gianotti-Crosti",
+        "Mpox"
       ]
     },
     {
@@ -3167,7 +3175,14 @@
         "Lichen nitidus",
         "Prurigo strophulus",
         "Urticaire",
-        "Varicelle"
+        "Varicelle",
+        "Piqûres d'insectes",
+        "Pityriasis rosé de Gibert",
+        "Photodermatose",
+        "Dermatite des nageurs",
+        "Toxidermie",
+        "Gianotti-Crosti",
+        "Mpox"
       ]
     },
     {
@@ -3205,7 +3220,14 @@
         "Lichen nitidus",
         "Prurigo strophulus",
         "Urticaire",
-        "Varicelle"
+        "Varicelle",
+        "Piqûres d'insectes",
+        "Pityriasis rosé de Gibert",
+        "Photodermatose",
+        "Dermatite des nageurs",
+        "Toxidermie",
+        "Gianotti-Crosti",
+        "Mpox"
       ]
     },
     {
@@ -3239,6 +3261,40 @@
       "indicationsAMM": [],
       "pathologies": [
         "Acné"
+      ]
+    },
+    {
+      "id": "42419207651b816898a2f7b25af4045e",
+      "nom": "Aldara crème, condylomes, 16 semaines maximum",
+      "ligne": "Aldara (imiquimod) crème 5 % : 1 application le soir, 3 fois par semaine, sur les condylomes, jusqu'à leur disparition, 16 semaines au maximum",
+      "molecule": "imiquimod",
+      "famille": "2. Autres topiques anti-inflammatoires ou immunomodulateurs",
+      "zone": "Sans objet",
+      "puissance": null,
+      "situation": "Traitement de base",
+      "magistrale": false,
+      "ages": [
+        "Enfant",
+        "Adolescent"
+      ],
+      "statut": "À valider",
+      "aVerifier": "AMM chez l'adulte uniquement. Chez l'enfant, rechercher un contexte d'abus sexuel. Dermagic propose aussi Efudix et Condyline, non retenus faute d'AMM pédiatrique.",
+      "doseMgKg": null,
+      "prises": null,
+      "concentration": null,
+      "dosageUnitaire": null,
+      "doseMax": null,
+      "arrondi": null,
+      "statutAMM": "Hors AMM",
+      "remboursement": "À vérifier",
+      "conditions": [],
+      "mention": "Prescription hors autorisation de mise sur le marché",
+      "consignes": "Appliquer en couche mince le soir, laisser en contact environ 8 heures puis laver le matin. Se laver les mains avant et après. Rougeur et irritation attendues : espacer ou suspendre les applications si l'irritation est importante.",
+      "liees": [],
+      "ageAMM": null,
+      "indicationsAMM": [],
+      "pathologies": [
+        "Condylomes"
       ]
     },
     {
@@ -3311,7 +3367,9 @@
         "Dermatophytose",
         "Dermohypodermite bactérienne",
         "Onychomycose",
-        "Perlèche"
+        "Perlèche",
+        "Intertrigo candidosique",
+        "Pityriasis versicolor"
       ]
     },
     {
@@ -3586,7 +3644,8 @@
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
-        "Furonculose"
+        "Furonculose",
+        "Abcès cutané"
       ]
     },
     {
@@ -3813,7 +3872,49 @@
         "Prurigo strophulus",
         "Prurit chronique",
         "Épidermolyse bulleuse acquise",
-        "Érythème polymorphe"
+        "Érythème polymorphe",
+        "Lichen striatus",
+        "Eczéma nummulaire",
+        "Photodermatose",
+        "Maladie de Hailey-Hailey",
+        "Dermite d'irritation"
+      ]
+    },
+    {
+      "id": "42419207651b81269c53d4aeeb63b02a",
+      "nom": "Biafine émulsion, brûlure superficielle",
+      "ligne": "Biafine (trolamine) émulsion : 1 application en couche épaisse 2 à 4 fois par jour sur la brûlure, jusqu'à cicatrisation",
+      "molecule": "trolamine",
+      "famille": "5. Émollients et soins de base",
+      "zone": "Sans objet",
+      "puissance": null,
+      "situation": "Traitement de base",
+      "magistrale": false,
+      "ages": [
+        "Nourrisson",
+        "Enfant",
+        "Adolescent"
+      ],
+      "statut": "À valider",
+      "aVerifier": "Brûlure avec cloques étendues, profonde, ou du visage, des mains, du périnée : avis médical. Données pédiatriques limitées selon certaines notices.",
+      "doseMgKg": null,
+      "prises": null,
+      "concentration": null,
+      "dosageUnitaire": null,
+      "doseMax": null,
+      "arrondi": null,
+      "statutAMM": "AMM",
+      "remboursement": "Non remboursé",
+      "conditions": [],
+      "mention": null,
+      "consignes": "Refroidir d'abord la brûlure sous l'eau tempérée pendant 10 à 15 minutes. Ne pas appliquer sur une plaie qui saigne ou infectée. Consulter en cas de cloques étendues ou de fièvre.",
+      "liees": [],
+      "ageAMM": null,
+      "indicationsAMM": [],
+      "pathologies": [
+        "Brûlure",
+        "Coup de soleil",
+        "Plaie cutanée"
       ]
     },
     {
@@ -3883,7 +3984,9 @@
       "indicationsAMM": [],
       "pathologies": [
         "Lichen plan",
-        "Érythème polymorphe"
+        "Érythème polymorphe",
+        "Aphtose buccale",
+        "Maladie de Behçet"
       ]
     },
     {
@@ -4161,7 +4264,8 @@
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
-        "Furonculose"
+        "Furonculose",
+        "Folliculite bactérienne"
       ]
     },
     {
@@ -4267,7 +4371,9 @@
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
-        "Balanite"
+        "Balanite",
+        "Anite streptococcique",
+        "Intertrigo streptococcique"
       ]
     },
     {
@@ -4540,7 +4646,8 @@
       "indicationsAMM": [],
       "pathologies": [
         "Fièvre méditerranéenne familiale",
-        "PFAPA"
+        "PFAPA",
+        "Maladie de Behçet"
       ]
     },
     {
@@ -4575,7 +4682,8 @@
       "indicationsAMM": [],
       "pathologies": [
         "Fièvre méditerranéenne familiale",
-        "PFAPA"
+        "PFAPA",
+        "Maladie de Behçet"
       ]
     },
     {
@@ -4672,6 +4780,109 @@
       ]
     },
     {
+      "id": "42419207651b81d7a41bd947857ea4c3",
+      "nom": "Conseil hygiène vulvaire, fillette",
+      "ligne": "Toilette vulvaire 1 fois par jour à l'eau ou avec un savon doux sans parfum, d'avant en arrière, séchage soigneux, sous-vêtements en coton, éviter les bains moussants et les vêtements serrés",
+      "molecule": null,
+      "famille": "8. Conseils",
+      "zone": null,
+      "puissance": null,
+      "situation": "Traitement de base",
+      "magistrale": false,
+      "ages": [],
+      "statut": "À valider",
+      "aVerifier": null,
+      "doseMgKg": null,
+      "prises": null,
+      "concentration": null,
+      "dosageUnitaire": null,
+      "doseMax": null,
+      "arrondi": null,
+      "statutAMM": null,
+      "remboursement": null,
+      "conditions": [],
+      "mention": null,
+      "consignes": null,
+      "liees": [],
+      "ageAMM": null,
+      "indicationsAMM": [],
+      "pathologies": [
+        "Vulvite"
+      ]
+    },
+    {
+      "id": "42419207651b81a2a37bf0144e2640e0",
+      "nom": "Conseil hygiène, oxyurose",
+      "ligne": "Oxyures : ongles coupés courts, lavage des mains avant les repas et après les toilettes, pyjamas, linge de corps et draps lavés à 60 °C le jour du traitement, traiter toute la famille",
+      "molecule": null,
+      "famille": "8. Conseils",
+      "zone": null,
+      "puissance": null,
+      "situation": "Traitement de base",
+      "magistrale": false,
+      "ages": [],
+      "statut": "À valider",
+      "aVerifier": null,
+      "doseMgKg": null,
+      "prises": null,
+      "concentration": null,
+      "dosageUnitaire": null,
+      "doseMax": null,
+      "arrondi": null,
+      "statutAMM": null,
+      "remboursement": null,
+      "conditions": [],
+      "mention": null,
+      "consignes": null,
+      "liees": [],
+      "ageAMM": null,
+      "indicationsAMM": [],
+      "pathologies": [
+        "Oxyurose"
+      ]
+    },
+    {
+      "id": "42419207651b817ab7ecf5f7e4dbd43e",
+      "nom": "Conseil photoprotection (générique)",
+      "ligne": "Protection solaire : éviter le soleil entre 12 h et 16 h, vêtements couvrants, chapeau et lunettes de soleil, crème solaire indice 50+ renouvelée toutes les 2 heures et après chaque baignade",
+      "molecule": null,
+      "famille": "8. Conseils",
+      "zone": null,
+      "puissance": null,
+      "situation": "Traitement de base",
+      "magistrale": false,
+      "ages": [],
+      "statut": "À valider",
+      "aVerifier": "Xeroderma pigmentosum : protection renforcée en plus de ce conseil (vêtements anti-UV, visière ou masque filtrant, activités extérieures hors des heures d'ensoleillement).",
+      "doseMgKg": null,
+      "prises": null,
+      "concentration": null,
+      "dosageUnitaire": null,
+      "doseMax": null,
+      "arrondi": null,
+      "statutAMM": null,
+      "remboursement": null,
+      "conditions": [],
+      "mention": null,
+      "consignes": null,
+      "liees": [],
+      "ageAMM": null,
+      "indicationsAMM": [],
+      "pathologies": [
+        "Albinisme",
+        "Xeroderma pigmentosum",
+        "Photodermatose",
+        "Lupus",
+        "Mélasma",
+        "Dyschromie post-inflammatoire",
+        "Porokératose",
+        "Naevus",
+        "Mélanome",
+        "Coup de soleil",
+        "Pityriasis alba"
+      ]
+    },
+    {
       "id": "42319207651b81f7803beb2f5863a602",
       "nom": "Conseil photoprotection, traitement photosensibilisant",
       "ligne": "Traitement photosensibilisant : éviter l'exposition solaire directe, protection vestimentaire et crème solaire indice 50+",
@@ -4735,6 +4946,103 @@
       ]
     },
     {
+      "id": "42419207651b8179aafedc55bcace335",
+      "nom": "Conseil plis, intertrigo",
+      "ligne": "Plis : bien sécher les plis après la toilette, vêtements amples en coton, éviter la macération et les frottements",
+      "molecule": null,
+      "famille": "8. Conseils",
+      "zone": null,
+      "puissance": null,
+      "situation": "Traitement de base",
+      "magistrale": false,
+      "ages": [],
+      "statut": "À valider",
+      "aVerifier": null,
+      "doseMgKg": null,
+      "prises": null,
+      "concentration": null,
+      "dosageUnitaire": null,
+      "doseMax": null,
+      "arrondi": null,
+      "statutAMM": null,
+      "remboursement": null,
+      "conditions": [],
+      "mention": null,
+      "consignes": null,
+      "liees": [],
+      "ageAMM": null,
+      "indicationsAMM": [],
+      "pathologies": [
+        "Intertrigo",
+        "Intertrigo candidosique",
+        "Érythrasma",
+        "Intertrigo streptococcique"
+      ]
+    },
+    {
+      "id": "42419207651b8170883df6d58d250c53",
+      "nom": "Conseil protection contre le froid",
+      "ligne": "Protection contre le froid : vêtements chauds en plusieurs couches, moufles, chaussettes et chaussures chaudes non serrées, éviter les changements brusques de température",
+      "molecule": null,
+      "famille": "8. Conseils",
+      "zone": null,
+      "puissance": null,
+      "situation": "Traitement de base",
+      "magistrale": false,
+      "ages": [],
+      "statut": "À valider",
+      "aVerifier": null,
+      "doseMgKg": null,
+      "prises": null,
+      "concentration": null,
+      "dosageUnitaire": null,
+      "doseMax": null,
+      "arrondi": null,
+      "statutAMM": null,
+      "remboursement": null,
+      "conditions": [],
+      "mention": null,
+      "consignes": null,
+      "liees": [],
+      "ageAMM": null,
+      "indicationsAMM": [],
+      "pathologies": [
+        "Engelures",
+        "Phénomène de Raynaud"
+      ]
+    },
+    {
+      "id": "42419207651b81848b70fc6346e8912a",
+      "nom": "Conseil régime sans gluten, dermatite herpétiforme",
+      "ligne": "Régime strict sans gluten : exclure le blé, l'orge, le seigle et leurs dérivés, lire les étiquettes des aliments et des médicaments",
+      "molecule": null,
+      "famille": "8. Conseils",
+      "zone": null,
+      "puissance": null,
+      "situation": "Traitement de base",
+      "magistrale": false,
+      "ages": [],
+      "statut": "À valider",
+      "aVerifier": null,
+      "doseMgKg": null,
+      "prises": null,
+      "concentration": null,
+      "dosageUnitaire": null,
+      "doseMax": null,
+      "arrondi": null,
+      "statutAMM": null,
+      "remboursement": null,
+      "conditions": [],
+      "mention": null,
+      "consignes": null,
+      "liees": [],
+      "ageAMM": null,
+      "indicationsAMM": [],
+      "pathologies": [
+        "Dermatite herpétiforme"
+      ]
+    },
+    {
       "id": "42319207651b81f5a79de8b07405e6ce",
       "nom": "Conseil toilette, dermatite atopique",
       "ligne": "Toilette quotidienne courte (5 à 10 minutes) à l'eau tiède avec un pain ou un gel sans savon, puis séchage en tamponnant",
@@ -4763,6 +5071,37 @@
       "indicationsAMM": [],
       "pathologies": [
         "Dermatite atopique"
+      ]
+    },
+    {
+      "id": "42419207651b81118acfcc26d68c6ef3",
+      "nom": "Conseil toilette, zona",
+      "ligne": "Zona : toilette quotidienne à l'eau et au savon doux, sans antiseptique ni crème sur les lésions, ongles coupés courts, éviter le contact avec les nouveau-nés, les femmes enceintes et les personnes immunodéprimées jusqu'à la formation des croûtes",
+      "molecule": null,
+      "famille": "8. Conseils",
+      "zone": null,
+      "puissance": null,
+      "situation": "Traitement de base",
+      "magistrale": false,
+      "ages": [],
+      "statut": "À valider",
+      "aVerifier": "Source Dermagic (adulte) : douche antiseptique à la chlorhexidine. Le Vidal indique au contraire un savon sans antiseptique et l'absence d'indication des traitements locaux : version Vidal retenue.",
+      "doseMgKg": null,
+      "prises": null,
+      "concentration": null,
+      "dosageUnitaire": null,
+      "doseMax": null,
+      "arrondi": null,
+      "statutAMM": null,
+      "remboursement": null,
+      "conditions": [],
+      "mention": null,
+      "consignes": null,
+      "liees": [],
+      "ageAMM": null,
+      "indicationsAMM": [],
+      "pathologies": [
+        "Zona"
       ]
     },
     {
@@ -4870,6 +5209,46 @@
       "indicationsAMM": [],
       "pathologies": [
         "Psoriasis"
+      ]
+    },
+    {
+      "id": "42419207651b81d3874edf6d03ee40d1",
+      "nom": "Crème solaire SPF 50+, zones découvertes",
+      "ligne": "Crème solaire très haute protection SPF 50+ : 1 application sur les zones découvertes avant l'exposition, à renouveler toutes les 2 heures et après chaque baignade, au long cours",
+      "molecule": null,
+      "famille": "4. Autres topiques spécifiques",
+      "zone": "Sans objet",
+      "puissance": null,
+      "situation": "Traitement de base",
+      "magistrale": false,
+      "ages": [
+        "Enfant",
+        "Adolescent"
+      ],
+      "statut": "À valider",
+      "aVerifier": "Avant 1 an, privilégier l'éviction solaire et la protection vestimentaire. Choisir un filtre à forte protection UVA (et lumière visible pour le mélasma).",
+      "doseMgKg": null,
+      "prises": null,
+      "concentration": null,
+      "dosageUnitaire": null,
+      "doseMax": null,
+      "arrondi": null,
+      "statutAMM": "Sans AMM (dispositif ou produit)",
+      "remboursement": "Non remboursé",
+      "conditions": [],
+      "mention": null,
+      "consignes": null,
+      "liees": [],
+      "ageAMM": null,
+      "indicationsAMM": [],
+      "pathologies": [
+        "Albinisme",
+        "Xeroderma pigmentosum",
+        "Photodermatose",
+        "Lupus",
+        "Mélasma",
+        "Porokératose",
+        "Dyschromie post-inflammatoire"
       ]
     },
     {
@@ -5223,6 +5602,41 @@
       ]
     },
     {
+      "id": "42419207651b81c982c2ca501e3d8f3f",
+      "nom": "Dakin, bains de pied, ongle incarné",
+      "ligne": "Dakin Cooper stabilisé (hypochlorite de sodium) solution : 1 bain de pied de 10 minutes, 3 fois par jour, jusqu'à amélioration",
+      "molecule": "hypochlorite de sodium",
+      "famille": "3. Topiques anti-infectieux",
+      "zone": "Sans objet",
+      "puissance": null,
+      "situation": "Traitement de base",
+      "magistrale": false,
+      "ages": [
+        "Nourrisson",
+        "Enfant",
+        "Adolescent"
+      ],
+      "statut": "À valider",
+      "aVerifier": "Dilution pour bain de pied et remboursement à vérifier. Ongle incarné du nourrisson : le plus souvent simple surveillance et soins locaux.",
+      "doseMgKg": null,
+      "prises": null,
+      "concentration": null,
+      "dosageUnitaire": null,
+      "doseMax": null,
+      "arrondi": null,
+      "statutAMM": "AMM",
+      "remboursement": "À vérifier",
+      "conditions": [],
+      "mention": null,
+      "consignes": "Bien sécher le pied après le bain. Ne pas associer à un autre antiseptique.",
+      "liees": [],
+      "ageAMM": null,
+      "indicationsAMM": [],
+      "pathologies": [
+        "Ongle incarné"
+      ]
+    },
+    {
       "id": "42319207651b810ca9f3f9665eabeb2a",
       "nom": "Daktarin gel buccal, enfant de 2 ans et plus",
       "ligne": "Daktarin (miconazole) gel buccal 2% : 2,5 mL par prise, 4 fois par jour après les repas, pendant 15 jours",
@@ -5361,6 +5775,40 @@
       ]
     },
     {
+      "id": "42419207651b81b1b4ebe2f9ad8c0923",
+      "nom": "Dermoval crème, chéloïde, 3 mois",
+      "ligne": "Dermoval (clobétasol propionate) crème 0,05% : 1 application par jour, le soir, sur la cicatrice en massant, pendant 3 mois",
+      "molecule": "clobétasol propionate",
+      "famille": "1. Dermocorticoïdes",
+      "zone": "Corps et membres",
+      "puissance": "Classe I (très forte)",
+      "situation": "Traitement de base",
+      "magistrale": false,
+      "ages": [
+        "Enfant",
+        "Adolescent"
+      ],
+      "statut": "À valider",
+      "aVerifier": "AMM : cicatrices hypertrophiques ; chéloïde vraie à confirmer. Surveiller l'atrophie autour de la cicatrice sur 3 mois continus.",
+      "doseMgKg": null,
+      "prises": null,
+      "concentration": null,
+      "dosageUnitaire": null,
+      "doseMax": null,
+      "arrondi": null,
+      "statutAMM": "AMM",
+      "remboursement": "Remboursé",
+      "conditions": [],
+      "mention": null,
+      "consignes": null,
+      "liees": [],
+      "ageAMM": null,
+      "indicationsAMM": [],
+      "pathologies": [
+        "Chéloïde"
+      ]
+    },
+    {
       "id": "42319207651b81fdb3cbdb419d73beb6",
       "nom": "Dermoval crème, lésions du corps (générique)",
       "ligne": "Dermoval (clobétasol propionate) crème 0,05% : 1 application par jour, le soir, sur les lésions du corps (hors visage et plis), dès l'apparition des lésions et jusqu'à leur disparition",
@@ -5396,7 +5844,83 @@
         "Lichen plan",
         "Lichen plan pilaire",
         "Nécrobiose lipoïdique",
-        "Psoriasis"
+        "Psoriasis",
+        "Granulome annulaire",
+        "Morphée",
+        "Lupus",
+        "Pemphigoïde",
+        "Pemphigus",
+        "Dermatose à IgA linéaire",
+        "Pityriasis rubra pilaire",
+        "Pyoderma gangrenosum"
+      ]
+    },
+    {
+      "id": "42419207651b811ea9d5d1638031d293",
+      "nom": "Dermoval crème, lichen scléreux, attaque 3 mois",
+      "ligne": "Dermoval (clobétasol propionate) crème 0,05% : 1 application par jour, le soir, sur les lésions, pendant 3 mois",
+      "molecule": "clobétasol propionate",
+      "famille": "1. Dermocorticoïdes",
+      "zone": "Visage et plis",
+      "puissance": "Classe I (très forte)",
+      "situation": "Traitement de base",
+      "magistrale": false,
+      "ages": [
+        "Enfant",
+        "Adolescent"
+      ],
+      "statut": "À valider",
+      "aVerifier": "Indication rattachée aux « plaques de lichens » du RCP, à confirmer pour la localisation génitale de l'enfant. Source : 3 tubes au maximum pour 3 mois. Clarelux réservé au plus de 12 ans.",
+      "doseMgKg": null,
+      "prises": null,
+      "concentration": null,
+      "dosageUnitaire": null,
+      "doseMax": null,
+      "arrondi": null,
+      "statutAMM": "AMM",
+      "remboursement": "Remboursé",
+      "conditions": [],
+      "mention": null,
+      "consignes": null,
+      "liees": [],
+      "ageAMM": null,
+      "indicationsAMM": [],
+      "pathologies": [
+        "Lichen scléreux"
+      ]
+    },
+    {
+      "id": "42419207651b81a2983aea5e34be9aa5",
+      "nom": "Dermoval crème, lichen scléreux, entretien 2 fois par semaine 3 mois",
+      "ligne": "Dermoval (clobétasol propionate) crème 0,05% : 1 application, 2 fois par semaine, sur les lésions, pendant 3 mois",
+      "molecule": "clobétasol propionate",
+      "famille": "1. Dermocorticoïdes",
+      "zone": "Visage et plis",
+      "puissance": "Classe I (très forte)",
+      "situation": "Entretien",
+      "magistrale": false,
+      "ages": [
+        "Enfant",
+        "Adolescent"
+      ],
+      "statut": "À valider",
+      "aVerifier": "Alternative d'entretien selon la source : tacrolimus 0,1 % 2 fois par semaine (hors AMM).",
+      "doseMgKg": null,
+      "prises": null,
+      "concentration": null,
+      "dosageUnitaire": null,
+      "doseMax": null,
+      "arrondi": null,
+      "statutAMM": "AMM",
+      "remboursement": "Remboursé",
+      "conditions": [],
+      "mention": null,
+      "consignes": null,
+      "liees": [],
+      "ageAMM": null,
+      "indicationsAMM": [],
+      "pathologies": [
+        "Lichen scléreux"
       ]
     },
     {
@@ -5565,7 +6089,9 @@
       "pathologies": [
         "Acné",
         "Dermite péri-orale",
-        "Rosacée"
+        "Rosacée",
+        "Acanthosis nigricans",
+        "Maladie de Darier"
       ]
     },
     {
@@ -5747,7 +6273,15 @@
         "Prurigo strophulus",
         "Prurit chronique",
         "Épidermolyse bulleuse acquise",
-        "Érythème polymorphe"
+        "Érythème polymorphe",
+        "Piqûres d'insectes",
+        "Pityriasis rosé de Gibert",
+        "Photodermatose",
+        "Lichen striatus",
+        "Toxidermie",
+        "Eczéma nummulaire",
+        "Maladie de Hailey-Hailey",
+        "Dermatite des nageurs"
       ]
     },
     {
@@ -5820,7 +6354,18 @@
         "Fièvre méditerranéenne familiale",
         "PFAPA",
         "SSSS",
-        "Varicelle"
+        "Varicelle",
+        "Rougeole",
+        "Rubéole",
+        "Roséole",
+        "Mégalérythème épidémique",
+        "Exanthème viral",
+        "Mononucléose infectieuse",
+        "Syndrome pieds-mains-bouche",
+        "Mpox",
+        "Érythème noueux",
+        "Fièvre boutonneuse méditerranéenne",
+        "Maladie des griffes du chat"
       ]
     },
     {
@@ -5855,7 +6400,13 @@
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
-        "Panaris"
+        "Panaris",
+        "Zona",
+        "Brûlure",
+        "Coup de soleil",
+        "Plaie cutanée",
+        "Ongle incarné",
+        "Aphtose buccale"
       ]
     },
     {
@@ -5995,6 +6546,40 @@
       ]
     },
     {
+      "id": "42419207651b815d97b2fd6f2200c0b1",
+      "nom": "Doxycycline, fièvre boutonneuse méditerranéenne, 7 jours (au poids)",
+      "ligne": "Doxy (doxycycline) comprimé sécable 100 mg : {unités} comprimé ({mg} mg) par prise, 2 fois par jour pendant 7 jours",
+      "molecule": "doxycycline",
+      "famille": "6. Traitements systémiques",
+      "zone": null,
+      "puissance": null,
+      "situation": "Traitement de base",
+      "magistrale": false,
+      "ages": [
+        "Enfant",
+        "Adolescent"
+      ],
+      "statut": "À valider",
+      "aVerifier": "Source Dermagic (adulte) : 200 mg par jour pendant 5 à 7 jours. Dose enfant retenue : 2,2 mg/kg 2 fois par jour, maximum 100 mg par prise (MSF), jusqu'à 3 jours après l'apyrexie. Avant 8 ans : contre-indication du RCP, à discuter (les cyclines restent le traitement de référence des rickettsioses). Alternative avant 8 ans à vérifier (josamycine).",
+      "doseMgKg": 4.4,
+      "prises": 2,
+      "concentration": null,
+      "dosageUnitaire": 100,
+      "doseMax": 200,
+      "arrondi": 0.5,
+      "statutAMM": "AMM",
+      "remboursement": "Remboursé",
+      "conditions": [],
+      "mention": null,
+      "consignes": "À prendre au milieu d'un repas avec un grand verre d'eau, en position assise ou debout, au moins 1 heure avant le coucher : ne pas s'allonger après la prise. Espacer d'au moins 2 heures la prise de lait, de calcium, de fer, de zinc ou d'un pansement gastrique. Médicament photosensibilisant : éviter le soleil et les UV, vêtements couvrants et crème solaire indice 50+ ; arrêter et consulter en cas de coup de soleil.",
+      "liees": [],
+      "ageAMM": null,
+      "indicationsAMM": [],
+      "pathologies": [
+        "Fièvre boutonneuse méditerranéenne"
+      ]
+    },
+    {
       "id": "42319207651b8189aad6c04d4a4dd1a8",
       "nom": "Doxycycline, Lyme érythème migrant isolé, 10 jours (au poids)",
       "ligne": "Doxy (doxycycline) comprimé sécable 100 mg : {unités} comprimé ({mg} mg) par prise, 2 fois par jour pendant 10 jours",
@@ -6094,6 +6679,40 @@
       "indicationsAMM": [],
       "pathologies": [
         "Lyme"
+      ]
+    },
+    {
+      "id": "42419207651b8149a502e506f1812860",
+      "nom": "Duofilm solution, verrues, 6 semaines maximum",
+      "ligne": "Duofilm (acide salicylique, acide lactique) solution : 1 application par jour, le soir, sur la verrue, jusqu'à sa disparition, 6 semaines au maximum",
+      "molecule": "acide salicylique",
+      "famille": "4. Autres topiques spécifiques",
+      "zone": "Sans objet",
+      "puissance": null,
+      "situation": "Traitement de base",
+      "magistrale": false,
+      "ages": [
+        "Enfant",
+        "Adolescent"
+      ],
+      "statut": "À valider",
+      "aVerifier": "Remboursement à confirmer. Avant 4 ans : sur avis médical (RCP). Surface maximale 5 cm2. Dermagic propose aussi la pommade MO Cochon (acide salicylique 50 %) et une préparation salicylée sous occlusion.",
+      "doseMgKg": null,
+      "prises": null,
+      "concentration": null,
+      "dosageUnitaire": null,
+      "doseMax": null,
+      "arrondi": null,
+      "statutAMM": "AMM",
+      "remboursement": "Non remboursé",
+      "conditions": [],
+      "mention": null,
+      "consignes": "Limer la surface de la verrue avant chaque application, appliquer sans déborder sur la peau saine et laisser sécher. Ne pas appliquer sur le visage, les muqueuses ou une peau irritée. Arrêter en cas de saignement ou d'irritation importante.",
+      "liees": [],
+      "ageAMM": "dès 4 ans",
+      "indicationsAMM": [],
+      "pathologies": [
+        "Verrues"
       ]
     },
     {
@@ -6277,7 +6896,10 @@
       "indicationsAMM": [],
       "pathologies": [
         "Acné",
-        "Rosacée"
+        "Rosacée",
+        "Acanthosis nigricans",
+        "Porokératose",
+        "Maladie de Darier"
       ]
     },
     {
@@ -6348,7 +6970,10 @@
         "Lichen plan unguéal",
         "Nécrobiose lipoïdique",
         "Pelade",
-        "Prurit chronique"
+        "Prurit chronique",
+        "Molluscum contagiosum",
+        "Ongle incarné",
+        "Chéloïde"
       ]
     },
     {
@@ -6425,7 +7050,24 @@
         "Eczéma de contact",
         "Ichtyose",
         "Prurit chronique",
-        "Psoriasis"
+        "Psoriasis",
+        "Xérose cutanée",
+        "Dermatose plantaire juvénile",
+        "Kératose pilaire",
+        "Pityriasis alba",
+        "Lichen striatus",
+        "Pityriasis rosé de Gibert",
+        "Maladie de Darier",
+        "Pityriasis rubra pilaire",
+        "Dysplasie ectodermique",
+        "Kératodermie palmoplantaire",
+        "Pachyonychie congénitale",
+        "Eczéma nummulaire",
+        "Dermite d'irritation",
+        "Lichen scléreux",
+        "Vulvite",
+        "Gianotti-Crosti",
+        "Chéilite"
       ]
     },
     {
@@ -6674,6 +7316,41 @@
       ]
     },
     {
+      "id": "42419207651b814099b0f9c471befe28",
+      "nom": "Eryfluid lotion, érythrasma ou kératolyse ponctuée, 14 jours",
+      "ligne": "Eryfluid (érythromycine) lotion 4 % : 2 applications par jour sur les lésions pendant 14 jours",
+      "molecule": "érythromycine",
+      "famille": "3. Topiques anti-infectieux",
+      "zone": "Sans objet",
+      "puissance": null,
+      "situation": "Traitement de base",
+      "magistrale": false,
+      "ages": [
+        "Enfant",
+        "Adolescent"
+      ],
+      "statut": "À valider",
+      "aVerifier": "AMM dans l'acné. Alternatives Dermagic : Zindacline 3 fois par jour, Fucidine ou Mupiderm 2 fois par jour, 14 jours.",
+      "doseMgKg": null,
+      "prises": null,
+      "concentration": null,
+      "dosageUnitaire": null,
+      "doseMax": null,
+      "arrondi": null,
+      "statutAMM": "Hors AMM",
+      "remboursement": "À vérifier",
+      "conditions": [],
+      "mention": "Prescription hors autorisation de mise sur le marché",
+      "consignes": null,
+      "liees": [],
+      "ageAMM": null,
+      "indicationsAMM": [],
+      "pathologies": [
+        "Érythrasma",
+        "Kératolyse ponctuée"
+      ]
+    },
+    {
       "id": "42319207651b810fa390d957974db00d",
       "nom": "Erythrogel, dermite péri-orale, 2 mois",
       "ligne": "Erythrogel (érythromycine) gel 4% : 2 applications par jour sur les lésions pendant 2 mois",
@@ -6774,6 +7451,40 @@
       "indicationsAMM": [],
       "pathologies": [
         "PLEVA"
+      ]
+    },
+    {
+      "id": "42419207651b81799ce6fcdeb27657a3",
+      "nom": "Etiaxil détranspirant, hyperhidrose",
+      "ligne": "Etiaxil (chlorure d'aluminium) solution : 1 application le soir sur peau propre et sèche, à rincer le matin, jusqu'à amélioration puis 2 à 3 fois par semaine",
+      "molecule": "chlorure d aluminium",
+      "famille": "4. Autres topiques spécifiques",
+      "zone": "Sans objet",
+      "puissance": null,
+      "situation": "Traitement de base",
+      "magistrale": false,
+      "ages": [
+        "Enfant",
+        "Adolescent"
+      ],
+      "statut": "À valider",
+      "aVerifier": "Produit cosmétique : chez l'enfant, utilisation sur avis médical selon le fabricant. Dermagic propose ensuite l'oxybutynine, non retenue ici (hors AMM, à discuter en spécialité).",
+      "doseMgKg": null,
+      "prises": null,
+      "concentration": null,
+      "dosageUnitaire": null,
+      "doseMax": null,
+      "arrondi": null,
+      "statutAMM": "Sans AMM (dispositif ou produit)",
+      "remboursement": "Non remboursé",
+      "conditions": [],
+      "mention": null,
+      "consignes": "Appliquer sur une peau parfaitement sèche, jamais après un rasage ou une épilation ni sur une peau irritée. Rincer le matin.",
+      "liees": [],
+      "ageAMM": null,
+      "indicationsAMM": [],
+      "pathologies": [
+        "Hyperhidrose"
       ]
     },
     {
@@ -6878,6 +7589,41 @@
       "indicationsAMM": [],
       "pathologies": [
         "Angioedème bradykinique"
+      ]
+    },
+    {
+      "id": "42419207651b812381e2e93c1fb5e9fc",
+      "nom": "Fluvermal suspension, oxyurose, J1 et J15 à J20",
+      "ligne": "Fluvermal (flubendazole) suspension buvable 2 % : 5 mL (100 mg) en une prise unique, à renouveler 15 à 20 jours plus tard",
+      "molecule": "flubendazole",
+      "famille": "6. Traitements systémiques",
+      "zone": null,
+      "puissance": null,
+      "situation": "Traitement de base",
+      "magistrale": false,
+      "ages": [
+        "Nourrisson",
+        "Enfant",
+        "Adolescent"
+      ],
+      "statut": "À valider",
+      "aVerifier": "Dose identique chez l'enfant et l'adulte (RCP). Avant 1 an : voir la rubrique 4.4 du RCP. Traiter l'entourage. Comprimé 100 mg possible chez le grand enfant.",
+      "doseMgKg": null,
+      "prises": null,
+      "concentration": null,
+      "dosageUnitaire": null,
+      "doseMax": null,
+      "arrondi": null,
+      "statutAMM": "AMM",
+      "remboursement": "Remboursé",
+      "conditions": [],
+      "mention": null,
+      "consignes": "Bien agiter le flacon. Peut être pris pendant ou en dehors des repas.",
+      "liees": [],
+      "ageAMM": null,
+      "indicationsAMM": [],
+      "pathologies": [
+        "Oxyurose"
       ]
     },
     {
@@ -7238,6 +7984,42 @@
       ]
     },
     {
+      "id": "42419207651b81d38ad2f06e7c01829e",
+      "nom": "Hyftor gel, angiofibromes de la sclérose tubéreuse, dès 6 ans",
+      "ligne": "Hyftor (sirolimus) gel 0,2 % : 2 applications par jour sur les angiofibromes du visage, pendant 12 semaines puis à réévaluer",
+      "molecule": "sirolimus",
+      "famille": "2. Autres topiques anti-inflammatoires ou immunomodulateurs",
+      "zone": "Visage et plis",
+      "puissance": null,
+      "situation": "Traitement de base",
+      "magistrale": false,
+      "ages": [
+        "Enfant",
+        "Adolescent"
+      ],
+      "statut": "À valider",
+      "aVerifier": "Dose maximale par jour : 600 mg de gel (environ 2 cm) de 6 à 11 ans, 800 mg (environ 2,5 cm) à partir de 12 ans, en 2 applications. Arrêter en l'absence d'effet à 12 semaines. Avis HAS favorable au remboursement (septembre 2026) : prise en charge effective à vérifier. La source propose une préparation magistrale de sirolimus, non retenue puisqu'une spécialité existe.",
+      "doseMgKg": null,
+      "prises": null,
+      "concentration": null,
+      "dosageUnitaire": null,
+      "doseMax": null,
+      "arrondi": null,
+      "statutAMM": "AMM",
+      "remboursement": "À vérifier",
+      "conditions": [
+        "Conditions à vérifier"
+      ],
+      "mention": null,
+      "consignes": "Appliquer en couche fine uniquement sur les lésions, en évitant les yeux, les paupières et les muqueuses, puis se laver les mains. Ne pas appliquer sur une peau lésée ou infectée. Éviter le soleil et les UV, protection solaire.",
+      "liees": [],
+      "ageAMM": "dès 6 ans",
+      "indicationsAMM": [],
+      "pathologies": [
+        "Sclérose tubéreuse de Bourneville"
+      ]
+    },
+    {
       "id": "42319207651b81adbf49f46a780bf254",
       "nom": "Ilaris 150 mg, FMF ou déficit en MK, plus de 40 kg",
       "ligne": "Ilaris (canakinumab) 150 mg/mL solution injectable : 1 injection sous-cutanée (150 mg) toutes les 4 semaines pendant 6 mois",
@@ -7315,6 +8097,40 @@
       ]
     },
     {
+      "id": "42419207651b810ab93dc1b9df99df59",
+      "nom": "Kelo-cote gel de silicone, chéloïde, 3 mois",
+      "ligne": "Kelo-cote (gel de silicone) gel : 1 application 2 fois par jour sur la cicatrice, en massant 5 minutes, pendant 3 mois",
+      "molecule": "silicone",
+      "famille": "4. Autres topiques spécifiques",
+      "zone": "Sans objet",
+      "puissance": null,
+      "situation": "Traitement de base",
+      "magistrale": false,
+      "ages": [
+        "Enfant",
+        "Adolescent"
+      ],
+      "statut": "À valider",
+      "aVerifier": "Alternatives de la source : plaques siliconées (Cica-care, Epitact) 12 à 24 heures par jour, vêtement compressif sur mesure.",
+      "doseMgKg": null,
+      "prises": null,
+      "concentration": null,
+      "dosageUnitaire": null,
+      "doseMax": null,
+      "arrondi": null,
+      "statutAMM": "Sans AMM (dispositif ou produit)",
+      "remboursement": "Non remboursé",
+      "conditions": [],
+      "mention": null,
+      "consignes": null,
+      "liees": [],
+      "ageAMM": null,
+      "indicationsAMM": [],
+      "pathologies": [
+        "Chéloïde"
+      ]
+    },
+    {
       "id": "42319207651b81a88b42fbf6e0f85dd7",
       "nom": "Kenacort retard, injection intralésionnelle",
       "ligne": "Kenacort retard (triamcinolone acétonide) 40 mg/mL suspension injectable : 1 ampoule à apporter lors de la consultation",
@@ -7349,6 +8165,39 @@
         "Lichen plan unguéal",
         "Nécrobiose lipoïdique",
         "Pelade"
+      ]
+    },
+    {
+      "id": "42419207651b814ab221d75d4493cc56",
+      "nom": "Kétoconazole gel unidose, pityriasis versicolor, 12 ans et plus",
+      "ligne": "Kétoconazole (kétoconazole) gel 2 % en récipient unidose : 1 application unique sur tout le corps et le cuir chevelu, à laisser agir 5 minutes puis rincer",
+      "molecule": "kétoconazole",
+      "famille": "3. Topiques anti-infectieux",
+      "zone": "Corps et membres",
+      "puissance": null,
+      "situation": "Traitement de base",
+      "magistrale": false,
+      "ages": [
+        "Adolescent"
+      ],
+      "statut": "À valider",
+      "aVerifier": "Source Dermagic : Ketoderm sachet, 4 sachets 1 fois par semaine pendant 2 semaines, schéma différent de l'AMM (application unique du récipient unidose de 20 g). Avant 12 ans : crème imidazolée.",
+      "doseMgKg": null,
+      "prises": null,
+      "concentration": null,
+      "dosageUnitaire": null,
+      "doseMax": null,
+      "arrondi": null,
+      "statutAMM": "AMM",
+      "remboursement": "Remboursé",
+      "conditions": [],
+      "mention": null,
+      "consignes": "Mouiller la peau et le cuir chevelu, faire mousser en insistant sur les zones atteintes, laisser agir au moins 5 minutes puis rincer abondamment. Éviter le contact avec les yeux.",
+      "liees": [],
+      "ageAMM": "dès 12 ans",
+      "indicationsAMM": [],
+      "pathologies": [
+        "Pityriasis versicolor"
       ]
     },
     {
@@ -7387,7 +8236,10 @@
         "Candidose du siège",
         "Dermatophytose",
         "Onychomycose",
-        "Perlèche"
+        "Perlèche",
+        "Intertrigo candidosique",
+        "Pityriasis versicolor",
+        "Folliculite à Malassezia"
       ]
     },
     {
@@ -8141,6 +8993,40 @@
       ]
     },
     {
+      "id": "42419207651b81f6a0d5d7819d284d9f",
+      "nom": "Molutrex solution, molluscum contagiosum",
+      "ligne": "Molutrex (hydroxyde de potassium 5 %) solution : 1 à 2 applications par jour sur chaque molluscum, jusqu'à l'apparition d'une rougeur, 14 jours au maximum sur une même lésion",
+      "molecule": "hydroxyde de potassium",
+      "famille": "4. Autres topiques spécifiques",
+      "zone": "Sans objet",
+      "puissance": null,
+      "situation": "Traitement de base",
+      "magistrale": false,
+      "ages": [
+        "Enfant",
+        "Adolescent"
+      ],
+      "statut": "À valider",
+      "aVerifier": null,
+      "doseMgKg": null,
+      "prises": null,
+      "concentration": null,
+      "dosageUnitaire": null,
+      "doseMax": null,
+      "arrondi": null,
+      "statutAMM": "Sans AMM (dispositif ou produit)",
+      "remboursement": "Non remboursé",
+      "conditions": [],
+      "mention": null,
+      "consignes": "Appliquer uniquement sur les lésions sans déborder sur la peau saine, puis laisser sécher. Ne pas appliquer sur les muqueuses, le contour des yeux ni sur une lésion infectée ou grattée. Arrêter dès l'apparition d'une rougeur : la lésion disparaît ensuite en 2 à 6 semaines.",
+      "liees": [],
+      "ageAMM": "dès 2 ans",
+      "indicationsAMM": [],
+      "pathologies": [
+        "Molluscum contagiosum"
+      ]
+    },
+    {
       "id": "42319207651b81a09cd4c7c047ece43d",
       "nom": "Morphine orale, douleur forte (au poids)",
       "ligne": "Oramorph (morphine) solution buvable 20 mg/mL : {mL} mL ({mg} mg) par prise, toutes les 4 heures, en cas de douleur forte",
@@ -8281,7 +9167,10 @@
         "Dactylite bulleuse",
         "Impétigo",
         "Prurigo strophulus",
-        "Prurit chronique"
+        "Prurit chronique",
+        "Folliculite bactérienne",
+        "Maladie de Hailey-Hailey",
+        "Ongle incarné"
       ]
     },
     {
@@ -8388,7 +9277,10 @@
         "Balanite",
         "Candidose du siège",
         "Dermatophytose",
-        "Onychomycose"
+        "Onychomycose",
+        "Intertrigo candidosique",
+        "Périonyxis chronique",
+        "Pityriasis versicolor"
       ]
     },
     {
@@ -8780,7 +9672,11 @@
         "Prurigo strophulus",
         "Prurit chronique",
         "Épidermolyse bulleuse acquise",
-        "Érythème polymorphe"
+        "Érythème polymorphe",
+        "Lichen striatus",
+        "Eczéma nummulaire",
+        "Photodermatose",
+        "Maladie de Hailey-Hailey"
       ]
     },
     {
@@ -9199,7 +10095,9 @@
       "pathologies": [
         "Dermatophytose",
         "Onychomycose",
-        "Perlèche"
+        "Perlèche",
+        "Intertrigo candidosique",
+        "Périonyxis chronique"
       ]
     },
     {
@@ -9747,7 +10645,10 @@
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
-        "Ichtyose"
+        "Ichtyose",
+        "Kératodermie palmoplantaire",
+        "Pityriasis rubra pilaire",
+        "Pachyonychie congénitale"
       ]
     },
     {
@@ -10022,7 +10923,11 @@
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
-        "Lichen nitidus"
+        "Lichen nitidus",
+        "Lichen striatus",
+        "Lupus",
+        "Morphée",
+        "Granulome annulaire"
       ]
     },
     {
@@ -10203,7 +11108,11 @@
       "pathologies": [
         "Lichen nitidus",
         "Nécrobiose lipoïdique",
-        "Prurit chronique"
+        "Prurit chronique",
+        "Morphée",
+        "Lupus",
+        "Maladie de Hailey-Hailey",
+        "Granulome annulaire"
       ]
     },
     {
@@ -10342,7 +11251,9 @@
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
-        "Panaris"
+        "Panaris",
+        "Folliculite bactérienne",
+        "Abcès cutané"
       ]
     },
     {
@@ -10616,7 +11527,10 @@
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
-        "Érythème polymorphe"
+        "Érythème polymorphe",
+        "Aphtose buccale",
+        "Maladie de Behçet",
+        "MIRM"
       ]
     },
     {
@@ -11831,7 +12745,12 @@
         "Balanite",
         "Dyshidrose",
         "Eczéma de contact",
-        "PLEVA"
+        "PLEVA",
+        "Chéilite",
+        "Photodermatose",
+        "Lupus",
+        "Dermite d'irritation",
+        "Pityriasis alba"
       ]
     },
     {
@@ -12208,7 +13127,10 @@
       "indicationsAMM": [],
       "pathologies": [
         "Lichen plan",
-        "Érythème polymorphe"
+        "Érythème polymorphe",
+        "Aphtose buccale",
+        "Maladie de Behçet",
+        "MIRM"
       ]
     },
     {
@@ -12311,7 +13233,8 @@
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
-        "Érythème polymorphe"
+        "Érythème polymorphe",
+        "MIRM"
       ]
     },
     {
@@ -12554,6 +13477,78 @@
       ]
     },
     {
+      "id": "42419207651b813fa577c1bc00ec6771",
+      "nom": "Zithromax suspension, griffes du chat, jours 2 à 5 (au poids)",
+      "ligne": "Zithromax (azithromycine) suspension buvable 40 mg/mL : {mL} mL ({mg} mg) par prise, 1 fois par jour pendant 4 jours, à partir du lendemain de la première prise",
+      "molecule": "azithromycine",
+      "famille": "6. Traitements systémiques",
+      "zone": null,
+      "puissance": null,
+      "situation": "Complication ou forme active",
+      "magistrale": false,
+      "ages": [
+        "Nourrisson",
+        "Enfant",
+        "Adolescent"
+      ],
+      "statut": "À valider",
+      "aVerifier": "Suite de la ligne du premier jour (5 mg/kg, maximum 250 mg).",
+      "doseMgKg": 5,
+      "prises": 1,
+      "concentration": 40,
+      "dosageUnitaire": null,
+      "doseMax": 250,
+      "arrondi": 0.5,
+      "statutAMM": "Hors AMM",
+      "remboursement": "Remboursé",
+      "conditions": [],
+      "mention": "Prescription hors autorisation de mise sur le marché",
+      "consignes": null,
+      "liees": [
+        "42419207651b81c8b8dbeb9e959a65e3"
+      ],
+      "ageAMM": null,
+      "indicationsAMM": [],
+      "pathologies": [
+        "Maladie des griffes du chat"
+      ]
+    },
+    {
+      "id": "42419207651b81c8b8dbeb9e959a65e3",
+      "nom": "Zithromax suspension, griffes du chat, premier jour (au poids)",
+      "ligne": "Zithromax (azithromycine) suspension buvable 40 mg/mL : {mL} mL ({mg} mg) en une prise unique le premier jour",
+      "molecule": "azithromycine",
+      "famille": "6. Traitements systémiques",
+      "zone": null,
+      "puissance": null,
+      "situation": "Complication ou forme active",
+      "magistrale": false,
+      "ages": [
+        "Nourrisson",
+        "Enfant",
+        "Adolescent"
+      ],
+      "statut": "À valider",
+      "aVerifier": "Antibiothérapie réservée aux adénopathies volumineuses ou aux formes modérées à sévères. Schéma : 10 mg/kg (maximum 500 mg) le premier jour, puis 5 mg/kg (maximum 250 mg) du 2e au 5e jour. Vérifier la concentration de la présentation.",
+      "doseMgKg": 10,
+      "prises": 1,
+      "concentration": 40,
+      "dosageUnitaire": null,
+      "doseMax": 500,
+      "arrondi": 0.5,
+      "statutAMM": "Hors AMM",
+      "remboursement": "Remboursé",
+      "conditions": [],
+      "mention": "Prescription hors autorisation de mise sur le marché",
+      "consignes": null,
+      "liees": [],
+      "ageAMM": null,
+      "indicationsAMM": [],
+      "pathologies": [
+        "Maladie des griffes du chat"
+      ]
+    },
+    {
       "id": "42319207651b8195a867e4b20e7f95fc",
       "nom": "Zovirax 200 mg comprimé, prévention, 6 mois",
       "ligne": "Zovirax (aciclovir) comprimé 200 mg : 2 comprimés (400 mg) par prise, 2 fois par jour pendant 6 mois",
@@ -12786,7 +13781,14 @@
       "indicationsAMM": [],
       "pathologies": [
         "Gale",
-        "Urticaire"
+        "Urticaire",
+        "Piqûres d'insectes",
+        "Pityriasis rosé de Gibert",
+        "Photodermatose",
+        "Dermatite des nageurs",
+        "Toxidermie",
+        "Gianotti-Crosti",
+        "Mpox"
       ]
     },
     {
@@ -12820,7 +13822,14 @@
       "indicationsAMM": [],
       "pathologies": [
         "Gale",
-        "Urticaire"
+        "Urticaire",
+        "Piqûres d'insectes",
+        "Pityriasis rosé de Gibert",
+        "Photodermatose",
+        "Dermatite des nageurs",
+        "Toxidermie",
+        "Gianotti-Crosti",
+        "Mpox"
       ]
     },
     {
@@ -12854,7 +13863,14 @@
       "indicationsAMM": [],
       "pathologies": [
         "Gale",
-        "Urticaire"
+        "Urticaire",
+        "Piqûres d'insectes",
+        "Pityriasis rosé de Gibert",
+        "Photodermatose",
+        "Dermatite des nageurs",
+        "Toxidermie",
+        "Gianotti-Crosti",
+        "Mpox"
       ]
     }
   ]
