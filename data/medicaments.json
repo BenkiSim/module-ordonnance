@@ -1,7 +1,2828 @@
 {
-  "genere": "2026-11-26T06:45:53.060Z",
+  "genere": "2026-11-26T07:26:39.825Z",
   "source": "Notion, bases Médicaments et Pathologies",
-  "pathologies": [],
+  "pathologies": [
+    {
+      "id": "42419207651b81119abfc913d69e2097",
+      "nom": "Abcès cutané",
+      "synonymes": [
+        "abcès sous-cutané",
+        "collection cutanée",
+        "abcès staphylococcique"
+      ],
+      "categories": [
+        "Dermatologie",
+        "Infectiologie"
+      ],
+      "sousCategorie": "Infections bactériennes"
+    },
+    {
+      "id": "42419207651b815fb54ee944ba1b958b",
+      "nom": "Acanthosis nigricans",
+      "synonymes": [
+        "acanthosis",
+        "insulinorésistance"
+      ],
+      "categories": [
+        "Dermatologie",
+        "Endocrinologie"
+      ],
+      "sousCategorie": "Carences et métaboliques"
+    },
+    {
+      "id": "42419207651b816b8db4f7e2c7494b39",
+      "nom": "Acné",
+      "synonymes": [
+        "acné juvénile",
+        "acné vulgaire",
+        "acné rétentionnelle",
+        "acné inflammatoire",
+        "acné polymorphe",
+        "boutons d'acné"
+      ],
+      "categories": [
+        "Dermatologie"
+      ],
+      "sousCategorie": "Acné et annexes"
+    },
+    {
+      "id": "42419207651b81ad905ecb667d1b1869",
+      "nom": "Acné du nourrisson",
+      "synonymes": [
+        "acné infantile"
+      ],
+      "categories": [
+        "Dermatologie"
+      ],
+      "sousCategorie": "Acné et annexes"
+    },
+    {
+      "id": "42419207651b81e4b555dfb1da3c3064",
+      "nom": "Acné fulminans",
+      "synonymes": [
+        "acné fulminante",
+        "acné ulcéronécrotique"
+      ],
+      "categories": [
+        "Dermatologie"
+      ],
+      "sousCategorie": "Acné et annexes"
+    },
+    {
+      "id": "42419207651b81e2bd44f704def4caae",
+      "nom": "Acné néonatale",
+      "synonymes": [
+        "pustulose céphalique néonatale",
+        "acné du nouveau-né"
+      ],
+      "categories": [
+        "Dermatologie",
+        "Néonatologie"
+      ],
+      "sousCategorie": "Dermatoses néonatales"
+    },
+    {
+      "id": "42419207651b81eda456c1465dd0cc05",
+      "nom": "Acrodermatite entéropathique",
+      "synonymes": [
+        "carence en zinc",
+        "déficit en zinc",
+        "maladie de Danbolt-Closs"
+      ],
+      "categories": [
+        "Dermatologie",
+        "Gastro-entérologie"
+      ],
+      "sousCategorie": "Carences et métaboliques"
+    },
+    {
+      "id": "42419207651b818f8efbd8331e96aa64",
+      "nom": "Acrodynie",
+      "synonymes": [
+        "maladie de Feer",
+        "maladie de Selter-Swift-Feer",
+        "intoxication au mercure",
+        "acrodynie infantile"
+      ],
+      "categories": [
+        "Dermatologie"
+      ],
+      "sousCategorie": "Carences et métaboliques"
+    },
+    {
+      "id": "42419207651b819fb912ff7fb7e8f9c6",
+      "nom": "Albinisme",
+      "synonymes": [
+        "albinisme oculocutané"
+      ],
+      "categories": [
+        "Dermatologie",
+        "Ophtalmologie"
+      ],
+      "sousCategorie": "Génodermatoses"
+    },
+    {
+      "id": "42419207651b81898719e3374d5b9dc6",
+      "nom": "Alopécie",
+      "synonymes": [
+        "chute de cheveux",
+        "alopécie cicatricielle",
+        "alopécie de traction",
+        "alopécie occipitale du nourrisson",
+        "effluvium télogène"
+      ],
+      "categories": [
+        "Dermatologie"
+      ],
+      "sousCategorie": "Cheveux et ongles"
+    },
+    {
+      "id": "42419207651b81458806d7ed861bc5e9",
+      "nom": "Anaphylaxie",
+      "synonymes": [
+        "choc anaphylactique",
+        "réaction anaphylactique",
+        "allergie grave"
+      ],
+      "categories": [
+        "Allergologie",
+        "Urgences",
+        "Dermatologie"
+      ],
+      "sousCategorie": "Urticaire et allergie"
+    },
+    {
+      "id": "42419207651b816da4bac74e294028f5",
+      "nom": "Angioedème bradykinique",
+      "synonymes": [
+        "angioœdème héréditaire",
+        "angioedème héréditaire",
+        "œdème angioneurotique héréditaire",
+        "AOH",
+        "déficit en C1 inhibiteur"
+      ],
+      "categories": [
+        "Allergologie",
+        "Dermatologie"
+      ],
+      "sousCategorie": "Urticaire et allergie"
+    },
+    {
+      "id": "42419207651b8129a6ffd903fddd1828",
+      "nom": "Angiome stellaire",
+      "synonymes": [
+        "naevus araneus",
+        "spider angioma",
+        "étoile vasculaire"
+      ],
+      "categories": [
+        "Dermatologie"
+      ],
+      "sousCategorie": "Anomalies vasculaires"
+    },
+    {
+      "id": "42419207651b81238934fc47e92d122e",
+      "nom": "Anguillulose",
+      "synonymes": [
+        "strongyloïdose",
+        "strongyloïdes",
+        "larva currens"
+      ],
+      "categories": [
+        "Infectiologie",
+        "Dermatologie"
+      ],
+      "sousCategorie": "Parasitoses et piqûres"
+    },
+    {
+      "id": "42419207651b81bcacedf98c0830e349",
+      "nom": "Anite streptococcique",
+      "synonymes": [
+        "dermatite périanale streptococcique",
+        "anite périanale",
+        "dermite péri-anale streptococcique",
+        "vulvite streptococcique"
+      ],
+      "categories": [
+        "Dermatologie",
+        "Infectiologie"
+      ],
+      "sousCategorie": "Infections bactériennes"
+    },
+    {
+      "id": "42419207651b81848ba0d0fc4027a051",
+      "nom": "APEC syndrome",
+      "synonymes": [
+        "exanthème périflexural asymétrique de l'enfant",
+        "exanthème latérothoracique unilatéral",
+        "APEC"
+      ],
+      "categories": [
+        "Dermatologie",
+        "Infectiologie"
+      ],
+      "sousCategorie": "Infections virales"
+    },
+    {
+      "id": "42419207651b81aaa6bcf7104b59b367",
+      "nom": "Aphtose buccale",
+      "synonymes": [
+        "aphtes",
+        "aphte",
+        "aphtose",
+        "stomatite aphteuse"
+      ],
+      "categories": [
+        "Dermatologie",
+        "ORL"
+      ],
+      "sousCategorie": "Muqueuses et organes génitaux"
+    },
+    {
+      "id": "42419207651b815693d6ebd0d7918d43",
+      "nom": "Aplasie cutanée congénitale",
+      "synonymes": [
+        "aplasia cutis",
+        "aplasia cutis congenita"
+      ],
+      "categories": [
+        "Néonatologie",
+        "Dermatologie"
+      ],
+      "sousCategorie": "Dermatoses néonatales"
+    },
+    {
+      "id": "42419207651b810c82cfe3c3db9a1939",
+      "nom": "Avant immunosuppresseur",
+      "synonymes": [
+        "bilan avant immunosuppresseur",
+        "avant biothérapie",
+        "avant corticothérapie prolongée",
+        "déparasitage préventif"
+      ],
+      "categories": [
+        "Dermatologie"
+      ],
+      "sousCategorie": "Situations particulières"
+    },
+    {
+      "id": "42419207651b81338f3de7cc76264957",
+      "nom": "Balanite",
+      "synonymes": [
+        "balanoposthite",
+        "posthite",
+        "inflammation du gland"
+      ],
+      "categories": [
+        "Dermatologie",
+        "Néphrologie et urologie"
+      ],
+      "sousCategorie": "Muqueuses et organes génitaux"
+    },
+    {
+      "id": "42419207651b81e08e3fe6cd97ed1595",
+      "nom": "Brûlure",
+      "synonymes": [
+        "brûlure cutanée",
+        "brûlure thermique",
+        "brûlure superficielle"
+      ],
+      "categories": [
+        "Dermatologie",
+        "Urgences"
+      ],
+      "sousCategorie": "Agents physiques"
+    },
+    {
+      "id": "42419207651b81918601cbb89862e026",
+      "nom": "Candidose buccale",
+      "synonymes": [
+        "muguet",
+        "candidose orale",
+        "candidose oropharyngée"
+      ],
+      "categories": [
+        "Dermatologie",
+        "Infectiologie"
+      ],
+      "sousCategorie": "Infections fongiques"
+    },
+    {
+      "id": "42419207651b81a49019f08987dfd242",
+      "nom": "Candidose du siège",
+      "synonymes": [
+        "candidose cutanée",
+        "érythème fessier candidosique",
+        "intertrigo candidosique",
+        "candidose des plis",
+        "candidose des couches"
+      ],
+      "categories": [
+        "Dermatologie",
+        "Infectiologie"
+      ],
+      "sousCategorie": "Infections fongiques"
+    },
+    {
+      "id": "42419207651b81c38682f57d5095f0b3",
+      "nom": "Candidose néonatale",
+      "synonymes": [
+        "candidose congénitale",
+        "candidose cutanée congénitale"
+      ],
+      "categories": [
+        "Néonatologie",
+        "Dermatologie",
+        "Infectiologie"
+      ],
+      "sousCategorie": "Infections fongiques"
+    },
+    {
+      "id": "42419207651b81acb85fd9ff25289ca3",
+      "nom": "CAPS",
+      "synonymes": [
+        "cryopyrinopathie",
+        "syndrome de Muckle-Wells",
+        "urticaire familiale au froid",
+        "CINCA",
+        "NOMID"
+      ],
+      "categories": [
+        "Rhumatologie et auto-inflammatoire",
+        "Dermatologie"
+      ],
+      "sousCategorie": "Maladies auto-inflammatoires"
+    },
+    {
+      "id": "42419207651b816f9b5ade7083ad7a53",
+      "nom": "Chéilite",
+      "synonymes": [
+        "lèvres sèches",
+        "chéilite eczémateuse",
+        "eczéma des lèvres",
+        "lèvres gercées"
+      ],
+      "categories": [
+        "Dermatologie"
+      ],
+      "sousCategorie": "Muqueuses et organes génitaux"
+    },
+    {
+      "id": "42419207651b814fb4b5de719640ce2a",
+      "nom": "Chéloïde",
+      "synonymes": [
+        "cicatrice chéloïde",
+        "cicatrice hypertrophique"
+      ],
+      "categories": [
+        "Dermatologie"
+      ],
+      "sousCategorie": "Tumeurs et naevus"
+    },
+    {
+      "id": "42419207651b8123826ded9c57db4a8e",
+      "nom": "Condylomes",
+      "synonymes": [
+        "condylomes acuminés",
+        "verrues anogénitales",
+        "crêtes de coq",
+        "végétations vénériennes"
+      ],
+      "categories": [
+        "Dermatologie",
+        "Infectiologie"
+      ],
+      "sousCategorie": "Infections virales"
+    },
+    {
+      "id": "42419207651b8145aee5f5eb8e20b9e3",
+      "nom": "Coup de soleil",
+      "synonymes": [
+        "érythème actinique",
+        "brûlure solaire"
+      ],
+      "categories": [
+        "Dermatologie"
+      ],
+      "sousCategorie": "Agents physiques"
+    },
+    {
+      "id": "42419207651b8175a848dea557eb64b3",
+      "nom": "Cutis marmorata telangiectatica congenita",
+      "synonymes": [
+        "CMTC",
+        "cutis marmorata",
+        "livedo congénital"
+      ],
+      "categories": [
+        "Dermatologie",
+        "Néonatologie"
+      ],
+      "sousCategorie": "Anomalies vasculaires"
+    },
+    {
+      "id": "42419207651b81e9a910d94a961440ce",
+      "nom": "Cytostéatonécrose",
+      "synonymes": [
+        "adiponécrose du nouveau-né",
+        "cytostéatonécrose du nouveau-né"
+      ],
+      "categories": [
+        "Néonatologie",
+        "Dermatologie"
+      ],
+      "sousCategorie": "Dermatoses néonatales"
+    },
+    {
+      "id": "42419207651b8105a2b8fd4aeedbad04",
+      "nom": "Dactylite bulleuse",
+      "synonymes": [
+        "dactylite bulleuse distale",
+        "dactylite streptococcique"
+      ],
+      "categories": [
+        "Dermatologie",
+        "Infectiologie"
+      ],
+      "sousCategorie": "Infections bactériennes"
+    },
+    {
+      "id": "42419207651b81ba8561fdfa2ac39c96",
+      "nom": "Déficit en mévalonate kinase",
+      "synonymes": [
+        "MKD",
+        "syndrome hyper-IgD",
+        "HIDS",
+        "acidurie mévalonique"
+      ],
+      "categories": [
+        "Rhumatologie et auto-inflammatoire",
+        "Dermatologie"
+      ],
+      "sousCategorie": "Maladies auto-inflammatoires"
+    },
+    {
+      "id": "42419207651b81d29702ce325495029d",
+      "nom": "Démodécidose",
+      "synonymes": [
+        "demodex",
+        "démodécie",
+        "rosacée démodécique"
+      ],
+      "categories": [
+        "Dermatologie"
+      ],
+      "sousCategorie": "Parasitoses et piqûres"
+    },
+    {
+      "id": "42419207651b817db099e51d692aa9e4",
+      "nom": "Dermatite atopique",
+      "synonymes": [
+        "eczéma atopique",
+        "eczéma constitutionnel",
+        "eczéma du nourrisson",
+        "eczéma",
+        "DA",
+        "névrodermite"
+      ],
+      "categories": [
+        "Dermatologie",
+        "Allergologie"
+      ],
+      "sousCategorie": "Eczémas et dermatites"
+    },
+    {
+      "id": "42419207651b811b8877e976ea7c045b",
+      "nom": "Dermatite des nageurs",
+      "synonymes": [
+        "dermatite cercarienne",
+        "dermatite des baigneurs"
+      ],
+      "categories": [
+        "Dermatologie"
+      ],
+      "sousCategorie": "Parasitoses et piqûres"
+    },
+    {
+      "id": "42419207651b81ae96e6c5ca5da79455",
+      "nom": "Dermatite herpétiforme",
+      "synonymes": [
+        "maladie de Duhring-Brocq",
+        "Duhring-Brocq",
+        "dermatite herpétiforme de la maladie coeliaque"
+      ],
+      "categories": [
+        "Dermatologie",
+        "Gastro-entérologie"
+      ],
+      "sousCategorie": "Bulleuses auto-immunes"
+    },
+    {
+      "id": "42419207651b815fb5bfec326f1aaf71",
+      "nom": "Dermatomyosite",
+      "synonymes": [
+        "dermatomyosite juvénile",
+        "DMJ"
+      ],
+      "categories": [
+        "Dermatologie",
+        "Rhumatologie et auto-inflammatoire"
+      ],
+      "sousCategorie": "Maladies systémiques et vascularites"
+    },
+    {
+      "id": "42419207651b814c9519c3244e63634b",
+      "nom": "Dermatophytose",
+      "synonymes": [
+        "dermatophytie",
+        "tinea corporis",
+        "herpès circiné",
+        "épidermophytie",
+        "pied d'athlète",
+        "tinea pedis",
+        "intertrigo dermatophytique",
+        "intertrigo interorteil",
+        "mycose cutanée",
+        "teigne de la peau glabre"
+      ],
+      "categories": [
+        "Dermatologie",
+        "Infectiologie"
+      ],
+      "sousCategorie": "Infections fongiques"
+    },
+    {
+      "id": "42419207651b816cb4f8f4ff3615242a",
+      "nom": "Dermatose à IgA linéaire",
+      "synonymes": [
+        "dermatose bulleuse à IgA linéaire",
+        "DBIgAL",
+        "dermatose bulleuse chronique de l'enfance"
+      ],
+      "categories": [
+        "Dermatologie"
+      ],
+      "sousCategorie": "Bulleuses auto-immunes"
+    },
+    {
+      "id": "42419207651b8190954cd3d1aafa76fb",
+      "nom": "Dermatose plantaire juvénile",
+      "synonymes": [
+        "pulpite sèche",
+        "juvenile plantar dermatosis",
+        "eczéma des baskets"
+      ],
+      "categories": [
+        "Dermatologie"
+      ],
+      "sousCategorie": "Eczémas et dermatites"
+    },
+    {
+      "id": "42419207651b818eac46da3b5adf35b8",
+      "nom": "Dermatoses carentielles",
+      "synonymes": [
+        "carence nutritionnelle",
+        "kwashiorkor",
+        "pellagre",
+        "scorbut",
+        "carence en biotine",
+        "dénutrition"
+      ],
+      "categories": [
+        "Dermatologie",
+        "Gastro-entérologie"
+      ],
+      "sousCategorie": "Carences et métaboliques"
+    },
+    {
+      "id": "42419207651b81119043ea1bd4761194",
+      "nom": "Dermite d'irritation",
+      "synonymes": [
+        "dermatite irritative de contact",
+        "dermite irritative",
+        "dermite des lèvres",
+        "tic du lèche-lèvres",
+        "dermite du lécheur"
+      ],
+      "categories": [
+        "Dermatologie"
+      ],
+      "sousCategorie": "Eczémas et dermatites"
+    },
+    {
+      "id": "42419207651b81fc8747de04ba936026",
+      "nom": "Dermite du siège",
+      "synonymes": [
+        "érythème fessier",
+        "dermite fessière",
+        "dermite des couches",
+        "érythème en W",
+        "dermite irritative du siège",
+        "fesses rouges"
+      ],
+      "categories": [
+        "Dermatologie"
+      ],
+      "sousCategorie": "Eczémas et dermatites"
+    },
+    {
+      "id": "42419207651b8123b33bd01ecad1d467",
+      "nom": "Dermite péri-orale",
+      "synonymes": [
+        "dermatite périorale",
+        "dermite périorificielle",
+        "dermatite péri-orificielle granulomateuse"
+      ],
+      "categories": [
+        "Dermatologie"
+      ],
+      "sousCategorie": "Acné et annexes"
+    },
+    {
+      "id": "42419207651b811184ffced068e7de72",
+      "nom": "Dermite séborrhéique de l'enfant",
+      "synonymes": [
+        "croûtes de lait",
+        "dermite séborrhéique du nourrisson",
+        "dermatite séborrhéique",
+        "pityriasis capitis",
+        "DS"
+      ],
+      "categories": [
+        "Dermatologie"
+      ],
+      "sousCategorie": "Eczémas et dermatites"
+    },
+    {
+      "id": "42419207651b81978dd7e89cf370cdd7",
+      "nom": "Dermohypodermite bactérienne",
+      "synonymes": [
+        "cellulite infectieuse",
+        "érysipèle",
+        "DHB",
+        "dermohypodermite bactérienne non nécrosante"
+      ],
+      "categories": [
+        "Dermatologie",
+        "Infectiologie"
+      ],
+      "sousCategorie": "Infections bactériennes"
+    },
+    {
+      "id": "42419207651b81f1a4e9d62bef43d893",
+      "nom": "DRESS",
+      "synonymes": [
+        "DRESS syndrome",
+        "syndrome d'hypersensibilité médicamenteuse",
+        "drug reaction with eosinophilia"
+      ],
+      "categories": [
+        "Dermatologie",
+        "Allergologie",
+        "Urgences"
+      ],
+      "sousCategorie": "Toxidermies"
+    },
+    {
+      "id": "42419207651b81c1a4c6f6aa218e45bb",
+      "nom": "Dyschromie post-inflammatoire",
+      "synonymes": [
+        "hyperpigmentation post-inflammatoire",
+        "hypopigmentation post-inflammatoire",
+        "taches après eczéma"
+      ],
+      "categories": [
+        "Dermatologie"
+      ],
+      "sousCategorie": "Pigmentation"
+    },
+    {
+      "id": "42419207651b8178ac0aeec9197da2ec",
+      "nom": "Dyshidrose",
+      "synonymes": [
+        "eczéma dyshidrosique",
+        "pompholyx",
+        "dysidrose"
+      ],
+      "categories": [
+        "Dermatologie"
+      ],
+      "sousCategorie": "Eczémas et dermatites"
+    },
+    {
+      "id": "42419207651b81f49a73ec37a7004cb6",
+      "nom": "Dysplasie ectodermique",
+      "synonymes": [
+        "dysplasie ectodermique anhidrotique",
+        "dysplasie ectodermique hypohidrotique",
+        "syndrome de Christ-Siemens-Touraine"
+      ],
+      "categories": [
+        "Dermatologie"
+      ],
+      "sousCategorie": "Génodermatoses"
+    },
+    {
+      "id": "42419207651b81f6bcf3e0fadf79909b",
+      "nom": "Eczéma de contact",
+      "synonymes": [
+        "dermatite de contact allergique",
+        "eczéma allergique de contact",
+        "allergie de contact"
+      ],
+      "categories": [
+        "Dermatologie",
+        "Allergologie"
+      ],
+      "sousCategorie": "Eczémas et dermatites"
+    },
+    {
+      "id": "42419207651b81d68d4fe51dc3f25482",
+      "nom": "Eczéma nummulaire",
+      "synonymes": [
+        "eczéma en plaques",
+        "eczéma discoïde",
+        "dermatite nummulaire"
+      ],
+      "categories": [
+        "Dermatologie"
+      ],
+      "sousCategorie": "Eczémas et dermatites"
+    },
+    {
+      "id": "42419207651b813c956acfd437f8ace6",
+      "nom": "Engelures",
+      "synonymes": [
+        "perniose",
+        "engelure",
+        "chilblains"
+      ],
+      "categories": [
+        "Dermatologie"
+      ],
+      "sousCategorie": "Agents physiques"
+    },
+    {
+      "id": "42419207651b812299c2f531e4a34071",
+      "nom": "Épidermolyse bulleuse acquise",
+      "synonymes": [
+        "EBA",
+        "épidermolyse bulleuse auto-immune"
+      ],
+      "categories": [
+        "Dermatologie"
+      ],
+      "sousCategorie": "Bulleuses auto-immunes"
+    },
+    {
+      "id": "42419207651b81949962f2350ef731af",
+      "nom": "Épidermolyse bulleuse héréditaire",
+      "synonymes": [
+        "EBH",
+        "épidermolyse bulleuse simple",
+        "épidermolyse bulleuse jonctionnelle",
+        "épidermolyse bulleuse dystrophique",
+        "enfants papillons",
+        "enfants de verre"
+      ],
+      "categories": [
+        "Dermatologie"
+      ],
+      "sousCategorie": "Génodermatoses"
+    },
+    {
+      "id": "42419207651b81108826d8ed6268c773",
+      "nom": "Érythème noueux",
+      "synonymes": [
+        "hypodermite nodulaire",
+        "nouées"
+      ],
+      "categories": [
+        "Dermatologie",
+        "Rhumatologie et auto-inflammatoire"
+      ],
+      "sousCategorie": "Dermatoses inflammatoires"
+    },
+    {
+      "id": "42419207651b81c1b872e713eae0f5b2",
+      "nom": "Érythème polymorphe",
+      "synonymes": [
+        "érythème multiforme",
+        "EM",
+        "érythème polymorphe post-herpétique"
+      ],
+      "categories": [
+        "Dermatologie"
+      ],
+      "sousCategorie": "Toxidermies"
+    },
+    {
+      "id": "42419207651b81f98211dc14c9ec3d6c",
+      "nom": "Érythème toxique du nouveau-né",
+      "synonymes": [
+        "érythème toxique néonatal",
+        "erythema toxicum neonatorum"
+      ],
+      "categories": [
+        "Néonatologie",
+        "Dermatologie"
+      ],
+      "sousCategorie": "Dermatoses néonatales"
+    },
+    {
+      "id": "42419207651b81bb8076ff0ec8e61b30",
+      "nom": "Érythermalgie",
+      "synonymes": [
+        "érythromélalgie",
+        "érythromelalgia"
+      ],
+      "categories": [
+        "Dermatologie"
+      ],
+      "sousCategorie": "Maladies systémiques et vascularites"
+    },
+    {
+      "id": "42419207651b810092f2df125e5abc80",
+      "nom": "Érythrasma",
+      "synonymes": [
+        "corynebacterium minutissimum",
+        "érythrasma des plis"
+      ],
+      "categories": [
+        "Dermatologie",
+        "Infectiologie"
+      ],
+      "sousCategorie": "Infections bactériennes"
+    },
+    {
+      "id": "42419207651b8137aee3f58ed2b44d03",
+      "nom": "Exanthème viral",
+      "synonymes": [
+        "éruption virale",
+        "exanthème maculopapuleux viral",
+        "éruption fébrile de l'enfant"
+      ],
+      "categories": [
+        "Infectiologie",
+        "Dermatologie"
+      ],
+      "sousCategorie": "Infections virales"
+    },
+    {
+      "id": "42419207651b815b94caeda70783f210",
+      "nom": "Fasciite nécrosante",
+      "synonymes": [
+        "dermohypodermite bactérienne nécrosante",
+        "DHBN",
+        "fasciéite nécrosante"
+      ],
+      "categories": [
+        "Dermatologie",
+        "Infectiologie",
+        "Urgences"
+      ],
+      "sousCategorie": "Infections bactériennes"
+    },
+    {
+      "id": "42419207651b817a80b5fcefa3338759",
+      "nom": "Fausse teigne amiantacée",
+      "synonymes": [
+        "pityriasis amiantacé",
+        "teigne amiantacée"
+      ],
+      "categories": [
+        "Dermatologie"
+      ],
+      "sousCategorie": "Cheveux et ongles"
+    },
+    {
+      "id": "42419207651b815da9c1c25800625465",
+      "nom": "Fièvre boutonneuse méditerranéenne",
+      "synonymes": [
+        "rickettsiose",
+        "tache noire",
+        "Rickettsia conorii"
+      ],
+      "categories": [
+        "Infectiologie",
+        "Dermatologie"
+      ],
+      "sousCategorie": "Infections bactériennes"
+    },
+    {
+      "id": "42419207651b81229ce0dd5a7b8c8dc9",
+      "nom": "Fièvre méditerranéenne familiale",
+      "synonymes": [
+        "FMF",
+        "maladie périodique"
+      ],
+      "categories": [
+        "Rhumatologie et auto-inflammatoire",
+        "Dermatologie"
+      ],
+      "sousCategorie": "Maladies auto-inflammatoires"
+    },
+    {
+      "id": "42419207651b8132aab9c6eec77c6c2c",
+      "nom": "Folliculite à Malassezia",
+      "synonymes": [
+        "folliculite pityrosporique",
+        "folliculite à Pityrosporum"
+      ],
+      "categories": [
+        "Dermatologie"
+      ],
+      "sousCategorie": "Infections fongiques"
+    },
+    {
+      "id": "42419207651b8196bd81da078550ff48",
+      "nom": "Folliculite bactérienne",
+      "synonymes": [
+        "folliculite",
+        "folliculite superficielle",
+        "sycosis",
+        "folliculite staphylococcique"
+      ],
+      "categories": [
+        "Dermatologie",
+        "Infectiologie"
+      ],
+      "sousCategorie": "Infections bactériennes"
+    },
+    {
+      "id": "42419207651b8190b50bd844b9c0d245",
+      "nom": "Furonculose",
+      "synonymes": [
+        "furoncle",
+        "anthrax staphylococcique",
+        "clou",
+        "folliculite profonde"
+      ],
+      "categories": [
+        "Dermatologie",
+        "Infectiologie"
+      ],
+      "sousCategorie": "Infections bactériennes"
+    },
+    {
+      "id": "42419207651b8164922cd39cc83867f5",
+      "nom": "Gale",
+      "synonymes": [
+        "scabiose",
+        "sarcoptes",
+        "gale du nourrisson",
+        "gale profuse",
+        "gale hyperkératosique",
+        "gale norvégienne"
+      ],
+      "categories": [
+        "Dermatologie",
+        "Infectiologie"
+      ],
+      "sousCategorie": "Parasitoses et piqûres"
+    },
+    {
+      "id": "42419207651b81a8a988d59813d8dca7",
+      "nom": "Gianotti-Crosti",
+      "synonymes": [
+        "syndrome de Gianotti-Crosti",
+        "acrodermatite papuleuse infantile",
+        "acrodermatite papuleuse de l'enfant"
+      ],
+      "categories": [
+        "Dermatologie",
+        "Infectiologie"
+      ],
+      "sousCategorie": "Infections virales"
+    },
+    {
+      "id": "42419207651b81dcb12af3e129807e06",
+      "nom": "Granulome annulaire",
+      "synonymes": [
+        "granulome annulaire localisé",
+        "granulome annulaire disséminé",
+        "granulome annulaire sous-cutané"
+      ],
+      "categories": [
+        "Dermatologie"
+      ],
+      "sousCategorie": "Dermatoses inflammatoires"
+    },
+    {
+      "id": "42419207651b81a281c5d4d0f758a5ef",
+      "nom": "Granulome ombilical",
+      "synonymes": [
+        "bourgeon ombilical",
+        "granulome du cordon"
+      ],
+      "categories": [
+        "Néonatologie",
+        "Dermatologie"
+      ],
+      "sousCategorie": "Dermatoses néonatales"
+    },
+    {
+      "id": "42419207651b81e4932bda98f5839b17",
+      "nom": "Granulome pyogénique",
+      "synonymes": [
+        "botryomycome",
+        "bourgeon charnu",
+        "hémangiome capillaire lobulaire"
+      ],
+      "categories": [
+        "Dermatologie"
+      ],
+      "sousCategorie": "Anomalies vasculaires"
+    },
+    {
+      "id": "42419207651b81619c19f052e37b9c28",
+      "nom": "Hémangioendothéliome kaposiforme",
+      "synonymes": [
+        "angiome en touffes",
+        "phénomène de Kasabach-Merritt",
+        "Kasabach-Merritt"
+      ],
+      "categories": [
+        "Dermatologie",
+        "Hématologie"
+      ],
+      "sousCategorie": "Anomalies vasculaires"
+    },
+    {
+      "id": "42419207651b8146b8cde7dcb9ddc1ec",
+      "nom": "Hémangiome congénital",
+      "synonymes": [
+        "RICH",
+        "NICH",
+        "PICH",
+        "hémangiome congénital rapidement involutif"
+      ],
+      "categories": [
+        "Dermatologie",
+        "Néonatologie"
+      ],
+      "sousCategorie": "Anomalies vasculaires"
+    },
+    {
+      "id": "42419207651b81ae8df1e4f6e2c2967f",
+      "nom": "Hémangiome infantile",
+      "synonymes": [
+        "angiome tubéreux",
+        "angiome immature",
+        "hémangiome",
+        "angiome fraise"
+      ],
+      "categories": [
+        "Dermatologie"
+      ],
+      "sousCategorie": "Anomalies vasculaires"
+    },
+    {
+      "id": "42419207651b813fb109ddfb62f11095",
+      "nom": "Herpès",
+      "synonymes": [
+        "herpès cutanéo-muqueux",
+        "gingivostomatite herpétique",
+        "primo-infection herpétique",
+        "herpès labial",
+        "bouton de fièvre",
+        "HSV",
+        "panaris herpétique",
+        "herpès récurrent"
+      ],
+      "categories": [
+        "Dermatologie",
+        "Infectiologie"
+      ],
+      "sousCategorie": "Infections virales"
+    },
+    {
+      "id": "42419207651b8150a280ea31a42f541b",
+      "nom": "Herpès néonatal",
+      "synonymes": [
+        "infection néonatale à HSV",
+        "herpès du nouveau-né"
+      ],
+      "categories": [
+        "Néonatologie",
+        "Infectiologie",
+        "Urgences"
+      ],
+      "sousCategorie": "Infections virales"
+    },
+    {
+      "id": "42419207651b81af920dfa8c660e9b05",
+      "nom": "Hidradénite suppurée",
+      "synonymes": [
+        "maladie de Verneuil",
+        "Verneuil",
+        "hidrosadénite suppurée",
+        "acné inversa",
+        "hidradénite"
+      ],
+      "categories": [
+        "Dermatologie"
+      ],
+      "sousCategorie": "Acné et annexes"
+    },
+    {
+      "id": "42419207651b81d1be56ca36a0317b63",
+      "nom": "Histiocytose langerhansienne",
+      "synonymes": [
+        "histiocytose X",
+        "maladie de Letterer-Siwe",
+        "granulome éosinophile",
+        "HL"
+      ],
+      "categories": [
+        "Dermatologie",
+        "Hématologie"
+      ],
+      "sousCategorie": "Tumeurs et naevus"
+    },
+    {
+      "id": "42419207651b813b84b0d170c2832cc2",
+      "nom": "Hyperhidrose",
+      "synonymes": [
+        "transpiration excessive",
+        "hyperhidrose palmoplantaire",
+        "hyperhidrose axillaire",
+        "hypersudation"
+      ],
+      "categories": [
+        "Dermatologie"
+      ],
+      "sousCategorie": "Acné et annexes"
+    },
+    {
+      "id": "42419207651b81e0bd1dc4e932b42ff0",
+      "nom": "Hypertrichose et hirsutisme",
+      "synonymes": [
+        "hypertrichose",
+        "hirsutisme",
+        "pilosité excessive"
+      ],
+      "categories": [
+        "Dermatologie",
+        "Endocrinologie"
+      ],
+      "sousCategorie": "Cheveux et ongles"
+    },
+    {
+      "id": "42419207651b81ff9b76e1c71b36111f",
+      "nom": "Hypomélanose maculeuse progressive",
+      "synonymes": [
+        "HMP",
+        "hypomélanose maculeuse confluente et progressive"
+      ],
+      "categories": [
+        "Dermatologie"
+      ],
+      "sousCategorie": "Pigmentation"
+    },
+    {
+      "id": "42419207651b81d3915ae38753ea18ea",
+      "nom": "Ichtyose",
+      "synonymes": [
+        "ichtyose vulgaire",
+        "ichtyose liée à l'X",
+        "ichtyose lamellaire",
+        "érythrodermie ichtyosiforme",
+        "bébé collodion",
+        "ichtyose arlequin",
+        "ichtyoses congénitales"
+      ],
+      "categories": [
+        "Dermatologie"
+      ],
+      "sousCategorie": "Génodermatoses"
+    },
+    {
+      "id": "42419207651b815e91c1e5baa40a95dc",
+      "nom": "Impétigo",
+      "synonymes": [
+        "impétigo bulleux",
+        "impétigo non bulleux",
+        "impétigo croûteux",
+        "ecthyma",
+        "impétiginisation"
+      ],
+      "categories": [
+        "Dermatologie",
+        "Infectiologie"
+      ],
+      "sousCategorie": "Infections bactériennes"
+    },
+    {
+      "id": "42419207651b8183ab4ccb04688d7b57",
+      "nom": "Incontinentia pigmenti",
+      "synonymes": [
+        "maladie de Bloch-Sulzberger",
+        "Bloch-Sulzberger"
+      ],
+      "categories": [
+        "Dermatologie"
+      ],
+      "sousCategorie": "Génodermatoses"
+    },
+    {
+      "id": "42419207651b8157a56ae976c6d7faac",
+      "nom": "Intertrigo",
+      "synonymes": [
+        "intertrigo des plis",
+        "intertrigo du nourrisson",
+        "macération des plis",
+        "intertrigo irritatif",
+        "intertrigo rétro-auriculaire"
+      ],
+      "categories": [
+        "Dermatologie"
+      ],
+      "sousCategorie": "Eczémas et dermatites"
+    },
+    {
+      "id": "42419207651b8159946fd867a28b54a1",
+      "nom": "Intertrigo candidosique",
+      "synonymes": [
+        "candidose des plis",
+        "candidose intertrigineuse",
+        "mycose des plis"
+      ],
+      "categories": [
+        "Dermatologie",
+        "Infectiologie"
+      ],
+      "sousCategorie": "Infections fongiques"
+    },
+    {
+      "id": "42419207651b81fe8016d3e52e6c2388",
+      "nom": "Intertrigo streptococcique",
+      "synonymes": [
+        "intertrigo bactérien",
+        "intertrigo surinfecté"
+      ],
+      "categories": [
+        "Dermatologie",
+        "Infectiologie"
+      ],
+      "sousCategorie": "Infections bactériennes"
+    },
+    {
+      "id": "42419207651b81acb8ffce2e119a52bd",
+      "nom": "Kératodermie palmoplantaire",
+      "synonymes": [
+        "KPP",
+        "kératodermie",
+        "hyperkératose palmoplantaire"
+      ],
+      "categories": [
+        "Dermatologie"
+      ],
+      "sousCategorie": "Génodermatoses"
+    },
+    {
+      "id": "42419207651b818b9565ca6f4061a23e",
+      "nom": "Kératolyse ponctuée",
+      "synonymes": [
+        "keratolysis punctata",
+        "pitted keratolysis",
+        "kératolyse plantaire"
+      ],
+      "categories": [
+        "Dermatologie"
+      ],
+      "sousCategorie": "Infections bactériennes"
+    },
+    {
+      "id": "42419207651b81beb4e4ccf5b1e042f1",
+      "nom": "Kératose pilaire",
+      "synonymes": [
+        "kératose folliculaire",
+        "peau de poulet",
+        "ulerythema ophryogenes"
+      ],
+      "categories": [
+        "Dermatologie"
+      ],
+      "sousCategorie": "Génodermatoses"
+    },
+    {
+      "id": "42419207651b810aae62f87b1ad21cd2",
+      "nom": "Kystes cutanés",
+      "synonymes": [
+        "kyste épidermique",
+        "kyste sébacé",
+        "kyste dermoïde",
+        "grains de milium",
+        "milium"
+      ],
+      "categories": [
+        "Dermatologie"
+      ],
+      "sousCategorie": "Tumeurs et naevus"
+    },
+    {
+      "id": "42419207651b815f92bde7c32d27d96c",
+      "nom": "Larva migrans",
+      "synonymes": [
+        "larva migrans cutanée",
+        "larbish",
+        "ankylostomose cutanée",
+        "dermite rampante"
+      ],
+      "categories": [
+        "Dermatologie",
+        "Infectiologie"
+      ],
+      "sousCategorie": "Parasitoses et piqûres"
+    },
+    {
+      "id": "42419207651b81ac9601ee98f2279a25",
+      "nom": "Leishmaniose cutanée",
+      "synonymes": [
+        "bouton d'Orient",
+        "leishmaniose"
+      ],
+      "categories": [
+        "Infectiologie",
+        "Dermatologie"
+      ],
+      "sousCategorie": "Parasitoses et piqûres"
+    },
+    {
+      "id": "42419207651b8179b99bc480c6be60a3",
+      "nom": "Lichen nitidus",
+      "synonymes": [
+        "lichen nitidus de l'enfant"
+      ],
+      "categories": [
+        "Dermatologie"
+      ],
+      "sousCategorie": "Dermatoses inflammatoires"
+    },
+    {
+      "id": "42419207651b81a9b211c096301b46f6",
+      "nom": "Lichen plan",
+      "synonymes": [
+        "lichen ruber planus",
+        "lichen plan cutané",
+        "lichen plan buccal",
+        "lichen plan muqueux"
+      ],
+      "categories": [
+        "Dermatologie"
+      ],
+      "sousCategorie": "Dermatoses inflammatoires"
+    },
+    {
+      "id": "42419207651b81538d1af0d4e72a18b0",
+      "nom": "Lichen plan pilaire",
+      "synonymes": [
+        "lichen planopilaire",
+        "lichen plan du cuir chevelu",
+        "alopécie cicatricielle lichénienne"
+      ],
+      "categories": [
+        "Dermatologie"
+      ],
+      "sousCategorie": "Cheveux et ongles"
+    },
+    {
+      "id": "42419207651b81329837ff2667da77e9",
+      "nom": "Lichen plan unguéal",
+      "synonymes": [
+        "lichen unguéal",
+        "lichen des ongles"
+      ],
+      "categories": [
+        "Dermatologie"
+      ],
+      "sousCategorie": "Cheveux et ongles"
+    },
+    {
+      "id": "42419207651b817f9261cdc30571d3b0",
+      "nom": "Lichen scléreux",
+      "synonymes": [
+        "lichen scléro-atrophique",
+        "lichen scléreux vulvaire",
+        "LSA",
+        "balanite xérotique oblitérante",
+        "phimosis cicatriciel"
+      ],
+      "categories": [
+        "Dermatologie",
+        "Gynécologie"
+      ],
+      "sousCategorie": "Muqueuses et organes génitaux"
+    },
+    {
+      "id": "42419207651b81d79fe8db7e030cbf6a",
+      "nom": "Lichen striatus",
+      "synonymes": [
+        "lichen striatus de l'enfant",
+        "blaschkite"
+      ],
+      "categories": [
+        "Dermatologie"
+      ],
+      "sousCategorie": "Dermatoses inflammatoires"
+    },
+    {
+      "id": "42419207651b813eba50c3b41a140314",
+      "nom": "Lupus",
+      "synonymes": [
+        "lupus érythémateux",
+        "lupus cutané",
+        "lupus discoïde",
+        "lupus systémique",
+        "lupus néonatal",
+        "LED"
+      ],
+      "categories": [
+        "Dermatologie",
+        "Rhumatologie et auto-inflammatoire"
+      ],
+      "sousCategorie": "Maladies systémiques et vascularites"
+    },
+    {
+      "id": "42419207651b8124ac93f1812b08b31c",
+      "nom": "Lyme",
+      "synonymes": [
+        "maladie de Lyme",
+        "borréliose de Lyme",
+        "érythème migrant",
+        "lymphocytome borrélien",
+        "acrodermatite chronique atrophiante",
+        "morsure de tique"
+      ],
+      "categories": [
+        "Infectiologie",
+        "Dermatologie"
+      ],
+      "sousCategorie": "Infections bactériennes"
+    },
+    {
+      "id": "42419207651b816ebda2fd04536fdfdd",
+      "nom": "Maladie de Behçet",
+      "synonymes": [
+        "Behçet",
+        "aphtose bipolaire"
+      ],
+      "categories": [
+        "Rhumatologie et auto-inflammatoire",
+        "Dermatologie"
+      ],
+      "sousCategorie": "Maladies systémiques et vascularites"
+    },
+    {
+      "id": "42419207651b81b18643cd29c3ccc1c3",
+      "nom": "Maladie de Darier",
+      "synonymes": [
+        "dyskératose folliculaire",
+        "Darier"
+      ],
+      "categories": [
+        "Dermatologie"
+      ],
+      "sousCategorie": "Génodermatoses"
+    },
+    {
+      "id": "42419207651b8109a715e6bf6e312132",
+      "nom": "Maladie de Hailey-Hailey",
+      "synonymes": [
+        "pemphigus chronique familial bénin",
+        "Hailey-Hailey"
+      ],
+      "categories": [
+        "Dermatologie"
+      ],
+      "sousCategorie": "Génodermatoses"
+    },
+    {
+      "id": "42419207651b814b9a94f29e875548d5",
+      "nom": "Maladie de Kawasaki",
+      "synonymes": [
+        "Kawasaki",
+        "syndrome adéno-cutanéo-muqueux"
+      ],
+      "categories": [
+        "Rhumatologie et auto-inflammatoire",
+        "Cardiologie",
+        "Dermatologie",
+        "Urgences"
+      ],
+      "sousCategorie": "Maladies systémiques et vascularites"
+    },
+    {
+      "id": "42419207651b81158cdac95828548073",
+      "nom": "Maladie des griffes du chat",
+      "synonymes": [
+        "bartonellose",
+        "lymphoréticulose bénigne d'inoculation",
+        "Bartonella henselae"
+      ],
+      "categories": [
+        "Infectiologie",
+        "Dermatologie"
+      ],
+      "sousCategorie": "Infections bactériennes"
+    },
+    {
+      "id": "42419207651b81b1a1ddfaafd86fcf6c",
+      "nom": "Malformation artério-veineuse",
+      "synonymes": [
+        "MAV",
+        "fistule artério-veineuse"
+      ],
+      "categories": [
+        "Dermatologie"
+      ],
+      "sousCategorie": "Anomalies vasculaires"
+    },
+    {
+      "id": "42419207651b810da7c2de59d5e3fd6a",
+      "nom": "Malformation capillaire",
+      "synonymes": [
+        "angiome plan",
+        "tache de vin",
+        "tache saumonée",
+        "naevus flammeus",
+        "morsure de cigogne",
+        "tache de naissance"
+      ],
+      "categories": [
+        "Dermatologie"
+      ],
+      "sousCategorie": "Anomalies vasculaires"
+    },
+    {
+      "id": "42419207651b81659eabd94eade77a42",
+      "nom": "Malformation lymphatique",
+      "synonymes": [
+        "lymphangiome",
+        "lymphangiome kystique",
+        "lymphangiome circonscrit"
+      ],
+      "categories": [
+        "Dermatologie"
+      ],
+      "sousCategorie": "Anomalies vasculaires"
+    },
+    {
+      "id": "42419207651b81548331f230b6815d6d",
+      "nom": "Malformation veineuse",
+      "synonymes": [
+        "angiome veineux",
+        "MV",
+        "malformation veineuse superficielle"
+      ],
+      "categories": [
+        "Dermatologie"
+      ],
+      "sousCategorie": "Anomalies vasculaires"
+    },
+    {
+      "id": "42419207651b816683d6f55dd1dd9c45",
+      "nom": "Mastocytose",
+      "synonymes": [
+        "mastocytose cutanée",
+        "urticaire pigmentaire",
+        "mastocytome",
+        "signe de Darier"
+      ],
+      "categories": [
+        "Dermatologie",
+        "Hématologie"
+      ],
+      "sousCategorie": "Urticaire et allergie"
+    },
+    {
+      "id": "42419207651b814996f1f0028ad5cec9",
+      "nom": "Mégalérythème épidémique",
+      "synonymes": [
+        "cinquième maladie",
+        "parvovirus B19",
+        "syndrome des gants et des chaussettes",
+        "érythème infectieux"
+      ],
+      "categories": [
+        "Infectiologie",
+        "Dermatologie"
+      ],
+      "sousCategorie": "Infections virales"
+    },
+    {
+      "id": "42419207651b81d4af36e56a9049c1db",
+      "nom": "Mélanocytose dermique congénitale",
+      "synonymes": [
+        "tache mongoloïde",
+        "tache mongolique",
+        "tache bleue"
+      ],
+      "categories": [
+        "Dermatologie",
+        "Néonatologie"
+      ],
+      "sousCategorie": "Pigmentation"
+    },
+    {
+      "id": "42419207651b81239bebd7ea2a200e7e",
+      "nom": "Mélanome",
+      "synonymes": [
+        "mélanome de l'enfant",
+        "mélanome malin"
+      ],
+      "categories": [
+        "Dermatologie"
+      ],
+      "sousCategorie": "Tumeurs et naevus"
+    },
+    {
+      "id": "42419207651b817bb444ec0e4d260a32",
+      "nom": "Mélanose pustuleuse néonatale transitoire",
+      "synonymes": [
+        "pustulose néonatale transitoire"
+      ],
+      "categories": [
+        "Néonatologie",
+        "Dermatologie"
+      ],
+      "sousCategorie": "Dermatoses néonatales"
+    },
+    {
+      "id": "42419207651b819ba562dd2db0c1393d",
+      "nom": "Mélasma",
+      "synonymes": [
+        "chloasma",
+        "masque de grossesse"
+      ],
+      "categories": [
+        "Dermatologie"
+      ],
+      "sousCategorie": "Pigmentation"
+    },
+    {
+      "id": "42419207651b811b8b6bf38a3cb1f41d",
+      "nom": "Miliaire",
+      "synonymes": [
+        "miliaire sudorale",
+        "bourbouille",
+        "miliaire rouge",
+        "miliaire cristalline",
+        "sudamina"
+      ],
+      "categories": [
+        "Dermatologie",
+        "Néonatologie"
+      ],
+      "sousCategorie": "Dermatoses néonatales"
+    },
+    {
+      "id": "42419207651b812d947eef073a232618",
+      "nom": "MIRM",
+      "synonymes": [
+        "éruption cutanéo-muqueuse induite par Mycoplasma",
+        "mycoplasma-induced rash and mucositis",
+        "mucite à mycoplasme"
+      ],
+      "categories": [
+        "Dermatologie",
+        "Infectiologie"
+      ],
+      "sousCategorie": "Toxidermies"
+    },
+    {
+      "id": "42419207651b81f190aef3843817e6ee",
+      "nom": "Molluscum contagiosum",
+      "synonymes": [
+        "molluscum",
+        "molluscums",
+        "molluscum contagiosum de l'enfant"
+      ],
+      "categories": [
+        "Dermatologie",
+        "Infectiologie"
+      ],
+      "sousCategorie": "Infections virales"
+    },
+    {
+      "id": "42419207651b81d78734eb673fcdecbc",
+      "nom": "Mononucléose infectieuse",
+      "synonymes": [
+        "MNI",
+        "EBV",
+        "virus d'Epstein-Barr",
+        "éruption sous amoxicilline",
+        "maladie du baiser"
+      ],
+      "categories": [
+        "Infectiologie",
+        "Dermatologie",
+        "ORL"
+      ],
+      "sousCategorie": "Infections virales"
+    },
+    {
+      "id": "42419207651b81818628fb52e54da2ff",
+      "nom": "Morphée",
+      "synonymes": [
+        "sclérodermie localisée",
+        "morphée en plaques",
+        "sclérodermie linéaire",
+        "sclérodermie en coup de sabre",
+        "syndrome de Parry-Romberg"
+      ],
+      "categories": [
+        "Dermatologie",
+        "Rhumatologie et auto-inflammatoire"
+      ],
+      "sousCategorie": "Maladies systémiques et vascularites"
+    },
+    {
+      "id": "42419207651b81bf9a35dc6b34874668",
+      "nom": "Mosaïcisme pigmentaire",
+      "synonymes": [
+        "hypomélanose d'Ito",
+        "naevus achromique",
+        "naevus dépigmentosus",
+        "hypermélanose linéaire et en volutes"
+      ],
+      "categories": [
+        "Dermatologie"
+      ],
+      "sousCategorie": "Pigmentation"
+    },
+    {
+      "id": "42419207651b81798f59d1a40ddb3d29",
+      "nom": "Mpox",
+      "synonymes": [
+        "variole du singe",
+        "monkeypox",
+        "orthopoxvirus simien"
+      ],
+      "categories": [
+        "Infectiologie",
+        "Dermatologie"
+      ],
+      "sousCategorie": "Infections virales"
+    },
+    {
+      "id": "42419207651b81418c26dce9cf548a0b",
+      "nom": "Mycobactériose cutanée atypique",
+      "synonymes": [
+        "granulome des piscines",
+        "granulome des aquariums",
+        "Mycobacterium marinum",
+        "mycobactérie atypique"
+      ],
+      "categories": [
+        "Infectiologie",
+        "Dermatologie"
+      ],
+      "sousCategorie": "Infections bactériennes"
+    },
+    {
+      "id": "42419207651b81858f90df4c967148a1",
+      "nom": "Myiase",
+      "synonymes": [
+        "myiase furonculoïde",
+        "larve de mouche",
+        "ver de Cayor"
+      ],
+      "categories": [
+        "Infectiologie",
+        "Dermatologie"
+      ],
+      "sousCategorie": "Parasitoses et piqûres"
+    },
+    {
+      "id": "42419207651b81859fb8fec225842ca4",
+      "nom": "Naevus",
+      "synonymes": [
+        "grain de beauté",
+        "naevus mélanocytaire",
+        "naevus congénital",
+        "naevus géant",
+        "naevus de Spitz",
+        "naevus de Sutton",
+        "halo naevus",
+        "naevus bleu"
+      ],
+      "categories": [
+        "Dermatologie"
+      ],
+      "sousCategorie": "Tumeurs et naevus"
+    },
+    {
+      "id": "42419207651b81e18e6acd90a81b6bc5",
+      "nom": "Naevus épidermique",
+      "synonymes": [
+        "naevus verruqueux",
+        "naevus épidermique verruqueux inflammatoire linéaire",
+        "NEVIL"
+      ],
+      "categories": [
+        "Dermatologie"
+      ],
+      "sousCategorie": "Tumeurs et naevus"
+    },
+    {
+      "id": "42419207651b818f85f8ffdc5cdd0160",
+      "nom": "Naevus sébacé",
+      "synonymes": [
+        "naevus sébacé de Jadassohn",
+        "hamartome sébacé"
+      ],
+      "categories": [
+        "Dermatologie"
+      ],
+      "sousCategorie": "Tumeurs et naevus"
+    },
+    {
+      "id": "42419207651b81b2a9edd9ca38a6397f",
+      "nom": "Nécrobiose lipoïdique",
+      "synonymes": [
+        "nécrobiose lipoïdique des diabétiques",
+        "maladie d'Oppenheim-Urbach"
+      ],
+      "categories": [
+        "Dermatologie",
+        "Endocrinologie"
+      ],
+      "sousCategorie": "Dermatoses inflammatoires"
+    },
+    {
+      "id": "42419207651b8118b95bf5c1ea3c4797",
+      "nom": "Neurofibromatose de type 1",
+      "synonymes": [
+        "NF1",
+        "maladie de von Recklinghausen",
+        "Recklinghausen",
+        "neurofibromes"
+      ],
+      "categories": [
+        "Dermatologie",
+        "Neurologie"
+      ],
+      "sousCategorie": "Génodermatoses"
+    },
+    {
+      "id": "42419207651b81ba9c49df6ef39a9045",
+      "nom": "Œdème aigu hémorragique du nourrisson",
+      "synonymes": [
+        "OAHN",
+        "maladie de Finkelstein",
+        "maladie de Seidlmayer"
+      ],
+      "categories": [
+        "Dermatologie",
+        "Rhumatologie et auto-inflammatoire"
+      ],
+      "sousCategorie": "Maladies systémiques et vascularites"
+    },
+    {
+      "id": "42419207651b81f19e4dcf7798dbf041",
+      "nom": "Omphalite",
+      "synonymes": [
+        "infection ombilicale",
+        "infection du cordon"
+      ],
+      "categories": [
+        "Néonatologie",
+        "Infectiologie",
+        "Dermatologie"
+      ],
+      "sousCategorie": "Dermatoses néonatales"
+    },
+    {
+      "id": "42419207651b813d977ef50d53a4fd92",
+      "nom": "Ongle incarné",
+      "synonymes": [
+        "onychocryptose",
+        "incarnation unguéale",
+        "ongle incarné du nourrisson"
+      ],
+      "categories": [
+        "Dermatologie"
+      ],
+      "sousCategorie": "Cheveux et ongles"
+    },
+    {
+      "id": "42419207651b81ffa9baf484084f1ec5",
+      "nom": "Onychomycose",
+      "synonymes": [
+        "mycose de l'ongle",
+        "mycose unguéale",
+        "onyxis mycosique",
+        "tinea unguium"
+      ],
+      "categories": [
+        "Dermatologie",
+        "Infectiologie"
+      ],
+      "sousCategorie": "Infections fongiques"
+    },
+    {
+      "id": "42419207651b81d0bd18e90964e7a96a",
+      "nom": "Oxyurose",
+      "synonymes": [
+        "oxyures",
+        "Enterobius vermicularis",
+        "prurit anal",
+        "vers"
+      ],
+      "categories": [
+        "Infectiologie",
+        "Gastro-entérologie",
+        "Dermatologie"
+      ],
+      "sousCategorie": "Parasitoses et piqûres"
+    },
+    {
+      "id": "42419207651b8173a120ec435ddf86c5",
+      "nom": "Pachyonychie congénitale",
+      "synonymes": [
+        "pachyonychie"
+      ],
+      "categories": [
+        "Dermatologie"
+      ],
+      "sousCategorie": "Génodermatoses"
+    },
+    {
+      "id": "42419207651b817cb291dc4e9e8ef858",
+      "nom": "Panaris",
+      "synonymes": [
+        "périonyxis aigu",
+        "paronychie aiguë",
+        "tourniole",
+        "infection péri-unguéale"
+      ],
+      "categories": [
+        "Dermatologie",
+        "Infectiologie"
+      ],
+      "sousCategorie": "Infections bactériennes"
+    },
+    {
+      "id": "42419207651b81918913e7368cf19d86",
+      "nom": "Pathomimie",
+      "synonymes": [
+        "dermatite artefacta",
+        "lésions auto-provoquées",
+        "dermatose factice"
+      ],
+      "categories": [
+        "Dermatologie"
+      ],
+      "sousCategorie": "Situations particulières"
+    },
+    {
+      "id": "42419207651b8192aa6cc0fd0338f048",
+      "nom": "PEAG",
+      "synonymes": [
+        "pustulose exanthématique aiguë généralisée",
+        "AGEP"
+      ],
+      "categories": [
+        "Dermatologie",
+        "Allergologie"
+      ],
+      "sousCategorie": "Toxidermies"
+    },
+    {
+      "id": "42419207651b8145a66cf1af3970b8d0",
+      "nom": "Pédiculose",
+      "synonymes": [
+        "poux",
+        "pédiculose du cuir chevelu",
+        "lentes",
+        "phtiriase"
+      ],
+      "categories": [
+        "Dermatologie",
+        "Infectiologie"
+      ],
+      "sousCategorie": "Parasitoses et piqûres"
+    },
+    {
+      "id": "42419207651b81258a60f6702a941c9a",
+      "nom": "Pelade",
+      "synonymes": [
+        "alopécie areata",
+        "alopecia areata",
+        "pelade décalvante",
+        "pelade universelle",
+        "ophiasis"
+      ],
+      "categories": [
+        "Dermatologie"
+      ],
+      "sousCategorie": "Cheveux et ongles"
+    },
+    {
+      "id": "42419207651b818e8937f385ad16cefe",
+      "nom": "Pemphigoïde",
+      "synonymes": [
+        "pemphigoïde bulleuse de l'enfant",
+        "pemphigoïde du nourrisson"
+      ],
+      "categories": [
+        "Dermatologie"
+      ],
+      "sousCategorie": "Bulleuses auto-immunes"
+    },
+    {
+      "id": "42419207651b815a9bc5d4ea6ef3bda3",
+      "nom": "Pemphigus",
+      "synonymes": [
+        "pemphigus vulgaire",
+        "pemphigus foliacé"
+      ],
+      "categories": [
+        "Dermatologie"
+      ],
+      "sousCategorie": "Bulleuses auto-immunes"
+    },
+    {
+      "id": "42419207651b8136ae74ca4a1532ebe8",
+      "nom": "Périonyxis chronique",
+      "synonymes": [
+        "paronychie chronique",
+        "onyxis candidosique",
+        "périonyxis candidosique"
+      ],
+      "categories": [
+        "Dermatologie"
+      ],
+      "sousCategorie": "Cheveux et ongles"
+    },
+    {
+      "id": "42419207651b81e1a635ec674c28ae71",
+      "nom": "Perlèche",
+      "synonymes": [
+        "chéilite angulaire",
+        "perlèche candidosique",
+        "perlèche bactérienne"
+      ],
+      "categories": [
+        "Dermatologie"
+      ],
+      "sousCategorie": "Muqueuses et organes génitaux"
+    },
+    {
+      "id": "42419207651b812695e7e521daebfe82",
+      "nom": "PFAPA",
+      "synonymes": [
+        "syndrome de Marshall",
+        "fièvre périodique avec aphtes pharyngite et adénopathies",
+        "fièvre périodique"
+      ],
+      "categories": [
+        "Rhumatologie et auto-inflammatoire",
+        "ORL"
+      ],
+      "sousCategorie": "Maladies auto-inflammatoires"
+    },
+    {
+      "id": "42419207651b81f0a6caefcf767eea5d",
+      "nom": "Phénomène de Raynaud",
+      "synonymes": [
+        "Raynaud",
+        "syndrome de Raynaud",
+        "acrosyndrome",
+        "acrocyanose"
+      ],
+      "categories": [
+        "Dermatologie",
+        "Rhumatologie et auto-inflammatoire"
+      ],
+      "sousCategorie": "Maladies systémiques et vascularites"
+    },
+    {
+      "id": "42419207651b81c99dbafd50d9a63b12",
+      "nom": "Photodermatose",
+      "synonymes": [
+        "lucite",
+        "lucite estivale bénigne",
+        "éruption polymorphe à la lumière",
+        "hydroa vacciniforme",
+        "photosensibilité",
+        "allergie au soleil",
+        "phytophotodermatose"
+      ],
+      "categories": [
+        "Dermatologie"
+      ],
+      "sousCategorie": "Agents physiques"
+    },
+    {
+      "id": "42419207651b81de85e1f982950fdceb",
+      "nom": "Piedra blanche",
+      "synonymes": [
+        "trichosporonose",
+        "piedra"
+      ],
+      "categories": [
+        "Dermatologie",
+        "Infectiologie"
+      ],
+      "sousCategorie": "Infections fongiques"
+    },
+    {
+      "id": "42419207651b81a1b6d6dd9f40242f5c",
+      "nom": "Pilomatricome",
+      "synonymes": [
+        "épithélioma calcifié de Malherbe",
+        "pilomatrixome"
+      ],
+      "categories": [
+        "Dermatologie"
+      ],
+      "sousCategorie": "Tumeurs et naevus"
+    },
+    {
+      "id": "42419207651b8101afd0f1442a8faaa8",
+      "nom": "PIMS",
+      "synonymes": [
+        "MIS-C",
+        "syndrome inflammatoire multisystémique pédiatrique",
+        "PIMS-TS"
+      ],
+      "categories": [
+        "Rhumatologie et auto-inflammatoire",
+        "Cardiologie",
+        "Urgences"
+      ],
+      "sousCategorie": "Maladies systémiques et vascularites"
+    },
+    {
+      "id": "42419207651b816695dbd9cfe35812ab",
+      "nom": "Piqûres d'insectes",
+      "synonymes": [
+        "réaction aux piqûres",
+        "piqûres de moustiques",
+        "puces",
+        "punaises de lit",
+        "chenilles processionnaires",
+        "piqûre de guêpe",
+        "piqûre d'abeille"
+      ],
+      "categories": [
+        "Dermatologie",
+        "Allergologie"
+      ],
+      "sousCategorie": "Parasitoses et piqûres"
+    },
+    {
+      "id": "42419207651b81fb91a1e2957f5eccd5",
+      "nom": "Pityriasis alba",
+      "synonymes": [
+        "dartres",
+        "eczématides achromiantes",
+        "taches blanches du visage"
+      ],
+      "categories": [
+        "Dermatologie"
+      ],
+      "sousCategorie": "Eczémas et dermatites"
+    },
+    {
+      "id": "42419207651b81ff8ba7fe10c24c0f19",
+      "nom": "Pityriasis rosé de Gibert",
+      "synonymes": [
+        "pityriasis rosé",
+        "PRG",
+        "médaillon de Gibert"
+      ],
+      "categories": [
+        "Dermatologie"
+      ],
+      "sousCategorie": "Infections virales"
+    },
+    {
+      "id": "42419207651b812ab56ed454f5054985",
+      "nom": "Pityriasis rubra pilaire",
+      "synonymes": [
+        "PRP",
+        "maladie de Devergie"
+      ],
+      "categories": [
+        "Dermatologie"
+      ],
+      "sousCategorie": "Dermatoses inflammatoires"
+    },
+    {
+      "id": "42419207651b812ca437cffb9f8b3487",
+      "nom": "Pityriasis versicolor",
+      "synonymes": [
+        "pityriasis versicolore",
+        "Malassezia",
+        "taches blanches au soleil"
+      ],
+      "categories": [
+        "Dermatologie",
+        "Infectiologie"
+      ],
+      "sousCategorie": "Infections fongiques"
+    },
+    {
+      "id": "42419207651b81f4b3c2e7e6a12eb603",
+      "nom": "Plaie cutanée",
+      "synonymes": [
+        "plaie",
+        "dermabrasion",
+        "écorchure",
+        "cicatrisation",
+        "morsure"
+      ],
+      "categories": [
+        "Dermatologie",
+        "Urgences"
+      ],
+      "sousCategorie": "Agents physiques"
+    },
+    {
+      "id": "42419207651b8111bc71f56bf61677df",
+      "nom": "PLEVA",
+      "synonymes": [
+        "pityriasis lichénoïde",
+        "pityriasis lichénoïde et varioliforme aigu",
+        "maladie de Mucha-Habermann",
+        "pityriasis lichénoïde chronique",
+        "parapsoriasis en gouttes"
+      ],
+      "categories": [
+        "Dermatologie"
+      ],
+      "sousCategorie": "Dermatoses inflammatoires"
+    },
+    {
+      "id": "42419207651b81c0b817f9a9c24be441",
+      "nom": "Porokératose",
+      "synonymes": [
+        "porokératose de Mibelli",
+        "porokératose linéaire"
+      ],
+      "categories": [
+        "Dermatologie"
+      ],
+      "sousCategorie": "Génodermatoses"
+    },
+    {
+      "id": "42419207651b81ba93a5ff507d337184",
+      "nom": "Prurigo strophulus",
+      "synonymes": [
+        "prurigo aigu de l'enfant",
+        "strophulus",
+        "prurigo d'insectes",
+        "piqûres d'insectes"
+      ],
+      "categories": [
+        "Dermatologie"
+      ],
+      "sousCategorie": "Parasitoses et piqûres"
+    },
+    {
+      "id": "42419207651b81ce9d90e80d6bcdeba3",
+      "nom": "Prurit chronique",
+      "synonymes": [
+        "prurit",
+        "démangeaisons",
+        "démangeaisons chroniques",
+        "prurigo chronique",
+        "prurigo nodulaire"
+      ],
+      "categories": [
+        "Dermatologie"
+      ],
+      "sousCategorie": "Dermatoses inflammatoires"
+    },
+    {
+      "id": "42419207651b8199b1a6e6bd1ec95b12",
+      "nom": "Psoriasis",
+      "synonymes": [
+        "psoriasis en plaques",
+        "psoriasis des langes",
+        "psoriasis en gouttes",
+        "psoriasis du cuir chevelu",
+        "psoriasis unguéal",
+        "psoriasis pustuleux",
+        "psoriasis inversé",
+        "pustulose palmoplantaire"
+      ],
+      "categories": [
+        "Dermatologie"
+      ],
+      "sousCategorie": "Dermatoses inflammatoires"
+    },
+    {
+      "id": "42419207651b8114bca6e09ee722b51a",
+      "nom": "Purpura rhumatoïde",
+      "synonymes": [
+        "vascularite à IgA",
+        "purpura de Henoch-Schönlein",
+        "Henoch-Schönlein",
+        "HSP"
+      ],
+      "categories": [
+        "Rhumatologie et auto-inflammatoire",
+        "Dermatologie",
+        "Néphrologie et urologie"
+      ],
+      "sousCategorie": "Maladies systémiques et vascularites"
+    },
+    {
+      "id": "42419207651b8182912ee82ef6bef845",
+      "nom": "Pyoderma gangrenosum",
+      "synonymes": [
+        "pyodérmite gangréneuse",
+        "dermatose neutrophilique"
+      ],
+      "categories": [
+        "Dermatologie"
+      ],
+      "sousCategorie": "Dermatoses inflammatoires"
+    },
+    {
+      "id": "42419207651b81518532d11bd3ef0b20",
+      "nom": "Rosacée",
+      "synonymes": [
+        "rosacée de l'enfant",
+        "couperose",
+        "rosacée oculaire"
+      ],
+      "categories": [
+        "Dermatologie"
+      ],
+      "sousCategorie": "Acné et annexes"
+    },
+    {
+      "id": "42419207651b81ca8ab2d5b9e4522b5d",
+      "nom": "Roséole",
+      "synonymes": [
+        "exanthème subit",
+        "sixième maladie",
+        "HHV-6",
+        "roseola infantum"
+      ],
+      "categories": [
+        "Infectiologie",
+        "Dermatologie"
+      ],
+      "sousCategorie": "Infections virales"
+    },
+    {
+      "id": "42419207651b81b18e6af86f2819e869",
+      "nom": "Rougeole",
+      "synonymes": [
+        "morbilli",
+        "measles"
+      ],
+      "categories": [
+        "Infectiologie",
+        "Dermatologie"
+      ],
+      "sousCategorie": "Infections virales"
+    },
+    {
+      "id": "42419207651b81028fb6c294dd2ccfd2",
+      "nom": "Rubéole",
+      "synonymes": [
+        "rubéole congénitale",
+        "rubella"
+      ],
+      "categories": [
+        "Infectiologie",
+        "Dermatologie"
+      ],
+      "sousCategorie": "Infections virales"
+    },
+    {
+      "id": "42419207651b81748b4bf61ad3aa1beb",
+      "nom": "Sarcoïdose",
+      "synonymes": [
+        "sarcoïdose cutanée",
+        "maladie de Besnier-Boeck-Schaumann",
+        "syndrome de Blau"
+      ],
+      "categories": [
+        "Dermatologie",
+        "Rhumatologie et auto-inflammatoire"
+      ],
+      "sousCategorie": "Maladies systémiques et vascularites"
+    },
+    {
+      "id": "42419207651b8133bdb0e713e3cc7e93",
+      "nom": "Scarlatine",
+      "synonymes": [
+        "scarlatine streptococcique",
+        "fièvre scarlatine"
+      ],
+      "categories": [
+        "Infectiologie",
+        "Dermatologie",
+        "ORL"
+      ],
+      "sousCategorie": "Infections bactériennes"
+    },
+    {
+      "id": "42419207651b8191b4fcf8284cd14177",
+      "nom": "Sclérose tubéreuse de Bourneville",
+      "synonymes": [
+        "STB",
+        "Bourneville",
+        "sclérose tubéreuse",
+        "angiofibromes faciaux",
+        "taches achromiques en feuille"
+      ],
+      "categories": [
+        "Dermatologie",
+        "Neurologie"
+      ],
+      "sousCategorie": "Génodermatoses"
+    },
+    {
+      "id": "42419207651b81e9baabc35346167835",
+      "nom": "SSSS",
+      "synonymes": [
+        "syndrome d'exfoliation staphylococcique",
+        "syndrome de la peau ébouillantée",
+        "épidermolyse staphylococcique aiguë",
+        "maladie de Ritter",
+        "staphylococcal scalded skin syndrome"
+      ],
+      "categories": [
+        "Dermatologie",
+        "Infectiologie",
+        "Urgences"
+      ],
+      "sousCategorie": "Infections bactériennes"
+    },
+    {
+      "id": "42419207651b810b9dd5e59b5b9cbf17",
+      "nom": "Syndrome de Kaposi-Juliusberg",
+      "synonymes": [
+        "pustulose varioliforme de Kaposi-Juliusberg",
+        "eczema herpeticum",
+        "herpès sur dermatite atopique",
+        "Kaposi-Juliusberg"
+      ],
+      "categories": [
+        "Dermatologie",
+        "Infectiologie",
+        "Urgences"
+      ],
+      "sousCategorie": "Infections virales"
+    },
+    {
+      "id": "42419207651b811e80a6ea7e114287c6",
+      "nom": "Syndrome de Stevens-Johnson et syndrome de Lyell",
+      "synonymes": [
+        "SJS",
+        "Stevens-Johnson",
+        "nécrolyse épidermique toxique",
+        "NET",
+        "Lyell",
+        "toxidermie grave"
+      ],
+      "categories": [
+        "Dermatologie",
+        "Urgences",
+        "Allergologie"
+      ],
+      "sousCategorie": "Toxidermies"
+    },
+    {
+      "id": "42419207651b8156bf6cdc416dca41ea",
+      "nom": "Syndrome de Sturge-Weber",
+      "synonymes": [
+        "Sturge-Weber",
+        "angiomatose encéphalo-trigéminée"
+      ],
+      "categories": [
+        "Dermatologie",
+        "Neurologie"
+      ],
+      "sousCategorie": "Anomalies vasculaires"
+    },
+    {
+      "id": "42419207651b81369653fe330d3e3eb4",
+      "nom": "Syndrome du choc toxique",
+      "synonymes": [
+        "choc toxique staphylococcique",
+        "choc toxique streptococcique",
+        "TSS",
+        "toxic shock syndrome"
+      ],
+      "categories": [
+        "Infectiologie",
+        "Urgences",
+        "Dermatologie"
+      ],
+      "sousCategorie": "Infections bactériennes"
+    },
+    {
+      "id": "42419207651b81d5a278cade4208b033",
+      "nom": "Syndrome pieds-mains-bouche",
+      "synonymes": [
+        "maladie pieds-mains-bouche",
+        "syndrome main-pied-bouche",
+        "entérovirus",
+        "coxsackie",
+        "eczema coxsackium"
+      ],
+      "categories": [
+        "Infectiologie",
+        "Dermatologie"
+      ],
+      "sousCategorie": "Infections virales"
+    },
+    {
+      "id": "42419207651b811babc1d93a838670d7",
+      "nom": "Syphilis",
+      "synonymes": [
+        "syphilis congénitale",
+        "syphilis secondaire",
+        "tréponematose",
+        "chancre"
+      ],
+      "categories": [
+        "Infectiologie",
+        "Dermatologie"
+      ],
+      "sousCategorie": "Infections bactériennes"
+    },
+    {
+      "id": "42419207651b81ec8ed3cba179fdb645",
+      "nom": "Taches café au lait",
+      "synonymes": [
+        "tache café au lait",
+        "TCL"
+      ],
+      "categories": [
+        "Dermatologie"
+      ],
+      "sousCategorie": "Pigmentation"
+    },
+    {
+      "id": "42419207651b81cea6edccd3b5bc00be",
+      "nom": "Teigne",
+      "synonymes": [
+        "tinea capitis",
+        "teigne tondante",
+        "teigne du cuir chevelu",
+        "kérion",
+        "teigne inflammatoire",
+        "favus",
+        "teigne microsporique",
+        "teigne trichophytique"
+      ],
+      "categories": [
+        "Dermatologie",
+        "Infectiologie"
+      ],
+      "sousCategorie": "Infections fongiques"
+    },
+    {
+      "id": "42419207651b811fb9efe01c608e7468",
+      "nom": "Toxidermie",
+      "synonymes": [
+        "éruption médicamenteuse",
+        "exanthème maculopapuleux médicamenteux",
+        "allergie médicamenteuse cutanée",
+        "érythème pigmenté fixe",
+        "EPF"
+      ],
+      "categories": [
+        "Dermatologie",
+        "Allergologie"
+      ],
+      "sousCategorie": "Toxidermies"
+    },
+    {
+      "id": "42419207651b816a8be1f4a34b0c550d",
+      "nom": "Trachyonychie",
+      "synonymes": [
+        "dystrophie des vingt ongles",
+        "ongles rugueux"
+      ],
+      "categories": [
+        "Dermatologie"
+      ],
+      "sousCategorie": "Cheveux et ongles"
+    },
+    {
+      "id": "42419207651b8107b324f5f62f678826",
+      "nom": "TRAPS",
+      "synonymes": [
+        "syndrome périodique associé au récepteur du TNF",
+        "fièvre hibernienne familiale"
+      ],
+      "categories": [
+        "Rhumatologie et auto-inflammatoire"
+      ],
+      "sousCategorie": "Maladies auto-inflammatoires"
+    },
+    {
+      "id": "42419207651b8105abc7d6320848f7ee",
+      "nom": "Trichotillomanie",
+      "synonymes": [
+        "arrachage compulsif des cheveux",
+        "tic d'arrachage"
+      ],
+      "categories": [
+        "Dermatologie"
+      ],
+      "sousCategorie": "Cheveux et ongles"
+    },
+    {
+      "id": "42419207651b816eae1ac9c578f82819",
+      "nom": "Tuberculose cutanée",
+      "synonymes": [
+        "scrofuloderme",
+        "lupus vulgaire",
+        "tuberculide",
+        "BCGite"
+      ],
+      "categories": [
+        "Infectiologie",
+        "Dermatologie"
+      ],
+      "sousCategorie": "Infections bactériennes"
+    },
+    {
+      "id": "42419207651b81c3abccd7df122a3fec",
+      "nom": "Tungose",
+      "synonymes": [
+        "puce chique",
+        "Tunga penetrans"
+      ],
+      "categories": [
+        "Infectiologie",
+        "Dermatologie"
+      ],
+      "sousCategorie": "Parasitoses et piqûres"
+    },
+    {
+      "id": "42419207651b81b8bf38e6789cc9c5d2",
+      "nom": "Urticaire",
+      "synonymes": [
+        "urticaire aiguë",
+        "urticaire chronique",
+        "urticaire chronique spontanée",
+        "urticaire physique",
+        "dermographisme",
+        "œdème de Quincke",
+        "angioedème histaminique",
+        "urticaire au froid"
+      ],
+      "categories": [
+        "Dermatologie",
+        "Allergologie"
+      ],
+      "sousCategorie": "Urticaire et allergie"
+    },
+    {
+      "id": "42419207651b81698df7c2519e019273",
+      "nom": "Varicelle",
+      "synonymes": [
+        "varicella",
+        "VZV",
+        "virus varicelle-zona"
+      ],
+      "categories": [
+        "Infectiologie",
+        "Dermatologie"
+      ],
+      "sousCategorie": "Infections virales"
+    },
+    {
+      "id": "42419207651b81fc9172d2187ee1cc70",
+      "nom": "Vascularite cutanée",
+      "synonymes": [
+        "vascularite leucocytoclasique",
+        "vascularite d'hypersensibilité",
+        "purpura vasculaire"
+      ],
+      "categories": [
+        "Dermatologie",
+        "Rhumatologie et auto-inflammatoire"
+      ],
+      "sousCategorie": "Maladies systémiques et vascularites"
+    },
+    {
+      "id": "42419207651b815d94c5fddc8ad8f4f6",
+      "nom": "Vergetures",
+      "synonymes": [
+        "stries",
+        "stries atrophiques"
+      ],
+      "categories": [
+        "Dermatologie"
+      ],
+      "sousCategorie": "Agents physiques"
+    },
+    {
+      "id": "42419207651b814490b7c98833935da8",
+      "nom": "Verrues",
+      "synonymes": [
+        "verrue",
+        "verrues vulgaires",
+        "verrues plantaires",
+        "myrmécie",
+        "verrues planes",
+        "papillomavirus",
+        "HPV",
+        "verrues péri-unguéales"
+      ],
+      "categories": [
+        "Dermatologie",
+        "Infectiologie"
+      ],
+      "sousCategorie": "Infections virales"
+    },
+    {
+      "id": "42419207651b8177a633d39a20929661",
+      "nom": "Vitiligo",
+      "synonymes": [
+        "vitiligo segmentaire",
+        "vitiligo non segmentaire",
+        "leucodermie",
+        "dépigmentation"
+      ],
+      "categories": [
+        "Dermatologie"
+      ],
+      "sousCategorie": "Pigmentation"
+    },
+    {
+      "id": "42419207651b8180a223d78ff04e1d8a",
+      "nom": "Vulvite",
+      "synonymes": [
+        "vulvovaginite de la fillette",
+        "vulvite irritative",
+        "vulvite de l'enfant"
+      ],
+      "categories": [
+        "Dermatologie",
+        "Gynécologie"
+      ],
+      "sousCategorie": "Muqueuses et organes génitaux"
+    },
+    {
+      "id": "42419207651b81b0973cce5f3ed070c5",
+      "nom": "Xanthogranulome juvénile",
+      "synonymes": [
+        "XGJ",
+        "xanthogranulome"
+      ],
+      "categories": [
+        "Dermatologie"
+      ],
+      "sousCategorie": "Tumeurs et naevus"
+    },
+    {
+      "id": "42419207651b81b3b044f4f2659cbc3b",
+      "nom": "Xeroderma pigmentosum",
+      "synonymes": [
+        "XP",
+        "enfants de la lune"
+      ],
+      "categories": [
+        "Dermatologie"
+      ],
+      "sousCategorie": "Génodermatoses"
+    },
+    {
+      "id": "42419207651b813d8451db456f86c05c",
+      "nom": "Xérose cutanée",
+      "synonymes": [
+        "peau sèche",
+        "sécheresse cutanée",
+        "xérose"
+      ],
+      "categories": [
+        "Dermatologie"
+      ],
+      "sousCategorie": "Eczémas et dermatites"
+    },
+    {
+      "id": "42419207651b81528809fe3655bad98a",
+      "nom": "Zona",
+      "synonymes": [
+        "herpès zoster",
+        "zoster",
+        "zona ophtalmique",
+        "zona intercostal"
+      ],
+      "categories": [
+        "Infectiologie",
+        "Dermatologie"
+      ],
+      "sousCategorie": "Infections virales"
+    }
+  ],
   "lignes": [
     {
       "id": "42319207651b8153af82c946ed976227",
@@ -33,9 +2854,9 @@
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
-        "PFAPA",
+        "Déficit en mévalonate kinase",
         "Fièvre méditerranéenne familiale",
-        "Déficit en mévalonate kinase"
+        "PFAPA"
       ]
     },
     {
@@ -67,10 +2888,10 @@
       "indicationsAMM": [],
       "pathologies": [
         "Gale",
+        "Mastocytose",
         "Prurigo strophulus",
         "Urticaire",
-        "Varicelle",
-        "Mastocytose"
+        "Varicelle"
       ]
     },
     {
@@ -269,12 +3090,12 @@
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
-        "Dermatophytose",
-        "Onychomycose",
-        "Candidose du siège",
         "Balanite",
-        "Perlèche",
-        "Dermohypodermite bactérienne"
+        "Candidose du siège",
+        "Dermatophytose",
+        "Dermohypodermite bactérienne",
+        "Onychomycose",
+        "Perlèche"
       ]
     },
     {
@@ -372,8 +3193,8 @@
       "indicationsAMM": [],
       "pathologies": [
         "Dermatophytose",
-        "Onychomycose",
-        "Dermohypodermite bactérienne"
+        "Dermohypodermite bactérienne",
+        "Onychomycose"
       ]
     },
     {
@@ -566,13 +3387,13 @@
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
-        "Dermatite atopique",
-        "Panaris",
-        "Impétigo",
         "Dactylite bulleuse",
+        "Dermatite atopique",
         "Dermohypodermite bactérienne",
-        "SSSS",
-        "Fausse teigne amiantacée"
+        "Fausse teigne amiantacée",
+        "Impétigo",
+        "Panaris",
+        "SSSS"
       ]
     },
     {
@@ -701,8 +3522,8 @@
       "indicationsAMM": [],
       "pathologies": [
         "Dermatite atopique",
-        "Eczéma de contact",
         "Dyshidrose",
+        "Eczéma de contact",
         "Psoriasis"
       ]
     },
@@ -735,20 +3556,20 @@
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
-        "Dermatite atopique",
-        "Eczéma de contact",
-        "Dyshidrose",
         "APEC syndrome",
-        "Érythème polymorphe",
+        "Dermatite atopique",
+        "Dyshidrose",
+        "Eczéma de contact",
         "Lichen nitidus",
         "Lichen plan",
         "Lichen plan pilaire",
-        "Épidermolyse bulleuse acquise",
         "Mastocytose",
+        "Nécrobiose lipoïdique",
+        "PLEVA",
         "Prurigo strophulus",
         "Prurit chronique",
-        "Nécrobiose lipoïdique",
-        "PLEVA"
+        "Épidermolyse bulleuse acquise",
+        "Érythème polymorphe"
       ]
     },
     {
@@ -780,8 +3601,8 @@
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
-        "Perlèche",
-        "Candidose buccale"
+        "Candidose buccale",
+        "Perlèche"
       ]
     },
     {
@@ -813,8 +3634,8 @@
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
-        "Érythème polymorphe",
-        "Lichen plan"
+        "Lichen plan",
+        "Érythème polymorphe"
       ]
     },
     {
@@ -881,8 +3702,8 @@
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
-        "Furonculose",
-        "Dermatite atopique"
+        "Dermatite atopique",
+        "Furonculose"
       ]
     },
     {
@@ -947,8 +3768,8 @@
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
-        "PFAPA",
-        "Déficit en mévalonate kinase"
+        "Déficit en mévalonate kinase",
+        "PFAPA"
       ]
     },
     {
@@ -1306,8 +4127,8 @@
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
-        "Psoriasis",
-        "Pelade"
+        "Pelade",
+        "Psoriasis"
       ]
     },
     {
@@ -1369,8 +4190,8 @@
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
-        "Psoriasis",
-        "Fausse teigne amiantacée"
+        "Fausse teigne amiantacée",
+        "Psoriasis"
       ]
     },
     {
@@ -2198,8 +5019,8 @@
       "indicationsAMM": [],
       "pathologies": [
         "Dermatite atopique",
-        "Eczéma de contact",
         "Dyshidrose",
+        "Eczéma de contact",
         "Lichen plan",
         "Lichen plan pilaire",
         "Nécrobiose lipoïdique",
@@ -2487,19 +5308,19 @@
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
-        "Dermatite atopique",
-        "Eczéma de contact",
-        "Dyshidrose",
         "APEC syndrome",
-        "Érythème polymorphe",
+        "Dermatite atopique",
+        "Dyshidrose",
+        "Eczéma de contact",
         "Lichen nitidus",
         "Lichen plan",
         "Lichen plan pilaire",
-        "Épidermolyse bulleuse acquise",
         "Mastocytose",
+        "Nécrobiose lipoïdique",
         "Prurigo strophulus",
         "Prurit chronique",
-        "Nécrobiose lipoïdique"
+        "Épidermolyse bulleuse acquise",
+        "Érythème polymorphe"
       ]
     },
     {
@@ -2564,11 +5385,11 @@
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
-        "Varicelle",
-        "PFAPA",
-        "Fièvre méditerranéenne familiale",
         "Déficit en mévalonate kinase",
-        "SSSS"
+        "Fièvre méditerranéenne familiale",
+        "PFAPA",
+        "SSSS",
+        "Varicelle"
       ]
     },
     {
@@ -3132,14 +5953,14 @@
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
-        "Dermatite atopique",
         "APEC syndrome",
+        "Dermatite atopique",
+        "Dermohypodermite bactérienne",
         "Dyshidrose",
         "Eczéma de contact",
         "Ichtyose",
-        "Dermohypodermite bactérienne",
-        "Psoriasis",
-        "Prurit chronique"
+        "Prurit chronique",
+        "Psoriasis"
       ]
     },
     {
@@ -3335,8 +6156,8 @@
       "indicationsAMM": [],
       "pathologies": [
         "Anaphylaxie",
-        "Urticaire",
-        "Mastocytose"
+        "Mastocytose",
+        "Urticaire"
       ]
     },
     {
@@ -3369,8 +6190,8 @@
       "indicationsAMM": [],
       "pathologies": [
         "Anaphylaxie",
-        "Urticaire",
-        "Mastocytose"
+        "Mastocytose",
+        "Urticaire"
       ]
     },
     {
@@ -3531,8 +6352,8 @@
       "indicationsAMM": [],
       "pathologies": [
         "Acné",
-        "Rosacée",
-        "Dermite péri-orale"
+        "Dermite péri-orale",
+        "Rosacée"
       ]
     },
     {
@@ -3937,8 +6758,8 @@
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
-        "Fièvre méditerranéenne familiale",
-        "Déficit en mévalonate kinase"
+        "Déficit en mévalonate kinase",
+        "Fièvre méditerranéenne familiale"
       ]
     },
     {
@@ -3974,8 +6795,8 @@
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
-        "Fièvre méditerranéenne familiale",
-        "Déficit en mévalonate kinase"
+        "Déficit en mévalonate kinase",
+        "Fièvre méditerranéenne familiale"
       ]
     },
     {
@@ -4007,10 +6828,10 @@
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
-        "Pelade",
         "Lichen plan pilaire",
         "Lichen plan unguéal",
-        "Nécrobiose lipoïdique"
+        "Nécrobiose lipoïdique",
+        "Pelade"
       ]
     },
     {
@@ -4043,10 +6864,10 @@
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
+        "Balanite",
+        "Candidose du siège",
         "Dermatophytose",
         "Onychomycose",
-        "Candidose du siège",
-        "Balanite",
         "Perlèche"
       ]
     },
@@ -4079,7 +6900,7 @@
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
-        "Dermite séborrhéique de l enfant"
+        "Dermite séborrhéique de l'enfant"
       ]
     },
     {
@@ -4111,7 +6932,7 @@
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
-        "Dermite séborrhéique de l enfant"
+        "Dermite séborrhéique de l'enfant"
       ]
     },
     {
@@ -4885,11 +7706,11 @@
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
-        "Impétigo",
+        "Balanite",
         "Dactylite bulleuse",
+        "Impétigo",
         "Prurigo strophulus",
-        "Prurit chronique",
-        "Balanite"
+        "Prurit chronique"
       ]
     },
     {
@@ -4987,10 +7808,10 @@
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
-        "Dermatophytose",
-        "Onychomycose",
+        "Balanite",
         "Candidose du siège",
-        "Balanite"
+        "Dermatophytose",
+        "Onychomycose"
       ]
     },
     {
@@ -5022,7 +7843,7 @@
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
-        "Dermite séborrhéique de l enfant"
+        "Dermite séborrhéique de l'enfant"
       ]
     },
     {
@@ -5054,7 +7875,7 @@
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
-        "Dermite séborrhéique de l enfant"
+        "Dermite séborrhéique de l'enfant"
       ]
     },
     {
@@ -5349,18 +8170,18 @@
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
-        "Eczéma de contact",
-        "Dyshidrose",
         "APEC syndrome",
-        "Érythème polymorphe",
+        "Dyshidrose",
+        "Eczéma de contact",
         "Lichen nitidus",
         "Lichen plan",
         "Lichen plan pilaire",
-        "Épidermolyse bulleuse acquise",
         "Mastocytose",
+        "Nécrobiose lipoïdique",
         "Prurigo strophulus",
         "Prurit chronique",
-        "Nécrobiose lipoïdique"
+        "Épidermolyse bulleuse acquise",
+        "Érythème polymorphe"
       ]
     },
     {
@@ -5522,8 +8343,8 @@
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
-        "Pelade",
-        "Dermatite atopique"
+        "Dermatite atopique",
+        "Pelade"
       ]
     },
     {
@@ -5819,8 +8640,8 @@
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
-        "Psoriasis",
-        "Fausse teigne amiantacée"
+        "Fausse teigne amiantacée",
+        "Psoriasis"
       ]
     },
     {
@@ -5852,8 +8673,8 @@
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
-        "Psoriasis",
-        "Fausse teigne amiantacée"
+        "Fausse teigne amiantacée",
+        "Psoriasis"
       ]
     },
     {
@@ -5884,8 +8705,8 @@
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
-        "Psoriasis",
-        "Fausse teigne amiantacée"
+        "Fausse teigne amiantacée",
+        "Psoriasis"
       ]
     },
     {
@@ -5917,8 +8738,8 @@
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
-        "Psoriasis",
-        "Fausse teigne amiantacée"
+        "Fausse teigne amiantacée",
+        "Psoriasis"
       ]
     },
     {
@@ -5950,8 +8771,8 @@
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
-        "Psoriasis",
-        "Fausse teigne amiantacée"
+        "Fausse teigne amiantacée",
+        "Psoriasis"
       ]
     },
     {
@@ -6302,7 +9123,7 @@
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
-        "Dermite séborrhéique de l enfant"
+        "Dermite séborrhéique de l'enfant"
       ]
     },
     {
@@ -6397,8 +9218,8 @@
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
-        "Psoriasis",
-        "Fausse teigne amiantacée"
+        "Fausse teigne amiantacée",
+        "Psoriasis"
       ]
     },
     {
@@ -6430,8 +9251,8 @@
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
-        "Psoriasis",
-        "Fausse teigne amiantacée"
+        "Fausse teigne amiantacée",
+        "Psoriasis"
       ]
     },
     {
@@ -6699,9 +9520,9 @@
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
+        "Lichen nitidus",
         "Nécrobiose lipoïdique",
-        "Prurit chronique",
-        "Lichen nitidus"
+        "Prurit chronique"
       ]
     },
     {
@@ -6897,8 +9718,8 @@
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
-        "Rosacée",
-        "Démodécidose"
+        "Démodécidose",
+        "Rosacée"
       ]
     },
     {
@@ -7472,9 +10293,9 @@
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
-        "Rosacée",
+        "Dermite péri-orale",
         "Démodécidose",
-        "Dermite péri-orale"
+        "Rosacée"
       ]
     },
     {
@@ -7674,10 +10495,10 @@
       "indicationsAMM": [],
       "pathologies": [
         "Anguillulose",
-        "Démodécidose",
-        "Larva migrans",
         "Avant immunosuppresseur",
         "Dermatomyosite",
+        "Démodécidose",
+        "Larva migrans",
         "Pelade"
       ]
     },
@@ -8165,7 +10986,7 @@
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
-        "Dermite séborrhéique de l enfant"
+        "Dermite séborrhéique de l'enfant"
       ]
     },
     {
@@ -8231,10 +11052,10 @@
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
-        "Eczéma de contact",
-        "Dyshidrose",
         "APEC syndrome",
         "Balanite",
+        "Dyshidrose",
+        "Eczéma de contact",
         "PLEVA"
       ]
     },
@@ -8589,8 +11410,8 @@
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
-        "Érythème polymorphe",
-        "Lichen plan"
+        "Lichen plan",
+        "Érythème polymorphe"
       ]
     },
     {
@@ -8718,8 +11539,8 @@
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
-        "Érythème polymorphe",
-        "Herpès"
+        "Herpès",
+        "Érythème polymorphe"
       ]
     },
     {
@@ -8944,8 +11765,8 @@
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
-        "Érythème polymorphe",
-        "Herpès"
+        "Herpès",
+        "Érythème polymorphe"
       ]
     },
     {
@@ -9070,8 +11891,8 @@
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
-        "Érythème polymorphe",
-        "Herpès"
+        "Herpès",
+        "Érythème polymorphe"
       ]
     },
     {
