@@ -1,5 +1,5 @@
 {
-  "genere": "2026-11-26T07:26:39.825Z",
+  "genere": "2026-11-26T15:46:09.069Z",
   "source": "Notion, bases Médicaments et Pathologies",
   "pathologies": [
     {
@@ -14,7 +14,8 @@
         "Dermatologie",
         "Infectiologie"
       ],
-      "sousCategorie": "Infections bactériennes"
+      "sousCategorie": "Infections bactériennes",
+      "conseilsDetailles": null
     },
     {
       "id": "42419207651b815fb54ee944ba1b958b",
@@ -27,7 +28,8 @@
         "Dermatologie",
         "Endocrinologie"
       ],
-      "sousCategorie": "Carences et métaboliques"
+      "sousCategorie": "Carences et métaboliques",
+      "conseilsDetailles": null
     },
     {
       "id": "42419207651b816b8db4f7e2c7494b39",
@@ -43,7 +45,8 @@
       "categories": [
         "Dermatologie"
       ],
-      "sousCategorie": "Acné et annexes"
+      "sousCategorie": "Acné et annexes",
+      "conseilsDetailles": "- L'acné est fréquente à l'adolescence ; elle n'est pas due à un manque d'hygiène et aucun régime particulier n'est recommandé.\n- Le traitement agit lentement : amélioration visible après 6 à 8 semaines, à poursuivre au moins 3 mois même si les boutons diminuent. Une poussée passagère est possible au début.\n- Toilette matin et soir avec un nettoyant doux sans savon, sans frotter ; éviter les produits alcoolisés et les gommages.\n- Appliquer les traitements locaux sur toute la zone atteinte, pas seulement sur les boutons, en couche fine sur peau sèche.\n- Rougeurs, picotements et peau qui pèle sont fréquents les premières semaines : utiliser une crème hydratante non comédogène et espacer les applications un ou deux jours, sans arrêter le traitement.\n- Le peroxyde de benzoyle décolore les vêtements, serviettes, taies d'oreiller et cheveux.\n- Ne pas percer ni gratter les boutons : risque de cicatrices et de taches.\n- Maquillage et crème solaire possibles s'ils sont étiquetés non comédogènes. Protection solaire indice 50+ avec les traitements photosensibilisants ; le soleil n'améliore l'acné que de façon passagère.\n- Les rétinoïdes (adapalène, trétinoïne, isotrétinoïne) sont contre-indiqués pendant la grossesse.\n- Consulter si l'acné est très inflammatoire, laisse des cicatrices ou pèse sur le moral."
     },
     {
       "id": "42419207651b81ad905ecb667d1b1869",
@@ -54,7 +57,8 @@
       "categories": [
         "Dermatologie"
       ],
-      "sousCategorie": "Acné et annexes"
+      "sousCategorie": "Acné et annexes",
+      "conseilsDetailles": null
     },
     {
       "id": "42419207651b81e4b555dfb1da3c3064",
@@ -66,7 +70,8 @@
       "categories": [
         "Dermatologie"
       ],
-      "sousCategorie": "Acné et annexes"
+      "sousCategorie": "Acné et annexes",
+      "conseilsDetailles": null
     },
     {
       "id": "42419207651b81e2bd44f704def4caae",
@@ -79,7 +84,8 @@
         "Dermatologie",
         "Néonatologie"
       ],
-      "sousCategorie": "Dermatoses néonatales"
+      "sousCategorie": "Dermatoses néonatales",
+      "conseilsDetailles": null
     },
     {
       "id": "42419207651b81eda456c1465dd0cc05",
@@ -93,7 +99,8 @@
         "Dermatologie",
         "Gastro-entérologie"
       ],
-      "sousCategorie": "Carences et métaboliques"
+      "sousCategorie": "Carences et métaboliques",
+      "conseilsDetailles": null
     },
     {
       "id": "42419207651b818f8efbd8331e96aa64",
@@ -107,7 +114,8 @@
       "categories": [
         "Dermatologie"
       ],
-      "sousCategorie": "Carences et métaboliques"
+      "sousCategorie": "Carences et métaboliques",
+      "conseilsDetailles": null
     },
     {
       "id": "42419207651b819fb912ff7fb7e8f9c6",
@@ -119,7 +127,8 @@
         "Dermatologie",
         "Ophtalmologie"
       ],
-      "sousCategorie": "Génodermatoses"
+      "sousCategorie": "Génodermatoses",
+      "conseilsDetailles": null
     },
     {
       "id": "42419207651b81898719e3374d5b9dc6",
@@ -134,7 +143,8 @@
       "categories": [
         "Dermatologie"
       ],
-      "sousCategorie": "Cheveux et ongles"
+      "sousCategorie": "Cheveux et ongles",
+      "conseilsDetailles": null
     },
     {
       "id": "42419207651b81458806d7ed861bc5e9",
@@ -149,7 +159,8 @@
         "Urgences",
         "Dermatologie"
       ],
-      "sousCategorie": "Urticaire et allergie"
+      "sousCategorie": "Urticaire et allergie",
+      "conseilsDetailles": null
     },
     {
       "id": "42419207651b816da4bac74e294028f5",
@@ -165,7 +176,8 @@
         "Allergologie",
         "Dermatologie"
       ],
-      "sousCategorie": "Urticaire et allergie"
+      "sousCategorie": "Urticaire et allergie",
+      "conseilsDetailles": null
     },
     {
       "id": "42419207651b8129a6ffd903fddd1828",
@@ -178,7 +190,8 @@
       "categories": [
         "Dermatologie"
       ],
-      "sousCategorie": "Anomalies vasculaires"
+      "sousCategorie": "Anomalies vasculaires",
+      "conseilsDetailles": null
     },
     {
       "id": "42419207651b81238934fc47e92d122e",
@@ -192,7 +205,8 @@
         "Infectiologie",
         "Dermatologie"
       ],
-      "sousCategorie": "Parasitoses et piqûres"
+      "sousCategorie": "Parasitoses et piqûres",
+      "conseilsDetailles": null
     },
     {
       "id": "42419207651b81bcacedf98c0830e349",
@@ -207,7 +221,8 @@
         "Dermatologie",
         "Infectiologie"
       ],
-      "sousCategorie": "Infections bactériennes"
+      "sousCategorie": "Infections bactériennes",
+      "conseilsDetailles": null
     },
     {
       "id": "42419207651b81848ba0d0fc4027a051",
@@ -221,7 +236,8 @@
         "Dermatologie",
         "Infectiologie"
       ],
-      "sousCategorie": "Infections virales"
+      "sousCategorie": "Infections virales",
+      "conseilsDetailles": null
     },
     {
       "id": "42419207651b81aaa6bcf7104b59b367",
@@ -236,7 +252,8 @@
         "Dermatologie",
         "ORL"
       ],
-      "sousCategorie": "Muqueuses et organes génitaux"
+      "sousCategorie": "Muqueuses et organes génitaux",
+      "conseilsDetailles": null
     },
     {
       "id": "42419207651b815693d6ebd0d7918d43",
@@ -249,7 +266,8 @@
         "Néonatologie",
         "Dermatologie"
       ],
-      "sousCategorie": "Dermatoses néonatales"
+      "sousCategorie": "Dermatoses néonatales",
+      "conseilsDetailles": null
     },
     {
       "id": "42419207651b810c82cfe3c3db9a1939",
@@ -263,7 +281,8 @@
       "categories": [
         "Dermatologie"
       ],
-      "sousCategorie": "Situations particulières"
+      "sousCategorie": "Situations particulières",
+      "conseilsDetailles": null
     },
     {
       "id": "42419207651b81338f3de7cc76264957",
@@ -277,7 +296,8 @@
         "Dermatologie",
         "Néphrologie et urologie"
       ],
-      "sousCategorie": "Muqueuses et organes génitaux"
+      "sousCategorie": "Muqueuses et organes génitaux",
+      "conseilsDetailles": null
     },
     {
       "id": "42419207651b81e08e3fe6cd97ed1595",
@@ -291,7 +311,8 @@
         "Dermatologie",
         "Urgences"
       ],
-      "sousCategorie": "Agents physiques"
+      "sousCategorie": "Agents physiques",
+      "conseilsDetailles": null
     },
     {
       "id": "42419207651b81918601cbb89862e026",
@@ -305,7 +326,8 @@
         "Dermatologie",
         "Infectiologie"
       ],
-      "sousCategorie": "Infections fongiques"
+      "sousCategorie": "Infections fongiques",
+      "conseilsDetailles": null
     },
     {
       "id": "42419207651b81a49019f08987dfd242",
@@ -321,7 +343,8 @@
         "Dermatologie",
         "Infectiologie"
       ],
-      "sousCategorie": "Infections fongiques"
+      "sousCategorie": "Infections fongiques",
+      "conseilsDetailles": null
     },
     {
       "id": "42419207651b81c38682f57d5095f0b3",
@@ -335,7 +358,8 @@
         "Dermatologie",
         "Infectiologie"
       ],
-      "sousCategorie": "Infections fongiques"
+      "sousCategorie": "Infections fongiques",
+      "conseilsDetailles": null
     },
     {
       "id": "42419207651b81acb85fd9ff25289ca3",
@@ -351,7 +375,8 @@
         "Rhumatologie et auto-inflammatoire",
         "Dermatologie"
       ],
-      "sousCategorie": "Maladies auto-inflammatoires"
+      "sousCategorie": "Maladies auto-inflammatoires",
+      "conseilsDetailles": null
     },
     {
       "id": "42419207651b816f9b5ade7083ad7a53",
@@ -365,7 +390,8 @@
       "categories": [
         "Dermatologie"
       ],
-      "sousCategorie": "Muqueuses et organes génitaux"
+      "sousCategorie": "Muqueuses et organes génitaux",
+      "conseilsDetailles": null
     },
     {
       "id": "42419207651b814fb4b5de719640ce2a",
@@ -377,7 +403,8 @@
       "categories": [
         "Dermatologie"
       ],
-      "sousCategorie": "Tumeurs et naevus"
+      "sousCategorie": "Tumeurs et naevus",
+      "conseilsDetailles": null
     },
     {
       "id": "42419207651b8123826ded9c57db4a8e",
@@ -392,7 +419,8 @@
         "Dermatologie",
         "Infectiologie"
       ],
-      "sousCategorie": "Infections virales"
+      "sousCategorie": "Infections virales",
+      "conseilsDetailles": null
     },
     {
       "id": "42419207651b8145aee5f5eb8e20b9e3",
@@ -404,7 +432,8 @@
       "categories": [
         "Dermatologie"
       ],
-      "sousCategorie": "Agents physiques"
+      "sousCategorie": "Agents physiques",
+      "conseilsDetailles": null
     },
     {
       "id": "42419207651b8175a848dea557eb64b3",
@@ -418,7 +447,8 @@
         "Dermatologie",
         "Néonatologie"
       ],
-      "sousCategorie": "Anomalies vasculaires"
+      "sousCategorie": "Anomalies vasculaires",
+      "conseilsDetailles": null
     },
     {
       "id": "42419207651b81e9a910d94a961440ce",
@@ -431,7 +461,8 @@
         "Néonatologie",
         "Dermatologie"
       ],
-      "sousCategorie": "Dermatoses néonatales"
+      "sousCategorie": "Dermatoses néonatales",
+      "conseilsDetailles": null
     },
     {
       "id": "42419207651b8105a2b8fd4aeedbad04",
@@ -444,7 +475,8 @@
         "Dermatologie",
         "Infectiologie"
       ],
-      "sousCategorie": "Infections bactériennes"
+      "sousCategorie": "Infections bactériennes",
+      "conseilsDetailles": null
     },
     {
       "id": "42419207651b81ba8561fdfa2ac39c96",
@@ -459,7 +491,8 @@
         "Rhumatologie et auto-inflammatoire",
         "Dermatologie"
       ],
-      "sousCategorie": "Maladies auto-inflammatoires"
+      "sousCategorie": "Maladies auto-inflammatoires",
+      "conseilsDetailles": null
     },
     {
       "id": "42419207651b81d29702ce325495029d",
@@ -472,7 +505,8 @@
       "categories": [
         "Dermatologie"
       ],
-      "sousCategorie": "Parasitoses et piqûres"
+      "sousCategorie": "Parasitoses et piqûres",
+      "conseilsDetailles": null
     },
     {
       "id": "42419207651b817db099e51d692aa9e4",
@@ -489,7 +523,8 @@
         "Dermatologie",
         "Allergologie"
       ],
-      "sousCategorie": "Eczémas et dermatites"
+      "sousCategorie": "Eczémas et dermatites",
+      "conseilsDetailles": "- Maladie chronique de la peau évoluant par poussées, non contagieuse, qui s'améliore le plus souvent avec l'âge.\n- Émollient tous les jours sur tout le corps, y compris en dehors des poussées, de préférence après la toilette sur peau encore humide.\n- Toilette quotidienne courte (5 à 10 minutes) à l'eau tiède (environ 35 °C) avec un pain ou un gel sans savon ; sécher en tamponnant, sans frotter.\n- En poussée, appliquer la crème à la cortisone 1 fois par jour sur les plaques rouges qui grattent, jusqu'à disparition des rougeurs et des démangeaisons, puis suivre le traitement d'entretien prescrit. Bien utilisée, elle est sans danger. Repère : la quantité déposée sur la dernière phalange d'un doigt d'adulte couvre l'équivalent de deux paumes de main d'adulte.\n- Couper les ongles courts ; en cas de démangeaison, appliquer de l'émollient ou du froid plutôt que gratter.\n- Vêtements en coton, pas de laine ni de synthétique au contact de la peau ; lessive sans adoucissant, bien rincer.\n- Chambre peu chauffée (environ 19 °C), éviter la transpiration excessive et le tabagisme passif.\n- Les vaccinations se font normalement.\n- Pas de régime d'éviction alimentaire sans avis médical.\n- Consulter en urgence en cas de vésicules ou de petites croûtes en grappes, de fièvre ou d'aggravation brutale (surinfection par le virus de l'herpès). Consulter en cas de suintement jaunâtre ou de croûtes (surinfection bactérienne)."
     },
     {
       "id": "42419207651b811b8877e976ea7c045b",
@@ -501,7 +536,8 @@
       "categories": [
         "Dermatologie"
       ],
-      "sousCategorie": "Parasitoses et piqûres"
+      "sousCategorie": "Parasitoses et piqûres",
+      "conseilsDetailles": null
     },
     {
       "id": "42419207651b81ae96e6c5ca5da79455",
@@ -515,7 +551,8 @@
         "Dermatologie",
         "Gastro-entérologie"
       ],
-      "sousCategorie": "Bulleuses auto-immunes"
+      "sousCategorie": "Bulleuses auto-immunes",
+      "conseilsDetailles": null
     },
     {
       "id": "42419207651b815fb5bfec326f1aaf71",
@@ -528,7 +565,8 @@
         "Dermatologie",
         "Rhumatologie et auto-inflammatoire"
       ],
-      "sousCategorie": "Maladies systémiques et vascularites"
+      "sousCategorie": "Maladies systémiques et vascularites",
+      "conseilsDetailles": null
     },
     {
       "id": "42419207651b814c9519c3244e63634b",
@@ -549,7 +587,8 @@
         "Dermatologie",
         "Infectiologie"
       ],
-      "sousCategorie": "Infections fongiques"
+      "sousCategorie": "Infections fongiques",
+      "conseilsDetailles": null
     },
     {
       "id": "42419207651b816cb4f8f4ff3615242a",
@@ -562,7 +601,8 @@
       "categories": [
         "Dermatologie"
       ],
-      "sousCategorie": "Bulleuses auto-immunes"
+      "sousCategorie": "Bulleuses auto-immunes",
+      "conseilsDetailles": null
     },
     {
       "id": "42419207651b8190954cd3d1aafa76fb",
@@ -575,7 +615,8 @@
       "categories": [
         "Dermatologie"
       ],
-      "sousCategorie": "Eczémas et dermatites"
+      "sousCategorie": "Eczémas et dermatites",
+      "conseilsDetailles": null
     },
     {
       "id": "42419207651b818eac46da3b5adf35b8",
@@ -592,7 +633,8 @@
         "Dermatologie",
         "Gastro-entérologie"
       ],
-      "sousCategorie": "Carences et métaboliques"
+      "sousCategorie": "Carences et métaboliques",
+      "conseilsDetailles": null
     },
     {
       "id": "42419207651b81119043ea1bd4761194",
@@ -607,7 +649,8 @@
       "categories": [
         "Dermatologie"
       ],
-      "sousCategorie": "Eczémas et dermatites"
+      "sousCategorie": "Eczémas et dermatites",
+      "conseilsDetailles": null
     },
     {
       "id": "42419207651b81fc8747de04ba936026",
@@ -623,7 +666,8 @@
       "categories": [
         "Dermatologie"
       ],
-      "sousCategorie": "Eczémas et dermatites"
+      "sousCategorie": "Eczémas et dermatites",
+      "conseilsDetailles": "- Rougeur du siège due au contact prolongé avec l'urine et les selles, fréquente et bénigne.\n- Changer la couche souvent, dès qu'elle est mouillée ou souillée.\n- Nettoyer à l'eau tiède avec un savon doux ou un liniment oléo-calcaire, rincer et bien sécher en tamponnant ; éviter les lingettes parfumées.\n- Laisser les fesses à l'air dès que possible.\n- Appliquer une pâte protectrice à l'eau en couche épaisse à chaque change.\n- Consulter en cas de petits boutons en bordure ou dans les plis (mycose), de plaies, de fièvre ou d'absence d'amélioration en quelques jours."
     },
     {
       "id": "42419207651b8123b33bd01ecad1d467",
@@ -636,7 +680,8 @@
       "categories": [
         "Dermatologie"
       ],
-      "sousCategorie": "Acné et annexes"
+      "sousCategorie": "Acné et annexes",
+      "conseilsDetailles": null
     },
     {
       "id": "42419207651b811184ffced068e7de72",
@@ -651,7 +696,8 @@
       "categories": [
         "Dermatologie"
       ],
-      "sousCategorie": "Eczémas et dermatites"
+      "sousCategorie": "Eczémas et dermatites",
+      "conseilsDetailles": "- Affection bénigne et fréquente, non contagieuse ; chez le nourrisson (croûtes de lait), elle disparaît le plus souvent spontanément en quelques mois.\n- Croûtes du cuir chevelu : appliquer le soir de la vaseline, une huile végétale ou le produit prescrit, laisser agir la nuit, puis shampooing doux le matin et retirer délicatement les croûtes ramollies avec une brosse souple.\n- Ne pas arracher ni gratter les croûtes.\n- Laver le visage et les plis avec un pain ou un gel sans savon, rincer et bien sécher les plis.\n- Chez l'adolescent, les poussées sont favorisées par le stress et la fatigue et s'améliorent souvent au soleil.\n- Consulter si les lésions s'étendent, suintent, démangent fortement ou ne s'améliorent pas avec le traitement."
     },
     {
       "id": "42419207651b81978dd7e89cf370cdd7",
@@ -666,7 +712,8 @@
         "Dermatologie",
         "Infectiologie"
       ],
-      "sousCategorie": "Infections bactériennes"
+      "sousCategorie": "Infections bactériennes",
+      "conseilsDetailles": null
     },
     {
       "id": "42419207651b81f1a4e9d62bef43d893",
@@ -681,7 +728,8 @@
         "Allergologie",
         "Urgences"
       ],
-      "sousCategorie": "Toxidermies"
+      "sousCategorie": "Toxidermies",
+      "conseilsDetailles": null
     },
     {
       "id": "42419207651b81c1a4c6f6aa218e45bb",
@@ -694,7 +742,8 @@
       "categories": [
         "Dermatologie"
       ],
-      "sousCategorie": "Pigmentation"
+      "sousCategorie": "Pigmentation",
+      "conseilsDetailles": null
     },
     {
       "id": "42419207651b8178ac0aeec9197da2ec",
@@ -707,7 +756,8 @@
       "categories": [
         "Dermatologie"
       ],
-      "sousCategorie": "Eczémas et dermatites"
+      "sousCategorie": "Eczémas et dermatites",
+      "conseilsDetailles": null
     },
     {
       "id": "42419207651b81f49a73ec37a7004cb6",
@@ -720,7 +770,8 @@
       "categories": [
         "Dermatologie"
       ],
-      "sousCategorie": "Génodermatoses"
+      "sousCategorie": "Génodermatoses",
+      "conseilsDetailles": null
     },
     {
       "id": "42419207651b81f6bcf3e0fadf79909b",
@@ -734,7 +785,8 @@
         "Dermatologie",
         "Allergologie"
       ],
-      "sousCategorie": "Eczémas et dermatites"
+      "sousCategorie": "Eczémas et dermatites",
+      "conseilsDetailles": null
     },
     {
       "id": "42419207651b81d68d4fe51dc3f25482",
@@ -747,7 +799,8 @@
       "categories": [
         "Dermatologie"
       ],
-      "sousCategorie": "Eczémas et dermatites"
+      "sousCategorie": "Eczémas et dermatites",
+      "conseilsDetailles": null
     },
     {
       "id": "42419207651b813c956acfd437f8ace6",
@@ -760,7 +813,8 @@
       "categories": [
         "Dermatologie"
       ],
-      "sousCategorie": "Agents physiques"
+      "sousCategorie": "Agents physiques",
+      "conseilsDetailles": null
     },
     {
       "id": "42419207651b812299c2f531e4a34071",
@@ -772,7 +826,8 @@
       "categories": [
         "Dermatologie"
       ],
-      "sousCategorie": "Bulleuses auto-immunes"
+      "sousCategorie": "Bulleuses auto-immunes",
+      "conseilsDetailles": null
     },
     {
       "id": "42419207651b81949962f2350ef731af",
@@ -788,7 +843,8 @@
       "categories": [
         "Dermatologie"
       ],
-      "sousCategorie": "Génodermatoses"
+      "sousCategorie": "Génodermatoses",
+      "conseilsDetailles": null
     },
     {
       "id": "42419207651b81108826d8ed6268c773",
@@ -801,7 +857,8 @@
         "Dermatologie",
         "Rhumatologie et auto-inflammatoire"
       ],
-      "sousCategorie": "Dermatoses inflammatoires"
+      "sousCategorie": "Dermatoses inflammatoires",
+      "conseilsDetailles": null
     },
     {
       "id": "42419207651b81c1b872e713eae0f5b2",
@@ -814,7 +871,8 @@
       "categories": [
         "Dermatologie"
       ],
-      "sousCategorie": "Toxidermies"
+      "sousCategorie": "Toxidermies",
+      "conseilsDetailles": null
     },
     {
       "id": "42419207651b81f98211dc14c9ec3d6c",
@@ -827,7 +885,8 @@
         "Néonatologie",
         "Dermatologie"
       ],
-      "sousCategorie": "Dermatoses néonatales"
+      "sousCategorie": "Dermatoses néonatales",
+      "conseilsDetailles": null
     },
     {
       "id": "42419207651b81bb8076ff0ec8e61b30",
@@ -839,7 +898,8 @@
       "categories": [
         "Dermatologie"
       ],
-      "sousCategorie": "Maladies systémiques et vascularites"
+      "sousCategorie": "Maladies systémiques et vascularites",
+      "conseilsDetailles": null
     },
     {
       "id": "42419207651b810092f2df125e5abc80",
@@ -852,7 +912,8 @@
         "Dermatologie",
         "Infectiologie"
       ],
-      "sousCategorie": "Infections bactériennes"
+      "sousCategorie": "Infections bactériennes",
+      "conseilsDetailles": null
     },
     {
       "id": "42419207651b8137aee3f58ed2b44d03",
@@ -866,7 +927,8 @@
         "Infectiologie",
         "Dermatologie"
       ],
-      "sousCategorie": "Infections virales"
+      "sousCategorie": "Infections virales",
+      "conseilsDetailles": null
     },
     {
       "id": "42419207651b815b94caeda70783f210",
@@ -881,7 +943,8 @@
         "Infectiologie",
         "Urgences"
       ],
-      "sousCategorie": "Infections bactériennes"
+      "sousCategorie": "Infections bactériennes",
+      "conseilsDetailles": null
     },
     {
       "id": "42419207651b817a80b5fcefa3338759",
@@ -893,7 +956,8 @@
       "categories": [
         "Dermatologie"
       ],
-      "sousCategorie": "Cheveux et ongles"
+      "sousCategorie": "Cheveux et ongles",
+      "conseilsDetailles": null
     },
     {
       "id": "42419207651b815da9c1c25800625465",
@@ -907,7 +971,8 @@
         "Infectiologie",
         "Dermatologie"
       ],
-      "sousCategorie": "Infections bactériennes"
+      "sousCategorie": "Infections bactériennes",
+      "conseilsDetailles": null
     },
     {
       "id": "42419207651b81229ce0dd5a7b8c8dc9",
@@ -920,7 +985,8 @@
         "Rhumatologie et auto-inflammatoire",
         "Dermatologie"
       ],
-      "sousCategorie": "Maladies auto-inflammatoires"
+      "sousCategorie": "Maladies auto-inflammatoires",
+      "conseilsDetailles": null
     },
     {
       "id": "42419207651b8132aab9c6eec77c6c2c",
@@ -932,7 +998,8 @@
       "categories": [
         "Dermatologie"
       ],
-      "sousCategorie": "Infections fongiques"
+      "sousCategorie": "Infections fongiques",
+      "conseilsDetailles": null
     },
     {
       "id": "42419207651b8196bd81da078550ff48",
@@ -947,7 +1014,8 @@
         "Dermatologie",
         "Infectiologie"
       ],
-      "sousCategorie": "Infections bactériennes"
+      "sousCategorie": "Infections bactériennes",
+      "conseilsDetailles": null
     },
     {
       "id": "42419207651b8190b50bd844b9c0d245",
@@ -962,7 +1030,8 @@
         "Dermatologie",
         "Infectiologie"
       ],
-      "sousCategorie": "Infections bactériennes"
+      "sousCategorie": "Infections bactériennes",
+      "conseilsDetailles": null
     },
     {
       "id": "42419207651b8164922cd39cc83867f5",
@@ -979,7 +1048,8 @@
         "Dermatologie",
         "Infectiologie"
       ],
-      "sousCategorie": "Parasitoses et piqûres"
+      "sousCategorie": "Parasitoses et piqûres",
+      "conseilsDetailles": "- Maladie contagieuse due à un parasite, transmise par contact peau contre peau prolongé et plus rarement par le linge ; elle n'est pas liée à un manque d'hygiène.\n- Traiter le même jour toutes les personnes vivant sous le même toit et les contacts proches, même sans démangeaisons, puis renouveler le traitement à la date indiquée sur l'ordonnance.\n- Le jour de chaque traitement : laver à 60 °C les vêtements, draps et serviettes utilisés les jours précédents ; ce qui ne se lave pas à 60 °C est isolé 3 jours dans un sac fermé ou traité avec un produit acaricide.\n- Couper les ongles courts.\n- Les démangeaisons peuvent persister 2 à 4 semaines après un traitement efficace : ce n'est pas un échec. Consulter si elles persistent au-delà ou si de nouvelles lésions apparaissent.\n- Collectivité (crèche, école) : retour possible 3 jours après le traitement ; prévenir l'établissement."
     },
     {
       "id": "42419207651b81a8a988d59813d8dca7",
@@ -993,7 +1063,8 @@
         "Dermatologie",
         "Infectiologie"
       ],
-      "sousCategorie": "Infections virales"
+      "sousCategorie": "Infections virales",
+      "conseilsDetailles": null
     },
     {
       "id": "42419207651b81dcb12af3e129807e06",
@@ -1006,7 +1077,8 @@
       "categories": [
         "Dermatologie"
       ],
-      "sousCategorie": "Dermatoses inflammatoires"
+      "sousCategorie": "Dermatoses inflammatoires",
+      "conseilsDetailles": null
     },
     {
       "id": "42419207651b81a281c5d4d0f758a5ef",
@@ -1019,7 +1091,8 @@
         "Néonatologie",
         "Dermatologie"
       ],
-      "sousCategorie": "Dermatoses néonatales"
+      "sousCategorie": "Dermatoses néonatales",
+      "conseilsDetailles": null
     },
     {
       "id": "42419207651b81e4932bda98f5839b17",
@@ -1032,7 +1105,8 @@
       "categories": [
         "Dermatologie"
       ],
-      "sousCategorie": "Anomalies vasculaires"
+      "sousCategorie": "Anomalies vasculaires",
+      "conseilsDetailles": null
     },
     {
       "id": "42419207651b81619c19f052e37b9c28",
@@ -1046,7 +1120,8 @@
         "Dermatologie",
         "Hématologie"
       ],
-      "sousCategorie": "Anomalies vasculaires"
+      "sousCategorie": "Anomalies vasculaires",
+      "conseilsDetailles": null
     },
     {
       "id": "42419207651b8146b8cde7dcb9ddc1ec",
@@ -1061,7 +1136,8 @@
         "Dermatologie",
         "Néonatologie"
       ],
-      "sousCategorie": "Anomalies vasculaires"
+      "sousCategorie": "Anomalies vasculaires",
+      "conseilsDetailles": null
     },
     {
       "id": "42419207651b81ae8df1e4f6e2c2967f",
@@ -1075,7 +1151,8 @@
       "categories": [
         "Dermatologie"
       ],
-      "sousCategorie": "Anomalies vasculaires"
+      "sousCategorie": "Anomalies vasculaires",
+      "conseilsDetailles": "- Tumeur vasculaire bénigne qui grossit pendant les premiers mois puis régresse lentement. Le propranolol (Hémangiol) est prescrit pour 6 mois, avec des consultations régulières pour adapter la dose au poids.\n- Donner chaque dose au milieu ou juste après un repas ou un biberon, à au moins 9 heures d'intervalle, jamais peu avant le coucher ; la même personne donne le repas et le médicament.\n- Ne pas donner la dose si l'enfant mange mal ou vomit ; ne pas redonner une dose recrachée.\n- Suspendre le traitement et contacter le médecin en cas de bronchiolite, de sifflements, de gêne respiratoire ou de maladie qui empêche de s'alimenter.\n- Reconnaître une hypoglycémie : pâleur, sueurs, tremblements, somnolence inhabituelle, malaise. Donner du sucre si l'enfant est bien réveillé et appeler le 15.\n- Mains froides, marbrures et troubles du sommeil sont possibles.\n- Signaler le traitement à tout médecin consulté."
     },
     {
       "id": "42419207651b813fb109ddfb62f11095",
@@ -1094,7 +1171,8 @@
         "Dermatologie",
         "Infectiologie"
       ],
-      "sousCategorie": "Infections virales"
+      "sousCategorie": "Infections virales",
+      "conseilsDetailles": null
     },
     {
       "id": "42419207651b8150a280ea31a42f541b",
@@ -1108,7 +1186,8 @@
         "Infectiologie",
         "Urgences"
       ],
-      "sousCategorie": "Infections virales"
+      "sousCategorie": "Infections virales",
+      "conseilsDetailles": null
     },
     {
       "id": "42419207651b81af920dfa8c660e9b05",
@@ -1123,7 +1202,8 @@
       "categories": [
         "Dermatologie"
       ],
-      "sousCategorie": "Acné et annexes"
+      "sousCategorie": "Acné et annexes",
+      "conseilsDetailles": null
     },
     {
       "id": "42419207651b81d1be56ca36a0317b63",
@@ -1138,7 +1218,8 @@
         "Dermatologie",
         "Hématologie"
       ],
-      "sousCategorie": "Tumeurs et naevus"
+      "sousCategorie": "Tumeurs et naevus",
+      "conseilsDetailles": null
     },
     {
       "id": "42419207651b813b84b0d170c2832cc2",
@@ -1152,7 +1233,8 @@
       "categories": [
         "Dermatologie"
       ],
-      "sousCategorie": "Acné et annexes"
+      "sousCategorie": "Acné et annexes",
+      "conseilsDetailles": null
     },
     {
       "id": "42419207651b81e0bd1dc4e932b42ff0",
@@ -1166,7 +1248,8 @@
         "Dermatologie",
         "Endocrinologie"
       ],
-      "sousCategorie": "Cheveux et ongles"
+      "sousCategorie": "Cheveux et ongles",
+      "conseilsDetailles": null
     },
     {
       "id": "42419207651b81ff9b76e1c71b36111f",
@@ -1178,7 +1261,8 @@
       "categories": [
         "Dermatologie"
       ],
-      "sousCategorie": "Pigmentation"
+      "sousCategorie": "Pigmentation",
+      "conseilsDetailles": null
     },
     {
       "id": "42419207651b81d3915ae38753ea18ea",
@@ -1195,7 +1279,8 @@
       "categories": [
         "Dermatologie"
       ],
-      "sousCategorie": "Génodermatoses"
+      "sousCategorie": "Génodermatoses",
+      "conseilsDetailles": null
     },
     {
       "id": "42419207651b815e91c1e5baa40a95dc",
@@ -1211,7 +1296,8 @@
         "Dermatologie",
         "Infectiologie"
       ],
-      "sousCategorie": "Infections bactériennes"
+      "sousCategorie": "Infections bactériennes",
+      "conseilsDetailles": "- Infection bactérienne superficielle de la peau, contagieuse.\n- Laver les lésions 1 à 2 fois par jour à l'eau et au savon doux, rincer, sécher, puis appliquer le traitement ; ramollir et retirer doucement les croûtes.\n- Couper les ongles courts, se laver souvent les mains, éviter le grattage ; linge de toilette personnel, changé chaque jour.\n- Couvrir les lésions si possible.\n- Collectivité : pas d'éviction si les lésions sont protégées ; si elles sont trop étendues pour être couvertes, éviction jusqu'à 72 heures après le début des antibiotiques.\n- Prendre le traitement jusqu'au bout.\n- Consulter en cas de fièvre, d'extension des lésions après 48 heures de traitement, ou, dans les semaines suivantes, d'urines foncées ou de gonflement du visage."
     },
     {
       "id": "42419207651b8183ab4ccb04688d7b57",
@@ -1223,7 +1309,8 @@
       "categories": [
         "Dermatologie"
       ],
-      "sousCategorie": "Génodermatoses"
+      "sousCategorie": "Génodermatoses",
+      "conseilsDetailles": null
     },
     {
       "id": "42419207651b8157a56ae976c6d7faac",
@@ -1238,7 +1325,8 @@
       "categories": [
         "Dermatologie"
       ],
-      "sousCategorie": "Eczémas et dermatites"
+      "sousCategorie": "Eczémas et dermatites",
+      "conseilsDetailles": null
     },
     {
       "id": "42419207651b8159946fd867a28b54a1",
@@ -1252,7 +1340,8 @@
         "Dermatologie",
         "Infectiologie"
       ],
-      "sousCategorie": "Infections fongiques"
+      "sousCategorie": "Infections fongiques",
+      "conseilsDetailles": null
     },
     {
       "id": "42419207651b81fe8016d3e52e6c2388",
@@ -1265,7 +1354,8 @@
         "Dermatologie",
         "Infectiologie"
       ],
-      "sousCategorie": "Infections bactériennes"
+      "sousCategorie": "Infections bactériennes",
+      "conseilsDetailles": null
     },
     {
       "id": "42419207651b81acb8ffce2e119a52bd",
@@ -1278,7 +1368,8 @@
       "categories": [
         "Dermatologie"
       ],
-      "sousCategorie": "Génodermatoses"
+      "sousCategorie": "Génodermatoses",
+      "conseilsDetailles": null
     },
     {
       "id": "42419207651b818b9565ca6f4061a23e",
@@ -1291,7 +1382,8 @@
       "categories": [
         "Dermatologie"
       ],
-      "sousCategorie": "Infections bactériennes"
+      "sousCategorie": "Infections bactériennes",
+      "conseilsDetailles": null
     },
     {
       "id": "42419207651b81beb4e4ccf5b1e042f1",
@@ -1304,7 +1396,8 @@
       "categories": [
         "Dermatologie"
       ],
-      "sousCategorie": "Génodermatoses"
+      "sousCategorie": "Génodermatoses",
+      "conseilsDetailles": null
     },
     {
       "id": "42419207651b810aae62f87b1ad21cd2",
@@ -1319,7 +1412,8 @@
       "categories": [
         "Dermatologie"
       ],
-      "sousCategorie": "Tumeurs et naevus"
+      "sousCategorie": "Tumeurs et naevus",
+      "conseilsDetailles": null
     },
     {
       "id": "42419207651b815f92bde7c32d27d96c",
@@ -1334,7 +1428,8 @@
         "Dermatologie",
         "Infectiologie"
       ],
-      "sousCategorie": "Parasitoses et piqûres"
+      "sousCategorie": "Parasitoses et piqûres",
+      "conseilsDetailles": null
     },
     {
       "id": "42419207651b81ac9601ee98f2279a25",
@@ -1347,7 +1442,8 @@
         "Infectiologie",
         "Dermatologie"
       ],
-      "sousCategorie": "Parasitoses et piqûres"
+      "sousCategorie": "Parasitoses et piqûres",
+      "conseilsDetailles": null
     },
     {
       "id": "42419207651b8179b99bc480c6be60a3",
@@ -1358,7 +1454,8 @@
       "categories": [
         "Dermatologie"
       ],
-      "sousCategorie": "Dermatoses inflammatoires"
+      "sousCategorie": "Dermatoses inflammatoires",
+      "conseilsDetailles": null
     },
     {
       "id": "42419207651b81a9b211c096301b46f6",
@@ -1372,7 +1469,8 @@
       "categories": [
         "Dermatologie"
       ],
-      "sousCategorie": "Dermatoses inflammatoires"
+      "sousCategorie": "Dermatoses inflammatoires",
+      "conseilsDetailles": null
     },
     {
       "id": "42419207651b81538d1af0d4e72a18b0",
@@ -1385,7 +1483,8 @@
       "categories": [
         "Dermatologie"
       ],
-      "sousCategorie": "Cheveux et ongles"
+      "sousCategorie": "Cheveux et ongles",
+      "conseilsDetailles": null
     },
     {
       "id": "42419207651b81329837ff2667da77e9",
@@ -1397,7 +1496,8 @@
       "categories": [
         "Dermatologie"
       ],
-      "sousCategorie": "Cheveux et ongles"
+      "sousCategorie": "Cheveux et ongles",
+      "conseilsDetailles": null
     },
     {
       "id": "42419207651b817f9261cdc30571d3b0",
@@ -1413,7 +1513,8 @@
         "Dermatologie",
         "Gynécologie"
       ],
-      "sousCategorie": "Muqueuses et organes génitaux"
+      "sousCategorie": "Muqueuses et organes génitaux",
+      "conseilsDetailles": null
     },
     {
       "id": "42419207651b81d79fe8db7e030cbf6a",
@@ -1425,7 +1526,8 @@
       "categories": [
         "Dermatologie"
       ],
-      "sousCategorie": "Dermatoses inflammatoires"
+      "sousCategorie": "Dermatoses inflammatoires",
+      "conseilsDetailles": null
     },
     {
       "id": "42419207651b813eba50c3b41a140314",
@@ -1442,7 +1544,8 @@
         "Dermatologie",
         "Rhumatologie et auto-inflammatoire"
       ],
-      "sousCategorie": "Maladies systémiques et vascularites"
+      "sousCategorie": "Maladies systémiques et vascularites",
+      "conseilsDetailles": null
     },
     {
       "id": "42419207651b8124ac93f1812b08b31c",
@@ -1459,7 +1562,8 @@
         "Infectiologie",
         "Dermatologie"
       ],
-      "sousCategorie": "Infections bactériennes"
+      "sousCategorie": "Infections bactériennes",
+      "conseilsDetailles": null
     },
     {
       "id": "42419207651b816ebda2fd04536fdfdd",
@@ -1472,7 +1576,8 @@
         "Rhumatologie et auto-inflammatoire",
         "Dermatologie"
       ],
-      "sousCategorie": "Maladies systémiques et vascularites"
+      "sousCategorie": "Maladies systémiques et vascularites",
+      "conseilsDetailles": null
     },
     {
       "id": "42419207651b81b18643cd29c3ccc1c3",
@@ -1484,7 +1589,8 @@
       "categories": [
         "Dermatologie"
       ],
-      "sousCategorie": "Génodermatoses"
+      "sousCategorie": "Génodermatoses",
+      "conseilsDetailles": null
     },
     {
       "id": "42419207651b8109a715e6bf6e312132",
@@ -1496,7 +1602,8 @@
       "categories": [
         "Dermatologie"
       ],
-      "sousCategorie": "Génodermatoses"
+      "sousCategorie": "Génodermatoses",
+      "conseilsDetailles": null
     },
     {
       "id": "42419207651b814b9a94f29e875548d5",
@@ -1511,7 +1618,8 @@
         "Dermatologie",
         "Urgences"
       ],
-      "sousCategorie": "Maladies systémiques et vascularites"
+      "sousCategorie": "Maladies systémiques et vascularites",
+      "conseilsDetailles": null
     },
     {
       "id": "42419207651b81158cdac95828548073",
@@ -1525,7 +1633,8 @@
         "Infectiologie",
         "Dermatologie"
       ],
-      "sousCategorie": "Infections bactériennes"
+      "sousCategorie": "Infections bactériennes",
+      "conseilsDetailles": null
     },
     {
       "id": "42419207651b81b1a1ddfaafd86fcf6c",
@@ -1537,7 +1646,8 @@
       "categories": [
         "Dermatologie"
       ],
-      "sousCategorie": "Anomalies vasculaires"
+      "sousCategorie": "Anomalies vasculaires",
+      "conseilsDetailles": null
     },
     {
       "id": "42419207651b810da7c2de59d5e3fd6a",
@@ -1553,7 +1663,8 @@
       "categories": [
         "Dermatologie"
       ],
-      "sousCategorie": "Anomalies vasculaires"
+      "sousCategorie": "Anomalies vasculaires",
+      "conseilsDetailles": null
     },
     {
       "id": "42419207651b81659eabd94eade77a42",
@@ -1566,7 +1677,8 @@
       "categories": [
         "Dermatologie"
       ],
-      "sousCategorie": "Anomalies vasculaires"
+      "sousCategorie": "Anomalies vasculaires",
+      "conseilsDetailles": null
     },
     {
       "id": "42419207651b81548331f230b6815d6d",
@@ -1579,7 +1691,8 @@
       "categories": [
         "Dermatologie"
       ],
-      "sousCategorie": "Anomalies vasculaires"
+      "sousCategorie": "Anomalies vasculaires",
+      "conseilsDetailles": null
     },
     {
       "id": "42419207651b816683d6f55dd1dd9c45",
@@ -1594,7 +1707,8 @@
         "Dermatologie",
         "Hématologie"
       ],
-      "sousCategorie": "Urticaire et allergie"
+      "sousCategorie": "Urticaire et allergie",
+      "conseilsDetailles": null
     },
     {
       "id": "42419207651b814996f1f0028ad5cec9",
@@ -1609,7 +1723,8 @@
         "Infectiologie",
         "Dermatologie"
       ],
-      "sousCategorie": "Infections virales"
+      "sousCategorie": "Infections virales",
+      "conseilsDetailles": null
     },
     {
       "id": "42419207651b81d4af36e56a9049c1db",
@@ -1623,7 +1738,8 @@
         "Dermatologie",
         "Néonatologie"
       ],
-      "sousCategorie": "Pigmentation"
+      "sousCategorie": "Pigmentation",
+      "conseilsDetailles": null
     },
     {
       "id": "42419207651b81239bebd7ea2a200e7e",
@@ -1635,7 +1751,8 @@
       "categories": [
         "Dermatologie"
       ],
-      "sousCategorie": "Tumeurs et naevus"
+      "sousCategorie": "Tumeurs et naevus",
+      "conseilsDetailles": null
     },
     {
       "id": "42419207651b817bb444ec0e4d260a32",
@@ -1647,7 +1764,8 @@
         "Néonatologie",
         "Dermatologie"
       ],
-      "sousCategorie": "Dermatoses néonatales"
+      "sousCategorie": "Dermatoses néonatales",
+      "conseilsDetailles": null
     },
     {
       "id": "42419207651b819ba562dd2db0c1393d",
@@ -1659,7 +1777,8 @@
       "categories": [
         "Dermatologie"
       ],
-      "sousCategorie": "Pigmentation"
+      "sousCategorie": "Pigmentation",
+      "conseilsDetailles": null
     },
     {
       "id": "42419207651b811b8b6bf38a3cb1f41d",
@@ -1675,7 +1794,8 @@
         "Dermatologie",
         "Néonatologie"
       ],
-      "sousCategorie": "Dermatoses néonatales"
+      "sousCategorie": "Dermatoses néonatales",
+      "conseilsDetailles": null
     },
     {
       "id": "42419207651b812d947eef073a232618",
@@ -1689,7 +1809,8 @@
         "Dermatologie",
         "Infectiologie"
       ],
-      "sousCategorie": "Toxidermies"
+      "sousCategorie": "Toxidermies",
+      "conseilsDetailles": null
     },
     {
       "id": "42419207651b81f190aef3843817e6ee",
@@ -1703,7 +1824,8 @@
         "Dermatologie",
         "Infectiologie"
       ],
-      "sousCategorie": "Infections virales"
+      "sousCategorie": "Infections virales",
+      "conseilsDetailles": "- Petits boutons dus à un virus, bénins et fréquents chez l'enfant, surtout en cas de dermatite atopique.\n- Ils disparaissent spontanément, en quelques mois à plus d'un an ; un traitement n'est pas obligatoire.\n- Ne pas gratter ni percer les lésions : cela favorise leur multiplication et leur surinfection.\n- Hydrater la peau avec un émollient et traiter l'eczéma associé.\n- Linge de toilette personnel ; l'école et la piscine restent possibles.\n- Une rougeur autour d'un molluscum annonce souvent sa guérison ; consulter en cas de rougeur étendue, de douleur ou de pus."
     },
     {
       "id": "42419207651b81d78734eb673fcdecbc",
@@ -1720,7 +1842,8 @@
         "Dermatologie",
         "ORL"
       ],
-      "sousCategorie": "Infections virales"
+      "sousCategorie": "Infections virales",
+      "conseilsDetailles": null
     },
     {
       "id": "42419207651b81818628fb52e54da2ff",
@@ -1736,7 +1859,8 @@
         "Dermatologie",
         "Rhumatologie et auto-inflammatoire"
       ],
-      "sousCategorie": "Maladies systémiques et vascularites"
+      "sousCategorie": "Maladies systémiques et vascularites",
+      "conseilsDetailles": null
     },
     {
       "id": "42419207651b81bf9a35dc6b34874668",
@@ -1750,7 +1874,8 @@
       "categories": [
         "Dermatologie"
       ],
-      "sousCategorie": "Pigmentation"
+      "sousCategorie": "Pigmentation",
+      "conseilsDetailles": null
     },
     {
       "id": "42419207651b81798f59d1a40ddb3d29",
@@ -1764,7 +1889,8 @@
         "Infectiologie",
         "Dermatologie"
       ],
-      "sousCategorie": "Infections virales"
+      "sousCategorie": "Infections virales",
+      "conseilsDetailles": null
     },
     {
       "id": "42419207651b81418c26dce9cf548a0b",
@@ -1779,7 +1905,8 @@
         "Infectiologie",
         "Dermatologie"
       ],
-      "sousCategorie": "Infections bactériennes"
+      "sousCategorie": "Infections bactériennes",
+      "conseilsDetailles": null
     },
     {
       "id": "42419207651b81858f90df4c967148a1",
@@ -1793,7 +1920,8 @@
         "Infectiologie",
         "Dermatologie"
       ],
-      "sousCategorie": "Parasitoses et piqûres"
+      "sousCategorie": "Parasitoses et piqûres",
+      "conseilsDetailles": null
     },
     {
       "id": "42419207651b81859fb8fec225842ca4",
@@ -1811,7 +1939,8 @@
       "categories": [
         "Dermatologie"
       ],
-      "sousCategorie": "Tumeurs et naevus"
+      "sousCategorie": "Tumeurs et naevus",
+      "conseilsDetailles": null
     },
     {
       "id": "42419207651b81e18e6acd90a81b6bc5",
@@ -1824,7 +1953,8 @@
       "categories": [
         "Dermatologie"
       ],
-      "sousCategorie": "Tumeurs et naevus"
+      "sousCategorie": "Tumeurs et naevus",
+      "conseilsDetailles": null
     },
     {
       "id": "42419207651b818f85f8ffdc5cdd0160",
@@ -1836,7 +1966,8 @@
       "categories": [
         "Dermatologie"
       ],
-      "sousCategorie": "Tumeurs et naevus"
+      "sousCategorie": "Tumeurs et naevus",
+      "conseilsDetailles": null
     },
     {
       "id": "42419207651b81b2a9edd9ca38a6397f",
@@ -1849,7 +1980,8 @@
         "Dermatologie",
         "Endocrinologie"
       ],
-      "sousCategorie": "Dermatoses inflammatoires"
+      "sousCategorie": "Dermatoses inflammatoires",
+      "conseilsDetailles": null
     },
     {
       "id": "42419207651b8118b95bf5c1ea3c4797",
@@ -1864,7 +1996,8 @@
         "Dermatologie",
         "Neurologie"
       ],
-      "sousCategorie": "Génodermatoses"
+      "sousCategorie": "Génodermatoses",
+      "conseilsDetailles": null
     },
     {
       "id": "42419207651b81ba9c49df6ef39a9045",
@@ -1878,7 +2011,8 @@
         "Dermatologie",
         "Rhumatologie et auto-inflammatoire"
       ],
-      "sousCategorie": "Maladies systémiques et vascularites"
+      "sousCategorie": "Maladies systémiques et vascularites",
+      "conseilsDetailles": null
     },
     {
       "id": "42419207651b81f19e4dcf7798dbf041",
@@ -1892,7 +2026,8 @@
         "Infectiologie",
         "Dermatologie"
       ],
-      "sousCategorie": "Dermatoses néonatales"
+      "sousCategorie": "Dermatoses néonatales",
+      "conseilsDetailles": null
     },
     {
       "id": "42419207651b813d977ef50d53a4fd92",
@@ -1905,7 +2040,8 @@
       "categories": [
         "Dermatologie"
       ],
-      "sousCategorie": "Cheveux et ongles"
+      "sousCategorie": "Cheveux et ongles",
+      "conseilsDetailles": null
     },
     {
       "id": "42419207651b81ffa9baf484084f1ec5",
@@ -1920,7 +2056,8 @@
         "Dermatologie",
         "Infectiologie"
       ],
-      "sousCategorie": "Infections fongiques"
+      "sousCategorie": "Infections fongiques",
+      "conseilsDetailles": null
     },
     {
       "id": "42419207651b81d0bd18e90964e7a96a",
@@ -1936,7 +2073,8 @@
         "Gastro-entérologie",
         "Dermatologie"
       ],
-      "sousCategorie": "Parasitoses et piqûres"
+      "sousCategorie": "Parasitoses et piqûres",
+      "conseilsDetailles": null
     },
     {
       "id": "42419207651b8173a120ec435ddf86c5",
@@ -1947,7 +2085,8 @@
       "categories": [
         "Dermatologie"
       ],
-      "sousCategorie": "Génodermatoses"
+      "sousCategorie": "Génodermatoses",
+      "conseilsDetailles": null
     },
     {
       "id": "42419207651b817cb291dc4e9e8ef858",
@@ -1962,7 +2101,8 @@
         "Dermatologie",
         "Infectiologie"
       ],
-      "sousCategorie": "Infections bactériennes"
+      "sousCategorie": "Infections bactériennes",
+      "conseilsDetailles": null
     },
     {
       "id": "42419207651b81918913e7368cf19d86",
@@ -1975,7 +2115,8 @@
       "categories": [
         "Dermatologie"
       ],
-      "sousCategorie": "Situations particulières"
+      "sousCategorie": "Situations particulières",
+      "conseilsDetailles": null
     },
     {
       "id": "42419207651b8192aa6cc0fd0338f048",
@@ -1988,7 +2129,8 @@
         "Dermatologie",
         "Allergologie"
       ],
-      "sousCategorie": "Toxidermies"
+      "sousCategorie": "Toxidermies",
+      "conseilsDetailles": null
     },
     {
       "id": "42419207651b8145a66cf1af3970b8d0",
@@ -2003,7 +2145,8 @@
         "Dermatologie",
         "Infectiologie"
       ],
-      "sousCategorie": "Parasitoses et piqûres"
+      "sousCategorie": "Parasitoses et piqûres",
+      "conseilsDetailles": "- Les poux se transmettent surtout par contact direct tête contre tête ; ils ne sautent pas et ne sont pas liés à un manque d'hygiène.\n- Examiner toute la famille et traiter uniquement les personnes porteuses de poux vivants ; pas de traitement préventif.\n- Appliquer le produit sur cheveux secs, de la racine aux pointes, en respectant le temps de pose de la notice, puis rincer.\n- Passer un peigne fin sur cheveux mouillés, mèche par mèche, pour retirer poux et lentes, tous les 2 à 3 jours pendant 2 semaines.\n- Renouveler le traitement à la date indiquée pour tuer les poux sortis des lentes.\n- Laver à 60 °C bonnets, taies d'oreiller et peignes, ou les isoler quelques jours dans un sac fermé ; inutile de désinfecter toute la maison.\n- Pas d'éviction scolaire ; prévenir l'école.\n- Consulter si les poux persistent malgré deux traitements bien conduits."
     },
     {
       "id": "42419207651b81258a60f6702a941c9a",
@@ -2018,7 +2161,8 @@
       "categories": [
         "Dermatologie"
       ],
-      "sousCategorie": "Cheveux et ongles"
+      "sousCategorie": "Cheveux et ongles",
+      "conseilsDetailles": null
     },
     {
       "id": "42419207651b818e8937f385ad16cefe",
@@ -2030,7 +2174,8 @@
       "categories": [
         "Dermatologie"
       ],
-      "sousCategorie": "Bulleuses auto-immunes"
+      "sousCategorie": "Bulleuses auto-immunes",
+      "conseilsDetailles": null
     },
     {
       "id": "42419207651b815a9bc5d4ea6ef3bda3",
@@ -2042,7 +2187,8 @@
       "categories": [
         "Dermatologie"
       ],
-      "sousCategorie": "Bulleuses auto-immunes"
+      "sousCategorie": "Bulleuses auto-immunes",
+      "conseilsDetailles": null
     },
     {
       "id": "42419207651b8136ae74ca4a1532ebe8",
@@ -2055,7 +2201,8 @@
       "categories": [
         "Dermatologie"
       ],
-      "sousCategorie": "Cheveux et ongles"
+      "sousCategorie": "Cheveux et ongles",
+      "conseilsDetailles": null
     },
     {
       "id": "42419207651b81e1a635ec674c28ae71",
@@ -2068,7 +2215,8 @@
       "categories": [
         "Dermatologie"
       ],
-      "sousCategorie": "Muqueuses et organes génitaux"
+      "sousCategorie": "Muqueuses et organes génitaux",
+      "conseilsDetailles": null
     },
     {
       "id": "42419207651b812695e7e521daebfe82",
@@ -2082,7 +2230,8 @@
         "Rhumatologie et auto-inflammatoire",
         "ORL"
       ],
-      "sousCategorie": "Maladies auto-inflammatoires"
+      "sousCategorie": "Maladies auto-inflammatoires",
+      "conseilsDetailles": null
     },
     {
       "id": "42419207651b81f0a6caefcf767eea5d",
@@ -2097,7 +2246,8 @@
         "Dermatologie",
         "Rhumatologie et auto-inflammatoire"
       ],
-      "sousCategorie": "Maladies systémiques et vascularites"
+      "sousCategorie": "Maladies systémiques et vascularites",
+      "conseilsDetailles": null
     },
     {
       "id": "42419207651b81c99dbafd50d9a63b12",
@@ -2114,7 +2264,8 @@
       "categories": [
         "Dermatologie"
       ],
-      "sousCategorie": "Agents physiques"
+      "sousCategorie": "Agents physiques",
+      "conseilsDetailles": null
     },
     {
       "id": "42419207651b81de85e1f982950fdceb",
@@ -2127,7 +2278,8 @@
         "Dermatologie",
         "Infectiologie"
       ],
-      "sousCategorie": "Infections fongiques"
+      "sousCategorie": "Infections fongiques",
+      "conseilsDetailles": null
     },
     {
       "id": "42419207651b81a1b6d6dd9f40242f5c",
@@ -2139,7 +2291,8 @@
       "categories": [
         "Dermatologie"
       ],
-      "sousCategorie": "Tumeurs et naevus"
+      "sousCategorie": "Tumeurs et naevus",
+      "conseilsDetailles": null
     },
     {
       "id": "42419207651b8101afd0f1442a8faaa8",
@@ -2154,7 +2307,8 @@
         "Cardiologie",
         "Urgences"
       ],
-      "sousCategorie": "Maladies systémiques et vascularites"
+      "sousCategorie": "Maladies systémiques et vascularites",
+      "conseilsDetailles": null
     },
     {
       "id": "42419207651b816695dbd9cfe35812ab",
@@ -2172,7 +2326,8 @@
         "Dermatologie",
         "Allergologie"
       ],
-      "sousCategorie": "Parasitoses et piqûres"
+      "sousCategorie": "Parasitoses et piqûres",
+      "conseilsDetailles": null
     },
     {
       "id": "42419207651b81fb91a1e2957f5eccd5",
@@ -2185,7 +2340,8 @@
       "categories": [
         "Dermatologie"
       ],
-      "sousCategorie": "Eczémas et dermatites"
+      "sousCategorie": "Eczémas et dermatites",
+      "conseilsDetailles": null
     },
     {
       "id": "42419207651b81ff8ba7fe10c24c0f19",
@@ -2198,7 +2354,8 @@
       "categories": [
         "Dermatologie"
       ],
-      "sousCategorie": "Infections virales"
+      "sousCategorie": "Infections virales",
+      "conseilsDetailles": null
     },
     {
       "id": "42419207651b812ab56ed454f5054985",
@@ -2210,7 +2367,8 @@
       "categories": [
         "Dermatologie"
       ],
-      "sousCategorie": "Dermatoses inflammatoires"
+      "sousCategorie": "Dermatoses inflammatoires",
+      "conseilsDetailles": null
     },
     {
       "id": "42419207651b812ca437cffb9f8b3487",
@@ -2224,7 +2382,8 @@
         "Dermatologie",
         "Infectiologie"
       ],
-      "sousCategorie": "Infections fongiques"
+      "sousCategorie": "Infections fongiques",
+      "conseilsDetailles": null
     },
     {
       "id": "42419207651b81f4b3c2e7e6a12eb603",
@@ -2240,7 +2399,8 @@
         "Dermatologie",
         "Urgences"
       ],
-      "sousCategorie": "Agents physiques"
+      "sousCategorie": "Agents physiques",
+      "conseilsDetailles": null
     },
     {
       "id": "42419207651b8111bc71f56bf61677df",
@@ -2255,7 +2415,8 @@
       "categories": [
         "Dermatologie"
       ],
-      "sousCategorie": "Dermatoses inflammatoires"
+      "sousCategorie": "Dermatoses inflammatoires",
+      "conseilsDetailles": null
     },
     {
       "id": "42419207651b81c0b817f9a9c24be441",
@@ -2267,7 +2428,8 @@
       "categories": [
         "Dermatologie"
       ],
-      "sousCategorie": "Génodermatoses"
+      "sousCategorie": "Génodermatoses",
+      "conseilsDetailles": null
     },
     {
       "id": "42419207651b81ba93a5ff507d337184",
@@ -2281,7 +2443,8 @@
       "categories": [
         "Dermatologie"
       ],
-      "sousCategorie": "Parasitoses et piqûres"
+      "sousCategorie": "Parasitoses et piqûres",
+      "conseilsDetailles": null
     },
     {
       "id": "42419207651b81ce9d90e80d6bcdeba3",
@@ -2296,7 +2459,8 @@
       "categories": [
         "Dermatologie"
       ],
-      "sousCategorie": "Dermatoses inflammatoires"
+      "sousCategorie": "Dermatoses inflammatoires",
+      "conseilsDetailles": null
     },
     {
       "id": "42419207651b8199b1a6e6bd1ec95b12",
@@ -2314,7 +2478,8 @@
       "categories": [
         "Dermatologie"
       ],
-      "sousCategorie": "Dermatoses inflammatoires"
+      "sousCategorie": "Dermatoses inflammatoires",
+      "conseilsDetailles": "- Maladie inflammatoire chronique, non contagieuse, qui évolue par poussées ; les traitements contrôlent les poussées mais ne la guérissent pas définitivement.\n- Appliquer les traitements locaux uniquement sur les plaques et respecter la durée et le schéma de diminution prescrits.\n- Hydrater la peau tous les jours avec un émollient ; ramollir les squames épaisses (bain, préparation prescrite) pour que les traitements pénètrent mieux.\n- Cuir chevelu : appliquer le traitement sur cheveux secs en écartant les mèches, laisser agir le temps indiqué, puis shampooing doux.\n- Éviter de gratter, frotter ou se blesser la peau : un traumatisme peut faire apparaître de nouvelles plaques.\n- Une angine ou une autre infection peut déclencher une poussée (psoriasis en gouttes) : consulter en cas de mal de gorge.\n- Le soleil améliore souvent le psoriasis, mais sans coup de soleil : protection solaire.\n- Surpoids, tabac et stress favorisent les poussées ; l'activité physique est encouragée.\n- Consulter en cas de douleurs ou de gonflement des articulations, ou de plaques qui s'étendent rapidement."
     },
     {
       "id": "42419207651b8114bca6e09ee722b51a",
@@ -2330,7 +2495,8 @@
         "Dermatologie",
         "Néphrologie et urologie"
       ],
-      "sousCategorie": "Maladies systémiques et vascularites"
+      "sousCategorie": "Maladies systémiques et vascularites",
+      "conseilsDetailles": null
     },
     {
       "id": "42419207651b8182912ee82ef6bef845",
@@ -2342,7 +2508,8 @@
       "categories": [
         "Dermatologie"
       ],
-      "sousCategorie": "Dermatoses inflammatoires"
+      "sousCategorie": "Dermatoses inflammatoires",
+      "conseilsDetailles": null
     },
     {
       "id": "42419207651b81518532d11bd3ef0b20",
@@ -2355,7 +2522,8 @@
       "categories": [
         "Dermatologie"
       ],
-      "sousCategorie": "Acné et annexes"
+      "sousCategorie": "Acné et annexes",
+      "conseilsDetailles": null
     },
     {
       "id": "42419207651b81ca8ab2d5b9e4522b5d",
@@ -2370,7 +2538,8 @@
         "Infectiologie",
         "Dermatologie"
       ],
-      "sousCategorie": "Infections virales"
+      "sousCategorie": "Infections virales",
+      "conseilsDetailles": null
     },
     {
       "id": "42419207651b81b18e6af86f2819e869",
@@ -2383,7 +2552,8 @@
         "Infectiologie",
         "Dermatologie"
       ],
-      "sousCategorie": "Infections virales"
+      "sousCategorie": "Infections virales",
+      "conseilsDetailles": null
     },
     {
       "id": "42419207651b81028fb6c294dd2ccfd2",
@@ -2396,7 +2566,8 @@
         "Infectiologie",
         "Dermatologie"
       ],
-      "sousCategorie": "Infections virales"
+      "sousCategorie": "Infections virales",
+      "conseilsDetailles": null
     },
     {
       "id": "42419207651b81748b4bf61ad3aa1beb",
@@ -2410,7 +2581,8 @@
         "Dermatologie",
         "Rhumatologie et auto-inflammatoire"
       ],
-      "sousCategorie": "Maladies systémiques et vascularites"
+      "sousCategorie": "Maladies systémiques et vascularites",
+      "conseilsDetailles": null
     },
     {
       "id": "42419207651b8133bdb0e713e3cc7e93",
@@ -2424,7 +2596,8 @@
         "Dermatologie",
         "ORL"
       ],
-      "sousCategorie": "Infections bactériennes"
+      "sousCategorie": "Infections bactériennes",
+      "conseilsDetailles": null
     },
     {
       "id": "42419207651b8191b4fcf8284cd14177",
@@ -2440,7 +2613,8 @@
         "Dermatologie",
         "Neurologie"
       ],
-      "sousCategorie": "Génodermatoses"
+      "sousCategorie": "Génodermatoses",
+      "conseilsDetailles": null
     },
     {
       "id": "42419207651b81e9baabc35346167835",
@@ -2457,7 +2631,8 @@
         "Infectiologie",
         "Urgences"
       ],
-      "sousCategorie": "Infections bactériennes"
+      "sousCategorie": "Infections bactériennes",
+      "conseilsDetailles": null
     },
     {
       "id": "42419207651b810b9dd5e59b5b9cbf17",
@@ -2473,7 +2648,8 @@
         "Infectiologie",
         "Urgences"
       ],
-      "sousCategorie": "Infections virales"
+      "sousCategorie": "Infections virales",
+      "conseilsDetailles": null
     },
     {
       "id": "42419207651b811e80a6ea7e114287c6",
@@ -2491,7 +2667,8 @@
         "Urgences",
         "Allergologie"
       ],
-      "sousCategorie": "Toxidermies"
+      "sousCategorie": "Toxidermies",
+      "conseilsDetailles": null
     },
     {
       "id": "42419207651b8156bf6cdc416dca41ea",
@@ -2504,7 +2681,8 @@
         "Dermatologie",
         "Neurologie"
       ],
-      "sousCategorie": "Anomalies vasculaires"
+      "sousCategorie": "Anomalies vasculaires",
+      "conseilsDetailles": null
     },
     {
       "id": "42419207651b81369653fe330d3e3eb4",
@@ -2520,7 +2698,8 @@
         "Urgences",
         "Dermatologie"
       ],
-      "sousCategorie": "Infections bactériennes"
+      "sousCategorie": "Infections bactériennes",
+      "conseilsDetailles": null
     },
     {
       "id": "42419207651b81d5a278cade4208b033",
@@ -2536,7 +2715,8 @@
         "Infectiologie",
         "Dermatologie"
       ],
-      "sousCategorie": "Infections virales"
+      "sousCategorie": "Infections virales",
+      "conseilsDetailles": null
     },
     {
       "id": "42419207651b811babc1d93a838670d7",
@@ -2551,7 +2731,8 @@
         "Infectiologie",
         "Dermatologie"
       ],
-      "sousCategorie": "Infections bactériennes"
+      "sousCategorie": "Infections bactériennes",
+      "conseilsDetailles": null
     },
     {
       "id": "42419207651b81ec8ed3cba179fdb645",
@@ -2563,7 +2744,8 @@
       "categories": [
         "Dermatologie"
       ],
-      "sousCategorie": "Pigmentation"
+      "sousCategorie": "Pigmentation",
+      "conseilsDetailles": null
     },
     {
       "id": "42419207651b81cea6edccd3b5bc00be",
@@ -2582,7 +2764,8 @@
         "Dermatologie",
         "Infectiologie"
       ],
-      "sousCategorie": "Infections fongiques"
+      "sousCategorie": "Infections fongiques",
+      "conseilsDetailles": "- Infection du cuir chevelu par un champignon, contagieuse, transmise par un autre enfant ou par un animal (chat, chien, rongeur).\n- Le traitement par la bouche dure plusieurs semaines : le prendre jusqu'au bout, même si les plaques s'améliorent.\n- Associer le traitement local prescrit ; inutile de raser la tête.\n- Laver à 60 °C bonnets, taies d'oreiller, brosses et peignes, et ne pas les partager.\n- Faire examiner l'entourage ; si un animal est suspecté, le faire examiner par un vétérinaire.\n- École : retour possible sur présentation d'un certificat médical attestant d'un traitement adapté.\n- Une consultation de contrôle, souvent avec prélèvement, est prévue en fin de traitement."
     },
     {
       "id": "42419207651b811fb9efe01c608e7468",
@@ -2598,7 +2781,8 @@
         "Dermatologie",
         "Allergologie"
       ],
-      "sousCategorie": "Toxidermies"
+      "sousCategorie": "Toxidermies",
+      "conseilsDetailles": null
     },
     {
       "id": "42419207651b816a8be1f4a34b0c550d",
@@ -2610,7 +2794,8 @@
       "categories": [
         "Dermatologie"
       ],
-      "sousCategorie": "Cheveux et ongles"
+      "sousCategorie": "Cheveux et ongles",
+      "conseilsDetailles": null
     },
     {
       "id": "42419207651b8107b324f5f62f678826",
@@ -2622,7 +2807,8 @@
       "categories": [
         "Rhumatologie et auto-inflammatoire"
       ],
-      "sousCategorie": "Maladies auto-inflammatoires"
+      "sousCategorie": "Maladies auto-inflammatoires",
+      "conseilsDetailles": null
     },
     {
       "id": "42419207651b8105abc7d6320848f7ee",
@@ -2634,7 +2820,8 @@
       "categories": [
         "Dermatologie"
       ],
-      "sousCategorie": "Cheveux et ongles"
+      "sousCategorie": "Cheveux et ongles",
+      "conseilsDetailles": null
     },
     {
       "id": "42419207651b816eae1ac9c578f82819",
@@ -2649,7 +2836,8 @@
         "Infectiologie",
         "Dermatologie"
       ],
-      "sousCategorie": "Infections bactériennes"
+      "sousCategorie": "Infections bactériennes",
+      "conseilsDetailles": null
     },
     {
       "id": "42419207651b81c3abccd7df122a3fec",
@@ -2662,7 +2850,8 @@
         "Infectiologie",
         "Dermatologie"
       ],
-      "sousCategorie": "Parasitoses et piqûres"
+      "sousCategorie": "Parasitoses et piqûres",
+      "conseilsDetailles": null
     },
     {
       "id": "42419207651b81b8bf38e6789cc9c5d2",
@@ -2681,7 +2870,8 @@
         "Dermatologie",
         "Allergologie"
       ],
-      "sousCategorie": "Urticaire et allergie"
+      "sousCategorie": "Urticaire et allergie",
+      "conseilsDetailles": "- Plaques rouges ou rosées qui démangent, changent de place et disparaissent en quelques heures ; chez l'enfant, l'urticaire aiguë est le plus souvent liée à une infection virale et guérit en quelques jours.\n- Donner l'antihistaminique tous les jours pendant toute la durée prescrite, même si les plaques ont disparu.\n- Éviter les facteurs aggravants : chaleur, bains chauds, frottements, vêtements serrés.\n- Éviter l'aspirine et l'ibuprofène, qui peuvent aggraver l'urticaire ; préférer le paracétamol si besoin.\n- Noter les aliments et médicaments pris dans les heures précédant la poussée.\n- Appeler le 15 en cas de gonflement des lèvres, de la langue ou de la gorge, de difficulté à respirer ou à avaler, de voix modifiée, de malaise ou de vomissements répétés."
     },
     {
       "id": "42419207651b81698df7c2519e019273",
@@ -2695,7 +2885,8 @@
         "Infectiologie",
         "Dermatologie"
       ],
-      "sousCategorie": "Infections virales"
+      "sousCategorie": "Infections virales",
+      "conseilsDetailles": "- Maladie virale contagieuse, d'1 à 2 jours avant l'éruption jusqu'à ce que toutes les lésions soient en croûtes ; le plus souvent bénigne chez l'enfant.\n- Fièvre et douleur : paracétamol uniquement. Ne jamais donner d'ibuprofène ni d'aspirine (risque d'infections graves de la peau et de syndrome de Reye).\n- Toilette quotidienne à l'eau tiède avec un savon doux, sécher en tamponnant ; ne pas appliquer de talc, de crème ou de gel sur les vésicules sans avis médical.\n- Couper les ongles courts et limiter le grattage ; antihistaminique si prescrit contre les démangeaisons.\n- Pas d'éviction obligatoire, mais la fréquentation de la collectivité n'est pas souhaitable à la phase aiguë.\n- Éviter le contact avec les femmes enceintes non immunisées, les nouveau-nés et les personnes immunodéprimées.\n- Consulter en urgence en cas de fièvre qui persiste plus de 3 jours ou réapparaît, de lésion rouge, chaude, gonflée ou très douloureuse, de difficulté à respirer, de somnolence, de troubles de l'équilibre ou de convulsions."
     },
     {
       "id": "42419207651b81fc9172d2187ee1cc70",
@@ -2709,7 +2900,8 @@
         "Dermatologie",
         "Rhumatologie et auto-inflammatoire"
       ],
-      "sousCategorie": "Maladies systémiques et vascularites"
+      "sousCategorie": "Maladies systémiques et vascularites",
+      "conseilsDetailles": null
     },
     {
       "id": "42419207651b815d94c5fddc8ad8f4f6",
@@ -2721,7 +2913,8 @@
       "categories": [
         "Dermatologie"
       ],
-      "sousCategorie": "Agents physiques"
+      "sousCategorie": "Agents physiques",
+      "conseilsDetailles": null
     },
     {
       "id": "42419207651b814490b7c98833935da8",
@@ -2740,7 +2933,8 @@
         "Dermatologie",
         "Infectiologie"
       ],
-      "sousCategorie": "Infections virales"
+      "sousCategorie": "Infections virales",
+      "conseilsDetailles": "- Lésions bénignes dues à un virus (papillomavirus), contagieuses et fréquentes chez l'enfant.\n- Elles disparaissent souvent spontanément en quelques mois à 2 ans ; les traitements sont parfois longs.\n- Traitement local : ramollir la verrue dans l'eau tiède, poncer doucement la peau morte avec une lime réservée à cet usage, puis appliquer le produit uniquement sur la verrue en protégeant la peau autour.\n- Ne pas gratter, ronger ni arracher les verrues.\n- Porter des sandales à la piscine et dans les douches collectives ; ne pas partager serviettes et chaussures.\n- Consulter si la verrue saigne, change d'aspect, devient très douloureuse ou se multiplie."
     },
     {
       "id": "42419207651b8177a633d39a20929661",
@@ -2754,7 +2948,8 @@
       "categories": [
         "Dermatologie"
       ],
-      "sousCategorie": "Pigmentation"
+      "sousCategorie": "Pigmentation",
+      "conseilsDetailles": "- Maladie non contagieuse et non douloureuse ; la repigmentation est lente et demande plusieurs mois de traitement.\n- Poursuivre les traitements locaux pendant toute la durée prescrite ; la repigmentation commence souvent en petits points autour des poils.\n- Protéger les zones dépigmentées du soleil : vêtements couvrants, chapeau, crème solaire indice 50+ renouvelée toutes les 2 heures ; tout coup de soleil peut étendre les taches.\n- Une exposition solaire modérée et progressive peut aider la repigmentation, en dehors des heures les plus chaudes et sans coup de soleil.\n- Éviter les frottements et traumatismes répétés (vêtements serrés, grattage), qui peuvent faire apparaître de nouvelles taches.\n- Maquillage correcteur et autobronzant sont possibles.\n- Ne pas hésiter à parler du retentissement sur le moral ; des associations de patients peuvent aider."
     },
     {
       "id": "42419207651b8180a223d78ff04e1d8a",
@@ -2768,7 +2963,8 @@
         "Dermatologie",
         "Gynécologie"
       ],
-      "sousCategorie": "Muqueuses et organes génitaux"
+      "sousCategorie": "Muqueuses et organes génitaux",
+      "conseilsDetailles": null
     },
     {
       "id": "42419207651b81b0973cce5f3ed070c5",
@@ -2780,7 +2976,8 @@
       "categories": [
         "Dermatologie"
       ],
-      "sousCategorie": "Tumeurs et naevus"
+      "sousCategorie": "Tumeurs et naevus",
+      "conseilsDetailles": null
     },
     {
       "id": "42419207651b81b3b044f4f2659cbc3b",
@@ -2792,7 +2989,8 @@
       "categories": [
         "Dermatologie"
       ],
-      "sousCategorie": "Génodermatoses"
+      "sousCategorie": "Génodermatoses",
+      "conseilsDetailles": null
     },
     {
       "id": "42419207651b813d8451db456f86c05c",
@@ -2805,7 +3003,8 @@
       "categories": [
         "Dermatologie"
       ],
-      "sousCategorie": "Eczémas et dermatites"
+      "sousCategorie": "Eczémas et dermatites",
+      "conseilsDetailles": null
     },
     {
       "id": "42419207651b81528809fe3655bad98a",
@@ -2820,7 +3019,8 @@
         "Infectiologie",
         "Dermatologie"
       ],
-      "sousCategorie": "Infections virales"
+      "sousCategorie": "Infections virales",
+      "conseilsDetailles": null
     }
   ],
   "lignes": [
@@ -2851,6 +3051,8 @@
       "remboursement": "Remboursé",
       "conditions": [],
       "mention": null,
+      "consignes": "À prendre au cours d'un repas. Ne pas utiliser en cas de varicelle, ni sans avis médical en cas d'infection (angine, otite, infection de la peau) : préférer le paracétamol. Ne pas associer à un autre anti-inflammatoire.",
+      "liees": [],
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
@@ -2884,6 +3086,8 @@
       "remboursement": "Remboursé",
       "conditions": [],
       "mention": null,
+      "consignes": null,
+      "liees": [],
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
@@ -2919,6 +3123,8 @@
       "remboursement": "Remboursé",
       "conditions": [],
       "mention": null,
+      "consignes": null,
+      "liees": [],
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
@@ -2951,6 +3157,8 @@
       "remboursement": "Remboursé",
       "conditions": [],
       "mention": null,
+      "consignes": null,
+      "liees": [],
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
@@ -2987,6 +3195,8 @@
       "remboursement": "Remboursé",
       "conditions": [],
       "mention": null,
+      "consignes": null,
+      "liees": [],
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
@@ -3023,6 +3233,8 @@
       "remboursement": "Non remboursé",
       "conditions": [],
       "mention": null,
+      "consignes": "Appliquer le soir en couche fine sur peau propre et sèche, en évitant les yeux, les lèvres et les narines. Rougeurs, picotements et sécheresse possibles les premières semaines : espacer les applications si besoin et utiliser une crème hydratante non comédogène. Protection solaire. Ne pas utiliser en cas de grossesse.",
+      "liees": [],
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
@@ -3054,6 +3266,8 @@
       "remboursement": "Non remboursé",
       "conditions": [],
       "mention": "Prescription hors autorisation de mise sur le marché",
+      "consignes": null,
+      "liees": [],
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
@@ -3087,6 +3301,8 @@
       "remboursement": "À vérifier",
       "conditions": [],
       "mention": null,
+      "consignes": null,
+      "liees": [],
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
@@ -3125,6 +3341,8 @@
       "remboursement": "À vérifier",
       "conditions": [],
       "mention": null,
+      "consignes": null,
+      "liees": [],
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
@@ -3157,6 +3375,8 @@
       "remboursement": "À vérifier",
       "conditions": [],
       "mention": null,
+      "consignes": null,
+      "liees": [],
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
@@ -3189,6 +3409,8 @@
       "remboursement": "À vérifier",
       "conditions": [],
       "mention": null,
+      "consignes": null,
+      "liees": [],
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
@@ -3223,6 +3445,8 @@
       "remboursement": "À vérifier",
       "conditions": [],
       "mention": null,
+      "consignes": "Appliquer avec une compresse sur tout le corps sauf le visage, en insistant sur les plis, les mains, les ongles et les organes génitaux, puis rincer abondamment après le temps de contact indiqué. Éviter les yeux et les muqueuses. Ne pas appliquer près d'une flamme (contient de l'alcool). Traiter en même temps toutes les personnes vivant sous le même toit. Laver le linge, les draps et les serviettes à 60 °C ou les isoler 3 jours dans un sac fermé.",
+      "liees": [],
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
@@ -3254,6 +3478,8 @@
       "remboursement": "À vérifier",
       "conditions": [],
       "mention": null,
+      "consignes": "Appliquer avec une compresse sur tout le corps sauf le visage, en insistant sur les plis, les mains et le siège, puis rincer abondamment après le temps de contact indiqué, sans le dépasser. Éviter les yeux et les muqueuses et empêcher l'enfant de porter les mains à la bouche (moufles). Ne pas appliquer près d'une flamme (contient de l'alcool). Traiter en même temps toutes les personnes vivant sous le même toit. Laver le linge, les draps et les serviettes à 60 °C ou les isoler 3 jours dans un sac fermé.",
+      "liees": [],
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
@@ -3286,6 +3512,8 @@
       "remboursement": "À vérifier",
       "conditions": [],
       "mention": null,
+      "consignes": "À prendre au cours d'un repas. Arrêter et consulter en cas de fièvre avec syndrome grippal ou de varicelle (risque de syndrome de Reye). Ne pas associer à un anti-inflammatoire.",
+      "liees": [],
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
@@ -3318,6 +3546,8 @@
       "remboursement": "Remboursé",
       "conditions": [],
       "mention": null,
+      "consignes": "Peut provoquer une somnolence.",
+      "liees": [],
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
@@ -3351,6 +3581,8 @@
       "remboursement": "Remboursé",
       "conditions": [],
       "mention": null,
+      "consignes": null,
+      "liees": [],
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
@@ -3384,6 +3616,8 @@
       "remboursement": "Remboursé",
       "conditions": [],
       "mention": null,
+      "consignes": null,
+      "liees": [],
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
@@ -3421,6 +3655,8 @@
       "remboursement": "Non remboursé",
       "conditions": [],
       "mention": "Prescription hors autorisation de mise sur le marché",
+      "consignes": null,
+      "liees": [],
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
@@ -3454,6 +3690,8 @@
       "remboursement": "Remboursé",
       "conditions": [],
       "mention": null,
+      "consignes": null,
+      "liees": [],
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
@@ -3487,6 +3725,8 @@
       "remboursement": "Remboursé",
       "conditions": [],
       "mention": null,
+      "consignes": null,
+      "liees": [],
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
@@ -3518,6 +3758,8 @@
       "remboursement": "À vérifier",
       "conditions": [],
       "mention": null,
+      "consignes": null,
+      "liees": [],
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
@@ -3553,6 +3795,8 @@
       "remboursement": "Remboursé",
       "conditions": [],
       "mention": null,
+      "consignes": null,
+      "liees": [],
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
@@ -3598,6 +3842,8 @@
       "remboursement": "À vérifier",
       "conditions": [],
       "mention": null,
+      "consignes": null,
+      "liees": [],
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
@@ -3631,6 +3877,8 @@
       "remboursement": "À vérifier",
       "conditions": [],
       "mention": null,
+      "consignes": null,
+      "liees": [],
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
@@ -3665,6 +3913,8 @@
       "remboursement": "Remboursé",
       "conditions": [],
       "mention": null,
+      "consignes": null,
+      "liees": [],
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
@@ -3699,6 +3949,8 @@
       "remboursement": "À vérifier",
       "conditions": [],
       "mention": null,
+      "consignes": null,
+      "liees": [],
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
@@ -3733,6 +3985,8 @@
       "remboursement": "À vérifier",
       "conditions": [],
       "mention": null,
+      "consignes": null,
+      "liees": [],
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
@@ -3765,6 +4019,8 @@
       "remboursement": "Remboursé",
       "conditions": [],
       "mention": null,
+      "consignes": null,
+      "liees": [],
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
@@ -3797,6 +4053,8 @@
       "remboursement": "Non remboursé",
       "conditions": [],
       "mention": "Prescription hors autorisation de mise sur le marché",
+      "consignes": null,
+      "liees": [],
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
@@ -3830,6 +4088,8 @@
       "remboursement": "À vérifier",
       "conditions": [],
       "mention": null,
+      "consignes": null,
+      "liees": [],
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
@@ -3862,6 +4122,8 @@
       "remboursement": "À vérifier",
       "conditions": [],
       "mention": null,
+      "consignes": null,
+      "liees": [],
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
@@ -3894,6 +4156,8 @@
       "remboursement": "À vérifier",
       "conditions": [],
       "mention": null,
+      "consignes": null,
+      "liees": [],
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
@@ -3929,6 +4193,8 @@
         "Conditions à vérifier"
       ],
       "mention": null,
+      "consignes": null,
+      "liees": [],
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
@@ -3961,6 +4227,8 @@
       "remboursement": "Non remboursé",
       "conditions": [],
       "mention": "Prescription hors autorisation de mise sur le marché",
+      "consignes": null,
+      "liees": [],
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
@@ -3994,6 +4262,8 @@
       "remboursement": "Remboursé",
       "conditions": [],
       "mention": null,
+      "consignes": null,
+      "liees": [],
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
@@ -4027,6 +4297,8 @@
       "remboursement": "Remboursé",
       "conditions": [],
       "mention": null,
+      "consignes": null,
+      "liees": [],
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
@@ -4060,6 +4332,8 @@
       "remboursement": "Remboursé",
       "conditions": [],
       "mention": null,
+      "consignes": null,
+      "liees": [],
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
@@ -4093,6 +4367,8 @@
       "remboursement": "Remboursé",
       "conditions": [],
       "mention": null,
+      "consignes": null,
+      "liees": [],
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
@@ -4124,6 +4400,8 @@
       "remboursement": "Remboursé",
       "conditions": [],
       "mention": null,
+      "consignes": null,
+      "liees": [],
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
@@ -4156,6 +4434,8 @@
       "remboursement": "Remboursé",
       "conditions": [],
       "mention": null,
+      "consignes": null,
+      "liees": [],
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
@@ -4187,6 +4467,8 @@
       "remboursement": "Remboursé",
       "conditions": [],
       "mention": null,
+      "consignes": null,
+      "liees": [],
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
@@ -4219,6 +4501,8 @@
       "remboursement": "Remboursé",
       "conditions": [],
       "mention": null,
+      "consignes": "Somnolence possible. Constipation fréquente : boire suffisamment, laxatif si besoin. Ne pas dépasser la dose prescrite et ne pas associer à un autre médicament contenant de la codéine, du tramadol ou de la morphine.",
+      "liees": [],
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
@@ -4250,6 +4534,8 @@
       "remboursement": "Remboursé",
       "conditions": [],
       "mention": null,
+      "consignes": "À prendre tous les jours à heure fixe, sans interruption. Diarrhée possible : consulter si elle est importante ou persistante. Ne pas associer sans avis médical à la clarithromycine, à l'érythromycine ni au jus de pamplemousse.",
+      "liees": [],
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
@@ -4283,6 +4569,8 @@
       "remboursement": "Remboursé",
       "conditions": [],
       "mention": null,
+      "consignes": "À prendre tous les jours à heure fixe, sans interruption. Diarrhée possible : consulter si elle est importante ou persistante. Ne pas associer sans avis médical à la clarithromycine, à l'érythromycine ni au jus de pamplemousse.",
+      "liees": [],
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
@@ -4313,6 +4601,8 @@
       "remboursement": null,
       "conditions": [],
       "mention": null,
+      "consignes": null,
+      "liees": [],
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
@@ -4342,6 +4632,8 @@
       "remboursement": null,
       "conditions": [],
       "mention": null,
+      "consignes": null,
+      "liees": [],
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
@@ -4371,6 +4663,8 @@
       "remboursement": null,
       "conditions": [],
       "mention": null,
+      "consignes": null,
+      "liees": [],
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
@@ -4400,6 +4694,8 @@
       "remboursement": null,
       "conditions": [],
       "mention": null,
+      "consignes": null,
+      "liees": [],
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
@@ -4430,6 +4726,8 @@
       "remboursement": null,
       "conditions": [],
       "mention": null,
+      "consignes": null,
+      "liees": [],
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
@@ -4459,6 +4757,8 @@
       "remboursement": null,
       "conditions": [],
       "mention": null,
+      "consignes": null,
+      "liees": [],
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
@@ -4488,6 +4788,8 @@
       "remboursement": null,
       "conditions": [],
       "mention": null,
+      "consignes": null,
+      "liees": [],
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
@@ -4524,6 +4826,8 @@
         "Réservé à certains spécialistes"
       ],
       "mention": null,
+      "consignes": null,
+      "liees": [],
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
@@ -4560,6 +4864,8 @@
         "Réservé à certains spécialistes"
       ],
       "mention": null,
+      "consignes": null,
+      "liees": [],
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
@@ -4592,6 +4898,8 @@
       "remboursement": "À vérifier",
       "conditions": [],
       "mention": null,
+      "consignes": null,
+      "liees": [],
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
@@ -4626,6 +4934,8 @@
         "Surveillance particulière"
       ],
       "mention": null,
+      "consignes": "À prendre au cours d'un repas. Sécheresse des lèvres et de la peau attendue : baume à lèvres et crème hydratante. Éviter le soleil et les UV, crème solaire indice 50+. Ne pas associer à une cycline ni à de la vitamine A. Ne pas donner son sang pendant le traitement et 1 mois après. Signaler sans attendre toute tristesse, irritabilité ou idée noire. Jeune fille : contraception efficace obligatoire 1 mois avant, pendant et 1 mois après le traitement, test de grossesse chaque mois, délivrance en pharmacie dans les 7 jours suivant la prescription.",
+      "liees": [],
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
@@ -4660,6 +4970,8 @@
         "Surveillance particulière"
       ],
       "mention": null,
+      "consignes": "À prendre au cours d'un repas. Sécheresse des lèvres et de la peau attendue : baume à lèvres et crème hydratante. Éviter le soleil et les UV, crème solaire indice 50+. Ne pas associer à une cycline ni à de la vitamine A. Ne pas donner son sang pendant le traitement et 1 mois après. Signaler sans attendre toute tristesse, irritabilité ou idée noire. Jeune fille : contraception efficace obligatoire 1 mois avant, pendant et 1 mois après le traitement, test de grossesse chaque mois, délivrance en pharmacie dans les 7 jours suivant la prescription.",
+      "liees": [],
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
@@ -4694,6 +5006,8 @@
         "Surveillance particulière"
       ],
       "mention": null,
+      "consignes": "À prendre au cours d'un repas. Sécheresse des lèvres et de la peau attendue : baume à lèvres et crème hydratante. Éviter le soleil et les UV, crème solaire indice 50+. Ne pas associer à une cycline ni à de la vitamine A. Ne pas donner son sang pendant le traitement et 1 mois après. Signaler sans attendre toute tristesse, irritabilité ou idée noire. Jeune fille : contraception efficace obligatoire 1 mois avant, pendant et 1 mois après le traitement, test de grossesse chaque mois, délivrance en pharmacie dans les 7 jours suivant la prescription.",
+      "liees": [],
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
@@ -4725,6 +5039,8 @@
       "remboursement": "Non remboursé",
       "conditions": [],
       "mention": null,
+      "consignes": "Appliquer sur peau mouillée, faire mousser, laisser agir 1 à 5 minutes puis rincer abondamment. Décolore les serviettes, le linge et les cheveux. Rougeurs et sécheresse possibles au début.",
+      "liees": [],
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
@@ -4757,6 +5073,8 @@
       "remboursement": "À vérifier",
       "conditions": [],
       "mention": null,
+      "consignes": "Appliquer sur peau propre et bien sèche et laisser sécher avant de s'habiller : le peroxyde de benzoyle décolore les vêtements, le linge et les cheveux. Rougeurs et sécheresse possibles au début : espacer les applications si besoin. Protection solaire.",
+      "liees": [],
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
@@ -4791,6 +5109,46 @@
       "remboursement": "À vérifier",
       "conditions": [],
       "mention": null,
+      "consignes": "Appliquer sur peau propre et bien sèche et laisser sécher avant de s'habiller : le peroxyde de benzoyle décolore les vêtements, le linge et les cheveux. Rougeurs et sécheresse possibles au début : espacer les applications si besoin. Protection solaire.",
+      "liees": [
+        "42319207651b8109a8dcc7ad42698147"
+      ],
+      "ageAMM": null,
+      "indicationsAMM": [],
+      "pathologies": [
+        "Acné"
+      ]
+    },
+    {
+      "id": "42419207651b81469b35c9c3115ff126",
+      "nom": "Cutacnyl le matin, en association avec adapalène le soir, 3 mois",
+      "ligne": "Cutacnyl (peroxyde de benzoyle) gel 5% : 1 application par jour, le matin, sur les zones atteintes, en association avec l'adapalène le soir, pendant 3 mois",
+      "molecule": "peroxyde de benzoyle",
+      "famille": "3. Topiques anti-infectieux",
+      "zone": "Visage et plis",
+      "puissance": null,
+      "situation": "Alternative",
+      "magistrale": false,
+      "ages": [
+        "Enfant",
+        "Adolescent"
+      ],
+      "statut": "À valider",
+      "aVerifier": "Variante matin et soir de l'alternance 1 soir sur 2, à valider. Liée à la ligne Différine le soir.",
+      "doseMgKg": null,
+      "prises": null,
+      "concentration": null,
+      "dosageUnitaire": null,
+      "doseMax": null,
+      "arrondi": null,
+      "statutAMM": "AMM",
+      "remboursement": "À vérifier",
+      "conditions": [],
+      "mention": null,
+      "consignes": "Appliquer sur peau propre et bien sèche et laisser sécher avant de s'habiller : le peroxyde de benzoyle décolore les vêtements, le linge et les cheveux. Rougeurs et sécheresse possibles au début : espacer les applications si besoin. Protection solaire.",
+      "liees": [
+        "42419207651b811e98d7fbfd8b26faa2"
+      ],
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
@@ -4823,6 +5181,8 @@
       "remboursement": "À vérifier",
       "conditions": [],
       "mention": null,
+      "consignes": null,
+      "liees": [],
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
@@ -4854,6 +5214,8 @@
       "remboursement": "Non remboursé",
       "conditions": [],
       "mention": "Prescription hors autorisation de mise sur le marché",
+      "consignes": null,
+      "liees": [],
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
@@ -4886,6 +5248,8 @@
       "remboursement": "Remboursé",
       "conditions": [],
       "mention": null,
+      "consignes": null,
+      "liees": [],
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
@@ -4918,6 +5282,8 @@
       "remboursement": "Remboursé",
       "conditions": [],
       "mention": null,
+      "consignes": null,
+      "liees": [],
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
@@ -4952,6 +5318,8 @@
       "remboursement": "À vérifier",
       "conditions": [],
       "mention": null,
+      "consignes": null,
+      "liees": [],
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
@@ -4984,6 +5352,8 @@
       "remboursement": "À vérifier",
       "conditions": [],
       "mention": null,
+      "consignes": null,
+      "liees": [],
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
@@ -5015,6 +5385,8 @@
       "remboursement": "Remboursé",
       "conditions": [],
       "mention": null,
+      "consignes": null,
+      "liees": [],
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
@@ -5052,6 +5424,8 @@
       "remboursement": "Remboursé",
       "conditions": [],
       "mention": null,
+      "consignes": null,
+      "liees": [],
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
@@ -5083,6 +5457,8 @@
       "remboursement": "Remboursé",
       "conditions": [],
       "mention": null,
+      "consignes": null,
+      "liees": [],
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
@@ -5114,6 +5490,8 @@
       "remboursement": "Remboursé",
       "conditions": [],
       "mention": null,
+      "consignes": null,
+      "liees": [],
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
@@ -5147,6 +5525,8 @@
       "remboursement": "À vérifier",
       "conditions": [],
       "mention": null,
+      "consignes": null,
+      "liees": [],
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
@@ -5178,12 +5558,49 @@
       "remboursement": "Remboursé",
       "conditions": [],
       "mention": null,
+      "consignes": "Appliquer le soir en couche fine sur peau propre et sèche, en évitant les yeux, les lèvres et les narines. Rougeurs, picotements et sécheresse possibles les premières semaines : espacer les applications si besoin et utiliser une crème hydratante non comédogène. Protection solaire. Ne pas utiliser en cas de grossesse.",
+      "liees": [],
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
         "Acné",
         "Dermite péri-orale",
         "Rosacée"
+      ]
+    },
+    {
+      "id": "42419207651b811e98d7fbfd8b26faa2",
+      "nom": "Différine le soir, en association avec peroxyde le matin, 3 mois",
+      "ligne": "Différine (adapalène) gel 0,1% : 1 application par jour, le soir, sur les zones atteintes, en association avec le peroxyde de benzoyle le matin, pendant 3 mois",
+      "molecule": "adapalène",
+      "famille": "4. Autres topiques spécifiques",
+      "zone": "Visage et plis",
+      "puissance": null,
+      "situation": "Alternative",
+      "magistrale": false,
+      "ages": [
+        "Adolescent"
+      ],
+      "statut": "À valider",
+      "aVerifier": "Variante matin et soir de l'alternance 1 soir sur 2, à valider. Liée à la ligne Cutacnyl le matin.",
+      "doseMgKg": null,
+      "prises": null,
+      "concentration": null,
+      "dosageUnitaire": null,
+      "doseMax": null,
+      "arrondi": null,
+      "statutAMM": "AMM",
+      "remboursement": "Remboursé",
+      "conditions": [],
+      "mention": null,
+      "consignes": "Appliquer le soir en couche fine sur peau propre et sèche, en évitant les yeux, les lèvres et les narines. Rougeurs, picotements et sécheresse possibles les premières semaines : espacer les applications si besoin et utiliser une crème hydratante non comédogène. Protection solaire. Ne pas utiliser en cas de grossesse.",
+      "liees": [
+        "42419207651b81469b35c9c3115ff126"
+      ],
+      "ageAMM": null,
+      "indicationsAMM": [],
+      "pathologies": [
+        "Acné"
       ]
     },
     {
@@ -5211,6 +5628,10 @@
       "remboursement": "Remboursé",
       "conditions": [],
       "mention": null,
+      "consignes": "Appliquer le soir en couche fine sur peau propre et sèche, en évitant les yeux, les lèvres et les narines. Rougeurs, picotements et sécheresse possibles les premières semaines : espacer les applications si besoin et utiliser une crème hydratante non comédogène. Protection solaire. Ne pas utiliser en cas de grossesse.",
+      "liees": [
+        "42319207651b81d18d3af7258cc518d5"
+      ],
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
@@ -5242,6 +5663,8 @@
       "remboursement": "Remboursé",
       "conditions": [],
       "mention": null,
+      "consignes": null,
+      "liees": [],
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
@@ -5273,6 +5696,8 @@
       "remboursement": "Remboursé",
       "conditions": [],
       "mention": null,
+      "consignes": null,
+      "liees": [],
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
@@ -5305,6 +5730,8 @@
       "remboursement": "Remboursé",
       "conditions": [],
       "mention": null,
+      "consignes": null,
+      "liees": [],
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
@@ -5349,6 +5776,8 @@
       "remboursement": "Remboursé",
       "conditions": [],
       "mention": null,
+      "consignes": null,
+      "liees": [],
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
@@ -5382,6 +5811,8 @@
       "remboursement": "Remboursé",
       "conditions": [],
       "mention": null,
+      "consignes": null,
+      "liees": [],
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
@@ -5419,6 +5850,8 @@
       "remboursement": "Remboursé",
       "conditions": [],
       "mention": null,
+      "consignes": null,
+      "liees": [],
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
@@ -5451,6 +5884,8 @@
       "remboursement": "Remboursé",
       "conditions": [],
       "mention": null,
+      "consignes": "À prendre au milieu d'un repas avec un grand verre d'eau, en position assise ou debout, au moins 1 heure avant le coucher : ne pas s'allonger après la prise. Espacer d'au moins 2 heures la prise de lait, de calcium, de fer, de zinc ou d'un pansement gastrique. Médicament photosensibilisant : éviter le soleil et les UV, vêtements couvrants et crème solaire indice 50+ ; arrêter et consulter en cas de coup de soleil.",
+      "liees": [],
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
@@ -5484,6 +5919,8 @@
       "remboursement": "Non remboursé",
       "conditions": [],
       "mention": "Prescription hors autorisation de mise sur le marché",
+      "consignes": "À prendre au milieu d'un repas avec un grand verre d'eau, en position assise ou debout, au moins 1 heure avant le coucher : ne pas s'allonger après la prise. Espacer d'au moins 2 heures la prise de lait, de calcium, de fer, de zinc ou d'un pansement gastrique. Médicament photosensibilisant : éviter le soleil et les UV, vêtements couvrants et crème solaire indice 50+ ; arrêter et consulter en cas de coup de soleil.",
+      "liees": [],
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
@@ -5515,6 +5952,8 @@
       "remboursement": "Non remboursé",
       "conditions": [],
       "mention": "Prescription hors autorisation de mise sur le marché",
+      "consignes": "À prendre au milieu d'un repas avec un grand verre d'eau, en position assise ou debout, au moins 1 heure avant le coucher : ne pas s'allonger après la prise. Espacer d'au moins 2 heures la prise de lait, de calcium, de fer, de zinc ou d'un pansement gastrique. Médicament photosensibilisant : éviter le soleil et les UV, vêtements couvrants et crème solaire indice 50+ ; arrêter et consulter en cas de coup de soleil.",
+      "liees": [],
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
@@ -5547,6 +5986,8 @@
       "remboursement": "Remboursé",
       "conditions": [],
       "mention": null,
+      "consignes": "À prendre au milieu d'un repas avec un grand verre d'eau, en position assise ou debout, au moins 1 heure avant le coucher : ne pas s'allonger après la prise. Espacer d'au moins 2 heures la prise de lait, de calcium, de fer, de zinc ou d'un pansement gastrique. Médicament photosensibilisant : éviter le soleil et les UV, vêtements couvrants et crème solaire indice 50+ ; arrêter et consulter en cas de coup de soleil.",
+      "liees": [],
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
@@ -5579,6 +6020,8 @@
       "remboursement": "Remboursé",
       "conditions": [],
       "mention": null,
+      "consignes": "À prendre au milieu d'un repas avec un grand verre d'eau, en position assise ou debout, au moins 1 heure avant le coucher : ne pas s'allonger après la prise. Espacer d'au moins 2 heures la prise de lait, de calcium, de fer, de zinc ou d'un pansement gastrique. Médicament photosensibilisant : éviter le soleil et les UV, vêtements couvrants et crème solaire indice 50+ ; arrêter et consulter en cas de coup de soleil.",
+      "liees": [],
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
@@ -5611,6 +6054,8 @@
       "remboursement": "Remboursé",
       "conditions": [],
       "mention": null,
+      "consignes": "À prendre au milieu d'un repas avec un grand verre d'eau, en position assise ou debout, au moins 1 heure avant le coucher : ne pas s'allonger après la prise. Espacer d'au moins 2 heures la prise de lait, de calcium, de fer, de zinc ou d'un pansement gastrique. Médicament photosensibilisant : éviter le soleil et les UV, vêtements couvrants et crème solaire indice 50+ ; arrêter et consulter en cas de coup de soleil.",
+      "liees": [],
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
@@ -5643,6 +6088,8 @@
       "remboursement": "Remboursé",
       "conditions": [],
       "mention": null,
+      "consignes": "À prendre au milieu d'un repas avec un grand verre d'eau, en position assise ou debout, au moins 1 heure avant le coucher : ne pas s'allonger après la prise. Espacer d'au moins 2 heures la prise de lait, de calcium, de fer, de zinc ou d'un pansement gastrique. Médicament photosensibilisant : éviter le soleil et les UV, vêtements couvrants et crème solaire indice 50+ ; arrêter et consulter en cas de coup de soleil.",
+      "liees": [],
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
@@ -5679,6 +6126,8 @@
         "Réservé à certains spécialistes"
       ],
       "mention": null,
+      "consignes": "Conjonctivite possible : consulter en cas d'yeux rouges ou douloureux. Conserver au réfrigérateur et sortir la seringue ou le stylo 30 à 45 minutes avant l'injection. Signaler le traitement avant toute vaccination.",
+      "liees": [],
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
@@ -5715,6 +6164,8 @@
         "Réservé à certains spécialistes"
       ],
       "mention": null,
+      "consignes": "Conjonctivite possible : consulter en cas d'yeux rouges ou douloureux. Conserver au réfrigérateur et sortir la seringue ou le stylo 30 à 45 minutes avant l'injection. Signaler le traitement avant toute vaccination.",
+      "liees": [],
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
@@ -5750,6 +6201,8 @@
         "Réservé à certains spécialistes"
       ],
       "mention": null,
+      "consignes": "Conjonctivite possible : consulter en cas d'yeux rouges ou douloureux. Conserver au réfrigérateur et sortir la seringue ou le stylo 30 à 45 minutes avant l'injection. Signaler le traitement avant toute vaccination.",
+      "liees": [],
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
@@ -5785,6 +6238,8 @@
         "Réservé à certains spécialistes"
       ],
       "mention": null,
+      "consignes": "Conjonctivite possible : consulter en cas d'yeux rouges ou douloureux. Conserver au réfrigérateur et sortir la seringue ou le stylo 30 à 45 minutes avant l'injection. Signaler le traitement avant toute vaccination.",
+      "liees": [],
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
@@ -5816,6 +6271,8 @@
       "remboursement": "Remboursé",
       "conditions": [],
       "mention": null,
+      "consignes": "Appliquer le soir en couche fine sur peau propre et sèche, en évitant les yeux, les lèvres et les narines. Rougeurs, picotements et sécheresse possibles les premières semaines : espacer les applications si besoin et utiliser une crème hydratante non comédogène. Protection solaire. Ne pas utiliser en cas de grossesse.",
+      "liees": [],
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
@@ -5848,6 +6305,8 @@
       "remboursement": "À vérifier",
       "conditions": [],
       "mention": null,
+      "consignes": null,
+      "liees": [],
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
@@ -5881,6 +6340,8 @@
       "remboursement": "Remboursé",
       "conditions": [],
       "mention": null,
+      "consignes": null,
+      "liees": [],
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
@@ -5917,6 +6378,8 @@
       "remboursement": "À vérifier",
       "conditions": [],
       "mention": null,
+      "consignes": null,
+      "liees": [],
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
@@ -5950,6 +6413,8 @@
       "remboursement": "Remboursé",
       "conditions": [],
       "mention": null,
+      "consignes": null,
+      "liees": [],
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
@@ -5990,6 +6455,8 @@
       "remboursement": "Remboursement sous conditions",
       "conditions": [],
       "mention": null,
+      "consignes": null,
+      "liees": [],
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
@@ -6027,6 +6494,8 @@
         "Réservé à certains spécialistes"
       ],
       "mention": null,
+      "consignes": null,
+      "liees": [],
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
@@ -6058,6 +6527,8 @@
       "remboursement": "Non remboursé",
       "conditions": [],
       "mention": null,
+      "consignes": "Appliquer sur peau propre et bien sèche et laisser sécher avant de s'habiller : le peroxyde de benzoyle décolore les vêtements, le linge et les cheveux. Rougeurs et sécheresse possibles au début : espacer les applications si besoin. Protection solaire.",
+      "liees": [],
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
@@ -6089,6 +6560,8 @@
       "remboursement": "Non remboursé",
       "conditions": [],
       "mention": "Prescription hors autorisation de mise sur le marché",
+      "consignes": null,
+      "liees": [],
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
@@ -6120,6 +6593,8 @@
       "remboursement": "Non remboursé",
       "conditions": [],
       "mention": null,
+      "consignes": "Appliquer le soir en couche fine sur peau propre et sèche, en évitant les yeux, les lèvres et les narines. Décolore les vêtements, le linge et les cheveux. Rougeurs, picotements et sécheresse possibles les premières semaines : espacer les applications si besoin et utiliser une crème hydratante non comédogène. Protection solaire. Ne pas utiliser en cas de grossesse.",
+      "liees": [],
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
@@ -6152,6 +6627,8 @@
       "remboursement": "Remboursé",
       "conditions": [],
       "mention": null,
+      "consignes": null,
+      "liees": [],
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
@@ -6186,6 +6663,8 @@
       "remboursement": "Remboursé",
       "conditions": [],
       "mention": null,
+      "consignes": null,
+      "liees": [],
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
@@ -6220,6 +6699,8 @@
       "remboursement": "Non remboursé",
       "conditions": [],
       "mention": "Prescription hors autorisation de mise sur le marché",
+      "consignes": null,
+      "liees": [],
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
@@ -6252,6 +6733,8 @@
       "remboursement": "Non remboursé",
       "conditions": [],
       "mention": "Prescription hors autorisation de mise sur le marché",
+      "consignes": null,
+      "liees": [],
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
@@ -6285,6 +6768,8 @@
       "remboursement": "Non remboursé",
       "conditions": [],
       "mention": "Prescription hors autorisation de mise sur le marché",
+      "consignes": null,
+      "liees": [],
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
@@ -6317,6 +6802,8 @@
       "remboursement": "Non remboursé",
       "conditions": [],
       "mention": "Prescription hors autorisation de mise sur le marché",
+      "consignes": null,
+      "liees": [],
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
@@ -6348,6 +6835,8 @@
       "remboursement": "Non remboursé",
       "conditions": [],
       "mention": null,
+      "consignes": null,
+      "liees": [],
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
@@ -6383,6 +6872,8 @@
         "Conditions à vérifier"
       ],
       "mention": null,
+      "consignes": null,
+      "liees": [],
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
@@ -6415,6 +6906,8 @@
       "remboursement": "À vérifier",
       "conditions": [],
       "mention": null,
+      "consignes": null,
+      "liees": [],
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
@@ -6449,6 +6942,8 @@
       "remboursement": "Remboursé",
       "conditions": [],
       "mention": null,
+      "consignes": null,
+      "liees": [],
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
@@ -6481,6 +6976,8 @@
       "remboursement": "Remboursé",
       "conditions": [],
       "mention": null,
+      "consignes": null,
+      "liees": [],
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
@@ -6514,6 +7011,8 @@
       "remboursement": "Remboursé",
       "conditions": [],
       "mention": null,
+      "consignes": null,
+      "liees": [],
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
@@ -6546,6 +7045,8 @@
       "remboursement": "À vérifier",
       "conditions": [],
       "mention": null,
+      "consignes": "À prendre à distance des repas. Espacer d'au moins 2 heures la prise d'une cycline, de fer ou de calcium. Douleurs d'estomac possibles.",
+      "liees": [],
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
@@ -6580,6 +7081,8 @@
         "Conditions à vérifier"
       ],
       "mention": null,
+      "consignes": "Donner au milieu ou juste après un repas ou un biberon, jamais peu avant le coucher, avec la seringue fournie. Ne pas donner la dose si l'enfant mange mal ou vomit, et ne pas redonner une dose recrachée. Suspendre et consulter en cas de bronchiolite, de sifflement ou de gêne respiratoire, ou en cas de pâleur, sueurs, somnolence inhabituelle ou malaise (hypoglycémie).",
+      "liees": [],
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
@@ -6614,6 +7117,8 @@
         "Conditions à vérifier"
       ],
       "mention": null,
+      "consignes": "Donner au milieu ou juste après un repas ou un biberon, jamais peu avant le coucher, avec la seringue fournie. Ne pas donner la dose si l'enfant mange mal ou vomit, et ne pas redonner une dose recrachée. Suspendre et consulter en cas de bronchiolite, de sifflement ou de gêne respiratoire, ou en cas de pâleur, sueurs, somnolence inhabituelle ou malaise (hypoglycémie).",
+      "liees": [],
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
@@ -6648,6 +7153,8 @@
         "Conditions à vérifier"
       ],
       "mention": null,
+      "consignes": "Donner au milieu ou juste après un repas ou un biberon, jamais peu avant le coucher, avec la seringue fournie. Ne pas donner la dose si l'enfant mange mal ou vomit, et ne pas redonner une dose recrachée. Suspendre et consulter en cas de bronchiolite, de sifflement ou de gêne respiratoire, ou en cas de pâleur, sueurs, somnolence inhabituelle ou malaise (hypoglycémie).",
+      "liees": [],
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
@@ -6684,6 +7191,8 @@
         "Réservé à certains spécialistes"
       ],
       "mention": null,
+      "consignes": null,
+      "liees": [],
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
@@ -6720,6 +7229,8 @@
         "Réservé à certains spécialistes"
       ],
       "mention": null,
+      "consignes": null,
+      "liees": [],
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
@@ -6755,6 +7266,8 @@
         "Réservé à certains spécialistes"
       ],
       "mention": null,
+      "consignes": null,
+      "liees": [],
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
@@ -6792,6 +7305,8 @@
         "Réservé à certains spécialistes"
       ],
       "mention": null,
+      "consignes": null,
+      "liees": [],
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
@@ -6825,6 +7340,8 @@
       "remboursement": "Remboursé",
       "conditions": [],
       "mention": null,
+      "consignes": null,
+      "liees": [],
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
@@ -6861,6 +7378,8 @@
       "remboursement": "À vérifier",
       "conditions": [],
       "mention": null,
+      "consignes": null,
+      "liees": [],
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
@@ -6897,6 +7416,8 @@
       "remboursement": "À vérifier",
       "conditions": [],
       "mention": null,
+      "consignes": null,
+      "liees": [],
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
@@ -6929,6 +7450,8 @@
       "remboursement": "À vérifier",
       "conditions": [],
       "mention": null,
+      "consignes": null,
+      "liees": [],
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
@@ -6961,6 +7484,8 @@
       "remboursement": "À vérifier",
       "conditions": [],
       "mention": null,
+      "consignes": null,
+      "liees": [],
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
@@ -6994,6 +7519,8 @@
       "remboursement": "À vérifier",
       "conditions": [],
       "mention": null,
+      "consignes": null,
+      "liees": [],
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
@@ -7028,6 +7555,8 @@
         "Prescription initiale hospitalière"
       ],
       "mention": null,
+      "consignes": null,
+      "liees": [],
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
@@ -7064,6 +7593,8 @@
         "Prescription initiale hospitalière"
       ],
       "mention": null,
+      "consignes": null,
+      "liees": [],
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
@@ -7095,6 +7626,8 @@
       "remboursement": "Remboursé",
       "conditions": [],
       "mention": null,
+      "consignes": null,
+      "liees": [],
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
@@ -7126,6 +7659,8 @@
       "remboursement": "Non remboursé",
       "conditions": [],
       "mention": "Prescription hors autorisation de mise sur le marché",
+      "consignes": "Perte ou modification du goût possible. Arrêter et consulter en cas de fatigue inhabituelle, nausées persistantes, urines foncées, jaunisse ou éruption cutanée.",
+      "liees": [],
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
@@ -7157,6 +7692,8 @@
       "remboursement": "Non remboursé",
       "conditions": [],
       "mention": "Prescription hors autorisation de mise sur le marché",
+      "consignes": "Perte ou modification du goût possible. Arrêter et consulter en cas de fatigue inhabituelle, nausées persistantes, urines foncées, jaunisse ou éruption cutanée.",
+      "liees": [],
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
@@ -7189,6 +7726,8 @@
       "remboursement": "Non remboursé",
       "conditions": [],
       "mention": "Prescription hors autorisation de mise sur le marché",
+      "consignes": "Perte ou modification du goût possible. Arrêter et consulter en cas de fatigue inhabituelle, nausées persistantes, urines foncées, jaunisse ou éruption cutanée.",
+      "liees": [],
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
@@ -7221,6 +7760,8 @@
       "remboursement": "Non remboursé",
       "conditions": [],
       "mention": "Prescription hors autorisation de mise sur le marché",
+      "consignes": "Perte ou modification du goût possible. Arrêter et consulter en cas de fatigue inhabituelle, nausées persistantes, urines foncées, jaunisse ou éruption cutanée.",
+      "liees": [],
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
@@ -7253,6 +7794,8 @@
       "remboursement": "Non remboursé",
       "conditions": [],
       "mention": "Prescription hors autorisation de mise sur le marché",
+      "consignes": "Perte ou modification du goût possible. Arrêter et consulter en cas de fatigue inhabituelle, nausées persistantes, urines foncées, jaunisse ou éruption cutanée.",
+      "liees": [],
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
@@ -7285,6 +7828,8 @@
       "remboursement": "À vérifier",
       "conditions": [],
       "mention": null,
+      "consignes": null,
+      "liees": [],
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
@@ -7318,6 +7863,8 @@
       "remboursement": "À vérifier",
       "conditions": [],
       "mention": null,
+      "consignes": null,
+      "liees": [],
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
@@ -7350,6 +7897,8 @@
       "remboursement": "Non remboursé",
       "conditions": [],
       "mention": "Prescription hors autorisation de mise sur le marché",
+      "consignes": null,
+      "liees": [],
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
@@ -7381,6 +7930,8 @@
       "remboursement": "Remboursé",
       "conditions": [],
       "mention": null,
+      "consignes": null,
+      "liees": [],
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
@@ -7416,6 +7967,8 @@
         "Conditions à vérifier"
       ],
       "mention": null,
+      "consignes": null,
+      "liees": [],
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
@@ -7447,6 +8000,8 @@
       "remboursement": "À vérifier",
       "conditions": [],
       "mention": null,
+      "consignes": null,
+      "liees": [],
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
@@ -7478,6 +8033,8 @@
       "remboursement": "À vérifier",
       "conditions": [],
       "mention": null,
+      "consignes": null,
+      "liees": [],
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
@@ -7509,6 +8066,8 @@
       "remboursement": "Non remboursé",
       "conditions": [],
       "mention": "Prescription hors autorisation de mise sur le marché",
+      "consignes": null,
+      "liees": [],
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
@@ -7540,6 +8099,8 @@
       "remboursement": "Non remboursé",
       "conditions": [],
       "mention": "Prescription hors autorisation de mise sur le marché",
+      "consignes": null,
+      "liees": [],
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
@@ -7571,6 +8132,8 @@
       "remboursement": "Non remboursé",
       "conditions": [],
       "mention": "Prescription hors autorisation de mise sur le marché",
+      "consignes": null,
+      "liees": [],
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
@@ -7605,6 +8168,8 @@
         "Ordonnance sécurisée"
       ],
       "mention": null,
+      "consignes": "Somnolence possible. Constipation fréquente : boire suffisamment, laxatif si besoin. Ne pas dépasser la dose prescrite et ne pas associer à un autre médicament contenant de la codéine, du tramadol ou de la morphine.",
+      "liees": [],
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
@@ -7637,6 +8202,8 @@
       "remboursement": "Non remboursé",
       "conditions": [],
       "mention": "Prescription hors autorisation de mise sur le marché",
+      "consignes": null,
+      "liees": [],
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
@@ -7670,6 +8237,8 @@
       "remboursement": "Remboursé",
       "conditions": [],
       "mention": null,
+      "consignes": null,
+      "liees": [],
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
@@ -7703,6 +8272,8 @@
       "remboursement": "Remboursé",
       "conditions": [],
       "mention": null,
+      "consignes": null,
+      "liees": [],
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
@@ -7739,6 +8310,8 @@
       "remboursement": "Remboursé",
       "conditions": [],
       "mention": null,
+      "consignes": null,
+      "liees": [],
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
@@ -7772,6 +8345,8 @@
       "remboursement": "Remboursé",
       "conditions": [],
       "mention": null,
+      "consignes": null,
+      "liees": [],
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
@@ -7805,6 +8380,8 @@
       "remboursement": "À vérifier",
       "conditions": [],
       "mention": null,
+      "consignes": null,
+      "liees": [],
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
@@ -7840,6 +8417,8 @@
       "remboursement": "À vérifier",
       "conditions": [],
       "mention": null,
+      "consignes": null,
+      "liees": [],
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
@@ -7872,6 +8451,8 @@
       "remboursement": "À vérifier",
       "conditions": [],
       "mention": null,
+      "consignes": null,
+      "liees": [],
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
@@ -7904,6 +8485,8 @@
       "remboursement": "À vérifier",
       "conditions": [],
       "mention": null,
+      "consignes": null,
+      "liees": [],
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
@@ -7936,6 +8519,8 @@
       "remboursement": "À vérifier",
       "conditions": [],
       "mention": null,
+      "consignes": null,
+      "liees": [],
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
@@ -7968,6 +8553,8 @@
       "remboursement": "Remboursé",
       "conditions": [],
       "mention": null,
+      "consignes": "À prendre au cours d'un repas. Ne pas utiliser en cas de varicelle, ni sans avis médical en cas d'infection (angine, otite, infection de la peau) : préférer le paracétamol. Ne pas associer à un autre anti-inflammatoire.",
+      "liees": [],
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
@@ -8002,6 +8589,8 @@
         "Conditions à vérifier"
       ],
       "mention": "Prescription hors autorisation de mise sur le marché",
+      "consignes": "À prendre à heures fixes, matin et soir, toujours de la même façon par rapport aux repas. Pas de jus de pamplemousse. Surveillance régulière de la tension artérielle et de la fonction rénale. Signaler toute nouvelle prise de médicament, y compris sans ordonnance. Protection solaire.",
+      "liees": [],
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
@@ -8037,6 +8626,8 @@
         "Conditions à vérifier"
       ],
       "mention": "Prescription hors autorisation de mise sur le marché",
+      "consignes": "À prendre à heures fixes, matin et soir, toujours de la même façon par rapport aux repas. Pas de jus de pamplemousse. Surveillance régulière de la tension artérielle et de la fonction rénale. Signaler toute nouvelle prise de médicament, y compris sans ordonnance. Protection solaire.",
+      "liees": [],
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
@@ -8070,6 +8661,8 @@
       "remboursement": "Remboursé",
       "conditions": [],
       "mention": null,
+      "consignes": null,
+      "liees": [],
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
@@ -8103,6 +8696,8 @@
       "remboursement": "Remboursé",
       "conditions": [],
       "mention": null,
+      "consignes": null,
+      "liees": [],
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
@@ -8135,6 +8730,8 @@
       "remboursement": "Remboursé",
       "conditions": [],
       "mention": null,
+      "consignes": null,
+      "liees": [],
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
@@ -8167,6 +8764,8 @@
       "remboursement": "Remboursé",
       "conditions": [],
       "mention": null,
+      "consignes": null,
+      "liees": [],
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
@@ -8211,6 +8810,8 @@
       "remboursement": "Remboursé",
       "conditions": [],
       "mention": null,
+      "consignes": null,
+      "liees": [],
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
@@ -8243,6 +8844,8 @@
       "remboursement": "Remboursé",
       "conditions": [],
       "mention": null,
+      "consignes": null,
+      "liees": [],
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
@@ -8275,6 +8878,8 @@
       "remboursement": "Non remboursé",
       "conditions": [],
       "mention": "Prescription hors autorisation de mise sur le marché",
+      "consignes": null,
+      "liees": [],
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
@@ -8306,6 +8911,8 @@
       "remboursement": "Remboursé",
       "conditions": [],
       "mention": null,
+      "consignes": null,
+      "liees": [],
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
@@ -8340,6 +8947,8 @@
         "Prescription initiale hospitalière"
       ],
       "mention": null,
+      "consignes": null,
+      "liees": [],
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
@@ -8372,6 +8981,8 @@
       "remboursement": "Remboursé",
       "conditions": [],
       "mention": null,
+      "consignes": null,
+      "liees": [],
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
@@ -8405,6 +9016,8 @@
         "Réservé à certains spécialistes"
       ],
       "mention": null,
+      "consignes": null,
+      "liees": [],
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
@@ -8437,6 +9050,8 @@
       "remboursement": "Remboursé",
       "conditions": [],
       "mention": null,
+      "consignes": null,
+      "liees": [],
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
@@ -8471,6 +9086,8 @@
         "Conditions à vérifier"
       ],
       "mention": null,
+      "consignes": null,
+      "liees": [],
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
@@ -8504,6 +9121,8 @@
         "Conditions à vérifier"
       ],
       "mention": null,
+      "consignes": null,
+      "liees": [],
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
@@ -8538,6 +9157,8 @@
         "Conditions à vérifier"
       ],
       "mention": null,
+      "consignes": null,
+      "liees": [],
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
@@ -8571,6 +9192,8 @@
       "remboursement": "À vérifier",
       "conditions": [],
       "mention": null,
+      "consignes": null,
+      "liees": [],
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
@@ -8605,6 +9228,8 @@
       "remboursement": "À vérifier",
       "conditions": [],
       "mention": null,
+      "consignes": null,
+      "liees": [],
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
@@ -8637,6 +9262,8 @@
       "remboursement": "Remboursement sous conditions",
       "conditions": [],
       "mention": null,
+      "consignes": null,
+      "liees": [],
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
@@ -8670,6 +9297,8 @@
       "remboursement": "Remboursement sous conditions",
       "conditions": [],
       "mention": null,
+      "consignes": null,
+      "liees": [],
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
@@ -8702,6 +9331,8 @@
       "remboursement": "Remboursement sous conditions",
       "conditions": [],
       "mention": null,
+      "consignes": null,
+      "liees": [],
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
@@ -8735,6 +9366,8 @@
       "remboursement": "Remboursement sous conditions",
       "conditions": [],
       "mention": null,
+      "consignes": null,
+      "liees": [],
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
@@ -8768,6 +9401,8 @@
       "remboursement": "Remboursement sous conditions",
       "conditions": [],
       "mention": null,
+      "consignes": null,
+      "liees": [],
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
@@ -8801,6 +9436,8 @@
       "remboursement": "Remboursement sous conditions",
       "conditions": [],
       "mention": null,
+      "consignes": null,
+      "liees": [],
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
@@ -8833,6 +9470,8 @@
       "remboursement": "Remboursement sous conditions",
       "conditions": [],
       "mention": null,
+      "consignes": null,
+      "liees": [],
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
@@ -8865,6 +9504,8 @@
       "remboursement": "Remboursement sous conditions",
       "conditions": [],
       "mention": null,
+      "consignes": null,
+      "liees": [],
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
@@ -8897,6 +9538,8 @@
       "remboursement": "Remboursement sous conditions",
       "conditions": [],
       "mention": null,
+      "consignes": null,
+      "liees": [],
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
@@ -8929,6 +9572,8 @@
       "remboursement": "Remboursement sous conditions",
       "conditions": [],
       "mention": null,
+      "consignes": null,
+      "liees": [],
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
@@ -8961,6 +9606,8 @@
       "remboursement": "Remboursement sous conditions",
       "conditions": [],
       "mention": null,
+      "consignes": null,
+      "liees": [],
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
@@ -8993,6 +9640,8 @@
       "remboursement": "Remboursement sous conditions",
       "conditions": [],
       "mention": null,
+      "consignes": null,
+      "liees": [],
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
@@ -9025,6 +9674,8 @@
       "remboursement": "Remboursement sous conditions",
       "conditions": [],
       "mention": null,
+      "consignes": null,
+      "liees": [],
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
@@ -9057,6 +9708,8 @@
       "remboursement": "Remboursement sous conditions",
       "conditions": [],
       "mention": null,
+      "consignes": null,
+      "liees": [],
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
@@ -9089,6 +9742,8 @@
       "remboursement": "Remboursement sous conditions",
       "conditions": [],
       "mention": null,
+      "consignes": null,
+      "liees": [],
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
@@ -9120,6 +9775,8 @@
       "remboursement": "Remboursement sous conditions",
       "conditions": [],
       "mention": null,
+      "consignes": null,
+      "liees": [],
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
@@ -9151,6 +9808,8 @@
       "remboursement": "Remboursement sous conditions",
       "conditions": [],
       "mention": null,
+      "consignes": null,
+      "liees": [],
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
@@ -9183,6 +9842,8 @@
       "remboursement": "Remboursement sous conditions",
       "conditions": [],
       "mention": null,
+      "consignes": null,
+      "liees": [],
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
@@ -9215,6 +9876,8 @@
       "remboursement": "Remboursement sous conditions",
       "conditions": [],
       "mention": null,
+      "consignes": null,
+      "liees": [],
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
@@ -9248,6 +9911,8 @@
       "remboursement": "Remboursement sous conditions",
       "conditions": [],
       "mention": null,
+      "consignes": null,
+      "liees": [],
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
@@ -9281,6 +9946,8 @@
       "remboursement": "Non remboursé",
       "conditions": [],
       "mention": null,
+      "consignes": null,
+      "liees": [],
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
@@ -9313,6 +9980,8 @@
       "remboursement": "Remboursé",
       "conditions": [],
       "mention": null,
+      "consignes": "Peut provoquer une somnolence.",
+      "liees": [],
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
@@ -9348,6 +10017,8 @@
         "Ordonnance de médicament d exception"
       ],
       "mention": "Prescription hors autorisation de mise sur le marché",
+      "consignes": "Appliquer en couche mince sur les lésions puis se laver les mains. Sensation de brûlure ou de chaleur fréquente les premiers jours, qui s'atténue habituellement. Éviter le soleil et les UV, protection solaire. Ne pas appliquer sur une lésion infectée (bouton de fièvre, impétigo).",
+      "liees": [],
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
@@ -9382,6 +10053,8 @@
         "Délivrance en pharmacie hospitalière"
       ],
       "mention": "Prescription au titre d un accès compassionnel en dehors du cadre d une autorisation de mise sur le marché",
+      "consignes": "Appliquer en couche mince sur les lésions puis se laver les mains. Sensation de brûlure ou de chaleur fréquente les premiers jours, qui s'atténue habituellement. Éviter le soleil et les UV, protection solaire. Ne pas appliquer sur une lésion infectée (bouton de fièvre, impétigo).",
+      "liees": [],
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
@@ -9416,6 +10089,8 @@
         "Ordonnance de médicament d exception"
       ],
       "mention": "Prescription hors autorisation de mise sur le marché",
+      "consignes": "Appliquer en couche mince sur les lésions puis se laver les mains. Sensation de brûlure ou de chaleur fréquente les premiers jours, qui s'atténue habituellement. Éviter le soleil et les UV, protection solaire. Ne pas appliquer sur une lésion infectée (bouton de fièvre, impétigo).",
+      "liees": [],
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
@@ -9450,6 +10125,8 @@
         "Ordonnance de médicament d exception"
       ],
       "mention": "NR",
+      "consignes": "Appliquer en couche mince sur les lésions puis se laver les mains. Sensation de brûlure ou de chaleur fréquente les premiers jours, qui s'atténue habituellement. Éviter le soleil et les UV, protection solaire. Ne pas appliquer sur une lésion infectée (bouton de fièvre, impétigo).",
+      "liees": [],
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
@@ -9484,6 +10161,8 @@
         "Délivrance en pharmacie hospitalière"
       ],
       "mention": "Prescription au titre d un accès compassionnel en dehors du cadre d une autorisation de mise sur le marché",
+      "consignes": "Appliquer en couche mince sur les lésions puis se laver les mains. Sensation de brûlure ou de chaleur fréquente les premiers jours, qui s'atténue habituellement. Éviter le soleil et les UV, protection solaire. Ne pas appliquer sur une lésion infectée (bouton de fièvre, impétigo).",
+      "liees": [],
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
@@ -9517,6 +10196,8 @@
         "Ordonnance de médicament d exception"
       ],
       "mention": "Prescription hors autorisation de mise sur le marché",
+      "consignes": "Appliquer en couche mince sur les lésions puis se laver les mains. Sensation de brûlure ou de chaleur fréquente les premiers jours, qui s'atténue habituellement. Éviter le soleil et les UV, protection solaire. Ne pas appliquer sur une lésion infectée (bouton de fièvre, impétigo).",
+      "liees": [],
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
@@ -9552,6 +10233,8 @@
         "Ordonnance de médicament d exception"
       ],
       "mention": "Prescription hors autorisation de mise sur le marché",
+      "consignes": "Appliquer en couche mince sur les lésions puis se laver les mains. Sensation de brûlure ou de chaleur fréquente les premiers jours, qui s'atténue habituellement. Éviter le soleil et les UV, protection solaire. Ne pas appliquer sur une lésion infectée (bouton de fièvre, impétigo).",
+      "liees": [],
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
@@ -9585,6 +10268,8 @@
         "Délivrance en pharmacie hospitalière"
       ],
       "mention": "Prescription au titre d un accès compassionnel en dehors du cadre d une autorisation de mise sur le marché",
+      "consignes": "Appliquer en couche mince sur les lésions puis se laver les mains. Sensation de brûlure ou de chaleur fréquente les premiers jours, qui s'atténue habituellement. Éviter le soleil et les UV, protection solaire. Ne pas appliquer sur une lésion infectée (bouton de fièvre, impétigo).",
+      "liees": [],
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
@@ -9618,6 +10303,8 @@
         "Délivrance en pharmacie hospitalière"
       ],
       "mention": "Prescription au titre d un accès compassionnel en dehors du cadre d une autorisation de mise sur le marché",
+      "consignes": "Appliquer en couche mince sur les lésions puis se laver les mains. Sensation de brûlure ou de chaleur fréquente les premiers jours, qui s'atténue habituellement. Éviter le soleil et les UV, protection solaire. Ne pas appliquer sur une lésion infectée (bouton de fièvre, impétigo).",
+      "liees": [],
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
@@ -9650,6 +10337,8 @@
       "remboursement": "Remboursé",
       "conditions": [],
       "mention": null,
+      "consignes": null,
+      "liees": [],
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
@@ -9684,6 +10373,8 @@
         "Prescription initiale hospitalière"
       ],
       "mention": null,
+      "consignes": null,
+      "liees": [],
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
@@ -9715,6 +10406,8 @@
       "remboursement": "Remboursé",
       "conditions": [],
       "mention": null,
+      "consignes": null,
+      "liees": [],
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
@@ -9748,6 +10441,8 @@
       "remboursement": "Non remboursé",
       "conditions": [],
       "mention": "Prescription hors autorisation de mise sur le marché",
+      "consignes": null,
+      "liees": [],
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
@@ -9780,6 +10475,8 @@
       "remboursement": "Remboursé",
       "conditions": [],
       "mention": null,
+      "consignes": "À prendre à distance des repas. Espacer d'au moins 2 heures la prise d'une cycline, de fer ou de calcium. Douleurs d'estomac possibles.",
+      "liees": [],
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
@@ -9812,6 +10509,8 @@
       "remboursement": "Remboursé",
       "conditions": [],
       "mention": null,
+      "consignes": "À prendre à distance des repas. Espacer d'au moins 2 heures la prise d'une cycline, de fer ou de calcium. Douleurs d'estomac possibles.",
+      "liees": [],
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
@@ -9843,6 +10542,8 @@
       "remboursement": "Non remboursé",
       "conditions": [],
       "mention": null,
+      "consignes": null,
+      "liees": [],
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
@@ -9876,6 +10577,8 @@
       "remboursement": "À vérifier",
       "conditions": [],
       "mention": null,
+      "consignes": null,
+      "liees": [],
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
@@ -9908,6 +10611,8 @@
       "remboursement": "Non remboursé",
       "conditions": [],
       "mention": "Prescription hors autorisation de mise sur le marché",
+      "consignes": null,
+      "liees": [],
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
@@ -9939,6 +10644,8 @@
       "remboursement": "Non remboursé",
       "conditions": [],
       "mention": "Prescription hors autorisation de mise sur le marché",
+      "consignes": null,
+      "liees": [],
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
@@ -9970,6 +10677,8 @@
       "remboursement": "Remboursé",
       "conditions": [],
       "mention": null,
+      "consignes": null,
+      "liees": [],
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
@@ -10003,6 +10712,8 @@
       "remboursement": "Remboursé",
       "conditions": [],
       "mention": null,
+      "consignes": null,
+      "liees": [],
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
@@ -10035,6 +10746,8 @@
       "remboursement": "Remboursé",
       "conditions": [],
       "mention": null,
+      "consignes": null,
+      "liees": [],
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
@@ -10067,6 +10780,8 @@
       "remboursement": "Remboursé",
       "conditions": [],
       "mention": null,
+      "consignes": null,
+      "liees": [],
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
@@ -10098,6 +10813,8 @@
       "remboursement": "Remboursé",
       "conditions": [],
       "mention": null,
+      "consignes": null,
+      "liees": [],
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
@@ -10130,6 +10847,8 @@
       "remboursement": "Remboursé",
       "conditions": [],
       "mention": null,
+      "consignes": null,
+      "liees": [],
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
@@ -10162,6 +10881,8 @@
       "remboursement": "Remboursé",
       "conditions": [],
       "mention": null,
+      "consignes": null,
+      "liees": [],
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
@@ -10194,6 +10915,8 @@
       "remboursement": "Remboursé",
       "conditions": [],
       "mention": null,
+      "consignes": null,
+      "liees": [],
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
@@ -10227,6 +10950,8 @@
       "remboursement": "Remboursé",
       "conditions": [],
       "mention": null,
+      "consignes": null,
+      "liees": [],
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
@@ -10259,6 +10984,8 @@
       "remboursement": "Remboursement sous conditions",
       "conditions": [],
       "mention": null,
+      "consignes": null,
+      "liees": [],
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
@@ -10290,6 +11017,8 @@
       "remboursement": "Non remboursé",
       "conditions": [],
       "mention": "Prescription hors autorisation de mise sur le marché",
+      "consignes": null,
+      "liees": [],
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
@@ -10301,7 +11030,7 @@
     {
       "id": "42319207651b816bbf91d927c82b0a74",
       "nom": "Sporanox 100 mg, teigne 20 kg et plus, 6 semaines",
-      "ligne": "Sporanox (itraconazole) gélule 100 mg : 1 gélule (100 mg) par prise, 1 fois par jour en dehors des repas, pendant 6 semaines",
+      "ligne": "Sporanox (itraconazole) gélule 100 mg : 1 gélule (100 mg) par prise, 1 fois par jour immédiatement après un repas, pendant 6 semaines",
       "molecule": "itraconazole",
       "famille": "6. Traitements systémiques",
       "zone": null,
@@ -10324,6 +11053,8 @@
       "remboursement": "Non remboursé",
       "conditions": [],
       "mention": "Prescription hors autorisation de mise sur le marché",
+      "consignes": "Avaler la gélule sans l'ouvrir, immédiatement après un repas.",
+      "liees": [],
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
@@ -10356,6 +11087,8 @@
       "remboursement": "Non remboursé",
       "conditions": [],
       "mention": "Prescription hors autorisation de mise sur le marché",
+      "consignes": "À prendre à jeun, sans manger pendant au moins 1 heure après la prise. Garder la solution environ 20 secondes en bouche avant d'avaler.",
+      "liees": [],
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
@@ -10387,6 +11120,8 @@
       "remboursement": "Non remboursé",
       "conditions": [],
       "mention": "Prescription hors autorisation de mise sur le marché",
+      "consignes": "À prendre à jeun, sans manger pendant au moins 1 heure après la prise. Garder la solution environ 20 secondes en bouche avant d'avaler.",
+      "liees": [],
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
@@ -10423,6 +11158,8 @@
         "Réservé à certains spécialistes"
       ],
       "mention": null,
+      "consignes": null,
+      "liees": [],
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
@@ -10459,6 +11196,8 @@
         "Réservé à certains spécialistes"
       ],
       "mention": null,
+      "consignes": null,
+      "liees": [],
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
@@ -10468,7 +11207,7 @@
     {
       "id": "42319207651b816aa412ecf6632442bc",
       "nom": "Stromectol, dose unique (au poids)",
-      "ligne": "Stromectol (ivermectine) comprimé 3 mg : {unités} comprimé ({mg} mg) en 1 prise unique au cours d'un repas",
+      "ligne": "Stromectol (ivermectine) comprimé 3 mg : {unités} comprimé ({mg} mg) en 1 prise unique, à distance des repas",
       "molecule": "ivermectine",
       "famille": "6. Traitements systémiques",
       "zone": null,
@@ -10491,6 +11230,8 @@
       "remboursement": "Remboursé",
       "conditions": [],
       "mention": null,
+      "consignes": "Avaler avec un verre d'eau, à distance des repas (2 heures avant ou après). Avant 6 ans, écraser les comprimés.",
+      "liees": [],
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
@@ -10505,7 +11246,7 @@
     {
       "id": "42319207651b81498c85dbfb9523f5f2",
       "nom": "Stromectol, gale, J1 et J8 (au poids)",
-      "ligne": "Stromectol (ivermectine) comprimé 3 mg : {unités} comprimé ({mg} mg) en 1 prise au cours d'un repas, à J1 et à renouveler entre J8 et J14",
+      "ligne": "Stromectol (ivermectine) comprimé 3 mg : {unités} comprimé ({mg} mg) en 1 prise à distance des repas, à J1 et à renouveler entre J8 et J14",
       "molecule": "ivermectine",
       "famille": "6. Traitements systémiques",
       "zone": null,
@@ -10529,6 +11270,8 @@
       "remboursement": "Remboursé",
       "conditions": [],
       "mention": null,
+      "consignes": "Avaler avec un verre d'eau, à distance des repas (2 heures avant ou après). Avant 6 ans, écraser les comprimés.",
+      "liees": [],
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
@@ -10561,6 +11304,8 @@
       "remboursement": "Non remboursé",
       "conditions": [],
       "mention": "Prescription hors autorisation de mise sur le marché",
+      "consignes": "Avaler avec un verre d'eau, à distance des repas (2 heures avant ou après). Avant 6 ans, écraser les comprimés.",
+      "liees": [],
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
@@ -10593,6 +11338,8 @@
       "remboursement": "À vérifier",
       "conditions": [],
       "mention": null,
+      "consignes": null,
+      "liees": [],
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
@@ -10625,6 +11372,8 @@
       "remboursement": "À vérifier",
       "conditions": [],
       "mention": null,
+      "consignes": null,
+      "liees": [],
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
@@ -10661,6 +11410,8 @@
         "Réservé à certains spécialistes"
       ],
       "mention": null,
+      "consignes": null,
+      "liees": [],
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
@@ -10697,6 +11448,8 @@
         "Réservé à certains spécialistes"
       ],
       "mention": null,
+      "consignes": null,
+      "liees": [],
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
@@ -10728,6 +11481,8 @@
       "remboursement": "À vérifier",
       "conditions": [],
       "mention": null,
+      "consignes": null,
+      "liees": [],
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
@@ -10759,6 +11514,8 @@
       "remboursement": "Remboursement sous conditions",
       "conditions": [],
       "mention": null,
+      "consignes": "Perte ou modification du goût possible. Arrêter et consulter en cas de fatigue inhabituelle, nausées persistantes, urines foncées, jaunisse ou éruption cutanée.",
+      "liees": [],
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
@@ -10791,6 +11548,8 @@
       "remboursement": "Remboursé",
       "conditions": [],
       "mention": null,
+      "consignes": "À prendre de préférence en dehors des repas, avec un grand verre d'eau, en position assise ou debout : ne pas s'allonger dans l'heure qui suit la prise. Espacer d'au moins 2 heures la prise de lait, de calcium, de fer, de zinc ou d'un pansement gastrique. Médicament photosensibilisant : éviter le soleil et les UV, vêtements couvrants et crème solaire indice 50+ ; arrêter et consulter en cas de coup de soleil.",
+      "liees": [],
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
@@ -10823,6 +11582,8 @@
       "remboursement": "Non remboursé",
       "conditions": [],
       "mention": "Prescription hors autorisation de mise sur le marché",
+      "consignes": "À prendre de préférence en dehors des repas, avec un grand verre d'eau, en position assise ou debout : ne pas s'allonger dans l'heure qui suit la prise. Espacer d'au moins 2 heures la prise de lait, de calcium, de fer, de zinc ou d'un pansement gastrique. Médicament photosensibilisant : éviter le soleil et les UV, vêtements couvrants et crème solaire indice 50+ ; arrêter et consulter en cas de coup de soleil.",
+      "liees": [],
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
@@ -10854,6 +11615,8 @@
       "remboursement": "Non remboursé",
       "conditions": [],
       "mention": "Prescription hors autorisation de mise sur le marché",
+      "consignes": "À prendre de préférence en dehors des repas, avec un grand verre d'eau, en position assise ou debout : ne pas s'allonger dans l'heure qui suit la prise. Espacer d'au moins 2 heures la prise de lait, de calcium, de fer, de zinc ou d'un pansement gastrique. Médicament photosensibilisant : éviter le soleil et les UV, vêtements couvrants et crème solaire indice 50+ ; arrêter et consulter en cas de coup de soleil.",
+      "liees": [],
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
@@ -10886,6 +11649,8 @@
       "remboursement": "Remboursé",
       "conditions": [],
       "mention": null,
+      "consignes": null,
+      "liees": [],
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
@@ -10918,6 +11683,8 @@
       "remboursement": "Remboursé",
       "conditions": [],
       "mention": null,
+      "consignes": "Somnolence possible. Constipation fréquente : boire suffisamment, laxatif si besoin. Ne pas dépasser la dose prescrite et ne pas associer à un autre médicament contenant de la codéine, du tramadol ou de la morphine.",
+      "liees": [],
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
@@ -10951,6 +11718,8 @@
       "remboursement": "À vérifier",
       "conditions": [],
       "mention": null,
+      "consignes": "Appliquer le soir sur peau sèche, sur tout le corps du cou aux pieds, en insistant sur les plis, les mains, les ongles et les organes génitaux ; chez le nourrisson, appliquer aussi sur le cuir chevelu et le visage en évitant les yeux et la bouche. Rincer après le temps de contact. Traiter en même temps toutes les personnes vivant sous le même toit. Laver le linge, les draps et les serviettes à 60 °C ou les isoler 3 jours dans un sac fermé.",
+      "liees": [],
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
@@ -10983,6 +11752,8 @@
       "remboursement": "Remboursé",
       "conditions": [],
       "mention": null,
+      "consignes": null,
+      "liees": [],
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
@@ -11016,6 +11787,8 @@
       "remboursement": "Remboursé",
       "conditions": [],
       "mention": null,
+      "consignes": null,
+      "liees": [],
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
@@ -11049,6 +11822,8 @@
       "remboursement": "Remboursé",
       "conditions": [],
       "mention": null,
+      "consignes": null,
+      "liees": [],
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
@@ -11085,6 +11860,8 @@
       "remboursement": "Remboursé",
       "conditions": [],
       "mention": null,
+      "consignes": null,
+      "liees": [],
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
@@ -11118,6 +11895,8 @@
       "remboursement": "Remboursé",
       "conditions": [],
       "mention": null,
+      "consignes": null,
+      "liees": [],
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
@@ -11151,6 +11930,8 @@
       "remboursement": "Non remboursé",
       "conditions": [],
       "mention": "Prescription hors autorisation de mise sur le marché",
+      "consignes": null,
+      "liees": [],
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
@@ -11182,6 +11963,8 @@
       "remboursement": "Remboursé",
       "conditions": [],
       "mention": null,
+      "consignes": null,
+      "liees": [],
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
@@ -11213,6 +11996,8 @@
       "remboursement": "Remboursé",
       "conditions": [],
       "mention": null,
+      "consignes": null,
+      "liees": [],
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
@@ -11246,6 +12031,8 @@
       "remboursement": "À vérifier",
       "conditions": [],
       "mention": null,
+      "consignes": null,
+      "liees": [],
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
@@ -11279,6 +12066,8 @@
       "remboursement": "Remboursé",
       "conditions": [],
       "mention": null,
+      "consignes": null,
+      "liees": [],
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
@@ -11310,6 +12099,8 @@
       "remboursement": "Remboursé",
       "conditions": [],
       "mention": null,
+      "consignes": null,
+      "liees": [],
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
@@ -11341,6 +12132,8 @@
       "remboursement": "À vérifier",
       "conditions": [],
       "mention": null,
+      "consignes": null,
+      "liees": [],
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
@@ -11375,6 +12168,8 @@
         "Réservé à certains spécialistes"
       ],
       "mention": null,
+      "consignes": null,
+      "liees": [],
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
@@ -11407,6 +12202,8 @@
       "remboursement": "Remboursé",
       "conditions": [],
       "mention": null,
+      "consignes": null,
+      "liees": [],
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
@@ -11439,6 +12236,8 @@
       "remboursement": "Remboursé",
       "conditions": [],
       "mention": null,
+      "consignes": null,
+      "liees": [],
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
@@ -11472,6 +12271,8 @@
       "remboursement": "Remboursé",
       "conditions": [],
       "mention": null,
+      "consignes": null,
+      "liees": [],
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
@@ -11505,6 +12306,8 @@
       "remboursement": "Remboursé",
       "conditions": [],
       "mention": null,
+      "consignes": null,
+      "liees": [],
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
@@ -11536,6 +12339,8 @@
       "remboursement": "Remboursé",
       "conditions": [],
       "mention": null,
+      "consignes": null,
+      "liees": [],
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
@@ -11568,6 +12373,8 @@
       "remboursement": "Remboursé",
       "conditions": [],
       "mention": null,
+      "consignes": null,
+      "liees": [],
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
@@ -11599,6 +12406,8 @@
       "remboursement": "Remboursé",
       "conditions": [],
       "mention": null,
+      "consignes": null,
+      "liees": [],
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
@@ -11631,6 +12440,8 @@
       "remboursement": "Remboursé",
       "conditions": [],
       "mention": null,
+      "consignes": null,
+      "liees": [],
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
@@ -11663,6 +12474,8 @@
       "remboursement": "Non remboursé",
       "conditions": [],
       "mention": "Prescription hors autorisation de mise sur le marché",
+      "consignes": null,
+      "liees": [],
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
@@ -11697,6 +12510,8 @@
       "remboursement": "Remboursé",
       "conditions": [],
       "mention": null,
+      "consignes": null,
+      "liees": [],
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
@@ -11730,6 +12545,8 @@
       "remboursement": "Remboursé",
       "conditions": [],
       "mention": null,
+      "consignes": null,
+      "liees": [],
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
@@ -11762,6 +12579,8 @@
       "remboursement": "Remboursé",
       "conditions": [],
       "mention": null,
+      "consignes": null,
+      "liees": [],
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
@@ -11794,6 +12613,8 @@
       "remboursement": "Remboursé",
       "conditions": [],
       "mention": null,
+      "consignes": null,
+      "liees": [],
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
@@ -11826,6 +12647,8 @@
       "remboursement": "Remboursé",
       "conditions": [],
       "mention": null,
+      "consignes": null,
+      "liees": [],
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
@@ -11857,6 +12680,8 @@
       "remboursement": "Remboursé",
       "conditions": [],
       "mention": null,
+      "consignes": null,
+      "liees": [],
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
@@ -11888,6 +12713,8 @@
       "remboursement": "Remboursé",
       "conditions": [],
       "mention": null,
+      "consignes": null,
+      "liees": [],
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
@@ -11920,6 +12747,8 @@
       "remboursement": "Remboursé",
       "conditions": [],
       "mention": null,
+      "consignes": null,
+      "liees": [],
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
@@ -11951,6 +12780,8 @@
       "remboursement": "Remboursé",
       "conditions": [],
       "mention": null,
+      "consignes": null,
+      "liees": [],
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
@@ -11983,6 +12814,8 @@
       "remboursement": "Remboursé",
       "conditions": [],
       "mention": null,
+      "consignes": null,
+      "liees": [],
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
@@ -12015,6 +12848,8 @@
       "remboursement": "Remboursé",
       "conditions": [],
       "mention": null,
+      "consignes": null,
+      "liees": [],
       "ageAMM": null,
       "indicationsAMM": [],
       "pathologies": [
